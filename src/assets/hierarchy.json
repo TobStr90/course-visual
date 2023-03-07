@@ -1,0 +1,5650 @@
+[
+  {
+    "chapter": "Vorwort",
+    "unit": "Vorwort",
+    "name": "Vorwort",
+    "start_page": "i",
+    "subchapters": [
+      {
+        "chapter": "I",
+        "name": "Vorwort zur dritten Auflage",
+        "start_page": "i",
+        "end_page": "",
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "II",
+        "name": "Zum Inhalt",
+        "start_page": "i",
+        "end_page": "",
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "III",
+        "name": "Zur Form",
+        "start_page": "iv",
+        "end_page": "",
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "IV",
+        "name": "Vorkurs",
+        "start_page": "1",
+        "end_page": 1,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "V",
+        "name": "Objektorientierte Programmierung",
+        "start_page": "1",
+        "end_page": 2,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "VI",
+        "name": "Objektorientierte Programmiersprachen",
+        "start_page": "3",
+        "end_page": 3,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "VII",
+        "name": "SMALLTALK",
+        "start_page": "3",
+        "end_page": 5,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "VIII",
+        "name": "Warum gerade SMALLTALK ?",
+        "start_page": "5",
+        "end_page": 7,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "IX",
+        "name": "Programmierung mit SMALLTALK",
+        "start_page": "7",
+        "end_page": 8,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "X",
+        "name": "Verf\u00fcgbare  SMALLTALK -Systeme",
+        "start_page": "8",
+        "end_page": 9,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "XI",
+        "name": "Literatur zu SMALLTALK",
+        "start_page": "9",
+        "end_page": 11,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "XII",
+        "name": "Verzeichnis der Weblinks im Rand",
+        "start_page": "341",
+        "end_page": 345,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      },
+      {
+        "chapter": "XIII",
+        "name": "Index",
+        "start_page": "345",
+        "end_page": "367",
+        "terms": [],
+        "subchapters": [],
+        "unit": "Vorwort"
+      }
+    ]
+  },
+  {
+    "chapter": "Kurseinheit 1",
+    "name": "Grundkonzepte der obje ktorientierten Programmierung",
+    "start_page": "11",
+    "end_page": 11,
+    "terms": [],
+    "subchapters": [
+      {
+        "chapter": "1",
+        "name": "Objekte",
+        "start_page": "11",
+        "end_page": 12,
+        "terms": [
+          {
+            "name": "Change log",
+            "start_page": "8"
+          },
+          {
+            "name": "Compilation unit",
+            "start_page": "4"
+          },
+          {
+            "name": "Durchg\u00e4ngigkeit der Konzepte",
+            "start_page": "2"
+          },
+          {
+            "name": "Eigenschaft",
+            "start_page": "2"
+          },
+          {
+            "name": "funktionale Programmierung",
+            "start_page": "3"
+          },
+          {
+            "name": "Garbage collection",
+            "start_page": "5"
+          },
+          {
+            "name": "Identit\u00e4t",
+            "start_page": "2"
+          },
+          {
+            "name": "Image",
+            "start_page": "8"
+          },
+          {
+            "name": "Live programming",
+            "start_page": "6"
+          },
+          {
+            "name": "Live-Programmierung",
+            "start_page": "4"
+          },
+          {
+            "name": "Modularisierung",
+            "start_page": "2"
+          },
+          {
+            "name": "Softwarekrise",
+            "start_page": "2"
+          },
+          {
+            "name": "Unterscheidung zwischen",
+            "start_page": "11"
+          },
+          {
+            "name": "Struktur",
+            "start_page": "11"
+          },
+          {
+            "name": "Subtyping",
+            "start_page": "2"
+          },
+          {
+            "name": "Variable",
+            "start_page": "2"
+          },
+          {
+            "name": "Vererbung",
+            "start_page": "2"
+          },
+          {
+            "name": "Verhalten",
+            "start_page": "11"
+          },
+          {
+            "name": "Wertzuweisung",
+            "start_page": "2"
+          },
+          {
+            "name": "Wiederverwendung",
+            "start_page": "2"
+          },
+          {
+            "name": "Zustand",
+            "start_page": "2"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "1.1",
+            "name": "Was ist ein Objekt?",
+            "start_page": "12",
+            "end_page": 12,
+            "terms": [
+              {
+                "name": "eines Objekts",
+                "start_page": "12"
+              },
+              {
+                "name": "Wert",
+                "start_page": "12"
+              },
+              {
+                "name": "Werten",
+                "start_page": "12"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.2",
+            "name": "Literale",
+            "start_page": "13",
+            "end_page": 15,
+            "terms": [
+              {
+                "name": "Anweisung",
+                "start_page": "13"
+              },
+              {
+                "name": "Literal",
+                "start_page": "13"
+              },
+              {
+                "name": "atomares",
+                "start_page": "13"
+              },
+              {
+                "name": "Schl\u00fcsselwort",
+                "start_page": "13"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.3",
+            "name": "\u00c4nderbarkeit von Objekten",
+            "start_page": "15",
+            "end_page": 16,
+            "terms": [
+              {
+                "name": "Aliasing",
+                "start_page": "15"
+              },
+              {
+                "name": "Array -Literal",
+                "start_page": "15"
+              },
+              {
+                "name": "zusammengesetztes",
+                "start_page": "14"
+              },
+              {
+                "name": "Pseudovariable",
+                "start_page": "14"
+              },
+              {
+                "name": "Strings",
+                "start_page": "14"
+              },
+              {
+                "name": "Symbol",
+                "start_page": "14"
+              },
+              {
+                "name": "Variable",
+                "start_page": "14"
+              },
+              {
+                "name": "Zeichenkette",
+                "start_page": "14"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.4",
+            "name": "Gleichheit und Identit\u00e4t von Objekten",
+            "start_page": "16",
+            "end_page": 18,
+            "terms": [
+              {
+                "name": "funktionale Programmierung",
+                "start_page": "16"
+              },
+              {
+                "name": "Gleichheit von Objekten",
+                "start_page": "16"
+              },
+              {
+                "name": "von Ob jekten",
+                "start_page": "16"
+              },
+              {
+                "name": "imperative Programmierung",
+                "start_page": "16"
+              },
+              {
+                "name": "Zustand",
+                "start_page": "16"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.5",
+            "name": "Variablen",
+            "start_page": "18",
+            "end_page": 18,
+            "terms": [
+              {
+                "name": "Alias",
+                "start_page": "18"
+              },
+              {
+                "name": "funktionale Programmierung",
+                "start_page": "18"
+              },
+              {
+                "name": "Name",
+                "start_page": "17"
+              },
+              {
+                "name": "Name",
+                "start_page": "18"
+              },
+              {
+                "name": "Variable",
+                "start_page": "17"
+              },
+              {
+                "name": "Variable",
+                "start_page": "18"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "1.5.1",
+                "name": "Inhalt",
+                "start_page": "19",
+                "end_page": 20,
+                "terms": [
+                  {
+                    "name": "Platzhalter",
+                    "start_page": "19"
+                  },
+                  {
+                    "name": "Pointer",
+                    "start_page": "19"
+                  },
+                  {
+                    "name": "Pointervariable",
+                    "start_page": "19"
+                  },
+                  {
+                    "name": "Referenz",
+                    "start_page": "19"
+                  },
+                  {
+                    "name": "Referenzsemantik",
+                    "start_page": "19"
+                  },
+                  {
+                    "name": "Verweis",
+                    "start_page": "19"
+                  },
+                  {
+                    "name": "Verweissemantik",
+                    "start_page": "19"
+                  },
+                  {
+                    "name": "Wertsemantik",
+                    "start_page": "19"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "1.5.2",
+                "name": "Sichtbarkeit",
+                "start_page": "20",
+                "end_page": 21,
+                "terms": [
+                  {
+                    "name": "konstante",
+                    "start_page": "20"
+                  },
+                  {
+                    "name": "Sichtbarkeit",
+                    "start_page": "20"
+                  },
+                  {
+                    "name": "von Variablen",
+                    "start_page": "20"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              }
+            ],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.6",
+            "name": "Zuweisung",
+            "start_page": "21",
+            "end_page": 23,
+            "terms": [
+              {
+                "name": "globale Variable",
+                "start_page": "21"
+              },
+              {
+                "name": "Hiding",
+                "start_page": "21"
+              },
+              {
+                "name": "lokale Variable",
+                "start_page": "21"
+              },
+              {
+                "name": "Sichtbarkeitsregeln",
+                "start_page": "21"
+              },
+              {
+                "name": "Wertzuweisung",
+                "start_page": "21"
+              },
+              {
+                "name": "Zuweisung",
+                "start_page": "21"
+              },
+              {
+                "name": "Zuweisungsoperator",
+                "start_page": "21"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.7",
+            "name": "Pseudovariablen",
+            "start_page": "23",
+            "end_page": 23,
+            "terms": [
+              {
+                "name": "Alias",
+                "start_page": "23"
+              },
+              {
+                "name": "Aliasing",
+                "start_page": "23"
+              },
+              {
+                "name": "formaler Parameter",
+                "start_page": "23"
+              },
+              {
+                "name": "-aufruf",
+                "start_page": "22"
+              },
+              {
+                "name": "Pseudovariable",
+                "start_page": "23"
+              },
+              {
+                "name": "implizite",
+                "start_page": "22"
+              },
+              {
+                "name": "linke und rechte Seite",
+                "start_page": "22"
+              },
+              {
+                "name": "unzul\u00e4ssige",
+                "start_page": "22"
+              },
+              {
+                "name": "Zuweisungsoperator",
+                "start_page": "23"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.8",
+            "name": "Aliasing",
+            "start_page": "23",
+            "end_page": 25,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.9",
+            "name": "Lebenslauf von Objekten",
+            "start_page": "25",
+            "end_page": 27,
+            "terms": [
+              {
+                "name": "Garbage collection",
+                "start_page": "25"
+              },
+              {
+                "name": "Pointervariable",
+                "start_page": "25"
+              },
+              {
+                "name": "String -Konkatenation",
+                "start_page": "25"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "1.10",
+            "name": "Zusammenfassung",
+            "start_page": "27",
+            "end_page": 27,
+            "terms": [
+              {
+                "name": "Aliasing",
+                "start_page": "27"
+              },
+              {
+                "name": "Lebenszyklus",
+                "start_page": "26"
+              },
+              {
+                "name": "Literal",
+                "start_page": "27"
+              },
+              {
+                "name": "Netzwerkmo dell",
+                "start_page": "27"
+              },
+              {
+                "name": "Objektgeflecht",
+                "start_page": "27"
+              },
+              {
+                "name": "Referenzsemantik",
+                "start_page": "27"
+              },
+              {
+                "name": "relationales Datenmodell",
+                "start_page": "27"
+              },
+              {
+                "name": "Variable",
+                "start_page": "27"
+              },
+              {
+                "name": "Verweis",
+                "start_page": "27"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          }
+        ],
+        "unit": "Kurseinheit 1"
+      },
+      {
+        "chapter": "2",
+        "name": "Beziehungen",
+        "start_page": "27",
+        "end_page": 28,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "2.1",
+            "name": "Instanzvariablen",
+            "start_page": "28",
+            "end_page": 30,
+            "terms": [
+              {
+                "name": "Attribut",
+                "start_page": "28"
+              },
+              {
+                "name": "Feld",
+                "start_page": "28"
+              },
+              {
+                "name": "Instanzvariable",
+                "start_page": "28"
+              },
+              {
+                "name": "lokale Variable",
+                "start_page": "28"
+              },
+              {
+                "name": "strukturiertes",
+                "start_page": "28"
+              },
+              {
+                "name": "von Objekten",
+                "start_page": "28"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "2.2",
+            "name": "Unterscheidung von :1 - und : n-Beziehungen",
+            "start_page": "30",
+            "end_page": 32,
+            "terms": [
+              {
+                "name": ":1-Beziehung",
+                "start_page": "30"
+              },
+              {
+                "name": ":n-Beziehung",
+                "start_page": "30"
+              },
+              {
+                "name": "benannte Instanzvariable",
+                "start_page": "29"
+              },
+              {
+                "name": "Indexer",
+                "start_page": "29"
+              },
+              {
+                "name": "indizierte Instanzvariable",
+                "start_page": "29"
+              },
+              {
+                "name": "Kardinalit\u00e4t",
+                "start_page": "30"
+              },
+              {
+                "name": "Multiplizit\u00e4t",
+                "start_page": "30"
+              },
+              {
+                "name": "UML",
+                "start_page": "30"
+              },
+              {
+                "name": "Zu-eins-Beziehung",
+                "start_page": "30"
+              },
+              {
+                "name": "Zu-n-Beziehung",
+                "start_page": "30"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "2.3",
+            "name": "Teil-Ganzes -Beziehungen",
+            "start_page": "32",
+            "end_page": 33,
+            "terms": [
+              {
+                "name": "Aggregation",
+                "start_page": "32"
+              },
+              {
+                "name": "leere",
+                "start_page": "31"
+              },
+              {
+                "name": "Komposition",
+                "start_page": "32"
+              },
+              {
+                "name": "Teil-Ganzes -Beziehung",
+                "start_page": "32"
+              },
+              {
+                "name": "Zwischenobjekt",
+                "start_page": "31"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "2.4",
+            "name": "Attribute",
+            "start_page": "33",
+            "end_page": 34,
+            "terms": [
+              {
+                "name": "Kapselung",
+                "start_page": "33"
+              },
+              {
+                "name": "Komposition",
+                "start_page": "33"
+              },
+              {
+                "name": "Mereologie",
+                "start_page": "33"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          }
+        ],
+        "unit": "Kurseinheit 1"
+      },
+      {
+        "chapter": "3",
+        "name": "Zustand",
+        "start_page": "34",
+        "end_page": 34,
+        "terms": [
+          {
+            "name": "und Zustand",
+            "start_page": "34"
+          },
+          {
+            "name": "-wert",
+            "start_page": "34"
+          },
+          {
+            "name": "unver\u00e4nderliches Objekt",
+            "start_page": "34"
+          },
+          {
+            "name": "ver\u00e4nderliches Objekt",
+            "start_page": "34"
+          },
+          {
+            "name": "Zustand",
+            "start_page": "34"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "3.1",
+            "name": "Eingrenzung",
+            "start_page": "34",
+            "end_page": 36,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "3.2",
+            "name": "Kapselung",
+            "start_page": "36",
+            "end_page": 36,
+            "terms": [
+              {
+                "name": "Ausdruck",
+                "start_page": "36"
+              },
+              {
+                "name": "Geheimnisprinzip",
+                "start_page": "36"
+              },
+              {
+                "name": "Implementationsgeheimnis",
+                "start_page": "36"
+              },
+              {
+                "name": "Informat ion hiding",
+                "start_page": "36"
+              },
+              {
+                "name": "Kapselung",
+                "start_page": "36"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          }
+        ],
+        "unit": "Kurseinheit 1"
+      },
+      {
+        "chapter": "4",
+        "name": "Verhalten",
+        "start_page": "36",
+        "end_page": 36,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "4.1",
+            "name": "Ausdr\u00fccke",
+            "start_page": "37",
+            "end_page": 37,
+            "terms": [
+              {
+                "name": "Ausdruck",
+                "start_page": "37"
+              },
+              {
+                "name": "Nachrichten -",
+                "start_page": "37"
+              },
+              {
+                "name": "primitive r",
+                "start_page": "37"
+              },
+              {
+                "name": "Zuweisungs -",
+                "start_page": "37"
+              },
+              {
+                "name": "Nachricht",
+                "start_page": "37"
+              },
+              {
+                "name": "Nachrichtenausdruck",
+                "start_page": "37"
+              },
+              {
+                "name": "Nachrichtenversand",
+                "start_page": "37"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "4.1.1",
+                "name": "Zuweisungsausdr\u00fccke",
+                "start_page": "37",
+                "end_page": 37,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.1.2",
+                "name": "Nachrichtenausdr\u00fccke",
+                "start_page": "37",
+                "end_page": 41,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.1.3",
+                "name": "Auswertung von Ausdr\u00fccken",
+                "start_page": "41",
+                "end_page": 43,
+                "terms": [
+                  {
+                    "name": "bin\u00e4re Methode",
+                    "start_page": "39"
+                  },
+                  {
+                    "name": "bin\u00e4re Nachricht",
+                    "start_page": "39"
+                  },
+                  {
+                    "name": "Fluent API",
+                    "start_page": "41"
+                  },
+                  {
+                    "name": "metasyntaktische Variable",
+                    "start_page": "38"
+                  },
+                  {
+                    "name": "Nachrichtenselektor",
+                    "start_page": "39"
+                  },
+                  {
+                    "name": "Nebeneffekt",
+                    "start_page": "41"
+                  },
+                  {
+                    "name": "Nebenwirkung",
+                    "start_page": "41"
+                  },
+                  {
+                    "name": "Schl\u00fcsselwortnachricht",
+                    "start_page": "39"
+                  },
+                  {
+                    "name": "Seiteneffekt",
+                    "start_page": "41"
+                  },
+                  {
+                    "name": "tempor\u00e4re Variable",
+                    "start_page": "41"
+                  },
+                  {
+                    "name": "un\u00e4re Nachricht",
+                    "start_page": "39"
+                  },
+                  {
+                    "name": "metasyntaktische",
+                    "start_page": "38"
+                  },
+                  {
+                    "name": "Zuweisungsoperator",
+                    "start_page": "41"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.1.4",
+                "name": "Reihenfolge der Auswertung von geschachtelten Ausdr\u00fccken",
+                "start_page": "43",
+                "end_page": 44,
+                "terms": [
+                  {
+                    "name": "Fluent API",
+                    "start_page": "42"
+                  },
+                  {
+                    "name": "-aufruf",
+                    "start_page": "42"
+                  },
+                  {
+                    "name": "Seiteneffekt",
+                    "start_page": "42"
+                  },
+                  {
+                    "name": "Speicherbereinigung",
+                    "start_page": "42"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              }
+            ],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "4.2",
+            "name": "Anweisungen",
+            "start_page": "44",
+            "end_page": 45,
+            "terms": [
+              {
+                "name": "Return -Anweisung",
+                "start_page": "44"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "4.3",
+            "name": "Methoden",
+            "start_page": "45",
+            "end_page": 48,
+            "terms": [
+              {
+                "name": "aktueller Parameter",
+                "start_page": "45"
+              },
+              {
+                "name": "Anweisung",
+                "start_page": "45"
+              },
+              {
+                "name": "formaler Parameter",
+                "start_page": "45"
+              },
+              {
+                "name": "lokale Variable",
+                "start_page": "45"
+              },
+              {
+                "name": "Message pattern",
+                "start_page": "45"
+              },
+              {
+                "name": "Methode",
+                "start_page": "45"
+              },
+              {
+                "name": "-kopf",
+                "start_page": "45"
+              },
+              {
+                "name": "-rumpf",
+                "start_page": "45"
+              },
+              {
+                "name": "-signatur",
+                "start_page": "45"
+              },
+              {
+                "name": "Pseudovariable",
+                "start_page": "45"
+              },
+              {
+                "name": "tats\u00e4chlicher Parameter",
+                "start_page": "45"
+              },
+              {
+                "name": "tempor\u00e4re Variable",
+                "start_page": "45"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "4.3.1",
+                "name": "Zuordnung von Methoden zu Objekten",
+                "start_page": "48",
+                "end_page": 48,
+                "terms": [
+                  {
+                    "name": "formaler Parameter",
+                    "start_page": "46"
+                  },
+                  {
+                    "name": "formaler Parameter",
+                    "start_page": "48"
+                  },
+                  {
+                    "name": "Beeinflussung durch Return",
+                    "start_page": "47"
+                  },
+                  {
+                    "name": "metasyntaktische Variable",
+                    "start_page": "46"
+                  },
+                  {
+                    "name": "-aufruf",
+                    "start_page": "47"
+                  },
+                  {
+                    "name": "-aufruf",
+                    "start_page": "48"
+                  },
+                  {
+                    "name": "-aufruf",
+                    "start_page": "45"
+                  },
+                  {
+                    "name": "Nachrichtenselektor",
+                    "start_page": "46"
+                  },
+                  {
+                    "name": "Protokoll",
+                    "start_page": "48"
+                  },
+                  {
+                    "name": "Pseudovariable",
+                    "start_page": "48"
+                  },
+                  {
+                    "name": "Return -Anweisung",
+                    "start_page": "47"
+                  },
+                  {
+                    "name": "self",
+                    "start_page": "48"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.3.2",
+                "name": "Methodenaufruf und dynamisches Binden",
+                "start_page": "48",
+                "end_page": 52,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.3.3",
+                "name": "Methoden als Parameter",
+                "start_page": "52",
+                "end_page": 52,
+                "terms": [
+                  {
+                    "name": "Aliasing",
+                    "start_page": "52"
+                  },
+                  {
+                    "name": "Call by reference",
+                    "start_page": "50"
+                  },
+                  {
+                    "name": "Call by value",
+                    "start_page": "50"
+                  },
+                  {
+                    "name": "dynamisches Binden",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "versteckte",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "Implementationsgeheimnis",
+                    "start_page": "52"
+                  },
+                  {
+                    "name": "Kapselung",
+                    "start_page": "52"
+                  },
+                  {
+                    "name": "primitive",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "Polymorphie",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "vs. Polymorphismus",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "Polymorphismus",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "vs. Polymorphie",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "statisches Binden",
+                    "start_page": "49"
+                  },
+                  {
+                    "name": "tats\u00e4chlicher Parameter",
+                    "start_page": "50"
+                  },
+                  {
+                    "name": "Zustand",
+                    "start_page": "52"
+                  },
+                  {
+                    "name": "explizite",
+                    "start_page": "50"
+                  },
+                  {
+                    "name": "implizite",
+                    "start_page": "50"
+                  },
+                  {
+                    "name": "implizite",
+                    "start_page": "51"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.3.4",
+                "name": "Verbergen der Repr\u00e4sentation des Zustands hinter Methoden",
+                "start_page": "52",
+                "end_page": 55,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.3.5",
+                "name": "Operationen auf zustandslosen (unver\u00e4nderlichen) Objekten",
+                "start_page": "55",
+                "end_page": 55,
+                "terms": [
+                  {
+                    "name": "Accessor",
+                    "start_page": "53"
+                  },
+                  {
+                    "name": "Getter",
+                    "start_page": "53"
+                  },
+                  {
+                    "name": "Implementationsgeheimnis",
+                    "start_page": "55"
+                  },
+                  {
+                    "name": "Konstante",
+                    "start_page": "55"
+                  },
+                  {
+                    "name": "konstante Methode",
+                    "start_page": "55"
+                  },
+                  {
+                    "name": "Literal",
+                    "start_page": "55"
+                  },
+                  {
+                    "name": "Nur-Lesen",
+                    "start_page": "54"
+                  },
+                  {
+                    "name": "Nur-Schreiben",
+                    "start_page": "54"
+                  },
+                  {
+                    "name": "Protokoll",
+                    "start_page": "55"
+                  },
+                  {
+                    "name": "Seiteneffekt",
+                    "start_page": "55"
+                  },
+                  {
+                    "name": "Setter",
+                    "start_page": "53"
+                  },
+                  {
+                    "name": "Zugriffsmethode",
+                    "start_page": "53"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.3.6",
+                "name": "Konstante Methoden",
+                "start_page": "55",
+                "end_page": 56,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.3.7",
+                "name": "Primitive Methoden",
+                "start_page": "56",
+                "end_page": 57,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.3.8",
+                "name": "Protokoll",
+                "start_page": "57",
+                "end_page": 58,
+                "terms": [
+                  {
+                    "name": "Implementation",
+                    "start_page": "57"
+                  },
+                  {
+                    "name": "Implementationsgeheimnis",
+                    "start_page": "57"
+                  },
+                  {
+                    "name": "Interface",
+                    "start_page": "57"
+                  },
+                  {
+                    "name": "Kommentar",
+                    "start_page": "57"
+                  },
+                  {
+                    "name": "-rumpf",
+                    "start_page": "57"
+                  },
+                  {
+                    "name": "-signatur",
+                    "start_page": "57"
+                  },
+                  {
+                    "name": "Protokoll",
+                    "start_page": "57"
+                  },
+                  {
+                    "name": "Protokollbeschr eibung",
+                    "start_page": "57"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              }
+            ],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "4.4",
+            "name": "Bl\u00f6cke",
+            "start_page": "58",
+            "end_page": 59,
+            "terms": [
+              {
+                "name": "Block",
+                "start_page": "58"
+              },
+              {
+                "name": "Kontext eines Blocks",
+                "start_page": "58"
+              },
+              {
+                "name": "Nachrichtenkategorie",
+                "start_page": "58"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "4.4.1",
+                "name": "Home context und Closure",
+                "start_page": "59",
+                "end_page": 60,
+                "terms": [
+                  {
+                    "name": "Home context",
+                    "start_page": "59"
+                  },
+                  {
+                    "name": "self und super im Home context",
+                    "start_page": "59"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.4.2",
+                "name": "Continuation",
+                "start_page": "60",
+                "end_page": 61,
+                "terms": [
+                  {
+                    "name": "Call stack",
+                    "start_page": "60"
+                  },
+                  {
+                    "name": "Closure",
+                    "start_page": "60"
+                  },
+                  {
+                    "name": "Continuation",
+                    "start_page": "60"
+                  },
+                  {
+                    "name": "funktionale Programmierung",
+                    "start_page": "60"
+                  },
+                  {
+                    "name": "bei Continuations",
+                    "start_page": "60"
+                  },
+                  {
+                    "name": "Lambda -Ausdruck",
+                    "start_page": "60"
+                  },
+                  {
+                    "name": "bei Continuation",
+                    "start_page": "60"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.4.3",
+                "name": "Parametrisierte Bl\u00f6cke",
+                "start_page": "61",
+                "end_page": 62,
+                "terms": [
+                  {
+                    "name": "eines Blocks",
+                    "start_page": "61"
+                  },
+                  {
+                    "name": "Kontrollstruktur",
+                    "start_page": "61"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              }
+            ],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "4.5",
+            "name": "Kontrolls trukturen",
+            "start_page": "62",
+            "end_page": 62,
+            "terms": [
+              {
+                "name": "dynamisches Binden",
+                "start_page": "62"
+              },
+              {
+                "name": "versteckte",
+                "start_page": "62"
+              },
+              {
+                "name": "paral lele Ausf\u00fchrung",
+                "start_page": "62"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "4.5.1",
+                "name": "Sequenz",
+                "start_page": "62",
+                "end_page": 62,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.5.2",
+                "name": "Dynamisch gebundener Methodenaufruf",
+                "start_page": "62",
+                "end_page": 62,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              }
+            ],
+            "unit": "Kurseinheit 1"
+          },
+          {
+            "chapter": "4.6",
+            "name": "Abgeleitete Kontrollstrukturen",
+            "start_page": "63",
+            "end_page": 63,
+            "terms": [
+              {
+                "name": "Goto",
+                "start_page": "63"
+              },
+              {
+                "name": "Iteration",
+                "start_page": "63"
+              },
+              {
+                "name": "Schl\u00fcsselwort",
+                "start_page": "63"
+              },
+              {
+                "name": "strukturierte Programmierung",
+                "start_page": "63"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "4.6.1",
+                "name": "Verzweigung",
+                "start_page": "63",
+                "end_page": 65,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.6.2",
+                "name": "Wiederholung",
+                "start_page": "65",
+                "end_page": 66,
+                "terms": [
+                  {
+                    "name": "Continuation",
+                    "start_page": "64"
+                  },
+                  {
+                    "name": "dynamisches Binden",
+                    "start_page": "64"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.6.3",
+                "name": "Iteration",
+                "start_page": "66",
+                "end_page": 67,
+                "terms": [
+                  {
+                    "name": "Endrekursion",
+                    "start_page": "66"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              },
+              {
+                "chapter": "4.6.4",
+                "name": "Iterieren \u00fcber : n-Beziehungen",
+                "start_page": "67",
+                "end_page": 70,
+                "terms": [
+                  {
+                    "name": "externe",
+                    "start_page": "67"
+                  },
+                  {
+                    "name": "interne",
+                    "start_page": "67"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 1"
+              }
+            ],
+            "unit": "Kurseinheit 1"
+          }
+        ],
+        "unit": "Kurseinheit 1"
+      },
+      {
+        "chapter": "5",
+        "name": "Zusammenfassung der SMALLTALK -Syntax",
+        "start_page": "70",
+        "end_page": 70,
+        "terms": [
+          {
+            "name": "Pseudovariable",
+            "start_page": "70"
+          },
+          {
+            "name": "Schl\u00fcsselwort",
+            "start_page": "70"
+          },
+          {
+            "name": "Schl\u00fcsselwortnachricht",
+            "start_page": "70"
+          },
+          {
+            "name": "Zwischenobjekt",
+            "start_page": "68"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 1"
+      },
+      {
+        "chapter": "6",
+        "name": "L\u00f6sungen zu den Selbsttestaufgaben",
+        "start_page": "70",
+        "end_page": 73,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 1"
+      }
+    ],
+    "unit": "Kurseinheit 1"
+  },
+  {
+    "chapter": "Kurseinheit 2",
+    "name": "Systematik der objektorientierten Programmierung",
+    "start_page": "73",
+    "end_page": 73,
+    "terms": [],
+    "subchapters": [
+      {
+        "chapter": "7",
+        "name": "Klassen",
+        "start_page": "74",
+        "end_page": 75,
+        "terms": [
+          {
+            "name": "Allgemeinbegriff",
+            "start_page": "74"
+          },
+          {
+            "name": "Call by reference",
+            "start_page": "71"
+          },
+          {
+            "name": "Call by value",
+            "start_page": "71"
+          },
+          {
+            "name": "dynamisches Binden",
+            "start_page": "73"
+          },
+          {
+            "name": "Home context",
+            "start_page": "71"
+          },
+          {
+            "name": "Instanz",
+            "start_page": "73"
+          },
+          {
+            "name": "Literaloptimierung",
+            "start_page": "71"
+          },
+          {
+            "name": "klassenbasierte Form",
+            "start_page": "73"
+          },
+          {
+            "name": "prototypenbasierte Form",
+            "start_page": "73"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "7.1",
+            "name": "Klassifikation",
+            "start_page": "75",
+            "end_page": 76,
+            "terms": [
+              {
+                "name": "Eigenschaft",
+                "start_page": "75"
+              },
+              {
+                "name": "Extension",
+                "start_page": "75"
+              },
+              {
+                "name": "Klassifikation",
+                "start_page": "75"
+              },
+              {
+                "name": "Universalienstreit",
+                "start_page": "75"
+              },
+              {
+                "name": "Verhalten",
+                "start_page": "75"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "7.2",
+            "name": "Klassendefinitionen",
+            "start_page": "76",
+            "end_page": 79,
+            "terms": [
+              {
+                "name": "Familie n\u00e4hnlichkeit",
+                "start_page": "76"
+              },
+              {
+                "name": "Instanzvariable",
+                "start_page": "76"
+              },
+              {
+                "name": "Intension",
+                "start_page": "76"
+              },
+              {
+                "name": "-definition",
+                "start_page": "76"
+              },
+              {
+                "name": "-aufruf",
+                "start_page": "76"
+              },
+              {
+                "name": "Prototyp",
+                "start_page": "76"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "7.3",
+            "name": "Instanziierung",
+            "start_page": "79",
+            "end_page": 81,
+            "terms": [
+              {
+                "name": "Alias",
+                "start_page": "79"
+              },
+              {
+                "name": "globale Variable",
+                "start_page": "77"
+              },
+              {
+                "name": "Instanz",
+                "start_page": "79"
+              },
+              {
+                "name": "Instanziierung",
+                "start_page": "79"
+              },
+              {
+                "name": "Klassifikation",
+                "start_page": "79"
+              },
+              {
+                "name": "Pseudovariable",
+                "start_page": "77"
+              },
+              {
+                "name": "Zwischenobjekt",
+                "start_page": "79"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "8",
+        "name": "Metaklassen",
+        "start_page": "81",
+        "end_page": 84,
+        "terms": [
+          {
+            "name": "direkte Instanz",
+            "start_page": "80"
+          },
+          {
+            "name": "Extension",
+            "start_page": "80"
+          },
+          {
+            "name": "direkte",
+            "start_page": "80"
+          },
+          {
+            "name": "indirekte",
+            "start_page": "80"
+          },
+          {
+            "name": "Klonen",
+            "start_page": "81"
+          },
+          {
+            "name": "Literal",
+            "start_page": "80"
+          },
+          {
+            "name": "primitive Methode",
+            "start_page": "80"
+          },
+          {
+            "name": "UML",
+            "start_page": "80"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "8.1",
+            "name": "Konstruktoren",
+            "start_page": "84",
+            "end_page": 85,
+            "terms": [
+              {
+                "name": "Instanzmethode",
+                "start_page": "84"
+              },
+              {
+                "name": "Instanzvariable",
+                "start_page": "84"
+              },
+              {
+                "name": "-methode",
+                "start_page": "83"
+              },
+              {
+                "name": "-variable",
+                "start_page": "83"
+              },
+              {
+                "name": "Klassenmethode",
+                "start_page": "84"
+              },
+              {
+                "name": "Klassenvariable",
+                "start_page": "84"
+              },
+              {
+                "name": "Konstruktor",
+                "start_page": "84"
+              },
+              {
+                "name": "Metaklasse",
+                "start_page": "82"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "8.2",
+            "name": "Initialisierung",
+            "start_page": "85",
+            "end_page": 89,
+            "terms": [
+              {
+                "name": "Initialisierung",
+                "start_page": "85"
+              },
+              {
+                "name": "primitive Methode",
+                "start_page": "85"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "8.3",
+            "name": "Factory -Methoden",
+            "start_page": "89",
+            "end_page": 90,
+            "terms": [
+              {
+                "name": "Factory -Methode",
+                "start_page": "89"
+              },
+              {
+                "name": "Lazy initialization per",
+                "start_page": "87"
+              },
+              {
+                "name": "Implementationsgeheimnis",
+                "start_page": "86"
+              },
+              {
+                "name": "lazy",
+                "start_page": "87"
+              },
+              {
+                "name": "f\u00fcr Klassenvariablen",
+                "start_page": "89"
+              },
+              {
+                "name": "Lazy initialization",
+                "start_page": "87"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "8.4",
+            "name": "Erzeugung von Klassen in SMALLTALK",
+            "start_page": "90",
+            "end_page": 91,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "8.5",
+            "name": "Die Metaklassenleiter SMALLTALK s",
+            "start_page": "91",
+            "end_page": 93,
+            "terms": [
+              {
+                "name": "Subklasse",
+                "start_page": "91"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "8.6",
+            "name": "Praktische Bedeutung der Metaklassen f\u00fcr die Programmierung",
+            "start_page": "93",
+            "end_page": 94,
+            "terms": [
+              {
+                "name": "Metaprogrammiersystem",
+                "start_page": "93"
+              },
+              {
+                "name": "automatische Einrichtung von",
+                "start_page": "93"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "9",
+        "name": "Generalisierung und Spezialisierung",
+        "start_page": "94",
+        "end_page": 94,
+        "terms": [
+          {
+            "name": "Abstraktionshierarchie",
+            "start_page": "94"
+          },
+          {
+            "name": "Generalisierung",
+            "start_page": "94"
+          },
+          {
+            "name": "Ist-ein-Beziehung",
+            "start_page": "94"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "9.1",
+            "name": "Generalisierung",
+            "start_page": "94",
+            "end_page": 98,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "9.2",
+            "name": "Spezialisierung",
+            "start_page": "99",
+            "end_page": 100,
+            "terms": [
+              {
+                "name": "Generalisierung als",
+                "start_page": "96"
+              },
+              {
+                "name": "Aristoteles",
+                "start_page": "97"
+              },
+              {
+                "name": "direkte Instanz",
+                "start_page": "97"
+              },
+              {
+                "name": "direkte Instanz",
+                "start_page": "99"
+              },
+              {
+                "name": "einer Generalisierung",
+                "start_page": "97"
+              },
+              {
+                "name": "Ergebnis der",
+                "start_page": "95"
+              },
+              {
+                "name": "Vorgang der",
+                "start_page": "95"
+              },
+              {
+                "name": "Genus et differentiae",
+                "start_page": "97"
+              },
+              {
+                "name": "indirekte Instanz",
+                "start_page": "98"
+              },
+              {
+                "name": "direkte",
+                "start_page": "98"
+              },
+              {
+                "name": "indirekte",
+                "start_page": "98"
+              },
+              {
+                "name": "einer Generalisierung",
+                "start_page": "96"
+              },
+              {
+                "name": "kovariante Redefinition",
+                "start_page": "98"
+              },
+              {
+                "name": "Spezialisierung",
+                "start_page": "99"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "10",
+        "name": "Vererbung und abstrakte Klassen",
+        "start_page": "101",
+        "end_page": 100,
+        "terms": [
+          {
+            "name": "Initialisierung",
+            "start_page": "100"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "10.1",
+            "name": "Vererbung",
+            "start_page": "101",
+            "end_page": 103,
+            "terms": [
+              {
+                "name": "abstrakte",
+                "start_page": "101"
+              },
+              {
+                "name": "Vererbung",
+                "start_page": "101"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "10.2",
+            "name": "Vererbung in prototypenbasie rten Sprachen",
+            "start_page": "103",
+            "end_page": 104,
+            "terms": [
+              {
+                "name": "Client -Schnittstelle",
+                "start_page": "103"
+              },
+              {
+                "name": "\u00fcberschr eiben",
+                "start_page": "102"
+              },
+              {
+                "name": "Vererbungsschnittstell e",
+                "start_page": "103"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "10.3",
+            "name": "Abstrakte Klassen",
+            "start_page": "104",
+            "end_page": 108,
+            "terms": [
+              {
+                "name": "nicht",
+                "start_page": "104"
+              },
+              {
+                "name": "abstrakte",
+                "start_page": "104"
+              },
+              {
+                "name": "Universalienstreit",
+                "start_page": "104"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "11",
+        "name": "Superklassen und Subklassen",
+        "start_page": "108",
+        "end_page": 108,
+        "terms": [
+          {
+            "name": "direkte Subklasse",
+            "start_page": "108"
+          },
+          {
+            "name": "direkte Superklasse",
+            "start_page": "108"
+          },
+          {
+            "name": "abstrakte",
+            "start_page": "106"
+          },
+          {
+            "name": "konkrete",
+            "start_page": "105"
+          },
+          {
+            "name": "-hierarchie",
+            "start_page": "108"
+          },
+          {
+            "name": "konkrete Klasse",
+            "start_page": "105"
+          },
+          {
+            "name": "offene Rekursion",
+            "start_page": "107"
+          },
+          {
+            "name": "Subklasse",
+            "start_page": "108"
+          },
+          {
+            "name": "direkte",
+            "start_page": "108"
+          },
+          {
+            "name": "Subklassenbeziehung",
+            "start_page": "108"
+          },
+          {
+            "name": "Superklasse",
+            "start_page": "108"
+          },
+          {
+            "name": "direkte",
+            "start_page": "108"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "11.1",
+            "name": "Bedeutung der Subklassenbeziehung",
+            "start_page": "109",
+            "end_page": 110,
+            "terms": [
+              {
+                "name": "Base class",
+                "start_page": "109"
+              },
+              {
+                "name": "Child class",
+                "start_page": "109"
+              },
+              {
+                "name": "Derived class",
+                "start_page": "109"
+              },
+              {
+                "name": "abgeleitete",
+                "start_page": "109"
+              },
+              {
+                "name": "Basis-",
+                "start_page": "109"
+              },
+              {
+                "name": "-signatur",
+                "start_page": "109"
+              },
+              {
+                "name": "Parent class",
+                "start_page": "109"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "11.2",
+            "name": "Mechanismus der Vererbung von Superklassen auf Subklassen",
+            "start_page": "110",
+            "end_page": 110,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "11.3",
+            "name": "L\u00f6schen von Methoden",
+            "start_page": "110",
+            "end_page": 111,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "11.4",
+            "name": "Subklassenhierarchie und Vererbung unter Metaklassen",
+            "start_page": "111",
+            "end_page": 113,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "11.5",
+            "name": "Dominanz der Vererbung",
+            "start_page": "113",
+            "end_page": 114,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "12",
+        "name": "Dynamisches Binden",
+        "start_page": "114",
+        "end_page": 116,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "12.1",
+            "name": "Nachrichten an self",
+            "start_page": "116",
+            "end_page": 117,
+            "terms": [
+              {
+                "name": "Down cast",
+                "start_page": "116"
+              },
+              {
+                "name": "Home context",
+                "start_page": "116"
+              },
+              {
+                "name": "JUnit",
+                "start_page": "115"
+              },
+              {
+                "name": "offene Rekursion",
+                "start_page": "116"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "12.2",
+            "name": "Das Einbeziehen \u00fcber schriebener Methoden: Nachrichten an super",
+            "start_page": "117",
+            "end_page": 118,
+            "terms": [
+              {
+                "name": "Fragile -base-class-Problem",
+                "start_page": "117"
+              },
+              {
+                "name": "mit Aufruf von super",
+                "start_page": "117"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "12.3",
+            "name": "Double dispatch",
+            "start_page": "118",
+            "end_page": 120,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "13",
+        "name": "Programmieren mit Collections",
+        "start_page": "120",
+        "end_page": 120,
+        "terms": [
+          {
+            "name": "-Klassen",
+            "start_page": "120"
+          },
+          {
+            "name": "double",
+            "start_page": "119"
+          },
+          {
+            "name": "single",
+            "start_page": "119"
+          },
+          {
+            "name": "Double dispatch",
+            "start_page": "119"
+          },
+          {
+            "name": "Fallunterscheidung",
+            "start_page": "119"
+          },
+          {
+            "name": "Message dispatching",
+            "start_page": "119"
+          },
+          {
+            "name": "Method dispatching",
+            "start_page": "119"
+          },
+          {
+            "name": "Multi-dispatch",
+            "start_page": "119"
+          },
+          {
+            "name": "\u00fcberladen",
+            "start_page": "119"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "13.1",
+            "name": "Pflegen von : n-Beziehungen",
+            "start_page": "120",
+            "end_page": 123,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "13.2",
+            "name": ":n-Beziehungen mit besonderen Eigenschaften",
+            "start_page": "123",
+            "end_page": 123,
+            "terms": [
+              {
+                "name": "l\u00f6schen von Methoden",
+                "start_page": "122"
+              },
+              {
+                "name": "Schl\u00fcssel",
+                "start_page": "123"
+              },
+              {
+                "name": "\u00fcberschr eiben",
+                "start_page": "121"
+              },
+              {
+                "name": "Wert",
+                "start_page": "123"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "13.2.1",
+                "name": "Dictionaries",
+                "start_page": "123",
+                "end_page": 125,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 2"
+              },
+              {
+                "chapter": "13.2.2",
+                "name": "Sortierte Collections",
+                "start_page": "125",
+                "end_page": 126,
+                "terms": [
+                  {
+                    "name": "Assoziativspeicher",
+                    "start_page": "124"
+                  },
+                  {
+                    "name": "Delegation",
+                    "start_page": "124"
+                  },
+                  {
+                    "name": "formaler Parameter",
+                    "start_page": "125"
+                  },
+                  {
+                    "name": "Forwarding",
+                    "start_page": "124"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 2"
+              },
+              {
+                "chapter": "13.2.3",
+                "name": "Arrays",
+                "start_page": "126",
+                "end_page": 127,
+                "terms": [
+                  {
+                    "name": "Array -Literal",
+                    "start_page": "126"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 2"
+              }
+            ],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "13.3",
+            "name": "Collections f\u00fcr andere Zwecke",
+            "start_page": "127",
+            "end_page": 128,
+            "terms": [
+              {
+                "name": "Protokoll",
+                "start_page": "127"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "14",
+        "name": "Verhalten f\u00fcr alle Objekte",
+        "start_page": "128",
+        "end_page": 128,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "14.1",
+            "name": "Kopieren von Objekten",
+            "start_page": "128",
+            "end_page": 130,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "14.2",
+            "name": "Reinkarnation von Objekten",
+            "start_page": "130",
+            "end_page": 131,
+            "terms": [
+              {
+                "name": "atomares Objekt",
+                "start_page": "129"
+              },
+              {
+                "name": "flache",
+                "start_page": "129"
+              },
+              {
+                "name": "tiefe",
+                "start_page": "129"
+              },
+              {
+                "name": "zusammengesetztes Objekt",
+                "start_page": "129"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "14.3",
+            "name": "Kommunikation mit mehreren: Multicasting",
+            "start_page": "131",
+            "end_page": 133,
+            "terms": [
+              {
+                "name": "lazy",
+                "start_page": "131"
+              },
+              {
+                "name": "wachsendes",
+                "start_page": "131"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          },
+          {
+            "chapter": "14.4",
+            "name": "Selbstdarstellung",
+            "start_page": "133",
+            "end_page": 133,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 2"
+          }
+        ],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "15",
+        "name": "Ein- und Ausgabestr\u00f6me",
+        "start_page": "134",
+        "end_page": 136,
+        "terms": [
+          {
+            "name": "Stream zum Zugriff auf eine",
+            "start_page": "134"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "16",
+        "name": "Parallelit\u00e4t: aktive und passive Objekte",
+        "start_page": "136",
+        "end_page": 138,
+        "terms": [
+          {
+            "name": "aktives Objekt",
+            "start_page": "136"
+          },
+          {
+            "name": "passives Objekt",
+            "start_page": "136"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 2"
+      },
+      {
+        "chapter": "17",
+        "name": "L\u00f6sungen zu den Selbsttestaufgaben",
+        "start_page": "138",
+        "end_page": 145,
+        "terms": [
+          {
+            "name": "aktives Objekt",
+            "start_page": "138"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 2"
+      }
+    ],
+    "unit": "Kurseinheit 2"
+  },
+  {
+    "chapter": "Kurseinheit 3",
+    "name": "Typen in der objektorientierten Programmierung",
+    "start_page": "145",
+    "end_page": 146,
+    "terms": [],
+    "subchapters": [
+      {
+        "chapter": "18",
+        "name": "Hintergrund",
+        "start_page": "146",
+        "end_page": 151,
+        "terms": [
+          {
+            "name": "deklariertes Element",
+            "start_page": "146"
+          },
+          {
+            "name": "dynamisches Binden",
+            "start_page": "145"
+          },
+          {
+            "name": "Extension",
+            "start_page": "146"
+          },
+          {
+            "name": "Garbage collection",
+            "start_page": "145"
+          },
+          {
+            "name": "Intension",
+            "start_page": "146"
+          },
+          {
+            "name": "Typ",
+            "start_page": "146"
+          },
+          {
+            "name": "-regel",
+            "start_page": "146"
+          },
+          {
+            "name": "-system",
+            "start_page": "146"
+          },
+          {
+            "name": "optionales",
+            "start_page": "145"
+          },
+          {
+            "name": "optionales",
+            "start_page": "116"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "19",
+        "name": "Deklaration, Definition und Verwendung von Programmelementen",
+        "start_page": "151",
+        "end_page": 153,
+        "terms": [
+          {
+            "name": "Definition",
+            "start_page": "151"
+          },
+          {
+            "name": "Deklaration",
+            "start_page": "147"
+          },
+          {
+            "name": "Deklaration",
+            "start_page": "151"
+          },
+          {
+            "name": "Interface",
+            "start_page": "148"
+          },
+          {
+            "name": "von Programmen",
+            "start_page": "148"
+          },
+          {
+            "name": "Null pointer exception",
+            "start_page": "150"
+          },
+          {
+            "name": "Redundanz",
+            "start_page": "148"
+          },
+          {
+            "name": "Redundanz",
+            "start_page": "149"
+          },
+          {
+            "name": "Schnittstelle",
+            "start_page": "148"
+          },
+          {
+            "name": "semantis cher Fehler",
+            "start_page": "149"
+          },
+          {
+            "name": "Test",
+            "start_page": "148"
+          },
+          {
+            "name": "-annotation",
+            "start_page": "148"
+          },
+          {
+            "name": "-annotation",
+            "start_page": "149"
+          },
+          {
+            "name": "fehlerhafte",
+            "start_page": "151"
+          },
+          {
+            "name": "-fehler",
+            "start_page": "148"
+          },
+          {
+            "name": "-inferenz",
+            "start_page": "147"
+          },
+          {
+            "name": "-korrektheit",
+            "start_page": "149"
+          },
+          {
+            "name": "dynamische",
+            "start_page": "150"
+          },
+          {
+            "name": "Typinferenz",
+            "start_page": "149"
+          },
+          {
+            "name": "Typinvariante",
+            "start_page": "148"
+          },
+          {
+            "name": "Variablendeklaration",
+            "start_page": "149"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "20",
+        "name": "Typdefinitionen und de ren Verwendung",
+        "start_page": "153",
+        "end_page": 154,
+        "terms": [
+          {
+            "name": "formaler Parameter",
+            "start_page": "152"
+          },
+          {
+            "name": "Initialisierung",
+            "start_page": "152"
+          },
+          {
+            "name": "lokale Variable",
+            "start_page": "152"
+          },
+          {
+            "name": "-rumpf",
+            "start_page": "152"
+          },
+          {
+            "name": "Methodendeklaration",
+            "start_page": "152"
+          },
+          {
+            "name": "Protokoll",
+            "start_page": "153"
+          },
+          {
+            "name": "Pseudo -Typvariable Self",
+            "start_page": "153"
+          },
+          {
+            "name": "Signatur",
+            "start_page": "152"
+          },
+          {
+            "name": "in Strongtalk",
+            "start_page": "153"
+          },
+          {
+            "name": "Verwendung eines Programmelements",
+            "start_page": "152"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "20.1",
+            "name": "Induktiver Aufbau von Typen und Semantik",
+            "start_page": "154",
+            "end_page": 156,
+            "terms": [
+              {
+                "name": "in Strongtalk",
+                "start_page": "154"
+              },
+              {
+                "name": "-konstruktor",
+                "start_page": "154"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "20.2",
+            "name": "Verwendung definierter Typen",
+            "start_page": "156",
+            "end_page": 156,
+            "terms": [
+              {
+                "name": "boolesche Algebra",
+                "start_page": "155"
+              },
+              {
+                "name": "denotationale Semantik",
+                "start_page": "155"
+              },
+              {
+                "name": "operationale Semantik",
+                "start_page": "155"
+              },
+              {
+                "name": "Typisierung",
+                "start_page": "156"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          }
+        ],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "21",
+        "name": "Zuweisungskompatibilit\u00e4t",
+        "start_page": "157",
+        "end_page": 158,
+        "terms": [
+          {
+            "name": "-invariante",
+            "start_page": "157"
+          },
+          {
+            "name": "die von Ausdr\u00fccken einzuhalten sind",
+            "start_page": "157"
+          },
+          {
+            "name": "",
+            "start_page": "157"
+          },
+          {
+            "name": "-system",
+            "start_page": "157"
+          },
+          {
+            "name": "Zuweisungskompatib ilit\u00e4t",
+            "start_page": "157"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "22",
+        "name": "Typ\u00e4quivalenz",
+        "start_page": "158",
+        "end_page": 159,
+        "terms": [
+          {
+            "name": "von Methodenaufrufen",
+            "start_page": "158"
+          },
+          {
+            "name": "von Zuweisungen",
+            "start_page": "158"
+          },
+          {
+            "name": "von Zuweisungen",
+            "start_page": "149"
+          },
+          {
+            "name": "Zuweisungskompatib ilit\u00e4t",
+            "start_page": "158"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "22.1",
+            "name": "Struktur\u00e4quivalenz",
+            "start_page": "159",
+            "end_page": 160,
+            "terms": [
+              {
+                "name": "rekursive",
+                "start_page": "159"
+              },
+              {
+                "name": "Namens\u00e4quivalenz",
+                "start_page": "159"
+              },
+              {
+                "name": "Struktur\u00e4quivalenz",
+                "start_page": "159"
+              },
+              {
+                "name": "-\u00e4quivalenz",
+                "start_page": "159"
+              },
+              {
+                "name": "nominale",
+                "start_page": "159"
+              },
+              {
+                "name": "strukturelle",
+                "start_page": "159"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "22.2",
+            "name": "Namens\u00e4quivalenz",
+            "start_page": "161",
+            "end_page": 162,
+            "terms": [
+              {
+                "name": "Filterfunktion",
+                "start_page": "161"
+              },
+              {
+                "name": "semantis cher Fehler",
+                "start_page": "160"
+              },
+              {
+                "name": "-fehler",
+                "start_page": "160"
+              },
+              {
+                "name": "Type branding",
+                "start_page": "160"
+              },
+              {
+                "name": "Type branding",
+                "start_page": "161"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          }
+        ],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "23",
+        "name": "Typerweiterung",
+        "start_page": "162",
+        "end_page": 163,
+        "terms": [
+          {
+            "name": "-erweiterung",
+            "start_page": "162"
+          },
+          {
+            "name": "bei Typerweiterung",
+            "start_page": "162"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "24",
+        "name": "Typkonformit\u00e4t",
+        "start_page": "163",
+        "end_page": 165,
+        "terms": [
+          {
+            "name": "nominale",
+            "start_page": "163"
+          },
+          {
+            "name": "strukturelle",
+            "start_page": "163"
+          },
+          {
+            "name": "typkonform",
+            "start_page": "163"
+          },
+          {
+            "name": "Zuweisungskompatib ilit\u00e4t",
+            "start_page": "163"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "25",
+        "name": "Typeinschr\u00e4nkung",
+        "start_page": "165",
+        "end_page": 169,
+        "terms": [
+          {
+            "name": "Filterfunktion",
+            "start_page": "164"
+          },
+          {
+            "name": "Marker interface",
+            "start_page": "164"
+          },
+          {
+            "name": "Tagging interface",
+            "start_page": "164"
+          },
+          {
+            "name": "Type branding",
+            "start_page": "165"
+          },
+          {
+            "name": "implizite",
+            "start_page": "165"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "26",
+        "name": "Subtyping und Inklusionspolymorphie",
+        "start_page": "169",
+        "end_page": 171,
+        "terms": [
+          {
+            "name": "Alias",
+            "start_page": "168"
+          },
+          {
+            "name": "Redefinition",
+            "start_page": "167"
+          },
+          {
+            "name": "-annotation",
+            "start_page": "167"
+          },
+          {
+            "name": "als Ausdruck einer Invariante",
+            "start_page": "169"
+          },
+          {
+            "name": "\u00fcberschr eiben",
+            "start_page": "167"
+          },
+          {
+            "name": "Wertsemantik",
+            "start_page": "168"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "26.1",
+            "name": "Der Begriff des Subtyps",
+            "start_page": "171",
+            "end_page": 173,
+            "terms": [
+              {
+                "name": "Dependent type",
+                "start_page": "171"
+              },
+              {
+                "name": "Redefinition",
+                "start_page": "170"
+              },
+              {
+                "name": "Spezialisierung",
+                "start_page": "171"
+              },
+              {
+                "name": "Subtyp",
+                "start_page": "171"
+              },
+              {
+                "name": "Subtypenbeziehung",
+                "start_page": "171"
+              },
+              {
+                "name": "Supertyp",
+                "start_page": "171"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "26.2",
+            "name": "Strukturelles und nominales Subtyping",
+            "start_page": "173",
+            "end_page": 173,
+            "terms": [
+              {
+                "name": "direkter Subtyp",
+                "start_page": "172"
+              },
+              {
+                "name": "Generalisierung",
+                "start_page": "173"
+              },
+              {
+                "name": "indirekter Subtyp",
+                "start_page": "172"
+              },
+              {
+                "name": "Mehrfachhierarchie",
+                "start_page": "172"
+              },
+              {
+                "name": "Subtypenhierarchie",
+                "start_page": "172"
+              },
+              {
+                "name": "Subtyping",
+                "start_page": "172"
+              },
+              {
+                "name": "-hierarchie",
+                "start_page": "172"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "26.3",
+            "name": "Kovarianz und Kontravarianz bei Methodenaufrufen",
+            "start_page": "173",
+            "end_page": 176,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "26.4",
+            "name": "Inklusionspolymorphie",
+            "start_page": "176",
+            "end_page": 177,
+            "terms": [
+              {
+                "name": "Invarianz",
+                "start_page": "175"
+              },
+              {
+                "name": "Kontravarianz",
+                "start_page": "175"
+              },
+              {
+                "name": "Kovarianz",
+                "start_page": "175"
+              },
+              {
+                "name": "Novarianz",
+                "start_page": "175"
+              },
+              {
+                "name": "Polymorphie",
+                "start_page": "176"
+              },
+              {
+                "name": "des Subtypen mit dem Supertypen",
+                "start_page": "175"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          }
+        ],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "27",
+        "name": "Typumwandlungen",
+        "start_page": "177",
+        "end_page": 178,
+        "terms": [
+          {
+            "name": "Inklusionspolymorphie",
+            "start_page": "177"
+          },
+          {
+            "name": "parametrischer",
+            "start_page": "177"
+          },
+          {
+            "name": "Subtyppolymorphie",
+            "start_page": "177"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "28",
+        "name": "Der Zusa mmenhang von Typen und Klassen",
+        "start_page": "178",
+        "end_page": 180,
+        "terms": [
+          {
+            "name": "Cross cast",
+            "start_page": "178"
+          },
+          {
+            "name": "Down cast",
+            "start_page": "178"
+          },
+          {
+            "name": "dynamische Typpr\u00fcfung",
+            "start_page": "178"
+          },
+          {
+            "name": "interfacebasierte Programmierung",
+            "start_page": "178"
+          },
+          {
+            "name": "vs. Typ",
+            "start_page": "178"
+          },
+          {
+            "name": "Protokoll",
+            "start_page": "178"
+          },
+          {
+            "name": "eines Objekts",
+            "start_page": "178"
+          },
+          {
+            "name": "optionales",
+            "start_page": "178"
+          },
+          {
+            "name": "Up cast",
+            "start_page": "178"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "28.1",
+            "name": "Subklassen und Subtypen",
+            "start_page": "180",
+            "end_page": 180,
+            "terms": [
+              {
+                "name": "rekursive",
+                "start_page": "180"
+              },
+              {
+                "name": "Geheimnisprinzip",
+                "start_page": "180"
+              },
+              {
+                "name": "Interface",
+                "start_page": "180"
+              },
+              {
+                "name": "Schnittstelle",
+                "start_page": "180"
+              },
+              {
+                "name": "Zugriffsmodifikator",
+                "start_page": "180"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "28.2",
+            "name": "Typen als Schnittstellenspezifikationen von Klassen",
+            "start_page": "180",
+            "end_page": 181,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "28.3",
+            "name": "Gr\u00fcnde f\u00fcr die Trennung von Typen und Klassen",
+            "start_page": "181",
+            "end_page": 182,
+            "terms": [
+              {
+                "name": "Interface -als-Typ-Konzept",
+                "start_page": "181"
+              },
+              {
+                "name": "interfacebasierte Programmierung",
+                "start_page": "181"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          }
+        ],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "29",
+        "name": "Generische Typen oder parametrischer Polymorphismus",
+        "start_page": "182",
+        "end_page": 183,
+        "terms": [
+          {
+            "name": "eines parametrischen Typs",
+            "start_page": "182"
+          },
+          {
+            "name": "parametrische Typdefinition",
+            "start_page": "182"
+          },
+          {
+            "name": "parametrischer",
+            "start_page": "182"
+          },
+          {
+            "name": "-variable",
+            "start_page": "182"
+          },
+          {
+            "name": "unter parametrischem Polymorphismus",
+            "start_page": "182"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "29.1",
+            "name": "Einfacher parametrischer Polymorphismus",
+            "start_page": "183",
+            "end_page": 185,
+            "terms": [
+              {
+                "name": "formaler Typparameter",
+                "start_page": "183"
+              },
+              {
+                "name": "Generics",
+                "start_page": "183"
+              },
+              {
+                "name": "generischer Typ",
+                "start_page": "183"
+              },
+              {
+                "name": "tats\u00e4chlicher Typparameter",
+                "start_page": "183"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "29.2",
+            "name": "Collections als Standardanwendungsfall f\u00fcr parametrischen Polymorphismus",
+            "start_page": "185",
+            "end_page": 186,
+            "terms": [
+              {
+                "name": "eines parametrischen Typs",
+                "start_page": "184"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "29.3",
+            "name": "Parametrischer Polymorphismus und Inklusionspolymorphie",
+            "start_page": "186",
+            "end_page": 190,
+            "terms": [
+              {
+                "name": "bei parametrisierten Subtypen",
+                "start_page": "186"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "29.4",
+            "name": "Beschr\u00e4nkter parametrischer Polymorphismus",
+            "start_page": "190",
+            "end_page": 191,
+            "terms": [
+              {
+                "name": "heterogene",
+                "start_page": "187"
+              },
+              {
+                "name": "Down cast",
+                "start_page": "187"
+              },
+              {
+                "name": "einer parametrischen Typdefinition",
+                "start_page": "188"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          },
+          {
+            "chapter": "29.5",
+            "name": "Rekursiv beschr\u00e4nkter parametrischer Polymorphismus",
+            "start_page": "191",
+            "end_page": 193,
+            "terms": [
+              {
+                "name": "rekurs iver Typen",
+                "start_page": "191"
+              },
+              {
+                "name": "bin\u00e4re",
+                "start_page": "191"
+              },
+              {
+                "name": "Pseudo -Typvariable Self",
+                "start_page": "191"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 3"
+          }
+        ],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "30",
+        "name": "Parametrischer Polymorphismus und das Kovarianzproblem",
+        "start_page": "193",
+        "end_page": 194,
+        "terms": [
+          {
+            "name": "Pseudo -Typvariable Self",
+            "start_page": "193"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "31",
+        "name": "Grenzen der Typisierung",
+        "start_page": "194",
+        "end_page": 195,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "32",
+        "name": "Fazit",
+        "start_page": "195",
+        "end_page": 195,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      },
+      {
+        "chapter": "33",
+        "name": "L\u00f6sungen zu den Selbsttestaufgaben",
+        "start_page": "195",
+        "end_page": 197,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 3"
+      }
+    ],
+    "unit": "Kurseinheit 3"
+  },
+  {
+    "chapter": "Kurseinheit 4",
+    "name": "JAVA",
+    "start_page": "197",
+    "end_page": 197,
+    "terms": [],
+    "subchapters": [
+      {
+        "chapter": "34",
+        "name": "Das Programmiermodell JAVAs",
+        "start_page": "197",
+        "end_page": 199,
+        "terms": [
+          {
+            "name": "Bytecode",
+            "start_page": "197"
+          },
+          {
+            "name": "Compilati on units",
+            "start_page": "197"
+          },
+          {
+            "name": "multi",
+            "start_page": "196"
+          },
+          {
+            "name": "Einfachvererbung",
+            "start_page": "197"
+          },
+          {
+            "name": "Garbage collection",
+            "start_page": "197"
+          },
+          {
+            "name": "Java Virtual Machine",
+            "start_page": "197"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "35",
+        "name": "Objekte und Typen",
+        "start_page": "199",
+        "end_page": 199,
+        "terms": [
+          {
+            "name": "Annotationstyp",
+            "start_page": "199"
+          },
+          {
+            "name": "Application Programming Interface",
+            "start_page": "198"
+          },
+          {
+            "name": "Array -Initialisierer",
+            "start_page": "199"
+          },
+          {
+            "name": "Array -Typ",
+            "start_page": "199"
+          },
+          {
+            "name": "Aufz\u00e4hlungstyp",
+            "start_page": "199"
+          },
+          {
+            "name": "integrierte Entwicklungsumgebung",
+            "start_page": "198"
+          },
+          {
+            "name": "Interfacetyp",
+            "start_page": "199"
+          },
+          {
+            "name": "-typ",
+            "start_page": "199"
+          },
+          {
+            "name": "primitiver Typ",
+            "start_page": "199"
+          },
+          {
+            "name": "Wrapper -Typ",
+            "start_page": "199"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "35.1",
+            "name": "Literale",
+            "start_page": "199",
+            "end_page": 200,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "35.2",
+            "name": "Gleichheit und Identit\u00e4t",
+            "start_page": "200",
+            "end_page": 200,
+            "terms": [
+              {
+                "name": "Klassen",
+                "start_page": "200"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "35.3",
+            "name": "Variablen und Zuweisungen",
+            "start_page": "200",
+            "end_page": 201,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "35.4",
+            "name": "Operationen und Methoden",
+            "start_page": "201",
+            "end_page": 202,
+            "terms": [
+              {
+                "name": "Auto unboxing",
+                "start_page": "201"
+              },
+              {
+                "name": "Call by reference",
+                "start_page": "201"
+              },
+              {
+                "name": "Call by value",
+                "start_page": "201"
+              },
+              {
+                "name": "in Java",
+                "start_page": "201"
+              },
+              {
+                "name": "Referenzsemantik",
+                "start_page": "201"
+              },
+              {
+                "name": "Wertsemantik",
+                "start_page": "201"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "35.5",
+            "name": "Zuweisungskompatibilit\u00e4t",
+            "start_page": "202",
+            "end_page": 203,
+            "terms": [
+              {
+                "name": "direkte Instanz",
+                "start_page": "202"
+              },
+              {
+                "name": "indirekte Instanz",
+                "start_page": "202"
+              },
+              {
+                "name": "in Java",
+                "start_page": "202"
+              },
+              {
+                "name": "von Java",
+                "start_page": "202"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "36",
+        "name": "Klassen",
+        "start_page": "203",
+        "end_page": 203,
+        "terms": [
+          {
+            "name": "Compilation unit",
+            "start_page": "203"
+          },
+          {
+            "name": "innere Klasse",
+            "start_page": "203"
+          },
+          {
+            "name": "metasyntaktische Variable",
+            "start_page": "203"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "36.1",
+            "name": "Klassendefinitionen",
+            "start_page": "203",
+            "end_page": 204,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "36.2",
+            "name": "Subklassenbeziehung",
+            "start_page": "204",
+            "end_page": 206,
+            "terms": [
+              {
+                "name": "Feld",
+                "start_page": "204"
+              },
+              {
+                "name": "innere Klasse",
+                "start_page": "204"
+              },
+              {
+                "name": "Instanzmethode",
+                "start_page": "204"
+              },
+              {
+                "name": "Instanzvariable",
+                "start_page": "204"
+              },
+              {
+                "name": "Intension",
+                "start_page": "204"
+              },
+              {
+                "name": "in Java",
+                "start_page": "204"
+              },
+              {
+                "name": "in Java",
+                "start_page": "204"
+              },
+              {
+                "name": "konstante Methode",
+                "start_page": "204"
+              },
+              {
+                "name": "Member",
+                "start_page": "204"
+              },
+              {
+                "name": "Outer this",
+                "start_page": "204"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "36.3",
+            "name": "Konstruktoren",
+            "start_page": "206",
+            "end_page": 207,
+            "terms": [
+              {
+                "name": "in Java",
+                "start_page": "205"
+              },
+              {
+                "name": "Konstruktor",
+                "start_page": "206"
+              },
+              {
+                "name": "in Java",
+                "start_page": "205"
+              },
+              {
+                "name": "Subklassenbeziehung",
+                "start_page": "205"
+              },
+              {
+                "name": "-erweiterung",
+                "start_page": "205"
+              },
+              {
+                "name": "Zuweisungskompatib ilit\u00e4t",
+                "start_page": "205"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "36.4",
+            "name": "\u00dcberschreiben, \u00dcberladen und dynamisches Binden",
+            "start_page": "207",
+            "end_page": 209,
+            "terms": [
+              {
+                "name": "Factory -Methode",
+                "start_page": "207"
+              },
+              {
+                "name": "\u00fcberladen",
+                "start_page": "207"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "37",
+        "name": "Ausdr\u00fccke",
+        "start_page": "209",
+        "end_page": 211,
+        "terms": [
+          {
+            "name": "double",
+            "start_page": "209"
+          },
+          {
+            "name": "Method ambiguous error",
+            "start_page": "208"
+          },
+          {
+            "name": "Multi-dispatch",
+            "start_page": "209"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "38",
+        "name": "Anweisungen, Bl\u00f6cke und Kontrollstrukturen",
+        "start_page": "211",
+        "end_page": 215,
+        "terms": [
+          {
+            "name": "Call by reference",
+            "start_page": "210"
+          },
+          {
+            "name": "Call by value",
+            "start_page": "210"
+          },
+          {
+            "name": "Lambda -Ausdruck",
+            "start_page": "211"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "39",
+        "name": "Module",
+        "start_page": "215",
+        "end_page": 215,
+        "terms": [
+          {
+            "name": "Fall through",
+            "start_page": "214"
+          },
+          {
+            "name": "Modul",
+            "start_page": "215"
+          },
+          {
+            "name": "eines Moduls",
+            "start_page": "215"
+          },
+          {
+            "name": "Seiteneffekt",
+            "start_page": "214"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "39.1",
+            "name": "Klassen und Pakete als Module",
+            "start_page": "215",
+            "end_page": 217,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "39.2",
+            "name": "Abh\u00e4ngigkeiten zwischen Modulen",
+            "start_page": "217",
+            "end_page": 218,
+            "terms": [
+              {
+                "name": "Abh\u00e4ngigkeit",
+                "start_page": "217"
+              },
+              {
+                "name": "\u00c4nderungsabh\u00e4ngigkeit",
+                "start_page": "217"
+              },
+              {
+                "name": "Dispatch",
+                "start_page": "217"
+              },
+              {
+                "name": "Multi -",
+                "start_page": "217"
+              },
+              {
+                "name": "Multi -Methoden",
+                "start_page": "217"
+              },
+              {
+                "name": "Schnittstellenspezifikation eines Moduls",
+                "start_page": "216"
+              },
+              {
+                "name": "Sichtbarkeit",
+                "start_page": "216"
+              },
+              {
+                "name": "Vererbungsabh\u00e4ngigkeit",
+                "start_page": "217"
+              },
+              {
+                "name": "Zugriffsmodifikator",
+                "start_page": "216"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "39.3",
+            "name": "Die Module von JAVA 9",
+            "start_page": "218",
+            "end_page": 219,
+            "terms": [
+              {
+                "name": "Compilation unit",
+                "start_page": "218"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "40",
+        "name": "Interfaces",
+        "start_page": "219",
+        "end_page": 220,
+        "terms": [
+          {
+            "name": "Open Services Gateway Initiative",
+            "start_page": "219"
+          },
+          {
+            "name": "OSGi",
+            "start_page": "219"
+          },
+          {
+            "name": "reflektiver Zugriff",
+            "start_page": "219"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "40.1",
+            "name": "Interfaces als Schnittstellen",
+            "start_page": "220",
+            "end_page": 221,
+            "terms": [
+              {
+                "name": "Definition",
+                "start_page": "220"
+              },
+              {
+                "name": "Interfaceimplementation",
+                "start_page": "220"
+              },
+              {
+                "name": "Member",
+                "start_page": "220"
+              },
+              {
+                "name": "Zugriffsmethode",
+                "start_page": "220"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "40.2",
+            "name": "Interfaces als abstrakte Klassen",
+            "start_page": "221",
+            "end_page": 222,
+            "terms": [
+              {
+                "name": "Interfacevererbung",
+                "start_page": "221"
+              },
+              {
+                "name": "nominale Typkonformit\u00e4tsdeklaration",
+                "start_page": "221"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "41",
+        "name": "Arrays",
+        "start_page": "222",
+        "end_page": 225,
+        "terms": [
+          {
+            "name": "Default -Methode",
+            "start_page": "222"
+          },
+          {
+            "name": "Getter",
+            "start_page": "222"
+          },
+          {
+            "name": "Setter",
+            "start_page": "222"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "42",
+        "name": "Aufz\u00e4hlungstypen",
+        "start_page": "225",
+        "end_page": 225,
+        "terms": [
+          {
+            "name": "Alias",
+            "start_page": "224"
+          },
+          {
+            "name": "Array store exception",
+            "start_page": "224"
+          },
+          {
+            "name": "dynamischen Typpr\u00fcfung",
+            "start_page": "224"
+          },
+          {
+            "name": "Laufzeittypfehler",
+            "start_page": "224"
+          },
+          {
+            "name": "Referenzsemantik",
+            "start_page": "223"
+          },
+          {
+            "name": "statischen Typpr\u00fcfung",
+            "start_page": "224"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "43",
+        "name": "Generische Typen",
+        "start_page": "225",
+        "end_page": 225,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "43.1",
+            "name": "Einfache parametrische Typdefinitionen",
+            "start_page": "225",
+            "end_page": 228,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "43.2",
+            "name": "Parametrische Typen und Subtyping: Wildcards",
+            "start_page": "228",
+            "end_page": 232,
+            "terms": [
+              {
+                "name": "Declaration -site variance",
+                "start_page": "228"
+              },
+              {
+                "name": "Down cast",
+                "start_page": "227"
+              },
+              {
+                "name": "optionales",
+                "start_page": "227"
+              },
+              {
+                "name": "Use-site variance",
+                "start_page": "228"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "43.3",
+            "name": "Beschr\u00e4nkter parametrischer Polymorphismus in JAVA",
+            "start_page": "232",
+            "end_page": 233,
+            "terms": [
+              {
+                "name": "Array store exception",
+                "start_page": "230"
+              },
+              {
+                "name": "von Wildcard -Typen",
+                "start_page": "231"
+              },
+              {
+                "name": "von Wildcard -Typen",
+                "start_page": "231"
+              },
+              {
+                "name": "Wildcard -Typ",
+                "start_page": "229"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "43.4",
+            "name": "Rekursiv beschr\u00e4nkter parametrischer Polymorphismus",
+            "start_page": "233",
+            "end_page": 234,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "43.5",
+            "name": "Generische Methoden",
+            "start_page": "234",
+            "end_page": 235,
+            "terms": [
+              {
+                "name": "-inferenz",
+                "start_page": "234"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "43.6",
+            "name": "Generische Variablen",
+            "start_page": "235",
+            "end_page": 235,
+            "terms": [
+              {
+                "name": "optionales",
+                "start_page": "235"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "44",
+        "name": "Dynamische Typpr\u00fcfung in JAVA",
+        "start_page": "235",
+        "end_page": 236,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "44.1",
+            "name": "Type casts",
+            "start_page": "236",
+            "end_page": 237,
+            "terms": [
+              {
+                "name": "Cross cast",
+                "start_page": "236"
+              },
+              {
+                "name": "Down cast",
+                "start_page": "236"
+              },
+              {
+                "name": "Raw type",
+                "start_page": "236"
+              },
+              {
+                "name": "optionales",
+                "start_page": "236"
+              },
+              {
+                "name": "Type erasure",
+                "start_page": "236"
+              },
+              {
+                "name": "Up cast",
+                "start_page": "236"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "44.2",
+            "name": "Typtests",
+            "start_page": "237",
+            "end_page": 237,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "45",
+        "name": "Programmieren mit Interfaces",
+        "start_page": "237",
+        "end_page": 240,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "46",
+        "name": "Interne und externe Iteration \u00fcber Collections",
+        "start_page": "240",
+        "end_page": 240,
+        "terms": [
+          {
+            "name": "Annotation",
+            "start_page": "239"
+          },
+          {
+            "name": "Filterfunktion",
+            "start_page": "239"
+          },
+          {
+            "name": "Marker",
+            "start_page": "239"
+          },
+          {
+            "name": "Tagg ing",
+            "start_page": "239"
+          },
+          {
+            "name": "Iterator",
+            "start_page": "240"
+          },
+          {
+            "name": "package local",
+            "start_page": "239"
+          },
+          {
+            "name": "Zwischenobjekt",
+            "start_page": "240"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "46.1",
+            "name": "Externe Iteration",
+            "start_page": "240",
+            "end_page": 241,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "46.2",
+            "name": "Interne Iteration",
+            "start_page": "241",
+            "end_page": 242,
+            "terms": [
+              {
+                "name": "interne",
+                "start_page": "241"
+              },
+              {
+                "name": "Lambda -Ausdruck",
+                "start_page": "241"
+              },
+              {
+                "name": "Streams",
+                "start_page": "241"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "47",
+        "name": "Spezielle Klassen",
+        "start_page": "242",
+        "end_page": 242,
+        "terms": [
+          {
+            "name": "interner Iterator",
+            "start_page": "242"
+          },
+          {
+            "name": "interner Iterator",
+            "start_page": "169"
+          },
+          {
+            "name": "Pipelining",
+            "start_page": "242"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "47.1",
+            "name": "Object",
+            "start_page": "243",
+            "end_page": 243,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "47.2",
+            "name": "Exception handling",
+            "start_page": "243",
+            "end_page": 246,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "47.3",
+            "name": "Multi -threading",
+            "start_page": "246",
+            "end_page": 247,
+            "terms": [
+              {
+                "name": "checked",
+                "start_page": "245"
+              },
+              {
+                "name": "unchecked",
+                "start_page": "245"
+              },
+              {
+                "name": "Monitor",
+                "start_page": "246"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          },
+          {
+            "chapter": "47.4",
+            "name": "Metaprogrammierung",
+            "start_page": "247",
+            "end_page": 247,
+            "terms": [
+              {
+                "name": "Annotation",
+                "start_page": "247"
+              },
+              {
+                "name": "Reflection",
+                "start_page": "247"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 4"
+          }
+        ],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "48",
+        "name": "Ein abschlie\u00dfendes Beispiel",
+        "start_page": "247",
+        "end_page": 250,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      },
+      {
+        "chapter": "49",
+        "name": "L\u00f6sungen zu den Selbsttestaufgaben",
+        "start_page": "250",
+        "end_page": 253,
+        "terms": [
+          {
+            "name": "Ausgabestrom",
+            "start_page": "248"
+          },
+          {
+            "name": "Ausgabestrom",
+            "start_page": "201"
+          },
+          {
+            "name": "per dynamischem Binden",
+            "start_page": "250"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 4"
+      }
+    ],
+    "unit": "Kurseinheit 4"
+  },
+  {
+    "chapter": "Kurseinheit 5",
+    "name": "Andere obje ktorientierte Programmiersprachen",
+    "start_page": "253",
+    "end_page": 253,
+    "terms": [],
+    "subchapters": [
+      {
+        "chapter": "50",
+        "name": "C#",
+        "start_page": "253",
+        "end_page": 254,
+        "terms": [
+          {
+            "name": "Down cast",
+            "start_page": "251"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "50.1",
+            "name": "Das Programmiermodell von C#",
+            "start_page": "254",
+            "end_page": 255,
+            "terms": [
+              {
+                "name": "Common Intermediate Language",
+                "start_page": "254"
+              },
+              {
+                "name": "Garbage collection",
+                "start_page": "254"
+              },
+              {
+                "name": "unsicher (unsafe)",
+                "start_page": "254"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "50.2",
+            "name": "Gemeinsamkeiten mit und kleinere Unterschiede zu JAVA",
+            "start_page": "255",
+            "end_page": 257,
+            "terms": [
+              {
+                "name": "in C#",
+                "start_page": "255"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "50.3",
+            "name": "Zus\u00e4tzliche Ingredienzien von Klassendefinitionen in C#",
+            "start_page": "257",
+            "end_page": 257,
+            "terms": [
+              {
+                "name": "chaining",
+                "start_page": "256"
+              },
+              {
+                "name": "checked",
+                "start_page": "256"
+              },
+              {
+                "name": "tunneling",
+                "start_page": "256"
+              },
+              {
+                "name": "unchecked",
+                "start_page": "256"
+              },
+              {
+                "name": "Fragile -base-class-Problem",
+                "start_page": "256"
+              },
+              {
+                "name": "Getter",
+                "start_page": "257"
+              },
+              {
+                "name": "Property",
+                "start_page": "257"
+              },
+              {
+                "name": "Setter",
+                "start_page": "257"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "50.3.1",
+                "name": "Properties",
+                "start_page": "257",
+                "end_page": 258,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "50.3.2",
+                "name": "Indexer",
+                "start_page": "259",
+                "end_page": 259,
+                "terms": [
+                  {
+                    "name": "Indexer",
+                    "start_page": "259"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "50.3.3",
+                "name": "Ereignisse (Events)",
+                "start_page": "259",
+                "end_page": 260,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              }
+            ],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "50.4",
+            "name": "Das Typsystem von C#",
+            "start_page": "260",
+            "end_page": 260,
+            "terms": [
+              {
+                "name": "Common Type System",
+                "start_page": "260"
+              },
+              {
+                "name": "Delegate",
+                "start_page": "260"
+              },
+              {
+                "name": "Event",
+                "start_page": "260"
+              },
+              {
+                "name": "Event handler",
+                "start_page": "260"
+              },
+              {
+                "name": "Pattern",
+                "start_page": "260"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "50.4.1",
+                "name": "Die Typhierarchie von C#",
+                "start_page": "260",
+                "end_page": 262,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "50.4.2",
+                "name": "Interfacetypen in C#",
+                "start_page": "262",
+                "end_page": 264,
+                "terms": [
+                  {
+                    "name": "Annotation",
+                    "start_page": "261"
+                  },
+                  {
+                    "name": "Attribute",
+                    "start_page": "261"
+                  },
+                  {
+                    "name": "Auto boxing und unboxing",
+                    "start_page": "262"
+                  },
+                  {
+                    "name": "Delegate",
+                    "start_page": "261"
+                  },
+                  {
+                    "name": "explizite",
+                    "start_page": "262"
+                  },
+                  {
+                    "name": "Marker -Interface",
+                    "start_page": "261"
+                  },
+                  {
+                    "name": "Typerweiterung",
+                    "start_page": "261"
+                  },
+                  {
+                    "name": "Vererbung",
+                    "start_page": "261"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "50.4.3",
+                "name": "Generizit\u00e4t in C#",
+                "start_page": "264",
+                "end_page": 265,
+                "terms": [
+                  {
+                    "name": "Boxing und Unboxing",
+                    "start_page": "264"
+                  },
+                  {
+                    "name": "implizite",
+                    "start_page": "263"
+                  },
+                  {
+                    "name": "Reflection",
+                    "start_page": "264"
+                  },
+                  {
+                    "name": "-expansion",
+                    "start_page": "264"
+                  },
+                  {
+                    "name": "-inferenz",
+                    "start_page": "264"
+                  },
+                  {
+                    "name": "Type erasure",
+                    "start_page": "264"
+                  },
+                  {
+                    "name": "ungarische Notation",
+                    "start_page": "263"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "50.4.4",
+                "name": "Die dynamische Komponente",
+                "start_page": "265",
+                "end_page": 266,
+                "terms": [
+                  {
+                    "name": "declaration -site variance",
+                    "start_page": "265"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              }
+            ],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "50.5",
+            "name": "Ausbli ck",
+            "start_page": "266",
+            "end_page": 266,
+            "terms": [
+              {
+                "name": "Block",
+                "start_page": "266"
+              },
+              {
+                "name": "funktionale Programmiersprache",
+                "start_page": "266"
+              },
+              {
+                "name": "Lambda -Ausdruck",
+                "start_page": "266"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          }
+        ],
+        "unit": "Kurseinheit 5"
+      },
+      {
+        "chapter": "51",
+        "name": "C++",
+        "start_page": "266",
+        "end_page": 267,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "51.1",
+            "name": "Das Programmiermodell von C++",
+            "start_page": "267",
+            "end_page": 267,
+            "terms": [
+              {
+                "name": "Metaklasse",
+                "start_page": "267"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "51.2",
+            "name": "Klass en",
+            "start_page": "267",
+            "end_page": 269,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "51.3",
+            "name": "Friends",
+            "start_page": "269",
+            "end_page": 270,
+            "terms": [
+              {
+                "name": "Call by reference",
+                "start_page": "269"
+              },
+              {
+                "name": "Call by value",
+                "start_page": "268"
+              },
+              {
+                "name": "Identit\u00e4t",
+                "start_page": "268"
+              },
+              {
+                "name": "Referenzsemantik",
+                "start_page": "268"
+              },
+              {
+                "name": "Wertsemantik",
+                "start_page": "268"
+              },
+              {
+                "name": "implizite",
+                "start_page": "268"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "51.4",
+            "name": "Mehrfachvererbung",
+            "start_page": "270",
+            "end_page": 271,
+            "terms": [
+              {
+                "name": "Delegation",
+                "start_page": "270"
+              },
+              {
+                "name": "Forwarding",
+                "start_page": "270"
+              },
+              {
+                "name": "als Interface",
+                "start_page": "270"
+              },
+              {
+                "name": "Mehrfachvererbung",
+                "start_page": "270"
+              },
+              {
+                "name": "qualifizierter Export",
+                "start_page": "270"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "51.5",
+            "name": "Das Typsyst em von C++",
+            "start_page": "271",
+            "end_page": 271,
+            "terms": [
+              {
+                "name": "dynamisches Binden",
+                "start_page": "271"
+              },
+              {
+                "name": "offene Rekursion",
+                "start_page": "271"
+              }
+            ],
+            "subchapters": [
+              {
+                "chapter": "51.5.1",
+                "name": "Statische Komponente",
+                "start_page": "271",
+                "end_page": 273,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "51.5.2",
+                "name": "Dynamische Komponente",
+                "start_page": "273",
+                "end_page": 274,
+                "terms": [
+                  {
+                    "name": "als Interface",
+                    "start_page": "272"
+                  },
+                  {
+                    "name": "Runtime type information",
+                    "start_page": "273"
+                  },
+                  {
+                    "name": "Template",
+                    "start_page": "272"
+                  },
+                  {
+                    "name": "-expansion",
+                    "start_page": "272"
+                  },
+                  {
+                    "name": "optionales",
+                    "start_page": "273"
+                  },
+                  {
+                    "name": "Type cast",
+                    "start_page": "273"
+                  },
+                  {
+                    "name": "Virtual function table",
+                    "start_page": "272"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              }
+            ],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "51.6",
+            "name": "Der ganze Rest",
+            "start_page": "274",
+            "end_page": 274,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          }
+        ],
+        "unit": "Kurseinheit 5"
+      },
+      {
+        "chapter": "52",
+        "name": "EIFFEL",
+        "start_page": "274",
+        "end_page": 275,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "52.1",
+            "name": "Das Programmiermodell EIFFELs",
+            "start_page": "275",
+            "end_page": 276,
+            "terms": [
+              {
+                "name": "Garbage collection",
+                "start_page": "275"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "52.2",
+            "name": "Klassen als Module",
+            "start_page": "276",
+            "end_page": 277,
+            "terms": [
+              {
+                "name": "Abfrage",
+                "start_page": "276"
+              },
+              {
+                "name": "Befehl",
+                "start_page": "276"
+              },
+              {
+                "name": "Datenkapselung",
+                "start_page": "276"
+              },
+              {
+                "name": "Getter",
+                "start_page": "276"
+              },
+              {
+                "name": "Informat ion hiding",
+                "start_page": "276"
+              },
+              {
+                "name": "Repr\u00e4sentationsunabh\u00e4ngigkeit",
+                "start_page": "276"
+              },
+              {
+                "name": "Routine",
+                "start_page": "276"
+              },
+              {
+                "name": "Setter",
+                "start_page": "276"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "52.3",
+            "name": "Anweisungen",
+            "start_page": "277",
+            "end_page": 277,
+            "terms": [
+              {
+                "name": "in Eifel",
+                "start_page": "277"
+              },
+              {
+                "name": "dedizierter",
+                "start_page": "277"
+              },
+              {
+                "name": "Friend",
+                "start_page": "277"
+              },
+              {
+                "name": "in Eiffel",
+                "start_page": "277"
+              },
+              {
+                "name": "qualifizierter Export",
+                "start_page": "277"
+              },
+              {
+                "name": "Redefinition",
+                "start_page": "277"
+              },
+              {
+                "name": "in Eiffel",
+                "start_page": "277"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "52.4",
+            "name": "Vererbung und \u00dcberladen",
+            "start_page": "277",
+            "end_page": 278,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "52.5",
+            "name": "Das Typsystem EIFFELs",
+            "start_page": "278",
+            "end_page": 279,
+            "terms": [],
+            "subchapters": [
+              {
+                "chapter": "52.5.1",
+                "name": "Ein motivierendes Beispiel",
+                "start_page": "279",
+                "end_page": 281,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "52.5.2",
+                "name": "Statische Kompon ente",
+                "start_page": "281",
+                "end_page": 286,
+                "terms": [
+                  {
+                    "name": "Substituierbarkeit",
+                    "start_page": "281"
+                  },
+                  {
+                    "name": "Typerweiterung",
+                    "start_page": "281"
+                  },
+                  {
+                    "name": "Typkonformit\u00e4t",
+                    "start_page": "281"
+                  },
+                  {
+                    "name": "Vererbung",
+                    "start_page": "281"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              },
+              {
+                "chapter": "52.5.3",
+                "name": "Die dynamische Komponente",
+                "start_page": "286",
+                "end_page": 288,
+                "terms": [
+                  {
+                    "name": "Aggregation",
+                    "start_page": "283"
+                  },
+                  {
+                    "name": "Alias",
+                    "start_page": "283"
+                  },
+                  {
+                    "name": "per dynamischem Binden",
+                    "start_page": "286"
+                  },
+                  {
+                    "name": "verankerter Typ",
+                    "start_page": "283"
+                  },
+                  {
+                    "name": "explizite",
+                    "start_page": "286"
+                  },
+                  {
+                    "name": "Zuweisungsversuch",
+                    "start_page": "286"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 5"
+              }
+            ],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "52.6",
+            "name": "Zusicherungen in EIFFEL: Vorbedingungen, Nachbedingungen und Klasseninvarianten",
+            "start_page": "288",
+            "end_page": 289,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "52.7",
+            "name": "Tupel anstelle von Klassen",
+            "start_page": "289",
+            "end_page": 289,
+            "terms": [
+              {
+                "name": "Tupel",
+                "start_page": "289"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          },
+          {
+            "chapter": "52.8",
+            "name": "Fazit",
+            "start_page": "289",
+            "end_page": 290,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 5"
+          }
+        ],
+        "unit": "Kurseinheit 5"
+      },
+      {
+        "chapter": "53",
+        "name": "L\u00f6sungen  zu den Selbsttestaufgaben",
+        "start_page": "290",
+        "end_page": 291,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 5"
+      }
+    ],
+    "unit": "Kurseinheit 5"
+  },
+  {
+    "chapter": "Kurseinheit 6",
+    "name": "Probleme der objektorientierten Programmierung",
+    "start_page": "291",
+    "end_page": 291,
+    "terms": [],
+    "subchapters": [
+      {
+        "chapter": "54",
+        "name": "Das Problem der Substituierbar keit",
+        "start_page": "291",
+        "end_page": 292,
+        "terms": [
+          {
+            "name": "Subtyping",
+            "start_page": "291"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "54.1",
+            "name": "Der Begriff der Substituierbarkeit",
+            "start_page": "292",
+            "end_page": 294,
+            "terms": [
+              {
+                "name": "Fallunterscheidung",
+                "start_page": "292"
+              },
+              {
+                "name": "Substituierbarkeit",
+                "start_page": "292"
+              },
+              {
+                "name": "-konformit\u00e4t",
+                "start_page": "292"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 6"
+          },
+          {
+            "chapter": "54.2",
+            "name": "Subtyping und das Prinzip der Substituierbarkeit",
+            "start_page": "294",
+            "end_page": 296,
+            "terms": [
+              {
+                "name": "funktionale Anforderung",
+                "start_page": "293"
+              },
+              {
+                "name": "nichtfunktionale Anforderung",
+                "start_page": "293"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 6"
+          },
+          {
+            "chapter": "54.3",
+            "name": "Verhaltensbasiertes Subtyping",
+            "start_page": "296",
+            "end_page": 298,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 6"
+          },
+          {
+            "chapter": "54.4",
+            "name": "Das Liskov -Substitutionsprinzip",
+            "start_page": "298",
+            "end_page": 301,
+            "terms": [
+              {
+                "name": "s. verhaltensbasiertes Subtyping",
+                "start_page": "297"
+              },
+              {
+                "name": "Liskov -Substitutionsprinz ip",
+                "start_page": "298"
+              },
+              {
+                "name": "verhaltensbezogenes",
+                "start_page": "298"
+              },
+              {
+                "name": "verhaltensbasiertes Subtyping",
+                "start_page": "297"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 6"
+          },
+          {
+            "chapter": "54.5",
+            "name": "Relativit\u00e4t der Substituierbarkeit",
+            "start_page": "301",
+            "end_page": 302,
+            "terms": [
+              {
+                "name": "Zustandswechs el-",
+                "start_page": "300"
+              },
+              {
+                "name": "Rolle",
+                "start_page": "301"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 6"
+          }
+        ],
+        "unit": "Kurseinheit 6"
+      },
+      {
+        "chapter": "55",
+        "name": "Das Fragile -base -class -Problem",
+        "start_page": "302",
+        "end_page": 307,
+        "terms": [
+          {
+            "name": "Basisklasse",
+            "start_page": "302"
+          },
+          {
+            "name": "Fragile -base-class-Problem",
+            "start_page": "302"
+          },
+          {
+            "name": "Interface -als-Typ-Konzept",
+            "start_page": "302"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 6"
+      },
+      {
+        "chapter": "56",
+        "name": "Das Problem der schlechten Tracebarkeit",
+        "start_page": "307",
+        "end_page": 312,
+        "terms": [
+          {
+            "name": "Component Object Model",
+            "start_page": "305"
+          },
+          {
+            "name": "dedizierter",
+            "start_page": "306"
+          },
+          {
+            "name": "Informat ion hiding",
+            "start_page": "306"
+          },
+          {
+            "name": "Lokalit\u00e4tsprinzip",
+            "start_page": "307"
+          },
+          {
+            "name": "offene Rekursion",
+            "start_page": "303"
+          },
+          {
+            "name": "Refactoring",
+            "start_page": "304"
+          },
+          {
+            "name": "Vererbungsinterface",
+            "start_page": "306"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 6"
+      },
+      {
+        "chapter": "57",
+        "name": "Das Problem der eindimensionalen Strukturierung",
+        "start_page": "312",
+        "end_page": 313,
+        "terms": [
+          {
+            "name": "Beziehung",
+            "start_page": "312"
+          },
+          {
+            "name": "Fallunterscheidung",
+            "start_page": "309"
+          },
+          {
+            "name": "Inlining",
+            "start_page": "310"
+          },
+          {
+            "name": "hierarchische",
+            "start_page": "312"
+          },
+          {
+            "name": "strukturierte Programmierung",
+            "start_page": "309"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 6"
+      },
+      {
+        "chapter": "58",
+        "name": "Das Problem der mangelnden Kapselung",
+        "start_page": "313",
+        "end_page": 317,
+        "terms": [
+          {
+            "name": "Allgemeinbegriff",
+            "start_page": "313"
+          },
+          {
+            "name": "Kapselung",
+            "start_page": "313"
+          },
+          {
+            "name": "Klassenschnittstelle",
+            "start_page": "313"
+          },
+          {
+            "name": "Separation of concerns",
+            "start_page": "313"
+          },
+          {
+            "name": "Trennung der Belange",
+            "start_page": "313"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 6"
+      },
+      {
+        "chapter": "59",
+        "name": "Das Problem der mangelnden Skalierbarkeit",
+        "start_page": "317",
+        "end_page": 318,
+        "terms": [
+          {
+            "name": "Aliasing -Problem",
+            "start_page": "314"
+          },
+          {
+            "name": "Geheimnisprinzip",
+            "start_page": "316"
+          },
+          {
+            "name": "Informat ion hiding",
+            "start_page": "316"
+          },
+          {
+            "name": "relationales Datenmodell",
+            "start_page": "315"
+          },
+          {
+            "name": "Teil-Ganzes -Beziehung",
+            "start_page": "316"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 6"
+      },
+      {
+        "chapter": "60",
+        "name": "Das Problem der mangelnden Eignung",
+        "start_page": "318",
+        "end_page": 321,
+        "terms": [
+          {
+            "name": "innere Klasse",
+            "start_page": "318"
+          },
+          {
+            "name": "Komponente",
+            "start_page": "318"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 6"
+      },
+      {
+        "chapter": "61",
+        "name": "L\u00f6sungen zu  den Selbsttestaufgaben",
+        "start_page": "321",
+        "end_page": 323,
+        "terms": [
+          {
+            "name": "Dereferenzierung",
+            "start_page": "320"
+          },
+          {
+            "name": "Fremdschl\u00fcssel",
+            "start_page": "320"
+          },
+          {
+            "name": "funktionale Programmiersprache",
+            "start_page": "319"
+          },
+          {
+            "name": "Impedance mismatch",
+            "start_page": "320"
+          },
+          {
+            "name": "logische Programmiersprache",
+            "start_page": "319"
+          },
+          {
+            "name": "Lokalit\u00e4tsprinzip",
+            "start_page": "319"
+          },
+          {
+            "name": "Navigation",
+            "start_page": "320"
+          },
+          {
+            "name": "Persistenzlayer",
+            "start_page": "320"
+          },
+          {
+            "name": "Schl\u00fcssel",
+            "start_page": "320"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 6"
+      }
+    ],
+    "unit": "Kurseinheit 6"
+  },
+  {
+    "chapter": "Kurseinheit 7",
+    "name": "Objektorientierter Stil",
+    "start_page": "323",
+    "end_page": 325,
+    "terms": [],
+    "subchapters": [
+      {
+        "chapter": "62",
+        "name": "Namenwahl",
+        "start_page": "325",
+        "end_page": 326,
+        "terms": [],
+        "subchapters": [
+          {
+            "chapter": "62.1",
+            "name": "Verwendung von Abk\u00fcrzungen",
+            "start_page": "326",
+            "end_page": 326,
+            "terms": [
+              {
+                "name": "-inferenz",
+                "start_page": "326"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 7"
+          },
+          {
+            "chapter": "62.2",
+            "name": "Namenskonventionen",
+            "start_page": "326",
+            "end_page": 327,
+            "terms": [],
+            "subchapters": [
+              {
+                "chapter": "62.2.1",
+                "name": "Mechanische (syntaktische) Namenskonve ntionen",
+                "start_page": "327",
+                "end_page": 327,
+                "terms": [
+                  {
+                    "name": "Befehl",
+                    "start_page": "327"
+                  },
+                  {
+                    "name": "ungarische Notation",
+                    "start_page": "327"
+                  }
+                ],
+                "subchapters": [],
+                "unit": "Kurseinheit 7"
+              },
+              {
+                "chapter": "62.2.2",
+                "name": "Grammatikalisch -inhaltliche (semantische) Namenskonventionen",
+                "start_page": "327",
+                "end_page": 329,
+                "terms": [],
+                "subchapters": [],
+                "unit": "Kurseinheit 7"
+              }
+            ],
+            "unit": "Kurseinheit 7"
+          }
+        ],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "63",
+        "name": "Formatierungskonventionen",
+        "start_page": "329",
+        "end_page": 330,
+        "terms": [
+          {
+            "name": "Coding convention",
+            "start_page": "329"
+          },
+          {
+            "name": "Programmierstil",
+            "start_page": "329"
+          },
+          {
+            "name": "Rolle",
+            "start_page": "329"
+          },
+          {
+            "name": "\u00fcberladen",
+            "start_page": "328"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "64",
+        "name": "Kurze Methoden",
+        "start_page": "330",
+        "end_page": 330,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "65",
+        "name": "Deklarativer Stil",
+        "start_page": "331",
+        "end_page": 332,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "66",
+        "name": "Der Bibliotheksgedanke",
+        "start_page": "332",
+        "end_page": 333,
+        "terms": [
+          {
+            "name": "Seiteneffekt",
+            "start_page": "332"
+          }
+        ],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "67",
+        "name": "Ausgewogene Verteilung",
+        "start_page": "333",
+        "end_page": 334,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "68",
+        "name": "Das Gesetz Demeters (Law of Demeter)",
+        "start_page": "334",
+        "end_page": 334,
+        "terms": [
+          {
+            "name": "Aggregation",
+            "start_page": "334"
+          },
+          {
+            "name": "gleiche",
+            "start_page": "334"
+          },
+          {
+            "name": "Generalisierung",
+            "start_page": "334"
+          },
+          {
+            "name": "Komposition",
+            "start_page": "334"
+          },
+          {
+            "name": "Law of Demeter",
+            "start_page": "334"
+          },
+          {
+            "name": "Spezialisierung",
+            "start_page": "334"
+          }
+        ],
+        "subchapters": [
+          {
+            "chapter": "68.1",
+            "name": "Bedeutung",
+            "start_page": "334",
+            "end_page": 335,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 7"
+          },
+          {
+            "chapter": "68.2",
+            "name": "Automatische \u00dcberpr\u00fcfung",
+            "start_page": "335",
+            "end_page": 336,
+            "terms": [
+              {
+                "name": "Zugreifbarkeitsregel",
+                "start_page": "335"
+              }
+            ],
+            "subchapters": [],
+            "unit": "Kurseinheit 7"
+          },
+          {
+            "chapter": "68.3",
+            "name": "Ein Beispiel",
+            "start_page": "336",
+            "end_page": 337,
+            "terms": [],
+            "subchapters": [],
+            "unit": "Kurseinheit 7"
+          }
+        ],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "69",
+        "name": "Klassenhierarchie",
+        "start_page": "337",
+        "end_page": 338,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "70",
+        "name": "Fazit",
+        "start_page": "339",
+        "end_page": 339,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      },
+      {
+        "chapter": "71",
+        "name": "L\u00f6sungen zu den Selbsttestaufgaben",
+        "start_page": "339",
+        "end_page": 341,
+        "terms": [],
+        "subchapters": [],
+        "unit": "Kurseinheit 7"
+      }
+    ],
+    "unit": "Kurseinheit 7"
+  }
+]

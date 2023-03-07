@@ -1,0 +1,4514 @@
+{
+  ":1-Beziehung": {
+    "pages": [
+      "30"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  ":n-Beziehung": {
+    "pages": [
+      "30"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  "Abfrage": {
+    "pages": [
+      "276"
+    ],
+    "chapters": [
+      "52.2"
+    ]
+  },
+  "Abh\u00e4ngigkeit": {
+    "pages": [
+      "217"
+    ],
+    "chapters": [
+      "39.2"
+    ]
+  },
+  "abstrakte Klasse": {
+    "pages": [],
+    "chapters": []
+  },
+  "Abstraktionshierarchie": {
+    "pages": [
+      "94"
+    ],
+    "chapters": [
+      "9"
+    ]
+  },
+  "Accessor": {
+    "pages": [
+      "53"
+    ],
+    "chapters": [
+      "4.3.5"
+    ]
+  },
+  "Aggregation": {
+    "pages": [
+      "32",
+      "283",
+      "334"
+    ],
+    "chapters": [
+      "2.3",
+      "52.5.3",
+      "68"
+    ]
+  },
+  "aktives Objekt": {
+    "pages": [
+      "136",
+      "138"
+    ],
+    "chapters": [
+      "16",
+      "17"
+    ]
+  },
+  "aktueller Parameter": {
+    "pages": [
+      "45"
+    ],
+    "chapters": [
+      "4.3"
+    ]
+  },
+  "Alias": {
+    "pages": [
+      "18",
+      "23",
+      "79",
+      "168",
+      "224",
+      "283"
+    ],
+    "chapters": [
+      "1.5",
+      "1.7",
+      "7.3",
+      "26",
+      "42",
+      "52.5.3"
+    ]
+  },
+  "Aliasing": {
+    "pages": [
+      "15",
+      "23",
+      "27",
+      "52"
+    ],
+    "chapters": [
+      "1.3",
+      "1.7",
+      "1.10",
+      "4.3.3"
+    ]
+  },
+  "Aliasing -Problem": {
+    "pages": [
+      "314"
+    ],
+    "chapters": [
+      "59"
+    ]
+  },
+  "Allgemeinbegriff": {
+    "pages": [
+      "74",
+      "313"
+    ],
+    "chapters": [
+      "7",
+      "58"
+    ]
+  },
+  "Generalisierung als": {
+    "pages": [
+      "96"
+    ],
+    "chapters": [
+      "9.2"
+    ]
+  },
+  "\u00c4nderungsabh\u00e4ngigkeit": {
+    "pages": [
+      "217"
+    ],
+    "chapters": [
+      "39.2"
+    ]
+  },
+  "Annotation": {
+    "pages": [
+      "239",
+      "247",
+      "261"
+    ],
+    "chapters": [
+      "46",
+      "47.4",
+      "50.4.2"
+    ]
+  },
+  "Annotationstyp": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Anweisung": {
+    "pages": [
+      "13",
+      "45"
+    ],
+    "chapters": [
+      "1.2",
+      "4.3"
+    ]
+  },
+  "Application Programming Interface": {
+    "pages": [
+      "198"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Aristoteles": {
+    "pages": [
+      "97"
+    ],
+    "chapters": [
+      "9.2"
+    ]
+  },
+  "Array store exception": {
+    "pages": [
+      "224",
+      "230"
+    ],
+    "chapters": [
+      "42",
+      "43.3"
+    ]
+  },
+  "Array -Initialisierer": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Array -Literal": {
+    "pages": [
+      "15",
+      "126"
+    ],
+    "chapters": [
+      "1.3",
+      "13.2.3"
+    ]
+  },
+  "Array -Typ": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Assoziativspeicher": {
+    "pages": [
+      "124"
+    ],
+    "chapters": [
+      "13.2.2"
+    ]
+  },
+  "atomares Objekt": {
+    "pages": [
+      "129"
+    ],
+    "chapters": [
+      "14.2"
+    ]
+  },
+  "Attribut": {
+    "pages": [
+      "28"
+    ],
+    "chapters": [
+      "2.1"
+    ]
+  },
+  "und Zustand": {
+    "pages": [
+      "34"
+    ],
+    "chapters": [
+      "3"
+    ]
+  },
+  "-wert": {
+    "pages": [
+      "34"
+    ],
+    "chapters": [
+      "3"
+    ]
+  },
+  "Attribute": {
+    "pages": [
+      "261"
+    ],
+    "chapters": [
+      "50.4.2"
+    ]
+  },
+  "Aufz\u00e4hlungstyp": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Ausdruck": {
+    "pages": [
+      "36",
+      "37"
+    ],
+    "chapters": [
+      "3.2",
+      "4.1"
+    ]
+  },
+  "Nachrichten -": {
+    "pages": [
+      "37"
+    ],
+    "chapters": [
+      "4.1"
+    ]
+  },
+  "primitive r": {
+    "pages": [
+      "37"
+    ],
+    "chapters": [
+      "4.1"
+    ]
+  },
+  "Zuweisungs -": {
+    "pages": [
+      "37"
+    ],
+    "chapters": [
+      "4.1"
+    ]
+  },
+  "Ausgabestrom": {
+    "pages": [
+      "248",
+      "201"
+    ],
+    "chapters": [
+      "49",
+      "49"
+    ]
+  },
+  "Auto boxing und unboxing": {
+    "pages": [
+      "262"
+    ],
+    "chapters": [
+      "50.4.2"
+    ]
+  },
+  "Auto unboxing": {
+    "pages": [
+      "201"
+    ],
+    "chapters": [
+      "35.4"
+    ]
+  },
+  "Base class": {
+    "pages": [
+      "109"
+    ],
+    "chapters": [
+      "11.1"
+    ]
+  },
+  "Basisklasse": {
+    "pages": [
+      "302"
+    ],
+    "chapters": [
+      "55"
+    ]
+  },
+  "Befehl": {
+    "pages": [
+      "276",
+      "327"
+    ],
+    "chapters": [
+      "52.2",
+      "62.2.1"
+    ]
+  },
+  "Behavioural subtyping": {
+    "pages": [],
+    "chapters": []
+  },
+  "s. verhaltensbasiertes Subtyping": {
+    "pages": [
+      "297"
+    ],
+    "chapters": [
+      "54.4"
+    ]
+  },
+  "benannte Instanzvariable": {
+    "pages": [
+      "29"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  "Beziehung": {
+    "pages": [
+      "312"
+    ],
+    "chapters": [
+      "57"
+    ]
+  },
+  ":1- 30": {
+    "pages": [],
+    "chapters": []
+  },
+  ":n- 30": {
+    "pages": [],
+    "chapters": []
+  },
+  "leere": {
+    "pages": [
+      "31"
+    ],
+    "chapters": [
+      "2.3"
+    ]
+  },
+  "bin\u00e4re Methode": {
+    "pages": [
+      "39"
+    ],
+    "chapters": [
+      "4.1.3"
+    ]
+  },
+  "bin\u00e4re Nachricht": {
+    "pages": [
+      "39"
+    ],
+    "chapters": [
+      "4.1.3"
+    ]
+  },
+  "Block": {
+    "pages": [
+      "58",
+      "266"
+    ],
+    "chapters": [
+      "4.4",
+      "50.5"
+    ]
+  },
+  "boolesche Algebra": {
+    "pages": [
+      "155"
+    ],
+    "chapters": [
+      "20.2"
+    ]
+  },
+  "Boxing und Unboxing": {
+    "pages": [
+      "264"
+    ],
+    "chapters": [
+      "50.4.3"
+    ]
+  },
+  "Bytecode": {
+    "pages": [
+      "197"
+    ],
+    "chapters": [
+      "34"
+    ]
+  },
+  "Call by reference": {
+    "pages": [
+      "50",
+      "71",
+      "201",
+      "210",
+      "269"
+    ],
+    "chapters": [
+      "4.3.3",
+      "7",
+      "35.4",
+      "38",
+      "51.3"
+    ]
+  },
+  "in C#": {
+    "pages": [
+      "255"
+    ],
+    "chapters": [
+      "50.2"
+    ]
+  },
+  "Call by value": {
+    "pages": [
+      "50",
+      "71",
+      "201",
+      "210",
+      "268"
+    ],
+    "chapters": [
+      "4.3.3",
+      "7",
+      "35.4",
+      "38",
+      "51.3"
+    ]
+  },
+  "Call stack": {
+    "pages": [
+      "60"
+    ],
+    "chapters": [
+      "4.4.2"
+    ]
+  },
+  "Change log": {
+    "pages": [
+      "8"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "Child class": {
+    "pages": [
+      "109"
+    ],
+    "chapters": [
+      "11.1"
+    ]
+  },
+  "Client -Schnittstelle": {
+    "pages": [
+      "103"
+    ],
+    "chapters": [
+      "10.2"
+    ]
+  },
+  "Closure": {
+    "pages": [
+      "60"
+    ],
+    "chapters": [
+      "4.4.2"
+    ]
+  },
+  "Coding convention": {
+    "pages": [
+      "329"
+    ],
+    "chapters": [
+      "63"
+    ]
+  },
+  "Garbage": {
+    "pages": [],
+    "chapters": []
+  },
+  "heterogene": {
+    "pages": [
+      "187"
+    ],
+    "chapters": [
+      "29.4"
+    ]
+  },
+  "-Klassen": {
+    "pages": [
+      "120"
+    ],
+    "chapters": [
+      "13"
+    ]
+  },
+  "Stream zum Zugriff auf eine": {
+    "pages": [
+      "134"
+    ],
+    "chapters": [
+      "15"
+    ]
+  },
+  "Common Intermediate Language": {
+    "pages": [
+      "254"
+    ],
+    "chapters": [
+      "50.1"
+    ]
+  },
+  "Common Type System": {
+    "pages": [
+      "260"
+    ],
+    "chapters": [
+      "50.4"
+    ]
+  },
+  "Compilation unit": {
+    "pages": [
+      "4",
+      "203",
+      "218"
+    ],
+    "chapters": [
+      "1",
+      "36",
+      "39.3"
+    ]
+  },
+  "Compilati on units": {
+    "pages": [
+      "197"
+    ],
+    "chapters": [
+      "34"
+    ]
+  },
+  "Component Object Model": {
+    "pages": [
+      "305"
+    ],
+    "chapters": [
+      "56"
+    ]
+  },
+  "Continuation": {
+    "pages": [
+      "60",
+      "64"
+    ],
+    "chapters": [
+      "4.4.2",
+      "4.6.2"
+    ]
+  },
+  "Cross cast": {
+    "pages": [
+      "178",
+      "236"
+    ],
+    "chapters": [
+      "28",
+      "44.1"
+    ]
+  },
+  "Datenkapselung": {
+    "pages": [
+      "276"
+    ],
+    "chapters": [
+      "52.2"
+    ]
+  },
+  "declaration -site variance": {
+    "pages": [
+      "265"
+    ],
+    "chapters": [
+      "50.4.4"
+    ]
+  },
+  "Declaration -site variance": {
+    "pages": [
+      "228"
+    ],
+    "chapters": [
+      "43.2"
+    ]
+  },
+  "Default -Methode": {
+    "pages": [
+      "222"
+    ],
+    "chapters": [
+      "41"
+    ]
+  },
+  "Definition": {
+    "pages": [
+      "151",
+      "220"
+    ],
+    "chapters": [
+      "19",
+      "40.1"
+    ]
+  },
+  "Deklaration": {
+    "pages": [
+      "147",
+      "151"
+    ],
+    "chapters": [
+      "19",
+      "19"
+    ]
+  },
+  "deklariertes Element": {
+    "pages": [
+      "146"
+    ],
+    "chapters": [
+      "18"
+    ]
+  },
+  "Delegate": {
+    "pages": [
+      "260",
+      "261"
+    ],
+    "chapters": [
+      "50.4",
+      "50.4.2"
+    ]
+  },
+  "Delegation": {
+    "pages": [
+      "124",
+      "270"
+    ],
+    "chapters": [
+      "13.2.2",
+      "51.4"
+    ]
+  },
+  "denotationale Semantik": {
+    "pages": [
+      "155"
+    ],
+    "chapters": [
+      "20.2"
+    ]
+  },
+  "Dependent type": {
+    "pages": [
+      "171"
+    ],
+    "chapters": [
+      "26.1"
+    ]
+  },
+  "Dereferenzierung": {
+    "pages": [
+      "320"
+    ],
+    "chapters": [
+      "61"
+    ]
+  },
+  "Derived class": {
+    "pages": [
+      "109"
+    ],
+    "chapters": [
+      "11.1"
+    ]
+  },
+  "direkte Instanz": {
+    "pages": [
+      "80"
+    ],
+    "chapters": [
+      "8"
+    ]
+  },
+  "direkte Subklasse": {
+    "pages": [
+      "108"
+    ],
+    "chapters": [
+      "11"
+    ]
+  },
+  "direkte Superklasse": {
+    "pages": [
+      "108"
+    ],
+    "chapters": [
+      "11"
+    ]
+  },
+  "direkter Subtyp": {
+    "pages": [
+      "172"
+    ],
+    "chapters": [
+      "26.2"
+    ]
+  },
+  "Dispatch": {
+    "pages": [
+      "217"
+    ],
+    "chapters": [
+      "39.2"
+    ]
+  },
+  "double": {
+    "pages": [
+      "119",
+      "209"
+    ],
+    "chapters": [
+      "13",
+      "37"
+    ]
+  },
+  "multi": {
+    "pages": [
+      "196"
+    ],
+    "chapters": [
+      "34"
+    ]
+  },
+  "single": {
+    "pages": [
+      "119"
+    ],
+    "chapters": [
+      "13"
+    ]
+  },
+  "Double dispatch": {
+    "pages": [
+      "119"
+    ],
+    "chapters": [
+      "13"
+    ]
+  },
+  "Down cast": {
+    "pages": [
+      "116",
+      "178",
+      "187",
+      "227",
+      "236",
+      "251"
+    ],
+    "chapters": [
+      "12.1",
+      "28",
+      "29.4",
+      "43.2",
+      "44.1",
+      "50"
+    ]
+  },
+  "Durchg\u00e4ngigkeit der Konzepte": {
+    "pages": [
+      "2"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "dynamische Typpr\u00fcfung": {
+    "pages": [
+      "178"
+    ],
+    "chapters": [
+      "28"
+    ]
+  },
+  "dynamischen Typpr\u00fcfung": {
+    "pages": [
+      "224"
+    ],
+    "chapters": [
+      "42"
+    ]
+  },
+  "dynamisches Binden": {
+    "pages": [
+      "49",
+      "62",
+      "64",
+      "73",
+      "145",
+      "271"
+    ],
+    "chapters": [
+      "4.3.3",
+      "4.5",
+      "4.6.2",
+      "7",
+      "18",
+      "51.5"
+    ]
+  },
+  "291, 303": {
+    "pages": [],
+    "chapters": []
+  },
+  "Eigenschaft": {
+    "pages": [
+      "2",
+      "75"
+    ],
+    "chapters": [
+      "1",
+      "7.1"
+    ]
+  },
+  "Einfachvererbung": {
+    "pages": [
+      "197"
+    ],
+    "chapters": [
+      "34"
+    ]
+  },
+  "Endrekursion": {
+    "pages": [
+      "66"
+    ],
+    "chapters": [
+      "4.6.3"
+    ]
+  },
+  "Event": {
+    "pages": [
+      "260"
+    ],
+    "chapters": [
+      "50.4"
+    ]
+  },
+  "Event handler": {
+    "pages": [
+      "260"
+    ],
+    "chapters": [
+      "50.4"
+    ]
+  },
+  "chaining": {
+    "pages": [
+      "256"
+    ],
+    "chapters": [
+      "50.3"
+    ]
+  },
+  "checked": {
+    "pages": [
+      "245",
+      "256"
+    ],
+    "chapters": [
+      "47.3",
+      "50.3"
+    ]
+  },
+  "tunneling": {
+    "pages": [
+      "256"
+    ],
+    "chapters": [
+      "50.3"
+    ]
+  },
+  "unchecked": {
+    "pages": [
+      "245",
+      "256"
+    ],
+    "chapters": [
+      "47.3",
+      "50.3"
+    ]
+  },
+  "Exception handling": {
+    "pages": [],
+    "chapters": []
+  },
+  "in Eifel": {
+    "pages": [
+      "277"
+    ],
+    "chapters": [
+      "52.3"
+    ]
+  },
+  "rekursive": {
+    "pages": [
+      "159",
+      "180"
+    ],
+    "chapters": [
+      "22.1",
+      "28.1"
+    ]
+  },
+  "rekurs iver Typen": {
+    "pages": [
+      "191"
+    ],
+    "chapters": [
+      "29.5"
+    ]
+  },
+  "dedizierter": {
+    "pages": [
+      "277",
+      "306"
+    ],
+    "chapters": [
+      "52.3",
+      "56"
+    ]
+  },
+  "Extension": {
+    "pages": [
+      "75",
+      "80",
+      "146"
+    ],
+    "chapters": [
+      "7.1",
+      "8",
+      "18"
+    ]
+  },
+  "einer Generalisierung": {
+    "pages": [
+      "96"
+    ],
+    "chapters": [
+      "9.2"
+    ]
+  },
+  "Factory -Methode": {
+    "pages": [
+      "89",
+      "207"
+    ],
+    "chapters": [
+      "8.3",
+      "36.4"
+    ]
+  },
+  "Fall through": {
+    "pages": [
+      "214"
+    ],
+    "chapters": [
+      "39"
+    ]
+  },
+  "Fallunterscheidung": {
+    "pages": [
+      "119",
+      "292",
+      "309"
+    ],
+    "chapters": [
+      "13",
+      "54.1",
+      "57"
+    ]
+  },
+  "gleiche": {
+    "pages": [
+      "334"
+    ],
+    "chapters": [
+      "68"
+    ]
+  },
+  "per dynamischem Binden": {
+    "pages": [
+      "250",
+      "286"
+    ],
+    "chapters": [
+      "49",
+      "52.5.3"
+    ]
+  },
+  "versteckte F.": {
+    "pages": [],
+    "chapters": []
+  },
+  "versteckte": {
+    "pages": [
+      "49",
+      "62"
+    ],
+    "chapters": [
+      "4.3.3",
+      "4.5"
+    ]
+  },
+  "Familie n\u00e4hnlichkeit": {
+    "pages": [
+      "76"
+    ],
+    "chapters": [
+      "7.2"
+    ]
+  },
+  "Feld": {
+    "pages": [
+      "28",
+      "204"
+    ],
+    "chapters": [
+      "2.1",
+      "36.2"
+    ]
+  },
+  "Filterfunktion": {
+    "pages": [
+      "161",
+      "164",
+      "239"
+    ],
+    "chapters": [
+      "22.2",
+      "25",
+      "46"
+    ]
+  },
+  "Fluent API": {
+    "pages": [
+      "41",
+      "42"
+    ],
+    "chapters": [
+      "4.1.3",
+      "4.1.4"
+    ]
+  },
+  "formaler Parameter": {
+    "pages": [
+      "23",
+      "45",
+      "46",
+      "48",
+      "125",
+      "152"
+    ],
+    "chapters": [
+      "1.7",
+      "4.3",
+      "4.3.1",
+      "4.3.1",
+      "13.2.2",
+      "20"
+    ]
+  },
+  "eines Blocks": {
+    "pages": [
+      "61"
+    ],
+    "chapters": [
+      "4.4.3"
+    ]
+  },
+  "formaler Typparameter": {
+    "pages": [
+      "183"
+    ],
+    "chapters": [
+      "29.1"
+    ]
+  },
+  "Forwarding": {
+    "pages": [
+      "124",
+      "270"
+    ],
+    "chapters": [
+      "13.2.2",
+      "51.4"
+    ]
+  },
+  "Fragile -base-class-Problem": {
+    "pages": [
+      "117",
+      "256",
+      "302"
+    ],
+    "chapters": [
+      "12.2",
+      "50.3",
+      "55"
+    ]
+  },
+  "Fremdschl\u00fcssel": {
+    "pages": [
+      "320"
+    ],
+    "chapters": [
+      "61"
+    ]
+  },
+  "Friend": {
+    "pages": [
+      "277"
+    ],
+    "chapters": [
+      "52.3"
+    ]
+  },
+  "funktionale Anforderung": {
+    "pages": [
+      "293"
+    ],
+    "chapters": [
+      "54.2"
+    ]
+  },
+  "funktionale Programmiersprache": {
+    "pages": [
+      "266",
+      "319"
+    ],
+    "chapters": [
+      "50.5",
+      "61"
+    ]
+  },
+  "funktionale Programmierung": {
+    "pages": [
+      "3",
+      "16",
+      "18",
+      "60"
+    ],
+    "chapters": [
+      "1",
+      "1.4",
+      "1.5",
+      "4.4.2"
+    ]
+  },
+  "Garbage collection": {
+    "pages": [
+      "5",
+      "25",
+      "145",
+      "197",
+      "254",
+      "275"
+    ],
+    "chapters": [
+      "1",
+      "1.9",
+      "18",
+      "34",
+      "50.1",
+      "52.1"
+    ]
+  },
+  "Geheimnisprinzip": {
+    "pages": [
+      "36",
+      "180",
+      "316"
+    ],
+    "chapters": [
+      "3.2",
+      "28.1",
+      "59"
+    ]
+  },
+  "Generalisierung": {
+    "pages": [
+      "94",
+      "173",
+      "334"
+    ],
+    "chapters": [
+      "9",
+      "26.2",
+      "68"
+    ]
+  },
+  "Ergebnis der": {
+    "pages": [
+      "95"
+    ],
+    "chapters": [
+      "9.2"
+    ]
+  },
+  "Vorgang der": {
+    "pages": [
+      "95"
+    ],
+    "chapters": [
+      "9.2"
+    ]
+  },
+  "Generics": {
+    "pages": [
+      "183"
+    ],
+    "chapters": [
+      "29.1"
+    ]
+  },
+  "generischer Typ": {
+    "pages": [
+      "183"
+    ],
+    "chapters": [
+      "29.1"
+    ]
+  },
+  "Genus et differentiae": {
+    "pages": [
+      "97"
+    ],
+    "chapters": [
+      "9.2"
+    ]
+  },
+  "Getter": {
+    "pages": [
+      "53",
+      "222",
+      "257",
+      "276"
+    ],
+    "chapters": [
+      "4.3.5",
+      "41",
+      "50.3",
+      "52.2"
+    ]
+  },
+  "Lazy initialization per": {
+    "pages": [
+      "87"
+    ],
+    "chapters": [
+      "8.3"
+    ]
+  },
+  "Gleichheit von Objekten": {
+    "pages": [
+      "16"
+    ],
+    "chapters": [
+      "1.4"
+    ]
+  },
+  "globale Variable": {
+    "pages": [
+      "21",
+      "77"
+    ],
+    "chapters": [
+      "1.6",
+      "7.3"
+    ]
+  },
+  "Goto": {
+    "pages": [
+      "63"
+    ],
+    "chapters": [
+      "4.6"
+    ]
+  },
+  "Hiding": {
+    "pages": [
+      "21"
+    ],
+    "chapters": [
+      "1.6"
+    ]
+  },
+  "Home context": {
+    "pages": [
+      "59",
+      "71",
+      "116"
+    ],
+    "chapters": [
+      "4.4.1",
+      "7",
+      "12.1"
+    ]
+  },
+  "bei Continuations": {
+    "pages": [
+      "60"
+    ],
+    "chapters": [
+      "4.4.2"
+    ]
+  },
+  "Identit\u00e4t": {
+    "pages": [
+      "2",
+      "268"
+    ],
+    "chapters": [
+      "1",
+      "51.3"
+    ]
+  },
+  "eines Objekts": {
+    "pages": [
+      "178"
+    ],
+    "chapters": [
+      "28"
+    ]
+  },
+  "von Ob jekten": {
+    "pages": [
+      "16"
+    ],
+    "chapters": [
+      "1.4"
+    ]
+  },
+  "Image": {
+    "pages": [
+      "8"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "Impedance mismatch": {
+    "pages": [
+      "320"
+    ],
+    "chapters": [
+      "61"
+    ]
+  },
+  "imperative Programmierung": {
+    "pages": [
+      "16"
+    ],
+    "chapters": [
+      "1.4"
+    ]
+  },
+  "Implementation": {
+    "pages": [
+      "57"
+    ],
+    "chapters": [
+      "4.3.8"
+    ]
+  },
+  "Implementationsgeheimnis": {
+    "pages": [
+      "36",
+      "52",
+      "55",
+      "57",
+      "86"
+    ],
+    "chapters": [
+      "3.2",
+      "4.3.3",
+      "4.3.5",
+      "4.3.8",
+      "8.3"
+    ]
+  },
+  "215, 306": {
+    "pages": [],
+    "chapters": []
+  },
+  "Indexer": {
+    "pages": [
+      "29",
+      "259"
+    ],
+    "chapters": [
+      "2.2",
+      "50.3.2"
+    ]
+  },
+  "indirekte Instanz": {
+    "pages": [
+      "98",
+      "202"
+    ],
+    "chapters": [
+      "9.2",
+      "35.5"
+    ]
+  },
+  "indirekter Subtyp": {
+    "pages": [
+      "172"
+    ],
+    "chapters": [
+      "26.2"
+    ]
+  },
+  "indizierte Instanzvariable": {
+    "pages": [
+      "29"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  "Informat ion hiding": {
+    "pages": [
+      "36",
+      "276",
+      "306",
+      "316"
+    ],
+    "chapters": [
+      "3.2",
+      "52.2",
+      "56",
+      "59"
+    ]
+  },
+  "Initialisierung": {
+    "pages": [
+      "85",
+      "100",
+      "152"
+    ],
+    "chapters": [
+      "8.2",
+      "10",
+      "20"
+    ]
+  },
+  "lazy": {
+    "pages": [
+      "87",
+      "131"
+    ],
+    "chapters": [
+      "8.3",
+      "14.3"
+    ]
+  },
+  "f\u00fcr Klassenvariablen": {
+    "pages": [
+      "89"
+    ],
+    "chapters": [
+      "8.3"
+    ]
+  },
+  "Inklusionspolymorphie": {
+    "pages": [
+      "177"
+    ],
+    "chapters": [
+      "27"
+    ]
+  },
+  "Inlining": {
+    "pages": [
+      "310"
+    ],
+    "chapters": [
+      "57"
+    ]
+  },
+  "innere Klasse": {
+    "pages": [
+      "203",
+      "204",
+      "318"
+    ],
+    "chapters": [
+      "36",
+      "36.2",
+      "60"
+    ]
+  },
+  "Instanz": {
+    "pages": [
+      "73",
+      "79"
+    ],
+    "chapters": [
+      "7",
+      "7.3"
+    ]
+  },
+  "direkte": {
+    "pages": [
+      "108"
+    ],
+    "chapters": [
+      "11"
+    ]
+  },
+  "indirekte": {
+    "pages": [
+      "80",
+      "98"
+    ],
+    "chapters": [
+      "8",
+      "9.2"
+    ]
+  },
+  "nicht": {
+    "pages": [
+      "104"
+    ],
+    "chapters": [
+      "10.3"
+    ]
+  },
+  "Instanziierung": {
+    "pages": [
+      "79"
+    ],
+    "chapters": [
+      "7.3"
+    ]
+  },
+  "einer parametrischen Typdefinition": {
+    "pages": [
+      "188"
+    ],
+    "chapters": [
+      "29.4"
+    ]
+  },
+  "eines parametrischen Typs": {
+    "pages": [
+      "182",
+      "184"
+    ],
+    "chapters": [
+      "29",
+      "29.2"
+    ]
+  },
+  "Instanzmethode": {
+    "pages": [
+      "84",
+      "204"
+    ],
+    "chapters": [
+      "8.1",
+      "36.2"
+    ]
+  },
+  "Instanzvariable": {
+    "pages": [
+      "28",
+      "76",
+      "84",
+      "204"
+    ],
+    "chapters": [
+      "2.1",
+      "7.2",
+      "8.1",
+      "36.2"
+    ]
+  },
+  "integrierte Entwicklungsumgebung": {
+    "pages": [
+      "198"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Intension": {
+    "pages": [
+      "76",
+      "146",
+      "204"
+    ],
+    "chapters": [
+      "7.2",
+      "18",
+      "36.2"
+    ]
+  },
+  "Interface": {
+    "pages": [
+      "57",
+      "148",
+      "180"
+    ],
+    "chapters": [
+      "4.3.8",
+      "19",
+      "28.1"
+    ]
+  },
+  "Marker": {
+    "pages": [
+      "239"
+    ],
+    "chapters": [
+      "46"
+    ]
+  },
+  "Tagg ing": {
+    "pages": [
+      "239"
+    ],
+    "chapters": [
+      "46"
+    ]
+  },
+  "Interface -als-Typ-Konzept": {
+    "pages": [
+      "181",
+      "302"
+    ],
+    "chapters": [
+      "28.3",
+      "55"
+    ]
+  },
+  "interfacebasierte Programmierung": {
+    "pages": [
+      "178",
+      "181"
+    ],
+    "chapters": [
+      "28",
+      "28.3"
+    ]
+  },
+  "Interfaceimplementation": {
+    "pages": [
+      "220"
+    ],
+    "chapters": [
+      "40.1"
+    ]
+  },
+  "explizite": {
+    "pages": [
+      "50",
+      "286"
+    ],
+    "chapters": [
+      "4.3.3",
+      "52.5.3"
+    ]
+  },
+  "implizite": {
+    "pages": [
+      "22",
+      "50",
+      "51",
+      "165",
+      "268"
+    ],
+    "chapters": [
+      "1.7",
+      "4.3.3",
+      "4.3.3",
+      "25",
+      "51.3"
+    ]
+  },
+  "Interfacetyp": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Interfacevererbung": {
+    "pages": [
+      "221"
+    ],
+    "chapters": [
+      "40.2"
+    ]
+  },
+  "interner Iterator": {
+    "pages": [
+      "242",
+      "169"
+    ],
+    "chapters": [
+      "47",
+      "47"
+    ]
+  },
+  "Zustandswechs el-": {
+    "pages": [
+      "300"
+    ],
+    "chapters": [
+      "54.5"
+    ]
+  },
+  "Invarianz": {
+    "pages": [
+      "175"
+    ],
+    "chapters": [
+      "26.4"
+    ]
+  },
+  "Ist-ein-Beziehung": {
+    "pages": [
+      "94"
+    ],
+    "chapters": [
+      "9"
+    ]
+  },
+  "Iteration": {
+    "pages": [
+      "63"
+    ],
+    "chapters": [
+      "4.6"
+    ]
+  },
+  "externe": {
+    "pages": [
+      "67"
+    ],
+    "chapters": [
+      "4.6.4"
+    ]
+  },
+  "interne": {
+    "pages": [
+      "67",
+      "241"
+    ],
+    "chapters": [
+      "4.6.4",
+      "46.2"
+    ]
+  },
+  "Iterator": {
+    "pages": [
+      "240"
+    ],
+    "chapters": [
+      "46"
+    ]
+  },
+  "Java Virtual Machine": {
+    "pages": [
+      "197"
+    ],
+    "chapters": [
+      "34"
+    ]
+  },
+  "JUnit": {
+    "pages": [
+      "115"
+    ],
+    "chapters": [
+      "12.1"
+    ]
+  },
+  "Kapselung": {
+    "pages": [
+      "33",
+      "36",
+      "52",
+      "313"
+    ],
+    "chapters": [
+      "2.4",
+      "3.2",
+      "4.3.3",
+      "58"
+    ]
+  },
+  "Kardinalit\u00e4t": {
+    "pages": [
+      "30"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  "abgeleitete": {
+    "pages": [
+      "109"
+    ],
+    "chapters": [
+      "11.1"
+    ]
+  },
+  "abstrakte": {
+    "pages": [
+      "101",
+      "104",
+      "106"
+    ],
+    "chapters": [
+      "10.1",
+      "10.3",
+      "11"
+    ]
+  },
+  "als Interface": {
+    "pages": [
+      "270",
+      "272"
+    ],
+    "chapters": [
+      "51.4",
+      "51.5.2"
+    ]
+  },
+  "in Eiffel": {
+    "pages": [
+      "277"
+    ],
+    "chapters": [
+      "52.3"
+    ]
+  },
+  "in Java": {
+    "pages": [
+      "205"
+    ],
+    "chapters": [
+      "36.3"
+    ]
+  },
+  "vs. Typ": {
+    "pages": [
+      "178"
+    ],
+    "chapters": [
+      "28"
+    ]
+  },
+  "Basis-": {
+    "pages": [
+      "109"
+    ],
+    "chapters": [
+      "11.1"
+    ]
+  },
+  "konkrete": {
+    "pages": [
+      "105"
+    ],
+    "chapters": [
+      "11"
+    ]
+  },
+  "-definition": {
+    "pages": [
+      "76"
+    ],
+    "chapters": [
+      "7.2"
+    ]
+  },
+  "-hierarchie": {
+    "pages": [
+      "172"
+    ],
+    "chapters": [
+      "26.2"
+    ]
+  },
+  "-methode": {
+    "pages": [
+      "83"
+    ],
+    "chapters": [
+      "8.1"
+    ]
+  },
+  "-typ": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "-variable": {
+    "pages": [
+      "182"
+    ],
+    "chapters": [
+      "29"
+    ]
+  },
+  "Klassenmethode": {
+    "pages": [
+      "84"
+    ],
+    "chapters": [
+      "8.1"
+    ]
+  },
+  "Klassenschnittstelle": {
+    "pages": [
+      "313"
+    ],
+    "chapters": [
+      "58"
+    ]
+  },
+  "Klassenvariable": {
+    "pages": [
+      "84"
+    ],
+    "chapters": [
+      "8.1"
+    ]
+  },
+  "Klassifikation": {
+    "pages": [
+      "75",
+      "79"
+    ],
+    "chapters": [
+      "7.1",
+      "7.3"
+    ]
+  },
+  "Klonen": {
+    "pages": [
+      "81"
+    ],
+    "chapters": [
+      "8"
+    ]
+  },
+  "Kommentar": {
+    "pages": [
+      "57"
+    ],
+    "chapters": [
+      "4.3.8"
+    ]
+  },
+  "Komponente": {
+    "pages": [
+      "318"
+    ],
+    "chapters": [
+      "60"
+    ]
+  },
+  "Komposition": {
+    "pages": [
+      "32",
+      "33",
+      "334"
+    ],
+    "chapters": [
+      "2.3",
+      "2.4",
+      "68"
+    ]
+  },
+  "konkrete Klasse": {
+    "pages": [
+      "105"
+    ],
+    "chapters": [
+      "11"
+    ]
+  },
+  "Konstante": {
+    "pages": [
+      "55"
+    ],
+    "chapters": [
+      "4.3.5"
+    ]
+  },
+  "konstante Methode": {
+    "pages": [
+      "55",
+      "204"
+    ],
+    "chapters": [
+      "4.3.5",
+      "36.2"
+    ]
+  },
+  "Konstruktor": {
+    "pages": [
+      "84",
+      "206"
+    ],
+    "chapters": [
+      "8.1",
+      "36.3"
+    ]
+  },
+  "Kontext eines Blocks": {
+    "pages": [
+      "58"
+    ],
+    "chapters": [
+      "4.4"
+    ]
+  },
+  "Kontravarianz": {
+    "pages": [
+      "175"
+    ],
+    "chapters": [
+      "26.4"
+    ]
+  },
+  "von Wildcard -Typen": {
+    "pages": [
+      "231"
+    ],
+    "chapters": [
+      "43.3"
+    ]
+  },
+  "Beeinflussung durch Return": {
+    "pages": [
+      "47"
+    ],
+    "chapters": [
+      "4.3.1"
+    ]
+  },
+  "Kontrollstruktur": {
+    "pages": [
+      "61"
+    ],
+    "chapters": [
+      "4.4.3"
+    ]
+  },
+  "primitive": {
+    "pages": [
+      "49"
+    ],
+    "chapters": [
+      "4.3.3"
+    ]
+  },
+  "flache": {
+    "pages": [
+      "129"
+    ],
+    "chapters": [
+      "14.2"
+    ]
+  },
+  "tiefe": {
+    "pages": [
+      "129"
+    ],
+    "chapters": [
+      "14.2"
+    ]
+  },
+  "kovariante Redefinition": {
+    "pages": [
+      "98"
+    ],
+    "chapters": [
+      "9.2"
+    ]
+  },
+  "Kovarianz": {
+    "pages": [
+      "175"
+    ],
+    "chapters": [
+      "26.4"
+    ]
+  },
+  "Lambda -Ausdruck": {
+    "pages": [
+      "60",
+      "211",
+      "241",
+      "266"
+    ],
+    "chapters": [
+      "4.4.2",
+      "38",
+      "46.2",
+      "50.5"
+    ]
+  },
+  "Laufzeittypfehler": {
+    "pages": [
+      "224"
+    ],
+    "chapters": [
+      "42"
+    ]
+  },
+  "Law of Demeter": {
+    "pages": [
+      "334"
+    ],
+    "chapters": [
+      "68"
+    ]
+  },
+  "Lazy initialization": {
+    "pages": [
+      "87"
+    ],
+    "chapters": [
+      "8.3"
+    ]
+  },
+  "Lebenszyklus": {
+    "pages": [
+      "26"
+    ],
+    "chapters": [
+      "1.10"
+    ]
+  },
+  "Liskov -Substitutionsprinz ip": {
+    "pages": [
+      "298"
+    ],
+    "chapters": [
+      "54.4"
+    ]
+  },
+  "Literal": {
+    "pages": [
+      "13",
+      "27",
+      "55",
+      "80"
+    ],
+    "chapters": [
+      "1.2",
+      "1.10",
+      "4.3.5",
+      "8"
+    ]
+  },
+  "Klassen": {
+    "pages": [
+      "200"
+    ],
+    "chapters": [
+      "35.2"
+    ]
+  },
+  "Literaloptimierung": {
+    "pages": [
+      "71"
+    ],
+    "chapters": [
+      "7"
+    ]
+  },
+  "Live programming": {
+    "pages": [
+      "6"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "Live-Programmierung": {
+    "pages": [
+      "4"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "logische Programmiersprache": {
+    "pages": [
+      "319"
+    ],
+    "chapters": [
+      "61"
+    ]
+  },
+  "lokale Variable": {
+    "pages": [
+      "21",
+      "28",
+      "45",
+      "152"
+    ],
+    "chapters": [
+      "1.6",
+      "2.1",
+      "4.3",
+      "20"
+    ]
+  },
+  "Lokalit\u00e4tsprinzip": {
+    "pages": [
+      "307",
+      "319"
+    ],
+    "chapters": [
+      "56",
+      "61"
+    ]
+  },
+  "l\u00f6schen von Methoden": {
+    "pages": [
+      "122"
+    ],
+    "chapters": [
+      "13.2"
+    ]
+  },
+  "Marker interface": {
+    "pages": [
+      "164"
+    ],
+    "chapters": [
+      "25"
+    ]
+  },
+  "Marker -Interface": {
+    "pages": [
+      "261"
+    ],
+    "chapters": [
+      "50.4.2"
+    ]
+  },
+  "Mehrfachhierarchie": {
+    "pages": [
+      "172"
+    ],
+    "chapters": [
+      "26.2"
+    ]
+  },
+  "Mehrfachvererbung": {
+    "pages": [
+      "270"
+    ],
+    "chapters": [
+      "51.4"
+    ]
+  },
+  "Member": {
+    "pages": [
+      "204",
+      "220"
+    ],
+    "chapters": [
+      "36.2",
+      "40.1"
+    ]
+  },
+  "Mereologie": {
+    "pages": [
+      "33"
+    ],
+    "chapters": [
+      "2.4"
+    ]
+  },
+  "Message dispatching": {
+    "pages": [
+      "119"
+    ],
+    "chapters": [
+      "13"
+    ]
+  },
+  "Message pattern": {
+    "pages": [
+      "45"
+    ],
+    "chapters": [
+      "4.3"
+    ]
+  },
+  "Metaklasse": {
+    "pages": [
+      "82",
+      "267"
+    ],
+    "chapters": [
+      "8.1",
+      "51.1"
+    ]
+  },
+  "Metaprogrammiersystem": {
+    "pages": [
+      "93"
+    ],
+    "chapters": [
+      "8.6"
+    ]
+  },
+  "metasyntaktische Variable": {
+    "pages": [
+      "38",
+      "46",
+      "203"
+    ],
+    "chapters": [
+      "4.1.3",
+      "4.3.1",
+      "36"
+    ]
+  },
+  "Method ambiguous error": {
+    "pages": [
+      "208"
+    ],
+    "chapters": [
+      "37"
+    ]
+  },
+  "Method dispatching": {
+    "pages": [
+      "119"
+    ],
+    "chapters": [
+      "13"
+    ]
+  },
+  "Methode": {
+    "pages": [
+      "45"
+    ],
+    "chapters": [
+      "4.3"
+    ]
+  },
+  "bin\u00e4re": {
+    "pages": [
+      "191"
+    ],
+    "chapters": [
+      "29.5"
+    ]
+  },
+  "konstante": {
+    "pages": [
+      "20"
+    ],
+    "chapters": [
+      "1.5.2"
+    ]
+  },
+  "Multi -": {
+    "pages": [
+      "217"
+    ],
+    "chapters": [
+      "39.2"
+    ]
+  },
+  "-aufruf": {
+    "pages": [
+      "22",
+      "42",
+      "47",
+      "48",
+      "45",
+      "76"
+    ],
+    "chapters": [
+      "1.7",
+      "4.1.4",
+      "4.3.1",
+      "4.3.1",
+      "4.3.1",
+      "7.2"
+    ]
+  },
+  "-kopf": {
+    "pages": [
+      "45"
+    ],
+    "chapters": [
+      "4.3"
+    ]
+  },
+  "-rumpf": {
+    "pages": [
+      "45",
+      "57",
+      "152"
+    ],
+    "chapters": [
+      "4.3",
+      "4.3.8",
+      "20"
+    ]
+  },
+  "-signatur": {
+    "pages": [
+      "45",
+      "57",
+      "109"
+    ],
+    "chapters": [
+      "4.3",
+      "4.3.8",
+      "11.1"
+    ]
+  },
+  "Methodendeklaration": {
+    "pages": [
+      "152"
+    ],
+    "chapters": [
+      "20"
+    ]
+  },
+  "Modul": {
+    "pages": [
+      "215"
+    ],
+    "chapters": [
+      "39"
+    ]
+  },
+  "Modularisierung": {
+    "pages": [
+      "2"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "hierarchische": {
+    "pages": [
+      "312"
+    ],
+    "chapters": [
+      "57"
+    ]
+  },
+  "von Programmen": {
+    "pages": [
+      "148"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "Monitor": {
+    "pages": [
+      "246"
+    ],
+    "chapters": [
+      "47.3"
+    ]
+  },
+  "Multi-dispatch": {
+    "pages": [
+      "119",
+      "209"
+    ],
+    "chapters": [
+      "13",
+      "37"
+    ]
+  },
+  "Multi -Methoden": {
+    "pages": [
+      "217"
+    ],
+    "chapters": [
+      "39.2"
+    ]
+  },
+  "Multiplizit\u00e4t": {
+    "pages": [
+      "30"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  "Nachricht": {
+    "pages": [
+      "37"
+    ],
+    "chapters": [
+      "4.1"
+    ]
+  },
+  "Nachrichtenausdruck": {
+    "pages": [
+      "37"
+    ],
+    "chapters": [
+      "4.1"
+    ]
+  },
+  "Nachrichtenkategorie": {
+    "pages": [
+      "58"
+    ],
+    "chapters": [
+      "4.4"
+    ]
+  },
+  "Nachrichtenselektor": {
+    "pages": [
+      "39",
+      "46"
+    ],
+    "chapters": [
+      "4.1.3",
+      "4.3.1"
+    ]
+  },
+  "Nachrichtenversand": {
+    "pages": [
+      "37"
+    ],
+    "chapters": [
+      "4.1"
+    ]
+  },
+  "Name": {
+    "pages": [
+      "17",
+      "18"
+    ],
+    "chapters": [
+      "1.5",
+      "1.5"
+    ]
+  },
+  "Namens\u00e4quivalenz": {
+    "pages": [
+      "159"
+    ],
+    "chapters": [
+      "22.1"
+    ]
+  },
+  "Navigation": {
+    "pages": [
+      "320"
+    ],
+    "chapters": [
+      "61"
+    ]
+  },
+  "Nebeneffekt": {
+    "pages": [
+      "41"
+    ],
+    "chapters": [
+      "4.1.3"
+    ]
+  },
+  "Nebenwirkung": {
+    "pages": [
+      "41"
+    ],
+    "chapters": [
+      "4.1.3"
+    ]
+  },
+  "Netzwerkmo dell": {
+    "pages": [
+      "27"
+    ],
+    "chapters": [
+      "1.10"
+    ]
+  },
+  "nichtfunktionale Anforderung": {
+    "pages": [
+      "293"
+    ],
+    "chapters": [
+      "54.2"
+    ]
+  },
+  "nominale Typkonformit\u00e4t": {
+    "pages": [],
+    "chapters": []
+  },
+  "nominale Typkonformit\u00e4tsdeklaration": {
+    "pages": [
+      "221"
+    ],
+    "chapters": [
+      "40.2"
+    ]
+  },
+  "Novarianz": {
+    "pages": [
+      "175"
+    ],
+    "chapters": [
+      "26.4"
+    ]
+  },
+  "von Java": {
+    "pages": [
+      "202"
+    ],
+    "chapters": [
+      "35.5"
+    ]
+  },
+  "Null pointer exception": {
+    "pages": [
+      "150"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "Nur-Lesen": {
+    "pages": [
+      "54"
+    ],
+    "chapters": [
+      "4.3.5"
+    ]
+  },
+  "Nur-Schreiben": {
+    "pages": [
+      "54"
+    ],
+    "chapters": [
+      "4.3.5"
+    ]
+  },
+  "atomares": {
+    "pages": [
+      "13"
+    ],
+    "chapters": [
+      "1.2"
+    ]
+  },
+  "strukturiertes": {
+    "pages": [
+      "28"
+    ],
+    "chapters": [
+      "2.1"
+    ]
+  },
+  "wachsendes": {
+    "pages": [
+      "131"
+    ],
+    "chapters": [
+      "14.3"
+    ]
+  },
+  "zusammengesetztes": {
+    "pages": [
+      "14"
+    ],
+    "chapters": [
+      "1.3"
+    ]
+  },
+  "Objektgeflecht": {
+    "pages": [
+      "27"
+    ],
+    "chapters": [
+      "1.10"
+    ]
+  },
+  "klassenbasierte Form": {
+    "pages": [
+      "73"
+    ],
+    "chapters": [
+      "7"
+    ]
+  },
+  "prototypenbasierte Form": {
+    "pages": [
+      "73"
+    ],
+    "chapters": [
+      "7"
+    ]
+  },
+  "offene Rekursion": {
+    "pages": [
+      "107",
+      "116",
+      "271",
+      "303"
+    ],
+    "chapters": [
+      "11",
+      "12.1",
+      "51.5",
+      "56"
+    ]
+  },
+  "Open Services Gateway Initiative": {
+    "pages": [
+      "219"
+    ],
+    "chapters": [
+      "40"
+    ]
+  },
+  "operationale Semantik": {
+    "pages": [
+      "155"
+    ],
+    "chapters": [
+      "20.2"
+    ]
+  },
+  "OSGi": {
+    "pages": [
+      "219"
+    ],
+    "chapters": [
+      "40"
+    ]
+  },
+  "Outer this": {
+    "pages": [
+      "204"
+    ],
+    "chapters": [
+      "36.2"
+    ]
+  },
+  "package local": {
+    "pages": [
+      "239"
+    ],
+    "chapters": [
+      "46"
+    ]
+  },
+  "paral lele Ausf\u00fchrung": {
+    "pages": [
+      "62"
+    ],
+    "chapters": [
+      "4.5"
+    ]
+  },
+  "parametrische Typdefinition": {
+    "pages": [
+      "182"
+    ],
+    "chapters": [
+      "29"
+    ]
+  },
+  "parametrischer Polymorphismus  s. Polymorphismus": {
+    "pages": [],
+    "chapters": []
+  },
+  "Parent class": {
+    "pages": [
+      "109"
+    ],
+    "chapters": [
+      "11.1"
+    ]
+  },
+  "passives Objekt": {
+    "pages": [
+      "136"
+    ],
+    "chapters": [
+      "16"
+    ]
+  },
+  "Pattern": {
+    "pages": [
+      "260"
+    ],
+    "chapters": [
+      "50.4"
+    ]
+  },
+  "Persistenzlayer": {
+    "pages": [
+      "320"
+    ],
+    "chapters": [
+      "61"
+    ]
+  },
+  "Pipelining": {
+    "pages": [
+      "242"
+    ],
+    "chapters": [
+      "47"
+    ]
+  },
+  "Platzhalter": {
+    "pages": [
+      "19"
+    ],
+    "chapters": [
+      "1.5.1"
+    ]
+  },
+  "Pointer": {
+    "pages": [
+      "19"
+    ],
+    "chapters": [
+      "1.5.1"
+    ]
+  },
+  "Pointervariable": {
+    "pages": [
+      "19",
+      "25"
+    ],
+    "chapters": [
+      "1.5.1",
+      "1.9"
+    ]
+  },
+  "Polymorphie": {
+    "pages": [
+      "49",
+      "176"
+    ],
+    "chapters": [
+      "4.3.3",
+      "26.4"
+    ]
+  },
+  "Inklusions -": {
+    "pages": [],
+    "chapters": []
+  },
+  "vs. Polymorphismus": {
+    "pages": [
+      "49"
+    ],
+    "chapters": [
+      "4.3.3"
+    ]
+  },
+  "Polymorphismus": {
+    "pages": [
+      "49"
+    ],
+    "chapters": [
+      "4.3.3"
+    ]
+  },
+  "parametrischer": {
+    "pages": [
+      "177",
+      "182"
+    ],
+    "chapters": [
+      "27",
+      "29"
+    ]
+  },
+  "vs. Polymorphie": {
+    "pages": [
+      "49"
+    ],
+    "chapters": [
+      "4.3.3"
+    ]
+  },
+  "primitive Methode": {
+    "pages": [
+      "80",
+      "85"
+    ],
+    "chapters": [
+      "8",
+      "8.2"
+    ]
+  },
+  "primitiver Typ": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Programmierstil": {
+    "pages": [
+      "329"
+    ],
+    "chapters": [
+      "63"
+    ]
+  },
+  "Property": {
+    "pages": [
+      "257"
+    ],
+    "chapters": [
+      "50.3"
+    ]
+  },
+  "Protokoll": {
+    "pages": [
+      "48",
+      "55",
+      "57",
+      "127",
+      "153",
+      "178"
+    ],
+    "chapters": [
+      "4.3.1",
+      "4.3.5",
+      "4.3.8",
+      "13.3",
+      "20",
+      "28"
+    ]
+  },
+  "Protokollbeschr eibung": {
+    "pages": [
+      "57"
+    ],
+    "chapters": [
+      "4.3.8"
+    ]
+  },
+  "Prototyp": {
+    "pages": [
+      "76"
+    ],
+    "chapters": [
+      "7.2"
+    ]
+  },
+  "Pseudo -Typvariable Self": {
+    "pages": [
+      "153",
+      "191",
+      "193"
+    ],
+    "chapters": [
+      "20",
+      "29.5",
+      "30"
+    ]
+  },
+  "Pseudovariable": {
+    "pages": [
+      "14",
+      "23",
+      "45",
+      "48",
+      "70",
+      "77"
+    ],
+    "chapters": [
+      "1.3",
+      "1.7",
+      "4.3",
+      "4.3.1",
+      "5",
+      "7.3"
+    ]
+  },
+  "self und super im Home context": {
+    "pages": [
+      "59"
+    ],
+    "chapters": [
+      "4.4.1"
+    ]
+  },
+  "qualifizierter Export": {
+    "pages": [
+      "270",
+      "277"
+    ],
+    "chapters": [
+      "51.4",
+      "52.3"
+    ]
+  },
+  "Raw type": {
+    "pages": [
+      "236"
+    ],
+    "chapters": [
+      "44.1"
+    ]
+  },
+  "Redefinition": {
+    "pages": [
+      "167",
+      "170",
+      "277"
+    ],
+    "chapters": [
+      "26",
+      "26.1",
+      "52.3"
+    ]
+  },
+  "Redundanz": {
+    "pages": [
+      "148",
+      "149"
+    ],
+    "chapters": [
+      "19",
+      "19"
+    ]
+  },
+  "Refactoring": {
+    "pages": [
+      "304"
+    ],
+    "chapters": [
+      "56"
+    ]
+  },
+  "Referenz": {
+    "pages": [
+      "19"
+    ],
+    "chapters": [
+      "1.5.1"
+    ]
+  },
+  "Referenzsemantik": {
+    "pages": [
+      "19",
+      "27",
+      "201",
+      "223",
+      "268"
+    ],
+    "chapters": [
+      "1.5.1",
+      "1.10",
+      "35.4",
+      "42",
+      "51.3"
+    ]
+  },
+  "Reflection": {
+    "pages": [
+      "247",
+      "264"
+    ],
+    "chapters": [
+      "47.4",
+      "50.4.3"
+    ]
+  },
+  "reflektiver Zugriff": {
+    "pages": [
+      "219"
+    ],
+    "chapters": [
+      "40"
+    ]
+  },
+  "relationales Datenmodell": {
+    "pages": [
+      "27",
+      "315"
+    ],
+    "chapters": [
+      "1.10",
+      "59"
+    ]
+  },
+  "Repr\u00e4sentationsunabh\u00e4ngigkeit": {
+    "pages": [
+      "276"
+    ],
+    "chapters": [
+      "52.2"
+    ]
+  },
+  "Return -Anweisung": {
+    "pages": [
+      "44",
+      "47"
+    ],
+    "chapters": [
+      "4.2",
+      "4.3.1"
+    ]
+  },
+  "bei Continuation": {
+    "pages": [
+      "60"
+    ],
+    "chapters": [
+      "4.4.2"
+    ]
+  },
+  "Rolle": {
+    "pages": [
+      "301",
+      "329"
+    ],
+    "chapters": [
+      "54.5",
+      "63"
+    ]
+  },
+  "Routine": {
+    "pages": [
+      "276"
+    ],
+    "chapters": [
+      "52.2"
+    ]
+  },
+  "Runtime type information": {
+    "pages": [
+      "273"
+    ],
+    "chapters": [
+      "51.5.2"
+    ]
+  },
+  "Schl\u00fcssel": {
+    "pages": [
+      "123",
+      "320"
+    ],
+    "chapters": [
+      "13.2",
+      "61"
+    ]
+  },
+  "Schl\u00fcsselwort": {
+    "pages": [
+      "13",
+      "63",
+      "70"
+    ],
+    "chapters": [
+      "1.2",
+      "4.6",
+      "5"
+    ]
+  },
+  "Schl\u00fcsselwortnachricht": {
+    "pages": [
+      "39",
+      "70"
+    ],
+    "chapters": [
+      "4.1.3",
+      "5"
+    ]
+  },
+  "Schnittstelle": {
+    "pages": [
+      "148",
+      "180"
+    ],
+    "chapters": [
+      "19",
+      "28.1"
+    ]
+  },
+  "eines Moduls": {
+    "pages": [
+      "215"
+    ],
+    "chapters": [
+      "39"
+    ]
+  },
+  "Schnittstellenspezifikation eines Moduls": {
+    "pages": [
+      "216"
+    ],
+    "chapters": [
+      "39.2"
+    ]
+  },
+  "Seiteneffekt": {
+    "pages": [
+      "41",
+      "42",
+      "55",
+      "214",
+      "332"
+    ],
+    "chapters": [
+      "4.1.3",
+      "4.1.4",
+      "4.3.5",
+      "39",
+      "66"
+    ]
+  },
+  "self": {
+    "pages": [
+      "48"
+    ],
+    "chapters": [
+      "4.3.1"
+    ]
+  },
+  "semantis cher Fehler": {
+    "pages": [
+      "149",
+      "160"
+    ],
+    "chapters": [
+      "19",
+      "22.2"
+    ]
+  },
+  "Separation of concerns": {
+    "pages": [
+      "313"
+    ],
+    "chapters": [
+      "58"
+    ]
+  },
+  "Setter": {
+    "pages": [
+      "53",
+      "222",
+      "257",
+      "276"
+    ],
+    "chapters": [
+      "4.3.5",
+      "41",
+      "50.3",
+      "52.2"
+    ]
+  },
+  "Sichtbarkeit": {
+    "pages": [
+      "20",
+      "216"
+    ],
+    "chapters": [
+      "1.5.2",
+      "39.2"
+    ]
+  },
+  "Sichtbarkeitsregeln": {
+    "pages": [
+      "21"
+    ],
+    "chapters": [
+      "1.6"
+    ]
+  },
+  "von Variablen": {
+    "pages": [
+      "20"
+    ],
+    "chapters": [
+      "1.5.2"
+    ]
+  },
+  "Signatur": {
+    "pages": [
+      "152"
+    ],
+    "chapters": [
+      "20"
+    ]
+  },
+  "Softwarekrise": {
+    "pages": [
+      "2"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "Speicherbereinigung": {
+    "pages": [
+      "42"
+    ],
+    "chapters": [
+      "4.1.4"
+    ]
+  },
+  "Spezialisierung": {
+    "pages": [
+      "99",
+      "171",
+      "334"
+    ],
+    "chapters": [
+      "9.2",
+      "26.1",
+      "68"
+    ]
+  },
+  "Statik und Dyna mik": {
+    "pages": [],
+    "chapters": []
+  },
+  "Unterscheidung zwischen": {
+    "pages": [
+      "11"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "statischen Typpr\u00fcfung": {
+    "pages": [
+      "224"
+    ],
+    "chapters": [
+      "42"
+    ]
+  },
+  "statisches Binden": {
+    "pages": [
+      "49"
+    ],
+    "chapters": [
+      "4.3.3"
+    ]
+  },
+  "Streams": {
+    "pages": [
+      "241"
+    ],
+    "chapters": [
+      "46.2"
+    ]
+  },
+  "String -Konkatenation": {
+    "pages": [
+      "25"
+    ],
+    "chapters": [
+      "1.9"
+    ]
+  },
+  "Strings": {
+    "pages": [
+      "14"
+    ],
+    "chapters": [
+      "1.3"
+    ]
+  },
+  "Struktur": {
+    "pages": [
+      "11"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "von Objekten": {
+    "pages": [
+      "28"
+    ],
+    "chapters": [
+      "2.1"
+    ]
+  },
+  "Struktur\u00e4quivalenz": {
+    "pages": [
+      "159"
+    ],
+    "chapters": [
+      "22.1"
+    ]
+  },
+  "strukturierte Programmierung": {
+    "pages": [
+      "63",
+      "309"
+    ],
+    "chapters": [
+      "4.6",
+      "57"
+    ]
+  },
+  "Subklasse": {
+    "pages": [
+      "91",
+      "108"
+    ],
+    "chapters": [
+      "8.5",
+      "11"
+    ]
+  },
+  "Subklassenbeziehung": {
+    "pages": [
+      "108",
+      "205"
+    ],
+    "chapters": [
+      "11",
+      "36.3"
+    ]
+  },
+  "Substituierbarkeit": {
+    "pages": [
+      "281",
+      "292"
+    ],
+    "chapters": [
+      "52.5.2",
+      "54.1"
+    ]
+  },
+  "Subtyp": {
+    "pages": [
+      "171"
+    ],
+    "chapters": [
+      "26.1"
+    ]
+  },
+  "Subtypenbeziehung": {
+    "pages": [
+      "171"
+    ],
+    "chapters": [
+      "26.1"
+    ]
+  },
+  "Subtypenhierarchie": {
+    "pages": [
+      "172"
+    ],
+    "chapters": [
+      "26.2"
+    ]
+  },
+  "Subtyping": {
+    "pages": [
+      "2",
+      "172",
+      "291"
+    ],
+    "chapters": [
+      "1",
+      "26.2",
+      "54"
+    ]
+  },
+  "verhaltensbezogenes": {
+    "pages": [
+      "298"
+    ],
+    "chapters": [
+      "54.4"
+    ]
+  },
+  "Subtyppolymorphie": {
+    "pages": [
+      "177"
+    ],
+    "chapters": [
+      "27"
+    ]
+  },
+  "Superklasse": {
+    "pages": [
+      "108"
+    ],
+    "chapters": [
+      "11"
+    ]
+  },
+  "Supertyp": {
+    "pages": [
+      "171"
+    ],
+    "chapters": [
+      "26.1"
+    ]
+  },
+  "Symbol": {
+    "pages": [
+      "14"
+    ],
+    "chapters": [
+      "1.3"
+    ]
+  },
+  "Tagging interface": {
+    "pages": [
+      "164"
+    ],
+    "chapters": [
+      "25"
+    ]
+  },
+  "tats\u00e4chlicher Parameter": {
+    "pages": [
+      "45",
+      "50"
+    ],
+    "chapters": [
+      "4.3",
+      "4.3.3"
+    ]
+  },
+  "tats\u00e4chlicher Typparameter": {
+    "pages": [
+      "183"
+    ],
+    "chapters": [
+      "29.1"
+    ]
+  },
+  "Teil-Ganzes -Beziehung": {
+    "pages": [
+      "32",
+      "316"
+    ],
+    "chapters": [
+      "2.3",
+      "59"
+    ]
+  },
+  "Template": {
+    "pages": [
+      "272"
+    ],
+    "chapters": [
+      "51.5.2"
+    ]
+  },
+  "tempor\u00e4re Variable": {
+    "pages": [
+      "41",
+      "45"
+    ],
+    "chapters": [
+      "4.1.3",
+      "4.3"
+    ]
+  },
+  "Test": {
+    "pages": [
+      "148"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "Trennung der Belange": {
+    "pages": [
+      "313"
+    ],
+    "chapters": [
+      "58"
+    ]
+  },
+  "Tupel": {
+    "pages": [
+      "289"
+    ],
+    "chapters": [
+      "52.7"
+    ]
+  },
+  "Typ": {
+    "pages": [
+      "146"
+    ],
+    "chapters": [
+      "18"
+    ]
+  },
+  "-annotation": {
+    "pages": [
+      "148",
+      "149",
+      "167"
+    ],
+    "chapters": [
+      "19",
+      "19",
+      "26"
+    ]
+  },
+  "als Ausdruck einer Invariante": {
+    "pages": [
+      "169"
+    ],
+    "chapters": [
+      "26"
+    ]
+  },
+  "fehlerhafte": {
+    "pages": [
+      "151"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "in Strongtalk": {
+    "pages": [
+      "154"
+    ],
+    "chapters": [
+      "20.1"
+    ]
+  },
+  "Weglassen von": {
+    "pages": [],
+    "chapters": []
+  },
+  "-\u00e4quivalenz": {
+    "pages": [
+      "159"
+    ],
+    "chapters": [
+      "22.1"
+    ]
+  },
+  "nominale": {
+    "pages": [
+      "163"
+    ],
+    "chapters": [
+      "24"
+    ]
+  },
+  "strukturelle": {
+    "pages": [
+      "163"
+    ],
+    "chapters": [
+      "24"
+    ]
+  },
+  "-erweiterung": {
+    "pages": [
+      "162",
+      "205"
+    ],
+    "chapters": [
+      "23",
+      "36.3"
+    ]
+  },
+  "-expansion": {
+    "pages": [
+      "264",
+      "272"
+    ],
+    "chapters": [
+      "50.4.3",
+      "51.5.2"
+    ]
+  },
+  "-fehler": {
+    "pages": [
+      "148",
+      "160"
+    ],
+    "chapters": [
+      "19",
+      "22.2"
+    ]
+  },
+  "-inferenz": {
+    "pages": [
+      "147",
+      "234",
+      "264",
+      "326"
+    ],
+    "chapters": [
+      "19",
+      "43.5",
+      "50.4.3",
+      "62.1"
+    ]
+  },
+  "-invariante": {
+    "pages": [
+      "157"
+    ],
+    "chapters": [
+      "21"
+    ]
+  },
+  "-konformit\u00e4t": {
+    "pages": [
+      "292"
+    ],
+    "chapters": [
+      "54.1"
+    ]
+  },
+  "des Subtypen mit dem Supertypen": {
+    "pages": [
+      "175"
+    ],
+    "chapters": [
+      "26.4"
+    ]
+  },
+  "-konstruktor": {
+    "pages": [
+      "154"
+    ],
+    "chapters": [
+      "20.1"
+    ]
+  },
+  "-korrektheit": {
+    "pages": [
+      "149"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "dynamische": {
+    "pages": [
+      "150"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "-regel": {
+    "pages": [
+      "146"
+    ],
+    "chapters": [
+      "18"
+    ]
+  },
+  "die von Ausdr\u00fccken einzuhalten sind": {
+    "pages": [
+      "157"
+    ],
+    "chapters": [
+      "21"
+    ]
+  },
+  "zur Zuordnung eines Typs zu Ausdr\u00fccken": {
+    "pages": [],
+    "chapters": []
+  },
+  "": {
+    "pages": [
+      "157"
+    ],
+    "chapters": [
+      "21"
+    ]
+  },
+  "-system": {
+    "pages": [
+      "146",
+      "157"
+    ],
+    "chapters": [
+      "18",
+      "21"
+    ]
+  },
+  "optionales": {
+    "pages": [
+      "145",
+      "116",
+      "178",
+      "227",
+      "235",
+      "236",
+      "273"
+    ],
+    "chapters": [
+      "18",
+      "18",
+      "28",
+      "43.2",
+      "43.6",
+      "44.1",
+      "51.5.2"
+    ]
+  },
+  "Type branding": {
+    "pages": [
+      "160",
+      "161",
+      "165"
+    ],
+    "chapters": [
+      "22.2",
+      "22.2",
+      "25"
+    ]
+  },
+  "Type cast": {
+    "pages": [
+      "273"
+    ],
+    "chapters": [
+      "51.5.2"
+    ]
+  },
+  "Type erasure": {
+    "pages": [
+      "236",
+      "264"
+    ],
+    "chapters": [
+      "44.1",
+      "50.4.3"
+    ]
+  },
+  "Typerweiterung": {
+    "pages": [
+      "261",
+      "281"
+    ],
+    "chapters": [
+      "50.4.2",
+      "52.5.2"
+    ]
+  },
+  "Typinferenz": {
+    "pages": [
+      "149"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "Typinvariante": {
+    "pages": [
+      "148"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "Typisierung": {
+    "pages": [
+      "156"
+    ],
+    "chapters": [
+      "20.2"
+    ]
+  },
+  "typkonform": {
+    "pages": [
+      "163"
+    ],
+    "chapters": [
+      "24"
+    ]
+  },
+  "Typkonformit\u00e4t": {
+    "pages": [
+      "281"
+    ],
+    "chapters": [
+      "52.5.2"
+    ]
+  },
+  "\u00fcberladen": {
+    "pages": [
+      "119",
+      "207",
+      "328"
+    ],
+    "chapters": [
+      "13",
+      "36.4",
+      "63"
+    ]
+  },
+  "\u00fcberschr eiben": {
+    "pages": [
+      "102",
+      "121",
+      "167"
+    ],
+    "chapters": [
+      "10.2",
+      "13.2",
+      "26"
+    ]
+  },
+  "mit Aufruf von super": {
+    "pages": [
+      "117"
+    ],
+    "chapters": [
+      "12.2"
+    ]
+  },
+  "UML": {
+    "pages": [
+      "30",
+      "80"
+    ],
+    "chapters": [
+      "2.2",
+      "8"
+    ]
+  },
+  "un\u00e4re Nachricht": {
+    "pages": [
+      "39"
+    ],
+    "chapters": [
+      "4.1.3"
+    ]
+  },
+  "ungarische Notation": {
+    "pages": [
+      "263",
+      "327"
+    ],
+    "chapters": [
+      "50.4.3",
+      "62.2.1"
+    ]
+  },
+  "Unified Modeling Language": {
+    "pages": [],
+    "chapters": []
+  },
+  "Universalienstreit": {
+    "pages": [
+      "75",
+      "104"
+    ],
+    "chapters": [
+      "7.1",
+      "10.3"
+    ]
+  },
+  "unsicher (unsafe)": {
+    "pages": [
+      "254"
+    ],
+    "chapters": [
+      "50.1"
+    ]
+  },
+  "unver\u00e4nderliches Objekt": {
+    "pages": [
+      "34"
+    ],
+    "chapters": [
+      "3"
+    ]
+  },
+  "Up cast": {
+    "pages": [
+      "178",
+      "236"
+    ],
+    "chapters": [
+      "28",
+      "44.1"
+    ]
+  },
+  "Use-site variance": {
+    "pages": [
+      "228"
+    ],
+    "chapters": [
+      "43.2"
+    ]
+  },
+  "Variable": {
+    "pages": [
+      "2",
+      "14",
+      "17",
+      "18",
+      "27"
+    ],
+    "chapters": [
+      "1",
+      "1.3",
+      "1.5",
+      "1.5",
+      "1.10"
+    ]
+  },
+  "metasyntaktische": {
+    "pages": [
+      "38"
+    ],
+    "chapters": [
+      "4.1.3"
+    ]
+  },
+  "Variablendeklaration": {
+    "pages": [
+      "149"
+    ],
+    "chapters": [
+      "19"
+    ]
+  },
+  "ver\u00e4nderliches Objekt": {
+    "pages": [
+      "34"
+    ],
+    "chapters": [
+      "3"
+    ]
+  },
+  "verankerter Typ": {
+    "pages": [
+      "283"
+    ],
+    "chapters": [
+      "52.5.3"
+    ]
+  },
+  "Vererbung": {
+    "pages": [
+      "2",
+      "101",
+      "261",
+      "281"
+    ],
+    "chapters": [
+      "1",
+      "10.1",
+      "50.4.2",
+      "52.5.2"
+    ]
+  },
+  "bei Typerweiterung": {
+    "pages": [
+      "162"
+    ],
+    "chapters": [
+      "23"
+    ]
+  },
+  "Vererbungsabh\u00e4ngigkeit": {
+    "pages": [
+      "217"
+    ],
+    "chapters": [
+      "39.2"
+    ]
+  },
+  "Vererbungsinterface": {
+    "pages": [
+      "306"
+    ],
+    "chapters": [
+      "56"
+    ]
+  },
+  "Vererbungsschnittstell e": {
+    "pages": [
+      "103"
+    ],
+    "chapters": [
+      "10.2"
+    ]
+  },
+  "Verhalten": {
+    "pages": [
+      "11",
+      "75"
+    ],
+    "chapters": [
+      "1",
+      "7.1"
+    ]
+  },
+  "verhaltensbasiertes Subtyping": {
+    "pages": [
+      "297"
+    ],
+    "chapters": [
+      "54.4"
+    ]
+  },
+  "Verweis": {
+    "pages": [
+      "19",
+      "27"
+    ],
+    "chapters": [
+      "1.5.1",
+      "1.10"
+    ]
+  },
+  "Verweissemantik": {
+    "pages": [
+      "19"
+    ],
+    "chapters": [
+      "1.5.1"
+    ]
+  },
+  "Verwendung eines Programmelements": {
+    "pages": [
+      "152"
+    ],
+    "chapters": [
+      "20"
+    ]
+  },
+  "Virtual function table": {
+    "pages": [
+      "272"
+    ],
+    "chapters": [
+      "51.5.2"
+    ]
+  },
+  "Wert": {
+    "pages": [
+      "12",
+      "123"
+    ],
+    "chapters": [
+      "1.1",
+      "13.2"
+    ]
+  },
+  "Werten": {
+    "pages": [
+      "12"
+    ],
+    "chapters": [
+      "1.1"
+    ]
+  },
+  "Wertsemantik": {
+    "pages": [
+      "19",
+      "168",
+      "201",
+      "268"
+    ],
+    "chapters": [
+      "1.5.1",
+      "26",
+      "35.4",
+      "51.3"
+    ]
+  },
+  "Wertzuweisung": {
+    "pages": [
+      "2",
+      "21"
+    ],
+    "chapters": [
+      "1",
+      "1.6"
+    ]
+  },
+  "Wiederverwendung": {
+    "pages": [
+      "2"
+    ],
+    "chapters": [
+      "1"
+    ]
+  },
+  "Wildcard -Typ": {
+    "pages": [
+      "229"
+    ],
+    "chapters": [
+      "43.3"
+    ]
+  },
+  "Wrapper -Typ": {
+    "pages": [
+      "199"
+    ],
+    "chapters": [
+      "35"
+    ]
+  },
+  "Zeichenkette": {
+    "pages": [
+      "14"
+    ],
+    "chapters": [
+      "1.3"
+    ]
+  },
+  "Zu-eins-Beziehung": {
+    "pages": [
+      "30"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  "Zugreifbarkeitsregel": {
+    "pages": [
+      "335"
+    ],
+    "chapters": [
+      "68.2"
+    ]
+  },
+  "Zugriffsmethode": {
+    "pages": [
+      "53",
+      "220"
+    ],
+    "chapters": [
+      "4.3.5",
+      "40.1"
+    ]
+  },
+  "automatische Einrichtung von": {
+    "pages": [
+      "93"
+    ],
+    "chapters": [
+      "8.6"
+    ]
+  },
+  "Zugriffsmodifikator": {
+    "pages": [
+      "180",
+      "216"
+    ],
+    "chapters": [
+      "28.1",
+      "39.2"
+    ]
+  },
+  "von Methodenaufrufen": {
+    "pages": [
+      "158"
+    ],
+    "chapters": [
+      "22"
+    ]
+  },
+  "von Zuweisungen": {
+    "pages": [
+      "158",
+      "149"
+    ],
+    "chapters": [
+      "22",
+      "22"
+    ]
+  },
+  "Zu-n-Beziehung": {
+    "pages": [
+      "30"
+    ],
+    "chapters": [
+      "2.2"
+    ]
+  },
+  "zusammengesetztes Objekt": {
+    "pages": [
+      "129"
+    ],
+    "chapters": [
+      "14.2"
+    ]
+  },
+  "Zustand": {
+    "pages": [
+      "2",
+      "16",
+      "34",
+      "52"
+    ],
+    "chapters": [
+      "1",
+      "1.4",
+      "3",
+      "4.3.3"
+    ]
+  },
+  "Zuweisung": {
+    "pages": [
+      "21"
+    ],
+    "chapters": [
+      "1.6"
+    ]
+  },
+  "linke und rechte Seite": {
+    "pages": [
+      "22"
+    ],
+    "chapters": [
+      "1.7"
+    ]
+  },
+  "unzul\u00e4ssige": {
+    "pages": [
+      "22"
+    ],
+    "chapters": [
+      "1.7"
+    ]
+  },
+  "Zuweisungskompatib ilit\u00e4t": {
+    "pages": [
+      "157",
+      "158",
+      "163",
+      "205"
+    ],
+    "chapters": [
+      "21",
+      "22",
+      "24",
+      "36.3"
+    ]
+  },
+  "281, 291": {
+    "pages": [],
+    "chapters": []
+  },
+  "bei parametrisierten Subtypen": {
+    "pages": [
+      "186"
+    ],
+    "chapters": [
+      "29.3"
+    ]
+  },
+  "unter parametrischem Polymorphismus": {
+    "pages": [
+      "182"
+    ],
+    "chapters": [
+      "29"
+    ]
+  },
+  "Zuweisungsoperator": {
+    "pages": [
+      "21",
+      "23",
+      "41"
+    ],
+    "chapters": [
+      "1.6",
+      "1.7",
+      "4.1.3"
+    ]
+  },
+  "Zuweisungsversuch": {
+    "pages": [
+      "286"
+    ],
+    "chapters": [
+      "52.5.3"
+    ]
+  },
+  "Zwischenobjekt": {
+    "pages": [
+      "31",
+      "68",
+      "79",
+      "240"
+    ],
+    "chapters": [
+      "2.3",
+      "5",
+      "7.3",
+      "46"
+    ]
+  }
+}
