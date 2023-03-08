@@ -1,6 +1,7 @@
 import Header from "./Header";
-import ReactForceGraph from "./ReactForceGraph";
-import PrunedGraph from "./PrunedGraph";
+import ReactForceGraph2D from "./ReactForceGraph2D";
+import ReactForceGraph3D from "./ReactForceGraph3D";
+import PrunedGraph2D from "./PrunedGraph2D";
 import PrunedGraph3D from "./PrunedGraph3D";
 import D3 from "./D3";
 import TestGround from "./TestGround";
@@ -12,13 +13,17 @@ const App = () => {
             <Header />
             <Routes>
                 <Route
-                    path="/react-force-graph"
-                    element={<ReactForceGraph />}
+                    path="/react-force-graph2D"
+                    element={<ReactForceGraph2D />}
                 ></Route>
-                <Route path="/prunedgraph" element={<PrunedGraph />}></Route>
+                <Route path="/prunedgraph2D" element={<PrunedGraph2D />}></Route>
                 <Route
                     path="/prunedgraph3D"
                     element={<PrunedGraph3D />}
+                ></Route>
+                <Route
+                    path="/react-force-graph3D"
+                    element={<ReactForceGraph3D />}
                 ></Route>
                 <Route path="/D3" element={<D3 />}></Route>
                 <Route path="/testground" element={<TestGround />}></Route>

@@ -1,26 +1,30 @@
 export const menuItems = [
     {
         title: "Home",
-        url: "/",
+        url: "/#/",
     },
     {
-        title: "react force graph",
-        url: "/react-force-graph",
+        title: "2D - Full",
+        url: "/#/react-force-graph2D",
     },
     {
-        title: "pruned graph",
-        url: "/prunedgraph",
+        title: "2D - Pruned",
+        url: "/#/prunedgraph2D",
     },
     {
-        title: "pruned graph 3D",
-        url: "/prunedgraph3D",
+        title: "3D - Full",
+        url: "/#/react-force-graph3D",
     },
     {
-        title: "D3.js",
-        url: "/D3",
+        title: "3D - Pruned",
+        url: "/#/prunedgraph3D",
     },
-    {
-        title: "TestGround.js",
-        url: "/testground",
-    },
+    // {
+    //     title: "D3.js",
+    //     url: "/D3",
+    // },
+    // {
+    //     title: "TestGround.js",
+    //     url: "/testground",
+    // },
 ];

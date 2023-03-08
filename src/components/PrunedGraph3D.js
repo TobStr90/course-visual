@@ -19,6 +19,9 @@ function PrunedGraph3D() {
             node.childLinks = [];
         });
         graphData.links.forEach((link) => {
+            if (!nodesById[link.source]){
+                window.location.reload();
+            }
             nodesById[link.source].childLinks.push(link);
             nodesById[link.target].childLinks.push(link);
         });

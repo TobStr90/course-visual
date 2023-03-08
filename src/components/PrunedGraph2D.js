@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import * as d3 from "d3-force";
 import React from "react";
 
-function PrunedGraph() {
+function PrunedGraph2D() {
     const graphData = require("../assets/graph.json");
 
     const rootId = "Objektorientierte Programmierung";
@@ -18,6 +18,9 @@ function PrunedGraph() {
             node.childLinks = [];
         });
         graphData.links.forEach((link) => {
+            if (!nodesById[link.source]){
+                window.location.reload();
+            }
             nodesById[link.source].childLinks.push(link);
             nodesById[link.target].childLinks.push(link);
         });
@@ -196,11 +199,7 @@ function PrunedGraph() {
         );
     };
 
-    if (!graphData) {
-        return <div>Loading data...</div>;
-    }
-
     return getGraph();
 }
 
-export default PrunedGraph;
+export default PrunedGraph2D;

@@ -2,7 +2,7 @@ import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
 import { useState, useEffect, useMemo, useCallback } from "react";
 import * as d3 from "d3-force";
 
-const ReactForceGraph = () => {
+const ReactForceGraph2D = () => {
     var data = require("../assets/graph.json");
     console.log(data);
 
@@ -64,4 +64,4 @@ const ReactForceGraph = () => {
     );
 };
 
-export default ReactForceGraph;
+export default ReactForceGraph2D;
