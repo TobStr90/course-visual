@@ -19,12 +19,12 @@ export const menuItems = [
         title: "3D - Pruned",
         url: "/course-visual/#/prunedgraph3D",
     },
+    {
+        title: "Testground",
+        url: "/course-visual/#/testground",
+    },
     // {
     //     title: "D3.js",
     //     url: "/D3",
-    // },
-    // {
-    //     title: "TestGround.js",
-    //     url: "/testground",
     // },
 ];

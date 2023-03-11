@@ -1,78 +1,85 @@
-<script src="//unpkg.com/force-graph"></script>;
+import { React, useCallback, useState, useMemo } from "react";
+import PrunedGraph2D from "./PrunedGraph2D copy";
+import Searchbar from "./Searchbar";
 
-const TestGround = () => {
-    const rootId = 0;
+function TestGround() {
+  const graphData = require("../assets/graph.json");
 
-    // Random tree
-    const N = 300;
-    const gData = {
-        nodes: [...Array(N).keys()].map((i) => ({
-            id: i,
-            collapsed: i !== rootId,
-            childLinks: [],
-        })),
-        links: [...Array(N).keys()]
-            .filter((id) => id)
-            .map((id) => ({
-                source: Math.round(Math.random() * (id - 1)),
-                target: id,
-            })),
-    };
+  const rootId = "Objektorientierte Programmierung";
 
-    // link parent/children
+  const nodesById = useMemo(() => {
     const nodesById = Object.fromEntries(
-        gData.nodes.map((node) => [node.id, node])
+      graphData.nodes.map((node) => [node.id, node])
     );
-    gData.links.forEach((link) => {
-        nodesById[link.source].childLinks.push(link);
+
+    graphData.nodes.forEach((node) => {
+      node.collapsed = node.id !== rootId;
+      node.childLinks = [];
+    });
+    graphData.links.forEach((link) => {
+      if (!nodesById[link.source]) {
+        window.location.reload();
+      }
+      nodesById[link.source].childLinks.push(link);
+      nodesById[link.target].childLinks.push(link);
     });
 
-    const getPrunedTree = () => {
-        const visibleNodes = [];
-        const visibleLinks = [];
+    return nodesById;
+  }, [graphData]);
 
-        (function traverseTree(node = nodesById[rootId]) {
-            visibleNodes.push(node);
-            if (node.collapsed) return;
-            visibleLinks.push(...node.childLinks);
-            node.childLinks
-                .map((link) =>
-                    typeof link.target === "object"
-                        ? link.target
-                        : nodesById[link.target]
-                ) // get child node
-                .forEach(traverseTree);
-        })(); // IIFE
+  const getPrunedGraph = () => {
+    const visibleNodes = new Set();
+    const visibleLinks = [];
+    const traverseGraph = (node = nodesById[rootId]) => {
+      if (visibleNodes.has(node)) return;
 
-        return { nodes: visibleNodes, links: visibleLinks };
-    };
+      visibleNodes.add(node);
+      if (node.collapsed) {
+        return;
+      }
 
-    const elem = document.getElementById("graph");
-    // eslint-disable-next-line no-undef
-    const Graph = ForceGraph()(elem)
-        .graphData(getPrunedTree())
-        .onNodeHover(
-            (node) =>
-                (elem.style.cursor =
-                    node && node.childLinks.length ? "pointer" : null)
+      visibleLinks.push(...node.childLinks);
+      node.childLinks
+        .map((link) =>
+          typeof link.target === "object" ? link.target : nodesById[link.target]
         )
-        .onNodeClick((node) => {
-            if (node.childLinks.length) {
-                node.collapsed = !node.collapsed; // toggle collapse state
-                Graph.graphData(getPrunedTree());
-            }
-        })
-        .linkDirectionalParticles(1)
-        .linkDirectionalParticleWidth(2.5)
-        .nodeColor((node) =>
-            !node.childLinks.length
-                ? "green"
-                : node.collapsed
-                ? "red"
-                : "yellow"
-        );
+        .forEach(traverseGraph);
+    };
+    traverseGraph();
 
-    return <div id="graph"></div>;
-};
+    return { nodes: Array.from(visibleNodes), links: visibleLinks };
+  };
+
+  const [prunedGraph, setPrunedGraph] = useState(getPrunedGraph());
+
+  const handleOnSelect = useCallback((item) => {
+    const node = nodesById[item.id];
+    if (node.childLinks && node.childLinks.length) {
+      node.collapsed = false;
+      setPrunedGraph(getPrunedGraph());
+    }
+  }, []);
+
+  const handleNodeClick = useCallback((node) => {
+    if (node.childLinks && node.childLinks.length) {
+      node.collapsed = !node.collapsed;
+      setPrunedGraph(getPrunedGraph());
+    }
+  }, []);
+
+  return (
+    <div>
+      <Searchbar
+        items={graphData.nodes}
+        handleOnSelect={handleOnSelect}
+      ></Searchbar>{" "}
+      <PrunedGraph2D
+        onNodeClick={handleNodeClick}
+        prunedGraph={prunedGraph}
+        setPrunedGraph={setPrunedGraph}
+      ></PrunedGraph2D>
+    </div>
+  );
+}
 
 export default TestGround;
