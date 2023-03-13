@@ -10,13 +10,16 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
     return (
         <div>
-            <Header />
+            <Header></Header>
             <Routes>
                 <Route
                     path="/react-force-graph2D"
                     element={<ReactForceGraph2D />}
                 ></Route>
-                <Route path="/prunedgraph2D" element={<PrunedGraph2D />}></Route>
+                <Route
+                    path="/prunedgraph2D"
+                    element={<PrunedGraph2D />}
+                ></Route>
                 <Route
                     path="/prunedgraph3D"
                     element={<PrunedGraph3D />}
