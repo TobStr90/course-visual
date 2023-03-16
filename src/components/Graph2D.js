@@ -3,69 +3,14 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import * as d3 from "d3-force";
 import React from "react";
 
-function PrunedGraph2D() {
-  const graphData = require("../assets/graph.json");
-
-  const rootId = "Objektorientierte Programmierung";
-
-  const nodesById = useMemo(() => {
-    const nodesById = Object.fromEntries(
-      graphData.nodes.map((node) => [node.id, node])
-    );
-
-    graphData.nodes.forEach((node) => {
-      node.collapsed = node.id !== rootId;
-      node.childLinks = [];
-    });
-    graphData.links.forEach((link) => {
-      if (!nodesById[link.source]) {
-        window.location.reload();
-      }
-      nodesById[link.source].childLinks.push(link);
-      nodesById[link.target].childLinks.push(link);
-    });
-
-    return nodesById;
-  }, [graphData]);
-
-  const getPrunedGraph = () => {
-    const visibleNodes = new Set();
-    const visibleLinks = [];
-    const traverseGraph = (node = nodesById[rootId]) => {
-      if (visibleNodes.has(node)) return;
-
-      visibleNodes.add(node);
-      if (node.collapsed) {
-        // node.childLinks
-        //     .filter(
-        //         (link) =>
-        //             link.source.collapsed === false ||
-        //             link.target.collapsed === false
-        //     )
-        //     .forEach((link) => visibleLinks.push(link));
-        return;
-      }
-
-      visibleLinks.push(...node.childLinks);
-      node.childLinks
-        .map((link) =>
-          typeof link.target === "object" ? link.target : nodesById[link.target]
-        )
-        .forEach(traverseGraph);
-    };
-    traverseGraph();
-
-    return { nodes: Array.from(visibleNodes), links: visibleLinks };
+function Graph2D(props) {
+  const handleNodeClick = (node) => {
+    props.onNodeClick(node);
   };
 
-  const [prunedGraph, setPrunedGraph] = useState(getPrunedGraph());
-
-  const handleNodeClick = useCallback((node) => {
-    if (node.childLinks && node.childLinks.length) {
-      node.collapsed = !node.collapsed;
-      setPrunedGraph(getPrunedGraph());
-    }
-  }, []);
+  const handleNodeRightClick = (node) => {
+    props.onNodeRightClick(node);
+  };
 
   const [highlightNodes, setHighlightNodes] = useState(new Set());
   const [highlightLinks, setHighlightLinks] = useState(new Set());
@@ -92,7 +37,6 @@ function PrunedGraph2D() {
   };
 
   const handleLinkHover = (link) => {
-    console.log(link);
     highlightNodes.clear();
     highlightLinks.clear();
 
@@ -132,10 +76,14 @@ function PrunedGraph2D() {
     }
   };
 
+  const getLabel = (node) => {
+    return node.name;
+  };
+
   const getGraph = () => {
     return (
       <ForceGraph2D
-        graphData={prunedGraph}
+        graphData={props.graph}
         linkDirectionalParticles={4}
         linkDirectionalParticleColor={(link) => getColor(link.source)}
         linkDirectionalParticleSpeed={0.001}
@@ -146,9 +94,10 @@ function PrunedGraph2D() {
         onLinkHover={handleLinkHover}
         onNodeClick={handleNodeClick}
         onNodeHover={handleNodeHover}
+        onNodeRightClick={handleNodeRightClick}
         nodeAutoColorBy={"group"}
         nodeCanvasObject={(node, ctx, globalScale) => {
-          const label = node.chapter ? node.chapter : node.id;
+          const label = node.id;
           const fontSize = 16 / globalScale;
           ctx.font = `${fontSize}px Sans-Serif`;
           const textWidth = ctx.measureText(label).width;
@@ -157,7 +106,10 @@ function PrunedGraph2D() {
           );
 
           // ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
-          ctx.fillStyle = "rgba(239, 239, 240, 0.8)";
+          ctx.fillStyle = node.expandable
+            ? "rgba(11, 156, 49, 0.2)"
+            : "rgba(239, 239, 240, 0.8)";
+
           ctx.fillRect(
             node.x - bckgDimensions[0] / 2,
             node.y - bckgDimensions[1] / 2,
@@ -181,6 +133,7 @@ function PrunedGraph2D() {
             );
           }
         }}
+        nodeLabel={getLabel}
         nodePointerAreaPaint={(node, color, ctx) => {
           ctx.fillStyle = color;
           const bckgDimensions = node.__bckgDimensions;
@@ -198,4 +151,4 @@ function PrunedGraph2D() {
   return getGraph();
 }
 
-export default PrunedGraph2D;
+export default Graph2D;

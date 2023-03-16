@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 
-function Searchbar(props) {
+function SearchBar(props) {
   // const handleOnSearch = (string, results) => {
   //   console.log(string, results);
   // };
@@ -43,4 +43,4 @@ function Searchbar(props) {
   );
 }
 
-export default Searchbar;
+export default SearchBar;
