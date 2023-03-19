@@ -11,7 +11,8 @@ import graphDataJson from "../assets/graph.json";
 
 function GraphDisplay() {
   // const graphData = require("../assets/graph.json");
-  const [graphData, setGraphData] = useState(graphDataJson);
+  var graphData = graphDataJson;
+  // const [graphData, setGraphData] = useState(graphDataJson);
 
   const rootId = "Objektorientierte Programmierung";
 
@@ -125,7 +126,7 @@ function GraphDisplay() {
     }
   };
 
-  const handleOnSelect = useCallback((item) => {
+  const handleOnSelect = (item) => {
     const node = nodesById[item.id];
     if (node.childLinks && node.childLinks.length) {
       showPath(node);
@@ -135,45 +136,41 @@ function GraphDisplay() {
 
       setGraph(getGraph());
     }
-  }, []);
+  };
 
-  const handleNodeClick = useCallback((node) => {
+  const handleNodeClick = (node) => {
     if (node.childLinks && node.childLinks.length) {
       node.collapsed = !node.collapsed;
       setGraph(getGraph());
     }
-  }, []);
+  };
 
   const [showNodeInfo, setShowNodeInfo] = useState(false);
   const [selectedNode, setSelectedNode] = useState(null);
 
-  const handleNodeRightClick = useCallback(
-    (node) => {
-      if (selectedNode && selectedNode.id === node.id) {
-        setSelectedNode(null);
-        setShowNodeInfo(false);
-      } else {
-        setSelectedNode(node);
-        setShowNodeInfo(true);
-      }
-    },
-    [selectedNode]
-  );
-
-  const handleNodeInfoSave = useCallback(
-    (updatedNode) => {
-      const updatedGraphData = {
-        ...graphData,
-        nodes: graphData.nodes.map((node) =>
-          node.id === updatedNode.id ? updatedNode : node
-        ),
-      };
-      setGraphData(updatedGraphData);
+  const handleNodeRightClick = (node) => {
+    if (selectedNode && selectedNode.id === node.id) {
       setSelectedNode(null);
       setShowNodeInfo(false);
-    },
-    [graphData]
-  );
+    } else {
+      setSelectedNode(node);
+      setShowNodeInfo(true);
+    }
+  };
+
+  const handleNodeInfoSave = (updatedNode) => {
+    const updatedGraphData = {
+      ...graphData,
+      nodes: graphData.nodes.map((node) =>
+        node.id === updatedNode.id ? updatedNode : node
+      ),
+    };
+    // setGraphData(updatedGraphData);
+    graphData = updatedGraphData;
+    setGraph(getGraph());
+    setSelectedNode(null);
+    setShowNodeInfo(false);
+  };
 
   const handleNodeInfoClose = () => {
     setSelectedNode(null);
