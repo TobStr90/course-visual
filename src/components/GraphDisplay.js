@@ -1,4 +1,4 @@
-import { React, useCallback, useState, useMemo } from "react";
+import { React, useCallback, useEffect, useState, useMemo } from "react";
 import Button from "./Button";
 import Dropdown from "./Dropdown";
 import Graph2D from "./Graph2D";
@@ -10,13 +10,16 @@ import SearchBar from "./SearchBar";
 import graphDataJson from "../assets/graph.json";
 
 function GraphDisplay() {
-  // const graphData = require("../assets/graph.json");
-  var graphData = graphDataJson;
-  // const [graphData, setGraphData] = useState(graphDataJson);
+  const savedGraphData = localStorage.getItem("graphData");
+
+  var graphData = savedGraphData ? JSON.parse(savedGraphData) : graphDataJson;
+  console.log(graphData?.links[0]);
 
   const rootId = "Objektorientierte Programmierung";
 
   const nodesById = useMemo(() => {
+    console.log("nodesById: ");
+    console.log(graphData);
     const nodesById = Object.fromEntries(
       graphData.nodes.map((node) => [node.id, node])
     );
@@ -48,7 +51,6 @@ function GraphDisplay() {
   const getGraph = () => {
     const visibleNodes = new Set();
     const visibleLinks = new Set();
-    // const traverseGraph = (node = nodesById[rootId]) => {
     const traverseGraph = (node = getNode(rootId)) => {
       if (visibleNodes.has(node)) return;
 
@@ -63,7 +65,6 @@ function GraphDisplay() {
 
       node.childLinks
         .map((link) =>
-          // typeof link.target === "object" ? link.target : nodesById[link.target]
           typeof link.target === "object" ? link.target : getNode(link.target)
         )
         .forEach(traverseGraph);
@@ -102,7 +103,6 @@ function GraphDisplay() {
       if (lastDotIndex >= 0) {
         const previousChapter = node.chapter.slice(0, lastDotIndex);
         node.childLinks.forEach((link) => {
-          // const neighbour = nodesById[link.target];
           const neighbour = getNode(link.target);
           if (neighbour && neighbour !== node) {
             if (neighbour.chapter && neighbour.chapter === previousChapter) {
@@ -112,7 +112,6 @@ function GraphDisplay() {
         });
       } else {
         node.childLinks.forEach((link) => {
-          // const neighbour = nodesById[link.target];
           const neighbour = getNode(link.target);
           if (neighbour && neighbour !== node) {
             if (
@@ -126,7 +125,6 @@ function GraphDisplay() {
       }
     } else {
       node.childLinks.forEach((link) => {
-        // const neighbour = nodesById[link.target];
         const neighbour = getNode(link.target);
         if (neighbour && neighbour !== node) {
           if (neighbour.chapter) {
@@ -138,12 +136,10 @@ function GraphDisplay() {
   };
 
   const handleOnSelect = (item) => {
-    // const node = nodesById[item.id];
     const node = getNode(item.id);
     if (node.childLinks && node.childLinks.length) {
       showPath(node);
 
-      // const rootNode = nodesById[rootId];
       const rootNode = getNode(rootId);
       rootNode.collapsed = false;
 
@@ -171,15 +167,52 @@ function GraphDisplay() {
     }
   };
 
+  const saveDataLocally = () => {
+    const nodes = [];
+    const links = [];
+    const links_dict = {};
+    graphData.nodes.forEach((node) => {
+      nodes.push({
+        id: node.id,
+        name: node.name,
+        unit: node.unit,
+        chapter: node.chapter,
+        group: node.group,
+        notes: node.notes,
+      });
+      links_dict[node.id] = [];
+    });
+    graphData.nodes.forEach((node) => {
+      if (node.childLinks && node.childLinks.length > 0) {
+        node.childLinks.forEach((link) => {
+          const source = link.source.id ? link.source.id : link.source;
+          const target = link.target.id ? link.target.id : link.target;
+          if (
+            !links_dict[source].includes(target) ||
+            !links_dict[target].includes(source)
+          ) {
+            links.push({ source: source, target: target });
+            links_dict[source].push(target);
+          }
+        });
+      }
+    });
+    localStorage.setItem(
+      "graphData",
+      JSON.stringify({ nodes: nodes, links: links })
+    );
+  };
+
   const handleNodeInfoSave = (updatedNode) => {
-    const updatedGraphData = {
-      ...graphData,
-      nodes: graphData.nodes.map((node) =>
-        node.id === updatedNode.id ? updatedNode : node
-      ),
-    };
-    // setGraphData(updatedGraphData);
-    graphData = updatedGraphData;
+    var node = getNode(updatedNode);
+    node.name = updatedNode.name;
+    node.chapter = updatedNode.chapter;
+    node.unit = updatedNode.unit;
+    node.startpage = updatedNode.startpage;
+    node.notes = updatedNode.notes;
+
+    saveDataLocally();
+
     setGraph(getGraph());
     setSelectedNode(null);
     setShowNodeInfo(false);
@@ -196,6 +229,13 @@ function GraphDisplay() {
     setDisplayOption(selectedOption);
   };
 
+  const collapseAll = () => {
+    graphData.nodes.forEach((node) => {
+      node.collapsed = true;
+      setGraph(getGraph());
+    });
+  };
+
   const expandAll = () => {
     graphData.nodes.forEach((node) => {
       node.collapsed = false;
@@ -203,11 +243,9 @@ function GraphDisplay() {
     });
   };
 
-  const collapseAll = () => {
-    graphData.nodes.forEach((node) => {
-      node.collapsed = true;
-      setGraph(getGraph());
-    });
+  const resetGraphData = () => {
+    localStorage.removeItem("graphData");
+    // setGraphData(graphDataJson);
   };
 
   const getProgress = () => {
@@ -228,6 +266,10 @@ function GraphDisplay() {
       </div>
       <Button text="Collapse all" handleClick={collapseAll}></Button>
       <Button text="Expand all" handleClick={expandAll}></Button>
+      <Button
+        text="Reset local graphdata"
+        handleClick={resetGraphData}
+      ></Button>
       <Dropdown
         handleDisplayOptionChange={handleDisplayOptionChange}
       ></Dropdown>

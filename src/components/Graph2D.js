@@ -76,7 +76,11 @@ function Graph2D(props) {
     }
   };
 
-  const getLabel = (node) => {
+  const getDisplayLabel = (node) => {
+    return node.chapter ? node.chapter : node.name;
+  };
+
+  const getMouseOverLabel = (node) => {
     return node.name;
   };
 
@@ -97,7 +101,7 @@ function Graph2D(props) {
         onNodeRightClick={handleNodeRightClick}
         nodeAutoColorBy={"group"}
         nodeCanvasObject={(node, ctx, globalScale) => {
-          const label = node.id;
+          const label = getDisplayLabel(node);
           const fontSize = 16 / globalScale;
           ctx.font = `${fontSize}px Sans-Serif`;
           const textWidth = ctx.measureText(label).width;
@@ -133,7 +137,7 @@ function Graph2D(props) {
             );
           }
         }}
-        nodeLabel={getLabel}
+        nodeLabel={getMouseOverLabel}
         nodePointerAreaPaint={(node, color, ctx) => {
           ctx.fillStyle = color;
           const bckgDimensions = node.__bckgDimensions;
