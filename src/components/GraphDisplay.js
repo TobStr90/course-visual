@@ -37,12 +37,19 @@ function GraphDisplay() {
     return nodesById;
   }, [graphData]);
 
+  const getNode = (node) => {
+    if (nodesById[node]) return nodesById[node];
+    else if (nodesById[node.id]) return nodesById[node.id];
+    return null;
+  };
+
   var visibleNodesCount = 0;
 
   const getGraph = () => {
     const visibleNodes = new Set();
     const visibleLinks = new Set();
-    const traverseGraph = (node = nodesById[rootId]) => {
+    // const traverseGraph = (node = nodesById[rootId]) => {
+    const traverseGraph = (node = getNode(rootId)) => {
       if (visibleNodes.has(node)) return;
 
       visibleNodes.add(node);
@@ -56,7 +63,8 @@ function GraphDisplay() {
 
       node.childLinks
         .map((link) =>
-          typeof link.target === "object" ? link.target : nodesById[link.target]
+          // typeof link.target === "object" ? link.target : nodesById[link.target]
+          typeof link.target === "object" ? link.target : getNode(link.target)
         )
         .forEach(traverseGraph);
     };
@@ -94,7 +102,8 @@ function GraphDisplay() {
       if (lastDotIndex >= 0) {
         const previousChapter = node.chapter.slice(0, lastDotIndex);
         node.childLinks.forEach((link) => {
-          const neighbour = nodesById[link.target];
+          // const neighbour = nodesById[link.target];
+          const neighbour = getNode(link.target);
           if (neighbour && neighbour !== node) {
             if (neighbour.chapter && neighbour.chapter === previousChapter) {
               showPath(neighbour);
@@ -103,7 +112,8 @@ function GraphDisplay() {
         });
       } else {
         node.childLinks.forEach((link) => {
-          const neighbour = nodesById[link.target];
+          // const neighbour = nodesById[link.target];
+          const neighbour = getNode(link.target);
           if (neighbour && neighbour !== node) {
             if (
               neighbour.chapter &&
@@ -116,7 +126,8 @@ function GraphDisplay() {
       }
     } else {
       node.childLinks.forEach((link) => {
-        const neighbour = nodesById[link.target];
+        // const neighbour = nodesById[link.target];
+        const neighbour = getNode(link.target);
         if (neighbour && neighbour !== node) {
           if (neighbour.chapter) {
             showPath(neighbour);
@@ -127,11 +138,13 @@ function GraphDisplay() {
   };
 
   const handleOnSelect = (item) => {
-    const node = nodesById[item.id];
+    // const node = nodesById[item.id];
+    const node = getNode(item.id);
     if (node.childLinks && node.childLinks.length) {
       showPath(node);
 
-      const rootNode = nodesById[rootId];
+      // const rootNode = nodesById[rootId];
+      const rootNode = getNode(rootId);
       rootNode.collapsed = false;
 
       setGraph(getGraph());
