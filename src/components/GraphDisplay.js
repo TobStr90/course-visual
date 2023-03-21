@@ -13,7 +13,8 @@ function GraphDisplay() {
   const savedGraphData = localStorage.getItem("graphData");
 
   var graphData = savedGraphData ? JSON.parse(savedGraphData) : graphDataJson;
-  console.log(graphData?.links[0]);
+  // var graphData = savedGraphData ? savedGraphData : graphDataJson;
+  // console.log(graphData?.links[0]);
 
   const rootId = "Objektorientierte Programmierung";
 
@@ -38,7 +39,8 @@ function GraphDisplay() {
     });
 
     return nodesById;
-  }, [graphData]);
+    // }, [graphData]);
+  }, []);
 
   const getNode = (node) => {
     if (nodesById[node]) return nodesById[node];
@@ -245,7 +247,7 @@ function GraphDisplay() {
 
   const resetGraphData = () => {
     localStorage.removeItem("graphData");
-    // setGraphData(graphDataJson);
+    graphData = graphDataJson;
   };
 
   const getProgress = () => {
