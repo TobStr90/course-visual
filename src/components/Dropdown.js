@@ -21,6 +21,7 @@ function Dropdown(props) {
       >
         <option value="2D">2D</option>
         <option value="3D">3D</option>
+        <option value="Quiz">Quiz</option>
       </select>
     </div>
   );

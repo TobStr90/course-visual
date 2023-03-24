@@ -3,6 +3,7 @@ import Button from "./Button";
 import Dropdown from "./Dropdown";
 import Graph2D from "./Graph2D";
 import Graph3D from "./Graph3D";
+import GraphQuiz from "./GraphQuiz";
 import NodeInfo from "./NodeInfo";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import SearchBar from "./SearchBar";
@@ -13,14 +14,10 @@ function GraphDisplay() {
   const savedGraphData = localStorage.getItem("graphData");
 
   var graphData = savedGraphData ? JSON.parse(savedGraphData) : graphDataJson;
-  // var graphData = savedGraphData ? savedGraphData : graphDataJson;
-  // console.log(graphData?.links[0]);
 
   const rootId = "Objektorientierte Programmierung";
 
   const nodesById = useMemo(() => {
-    console.log("nodesById: ");
-    console.log(graphData);
     const nodesById = Object.fromEntries(
       graphData.nodes.map((node) => [node.id, node])
     );
@@ -261,20 +258,125 @@ function GraphDisplay() {
     )}%)`;
   };
 
+  const getRandomQuiz = (num) => {
+    console.log("");
+    console.log("");
+    console.log("");
+    const startNode =
+      graphData.nodes[Math.floor(Math.random() * graphData.nodes.length)];
+
+    const possibleNeighbours = new Set();
+    possibleNeighbours.add(getNode(startNode));
+    const nodes = new Set();
+    for (let i = 1; i <= num; i++) {
+      console.log("loopStart: " + i);
+      console.log("possibleNeighbours");
+      console.log(possibleNeighbours);
+      console.log("nodes");
+      console.log(nodes);
+      const possibleNeighboursArr = Array.from(possibleNeighbours);
+      const randomNode =
+        possibleNeighboursArr[
+          Math.floor(Math.random() * possibleNeighboursArr.length)
+        ];
+      console.log("randomNode");
+      console.log(randomNode);
+      const node = getNode(randomNode);
+      console.log("node");
+      console.log(node);
+
+      nodes.add(node);
+      node.childLinks.forEach((link) => {
+        const source = getNode(link.source);
+        if (!nodes.has(source)) possibleNeighbours.add(source);
+      });
+      possibleNeighbours.delete(node);
+      console.log("possibleNeighbours");
+      console.log(possibleNeighbours);
+      console.log("nodes");
+      console.log(nodes);
+      console.log("");
+    }
+    console.log(nodes);
+
+    return { nodes: Array.from(nodes), links: [] };
+  };
+
+  const getQuizGraph = () => {
+    const visibleNodes = new Set();
+    const visibleLinks = new Set();
+    const traverseGraph = (node = getNode(rootId)) => {
+      if (visibleNodes.has(node)) return;
+
+      visibleNodes.add(node);
+      if (node.collapsed) {
+        return;
+      }
+
+      node.childLinks.forEach((link) => {
+        visibleLinks.add(link);
+      });
+
+      node.childLinks
+        .map((link) =>
+          typeof link.target === "object" ? link.target : getNode(link.target)
+        )
+        .forEach(traverseGraph);
+    };
+    traverseGraph();
+
+    visibleNodes.forEach((node) => {
+      var expandable = false;
+      if (node.collapsed && node.childLinks) {
+        node.childLinks.forEach((link) => {
+          if (!visibleLinks.has(link)) {
+            expandable = true;
+          }
+        });
+      }
+      node.expandable = expandable;
+    });
+
+    visibleNodesCount = visibleNodes.size;
+
+    return {
+      nodes: Array.from(visibleNodes),
+      links: Array.from(visibleLinks),
+    };
+  };
+
+  const [quizGraph, setQuizGraph] = useState(getRandomQuiz(5));
+
+  const handleQuizGraphUpdate = (link) => {
+    const newGraph = quizGraph.links.add(link);
+    setQuizGraph(newGraph);
+  };
+
+  const handleNodeClickQuiz = (source, target) => {
+    source.forEach((link) => {
+      if (link.source === source && link.target === target) {
+        setQuizGraph(quizGraph, link);
+        return;
+      }
+    });
+  };
+
   return (
     <div>
       <div>
         <ProgressBar now={getProgress()} label={getLabel()}></ProgressBar>
       </div>
-      <Button text="Collapse all" handleClick={collapseAll}></Button>
-      <Button text="Expand all" handleClick={expandAll}></Button>
-      <Button
-        text="Reset local graphdata"
-        handleClick={resetGraphData}
-      ></Button>
       <Dropdown
         handleDisplayOptionChange={handleDisplayOptionChange}
       ></Dropdown>
+      <div>
+        <Button text="Collapse all" handleClick={collapseAll}></Button>
+        <Button text="Expand all" handleClick={expandAll}></Button>
+        <Button
+          text="Reset local graphdata"
+          handleClick={resetGraphData}
+        ></Button>
+      </div>
       <SearchBar
         items={graphData.nodes}
         handleOnSelect={handleOnSelect}
@@ -295,6 +397,14 @@ function GraphDisplay() {
               onNodeRightClick={handleNodeRightClick}
               graph={graph}
               setGraph={setGraph}
+            />
+          )}
+          {displayOption === "Quiz" && (
+            <GraphQuiz
+              onNodeClick={handleNodeClickQuiz}
+              // onNodeRightClick={handleNodeRightClick}
+              graph={quizGraph}
+              setGraph={setQuizGraph}
             />
           )}
           {showNodeInfo && (
