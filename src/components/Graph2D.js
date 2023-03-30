@@ -84,9 +84,61 @@ function Graph2D(props) {
     return node.name;
   };
 
+  const fgRef = useRef();
+
+  useEffect(() => {
+    const fg = fgRef.current;
+
+    // const graphContainer = document.getElementById("Graph");
+    // const graphContainerTop = graphContainer.getBoundingClientRect().top;
+    // const graphContainerHeight = graphContainer.clientHeight;
+    // const height = 100;
+    // const width = window.innerWidth;
+    // const padding = 10;
+
+    // d3.forceSimulation()
+    //   .force(
+    //     "x",
+    //     d3.forceX().x((d) => Math.max(padding, Math.min(width - padding, d.x)))
+    //   )
+    //   .force(
+    //     "y",
+    //     d3.forceY().y((d) => Math.max(padding, Math.min(height - padding, d.y)))
+    //   );
+
+    // const centerForce = d3.forceCenter(0, 0);
+
+    // const nodeToCenter = props.graph.nodes.find(
+    //   (node) => node.id === "Objektorientierte Programmierung"
+    // );
+    // nodeToCenter.fx = 0;
+    // nodeToCenter.fy = 0;
+    // console.log(nodeToCenter);
+
+    // fg.d3Force("center", centerForce);
+
+    // fg.d3Force("link", d3.forceLink().distance(30));
+    // fg.d3Force("collide", d3.forceCollide(50));
+    // fg.d3Force("charge", d3.forceManyBody().strength(-10).distanceMin(10));
+  });
+
+  const getHeight = () => {
+    const graphContainer = document.getElementById("Graph2D");
+    if (!graphContainer) return 0;
+
+    const graphContainerTop = graphContainer.getBoundingClientRect().top;
+
+    const height = window.innerHeight - graphContainerTop;
+    console.log(height);
+
+    return height - 5;
+  };
+
   const getGraph = () => {
     return (
       <ForceGraph2D
+        height={getHeight()}
+        ref={fgRef}
         graphData={props.graph}
         linkDirectionalParticles={4}
         linkDirectionalParticleColor={(link) => getColor(link.source)}

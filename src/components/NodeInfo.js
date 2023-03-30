@@ -70,7 +70,7 @@ const NodeInfo = ({ node, onSave, onClose }) => {
         style={{ width: "100%" }}
       />
 
-      <label htmlFor="startpage" style={{ display: "block" }}>
+      {/* <label htmlFor="startpage" style={{ display: "block" }}>
         Startpage:
       </label>
       <input
@@ -79,7 +79,7 @@ const NodeInfo = ({ node, onSave, onClose }) => {
         value={startpage}
         onChange={(e) => setStartpage(e.target.value)}
         style={{ width: "100%" }}
-      />
+      /> */}
 
       <label htmlFor="notes" style={{ display: "block" }}>
         Notes:
