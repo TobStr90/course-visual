@@ -122,6 +122,8 @@ function Graph2D(props) {
     // fg.d3Force("charge", d3.forceManyBody().strength(-10).distanceMin(10));
   });
 
+  const [height, setHeight] = useState(0);
+
   const getHeight = () => {
     const graphContainer = document.getElementById("Graph2D");
     if (!graphContainer) return 0;
@@ -129,10 +131,25 @@ function Graph2D(props) {
     const graphContainerTop = graphContainer.getBoundingClientRect().top;
 
     const height = window.innerHeight - graphContainerTop;
-    console.log(height);
 
     return height - 5;
   };
+
+  useEffect(() => {
+    const updateHeight = () => {
+      const newHeight = getHeight();
+      if (newHeight !== height) {
+        setHeight(newHeight);
+      }
+    };
+
+    window.addEventListener("resize", updateHeight);
+    updateHeight();
+
+    return () => {
+      window.removeEventListener("resize", updateHeight);
+    };
+  }, [height]);
 
   const getGraph = () => {
     return (

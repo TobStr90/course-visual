@@ -96,9 +96,9 @@ function GraphQuiz(props) {
   useEffect(() => {
     const fg = fgRef.current;
 
-    fg.d3Force("link", d3.forceLink().distance(1));
-    fg.d3Force("collide", d3.forceCollide(50));
-    fg.d3Force("charge", d3.forceManyBody().strength(-50).distanceMin(50));
+    // fg.d3Force("link", d3.forceLink().distance(1));
+    // fg.d3Force("collide", d3.forceCollide(50));
+    // fg.d3Force("charge", d3.forceManyBody().strength(-50).distanceMin(50));
   });
 
   const [height, setHeight] = useState(0);
@@ -110,7 +110,6 @@ function GraphQuiz(props) {
     const graphContainerTop = graphContainer.getBoundingClientRect().top;
 
     const height = window.innerHeight - graphContainerTop;
-    console.log(height);
 
     return height - 5;
   };

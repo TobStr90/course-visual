@@ -313,13 +313,28 @@ function GraphDisplay() {
   }, [quizGraphNodeIds]);
 
   const handleQuizGraphUpdate = (links) => {
+    const length = quizGraph.links.length;
     const newGraph = {
       nodes: quizGraph.nodes,
       links: quizGraph.links.concat(links),
     };
+
     setQuizGraph(newGraph);
     if (quizGraph.links.length === maxQuizGraphLinks) setFinished(true);
   };
+
+  const updateExperience = () => {
+    if (experience + 10 === nextLevelExperience) {
+      setLevel(level + 1);
+      setExperience(0);
+    } else setExperience(experience + 10);
+  };
+
+  useEffect(() => {
+    if (quizGraph.links.length > 0) {
+      updateExperience();
+    }
+  }, [quizGraph.links.length]);
 
   const handleNodeClickQuiz = (links) => {
     handleQuizGraphUpdate(links);
@@ -337,9 +352,22 @@ function GraphDisplay() {
   };
 
   const newQuiz = () => {
-    setLevel(level + 1);
     setFinished(false);
-    setQuizGraph(getRandomQuiz(level + 1));
+    setQuizGraph(getRandomQuiz(level));
+  };
+
+  const [experience, setExperience] = useState(0);
+
+  const nextLevelExperience = () => {
+    return 50 * 2 ** level;
+  };
+
+  const getExperienceProgress = () => {
+    return (experience / nextLevelExperience()) * 100;
+  };
+
+  const getExperienceLabel = () => {
+    return `${experience} / ${nextLevelExperience()}`;
   };
 
   return (
@@ -369,10 +397,20 @@ function GraphDisplay() {
       {displayOption === "Quiz" && (
         <div>
           <div>
-            <ProgressBar
-              now={getQuizProgress()}
-              label={getQuizLabel()}
-            ></ProgressBar>
+            <div style={{ marginBottom: "5px" }}>
+              Quiz Progress
+              <ProgressBar
+                now={getQuizProgress()}
+                label={getQuizLabel()}
+              ></ProgressBar>
+            </div>
+            <div>
+              Experience
+              <ProgressBar
+                now={getExperienceProgress()}
+                label={getExperienceLabel()}
+              ></ProgressBar>
+            </div>
           </div>
           {finished && (
             <div>
