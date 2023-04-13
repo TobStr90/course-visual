@@ -4241,111 +4241,55 @@
     },
     {
       "source": "Vorwort",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Vorwort",
       "target": "I"
-    },
-    {
-      "source": "I",
-      "target": "Vorwort"
     },
     {
       "source": "Vorwort",
       "target": "II"
     },
     {
-      "source": "II",
-      "target": "Vorwort"
-    },
-    {
       "source": "Vorwort",
       "target": "III"
-    },
-    {
-      "source": "III",
-      "target": "Vorwort"
     },
     {
       "source": "Vorwort",
       "target": "IV"
     },
     {
-      "source": "IV",
-      "target": "Vorwort"
-    },
-    {
       "source": "Vorwort",
       "target": "V"
-    },
-    {
-      "source": "V",
-      "target": "Vorwort"
     },
     {
       "source": "Vorwort",
       "target": "VI"
     },
     {
-      "source": "VI",
-      "target": "Vorwort"
-    },
-    {
       "source": "Vorwort",
       "target": "VII"
-    },
-    {
-      "source": "VII",
-      "target": "Vorwort"
     },
     {
       "source": "Vorwort",
       "target": "VIII"
     },
     {
-      "source": "VIII",
-      "target": "Vorwort"
-    },
-    {
       "source": "Vorwort",
       "target": "IX"
-    },
-    {
-      "source": "IX",
-      "target": "Vorwort"
     },
     {
       "source": "Vorwort",
       "target": "X"
     },
     {
-      "source": "X",
-      "target": "Vorwort"
-    },
-    {
       "source": "Vorwort",
       "target": "XI"
-    },
-    {
-      "source": "XI",
-      "target": "Vorwort"
     },
     {
       "source": "Vorwort",
       "target": "XII"
     },
     {
-      "source": "XII",
-      "target": "Vorwort"
-    },
-    {
       "source": "Vorwort",
       "target": "XIII"
-    },
-    {
-      "source": "XIII",
-      "target": "Vorwort"
     },
     {
       "source": "Objektorientierte Programmierung",
@@ -4353,87 +4297,43 @@
     },
     {
       "source": "Kurseinheit 1",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Kurseinheit 1",
       "target": "1"
-    },
-    {
-      "source": "1",
-      "target": "Kurseinheit 1"
     },
     {
       "source": "1",
       "target": "1.1"
-    },
-    {
-      "source": "1.1",
-      "target": "1"
     },
     {
       "source": "1.1",
       "target": "eines Objekts"
     },
     {
-      "source": "eines Objekts",
-      "target": "1.1"
-    },
-    {
       "source": "1.1",
       "target": "Wert"
-    },
-    {
-      "source": "Wert",
-      "target": "1.1"
     },
     {
       "source": "1.1",
       "target": "Werten"
     },
     {
-      "source": "Werten",
-      "target": "1.1"
-    },
-    {
       "source": "1",
       "target": "1.2"
-    },
-    {
-      "source": "1.2",
-      "target": "1"
     },
     {
       "source": "1.2",
       "target": "Anweisung"
     },
     {
-      "source": "Anweisung",
-      "target": "1.2"
-    },
-    {
       "source": "1.2",
       "target": "Literal"
-    },
-    {
-      "source": "Literal",
-      "target": "1.2"
     },
     {
       "source": "1.2",
       "target": "atomares"
     },
     {
-      "source": "atomares",
-      "target": "1.2"
-    },
-    {
       "source": "1.2",
       "target": "Schl\u00fcsselwort"
-    },
-    {
-      "source": "Schl\u00fcsselwort",
-      "target": "1.2"
     },
     {
       "source": "1",
@@ -4441,119 +4341,59 @@
     },
     {
       "source": "1.3",
-      "target": "1"
-    },
-    {
-      "source": "1.3",
       "target": "Aliasing"
-    },
-    {
-      "source": "Aliasing",
-      "target": "1.3"
     },
     {
       "source": "1.3",
       "target": "Array -Literal"
-    },
-    {
-      "source": "Array -Literal",
-      "target": "1.3"
     },
     {
       "source": "1.3",
       "target": "zusammengesetztes"
     },
     {
-      "source": "zusammengesetztes",
-      "target": "1.3"
-    },
-    {
       "source": "1.3",
       "target": "Pseudovariable"
-    },
-    {
-      "source": "Pseudovariable",
-      "target": "1.3"
     },
     {
       "source": "1.3",
       "target": "Strings"
     },
     {
-      "source": "Strings",
-      "target": "1.3"
-    },
-    {
       "source": "1.3",
       "target": "Symbol"
     },
     {
-      "source": "Symbol",
-      "target": "1.3"
-    },
-    {
       "source": "1.3",
       "target": "Variable"
-    },
-    {
-      "source": "Variable",
-      "target": "1.3"
     },
     {
       "source": "1.3",
       "target": "Zeichenkette"
     },
     {
-      "source": "Zeichenkette",
-      "target": "1.3"
-    },
-    {
       "source": "1",
       "target": "1.4"
     },
     {
       "source": "1.4",
-      "target": "1"
-    },
-    {
-      "source": "1.4",
       "target": "funktionale Programmierung"
-    },
-    {
-      "source": "funktionale Programmierung",
-      "target": "1.4"
     },
     {
       "source": "1.4",
       "target": "Gleichheit von Objekten"
     },
     {
-      "source": "Gleichheit von Objekten",
-      "target": "1.4"
-    },
-    {
       "source": "1.4",
       "target": "von Ob jekten"
-    },
-    {
-      "source": "von Ob jekten",
-      "target": "1.4"
     },
     {
       "source": "1.4",
       "target": "imperative Programmierung"
     },
     {
-      "source": "imperative Programmierung",
-      "target": "1.4"
-    },
-    {
       "source": "1.4",
       "target": "Zustand"
-    },
-    {
-      "source": "Zustand",
-      "target": "1.4"
     },
     {
       "source": "1",
@@ -4561,143 +4401,71 @@
     },
     {
       "source": "1.5",
-      "target": "1"
-    },
-    {
-      "source": "1.5",
       "target": "1.5.1"
-    },
-    {
-      "source": "1.5.1",
-      "target": "1.5"
     },
     {
       "source": "1.5.1",
       "target": "Platzhalter"
     },
     {
-      "source": "Platzhalter",
-      "target": "1.5.1"
-    },
-    {
       "source": "1.5.1",
       "target": "Pointer"
     },
     {
-      "source": "Pointer",
-      "target": "1.5.1"
-    },
-    {
       "source": "1.5.1",
       "target": "Pointervariable"
-    },
-    {
-      "source": "Pointervariable",
-      "target": "1.5.1"
     },
     {
       "source": "1.5.1",
       "target": "Referenz"
     },
     {
-      "source": "Referenz",
-      "target": "1.5.1"
-    },
-    {
       "source": "1.5.1",
       "target": "Referenzsemantik"
     },
     {
-      "source": "Referenzsemantik",
-      "target": "1.5.1"
-    },
-    {
       "source": "1.5.1",
       "target": "Verweis"
-    },
-    {
-      "source": "Verweis",
-      "target": "1.5.1"
     },
     {
       "source": "1.5.1",
       "target": "Verweissemantik"
     },
     {
-      "source": "Verweissemantik",
-      "target": "1.5.1"
-    },
-    {
       "source": "1.5.1",
       "target": "Wertsemantik"
     },
     {
-      "source": "Wertsemantik",
-      "target": "1.5.1"
-    },
-    {
       "source": "1.5",
       "target": "1.5.2"
-    },
-    {
-      "source": "1.5.2",
-      "target": "1.5"
     },
     {
       "source": "1.5.2",
       "target": "konstante"
     },
     {
-      "source": "konstante",
-      "target": "1.5.2"
-    },
-    {
       "source": "1.5.2",
       "target": "Sichtbarkeit"
-    },
-    {
-      "source": "Sichtbarkeit",
-      "target": "1.5.2"
     },
     {
       "source": "1.5.2",
       "target": "von Variablen"
     },
     {
-      "source": "von Variablen",
-      "target": "1.5.2"
-    },
-    {
       "source": "1.5",
       "target": "Alias"
     },
     {
-      "source": "Alias",
-      "target": "1.5"
-    },
-    {
       "source": "1.5",
       "target": "funktionale Programmierung"
-    },
-    {
-      "source": "funktionale Programmierung",
-      "target": "1.5"
     },
     {
       "source": "1.5",
       "target": "Name"
     },
     {
-      "source": "Name",
-      "target": "1.5"
-    },
-    {
       "source": "1.5",
       "target": "Variable"
-    },
-    {
-      "source": "Variable",
-      "target": "1.5"
     },
     {
       "source": "1",
@@ -4705,63 +4473,31 @@
     },
     {
       "source": "1.6",
-      "target": "1"
-    },
-    {
-      "source": "1.6",
       "target": "globale Variable"
-    },
-    {
-      "source": "globale Variable",
-      "target": "1.6"
     },
     {
       "source": "1.6",
       "target": "Hiding"
     },
     {
-      "source": "Hiding",
-      "target": "1.6"
-    },
-    {
       "source": "1.6",
       "target": "lokale Variable"
-    },
-    {
-      "source": "lokale Variable",
-      "target": "1.6"
     },
     {
       "source": "1.6",
       "target": "Sichtbarkeitsregeln"
     },
     {
-      "source": "Sichtbarkeitsregeln",
-      "target": "1.6"
-    },
-    {
       "source": "1.6",
       "target": "Wertzuweisung"
-    },
-    {
-      "source": "Wertzuweisung",
-      "target": "1.6"
     },
     {
       "source": "1.6",
       "target": "Zuweisung"
     },
     {
-      "source": "Zuweisung",
-      "target": "1.6"
-    },
-    {
       "source": "1.6",
       "target": "Zuweisungsoperator"
-    },
-    {
-      "source": "Zuweisungsoperator",
-      "target": "1.6"
     },
     {
       "source": "1",
@@ -4769,119 +4505,59 @@
     },
     {
       "source": "1.7",
-      "target": "1"
-    },
-    {
-      "source": "1.7",
       "target": "Alias"
-    },
-    {
-      "source": "Alias",
-      "target": "1.7"
     },
     {
       "source": "1.7",
       "target": "Aliasing"
     },
     {
-      "source": "Aliasing",
-      "target": "1.7"
-    },
-    {
       "source": "1.7",
       "target": "formaler Parameter"
-    },
-    {
-      "source": "formaler Parameter",
-      "target": "1.7"
     },
     {
       "source": "1.7",
       "target": "-aufruf"
     },
     {
-      "source": "-aufruf",
-      "target": "1.7"
-    },
-    {
       "source": "1.7",
       "target": "Pseudovariable"
     },
     {
-      "source": "Pseudovariable",
-      "target": "1.7"
-    },
-    {
       "source": "1.7",
       "target": "implizite"
-    },
-    {
-      "source": "implizite",
-      "target": "1.7"
     },
     {
       "source": "1.7",
       "target": "linke und rechte Seite"
     },
     {
-      "source": "linke und rechte Seite",
-      "target": "1.7"
-    },
-    {
       "source": "1.7",
       "target": "unzul\u00e4ssige"
     },
     {
-      "source": "unzul\u00e4ssige",
-      "target": "1.7"
-    },
-    {
       "source": "1.7",
       "target": "Zuweisungsoperator"
-    },
-    {
-      "source": "Zuweisungsoperator",
-      "target": "1.7"
     },
     {
       "source": "1",
       "target": "1.8"
     },
     {
-      "source": "1.8",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "1.9"
     },
     {
       "source": "1.9",
-      "target": "1"
-    },
-    {
-      "source": "1.9",
       "target": "Garbage collection"
-    },
-    {
-      "source": "Garbage collection",
-      "target": "1.9"
     },
     {
       "source": "1.9",
       "target": "Pointervariable"
     },
     {
-      "source": "Pointervariable",
-      "target": "1.9"
-    },
-    {
       "source": "1.9",
       "target": "String -Konkatenation"
-    },
-    {
-      "source": "String -Konkatenation",
-      "target": "1.9"
     },
     {
       "source": "1",
@@ -4889,247 +4565,123 @@
     },
     {
       "source": "1.10",
-      "target": "1"
-    },
-    {
-      "source": "1.10",
       "target": "Aliasing"
-    },
-    {
-      "source": "Aliasing",
-      "target": "1.10"
     },
     {
       "source": "1.10",
       "target": "Lebenszyklus"
     },
     {
-      "source": "Lebenszyklus",
-      "target": "1.10"
-    },
-    {
       "source": "1.10",
       "target": "Literal"
-    },
-    {
-      "source": "Literal",
-      "target": "1.10"
     },
     {
       "source": "1.10",
       "target": "Netzwerkmo dell"
     },
     {
-      "source": "Netzwerkmo dell",
-      "target": "1.10"
-    },
-    {
       "source": "1.10",
       "target": "Objektgeflecht"
-    },
-    {
-      "source": "Objektgeflecht",
-      "target": "1.10"
     },
     {
       "source": "1.10",
       "target": "Referenzsemantik"
     },
     {
-      "source": "Referenzsemantik",
-      "target": "1.10"
-    },
-    {
       "source": "1.10",
       "target": "relationales Datenmodell"
     },
     {
-      "source": "relationales Datenmodell",
-      "target": "1.10"
-    },
-    {
       "source": "1.10",
       "target": "Variable"
-    },
-    {
-      "source": "Variable",
-      "target": "1.10"
     },
     {
       "source": "1.10",
       "target": "Verweis"
     },
     {
-      "source": "Verweis",
-      "target": "1.10"
-    },
-    {
       "source": "1",
       "target": "Change log"
     },
     {
-      "source": "Change log",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Compilation unit"
-    },
-    {
-      "source": "Compilation unit",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "Durchg\u00e4ngigkeit der Konzepte"
     },
     {
-      "source": "Durchg\u00e4ngigkeit der Konzepte",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Eigenschaft"
-    },
-    {
-      "source": "Eigenschaft",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "funktionale Programmierung"
     },
     {
-      "source": "funktionale Programmierung",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Garbage collection"
     },
     {
-      "source": "Garbage collection",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Identit\u00e4t"
-    },
-    {
-      "source": "Identit\u00e4t",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "Image"
     },
     {
-      "source": "Image",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Live programming"
-    },
-    {
-      "source": "Live programming",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "Live-Programmierung"
     },
     {
-      "source": "Live-Programmierung",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Modularisierung"
-    },
-    {
-      "source": "Modularisierung",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "Softwarekrise"
     },
     {
-      "source": "Softwarekrise",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Unterscheidung zwischen"
-    },
-    {
-      "source": "Unterscheidung zwischen",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "Struktur"
     },
     {
-      "source": "Struktur",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Subtyping"
-    },
-    {
-      "source": "Subtyping",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "Variable"
     },
     {
-      "source": "Variable",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Vererbung"
     },
     {
-      "source": "Vererbung",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Verhalten"
-    },
-    {
-      "source": "Verhalten",
-      "target": "1"
     },
     {
       "source": "1",
       "target": "Wertzuweisung"
     },
     {
-      "source": "Wertzuweisung",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Wiederverwendung"
     },
     {
-      "source": "Wiederverwendung",
-      "target": "1"
-    },
-    {
       "source": "1",
       "target": "Zustand"
-    },
-    {
-      "source": "Zustand",
-      "target": "1"
     },
     {
       "source": "Kurseinheit 1",
@@ -5137,151 +4689,75 @@
     },
     {
       "source": "2",
-      "target": "Kurseinheit 1"
-    },
-    {
-      "source": "2",
       "target": "2.1"
-    },
-    {
-      "source": "2.1",
-      "target": "2"
     },
     {
       "source": "2.1",
       "target": "Attribut"
     },
     {
-      "source": "Attribut",
-      "target": "2.1"
-    },
-    {
       "source": "2.1",
       "target": "Feld"
-    },
-    {
-      "source": "Feld",
-      "target": "2.1"
     },
     {
       "source": "2.1",
       "target": "Instanzvariable"
     },
     {
-      "source": "Instanzvariable",
-      "target": "2.1"
-    },
-    {
       "source": "2.1",
       "target": "lokale Variable"
-    },
-    {
-      "source": "lokale Variable",
-      "target": "2.1"
     },
     {
       "source": "2.1",
       "target": "strukturiertes"
     },
     {
-      "source": "strukturiertes",
-      "target": "2.1"
-    },
-    {
       "source": "2.1",
       "target": "von Objekten"
     },
     {
-      "source": "von Objekten",
-      "target": "2.1"
-    },
-    {
       "source": "2",
       "target": "2.2"
-    },
-    {
-      "source": "2.2",
-      "target": "2"
     },
     {
       "source": "2.2",
       "target": ":1-Beziehung"
     },
     {
-      "source": ":1-Beziehung",
-      "target": "2.2"
-    },
-    {
       "source": "2.2",
       "target": ":n-Beziehung"
-    },
-    {
-      "source": ":n-Beziehung",
-      "target": "2.2"
     },
     {
       "source": "2.2",
       "target": "benannte Instanzvariable"
     },
     {
-      "source": "benannte Instanzvariable",
-      "target": "2.2"
-    },
-    {
       "source": "2.2",
       "target": "Indexer"
-    },
-    {
-      "source": "Indexer",
-      "target": "2.2"
     },
     {
       "source": "2.2",
       "target": "indizierte Instanzvariable"
     },
     {
-      "source": "indizierte Instanzvariable",
-      "target": "2.2"
-    },
-    {
       "source": "2.2",
       "target": "Kardinalit\u00e4t"
-    },
-    {
-      "source": "Kardinalit\u00e4t",
-      "target": "2.2"
     },
     {
       "source": "2.2",
       "target": "Multiplizit\u00e4t"
     },
     {
-      "source": "Multiplizit\u00e4t",
-      "target": "2.2"
-    },
-    {
       "source": "2.2",
       "target": "UML"
-    },
-    {
-      "source": "UML",
-      "target": "2.2"
     },
     {
       "source": "2.2",
       "target": "Zu-eins-Beziehung"
     },
     {
-      "source": "Zu-eins-Beziehung",
-      "target": "2.2"
-    },
-    {
       "source": "2.2",
       "target": "Zu-n-Beziehung"
-    },
-    {
-      "source": "Zu-n-Beziehung",
-      "target": "2.2"
     },
     {
       "source": "2",
@@ -5289,47 +4765,23 @@
     },
     {
       "source": "2.3",
-      "target": "2"
-    },
-    {
-      "source": "2.3",
       "target": "Aggregation"
-    },
-    {
-      "source": "Aggregation",
-      "target": "2.3"
     },
     {
       "source": "2.3",
       "target": "leere"
     },
     {
-      "source": "leere",
-      "target": "2.3"
-    },
-    {
       "source": "2.3",
       "target": "Komposition"
-    },
-    {
-      "source": "Komposition",
-      "target": "2.3"
     },
     {
       "source": "2.3",
       "target": "Teil-Ganzes -Beziehung"
     },
     {
-      "source": "Teil-Ganzes -Beziehung",
-      "target": "2.3"
-    },
-    {
       "source": "2.3",
       "target": "Zwischenobjekt"
-    },
-    {
-      "source": "Zwischenobjekt",
-      "target": "2.3"
     },
     {
       "source": "2",
@@ -5337,135 +4789,67 @@
     },
     {
       "source": "2.4",
-      "target": "2"
-    },
-    {
-      "source": "2.4",
       "target": "Kapselung"
-    },
-    {
-      "source": "Kapselung",
-      "target": "2.4"
     },
     {
       "source": "2.4",
       "target": "Komposition"
-    },
-    {
-      "source": "Komposition",
-      "target": "2.4"
     },
     {
       "source": "2.4",
       "target": "Mereologie"
     },
     {
-      "source": "Mereologie",
-      "target": "2.4"
-    },
-    {
       "source": "Kurseinheit 1",
       "target": "3"
-    },
-    {
-      "source": "3",
-      "target": "Kurseinheit 1"
     },
     {
       "source": "3",
       "target": "3.1"
     },
     {
-      "source": "3.1",
-      "target": "3"
-    },
-    {
       "source": "3",
       "target": "3.2"
-    },
-    {
-      "source": "3.2",
-      "target": "3"
     },
     {
       "source": "3.2",
       "target": "Ausdruck"
     },
     {
-      "source": "Ausdruck",
-      "target": "3.2"
-    },
-    {
       "source": "3.2",
       "target": "Geheimnisprinzip"
-    },
-    {
-      "source": "Geheimnisprinzip",
-      "target": "3.2"
     },
     {
       "source": "3.2",
       "target": "Implementationsgeheimnis"
     },
     {
-      "source": "Implementationsgeheimnis",
-      "target": "3.2"
-    },
-    {
       "source": "3.2",
       "target": "Informat ion hiding"
     },
     {
-      "source": "Informat ion hiding",
-      "target": "3.2"
-    },
-    {
       "source": "3.2",
       "target": "Kapselung"
-    },
-    {
-      "source": "Kapselung",
-      "target": "3.2"
     },
     {
       "source": "3",
       "target": "und Zustand"
     },
     {
-      "source": "und Zustand",
-      "target": "3"
-    },
-    {
       "source": "3",
       "target": "-wert"
-    },
-    {
-      "source": "-wert",
-      "target": "3"
     },
     {
       "source": "3",
       "target": "unver\u00e4nderliches Objekt"
     },
     {
-      "source": "unver\u00e4nderliches Objekt",
-      "target": "3"
-    },
-    {
       "source": "3",
       "target": "ver\u00e4nderliches Objekt"
     },
     {
-      "source": "ver\u00e4nderliches Objekt",
-      "target": "3"
-    },
-    {
       "source": "3",
       "target": "Zustand"
-    },
-    {
-      "source": "Zustand",
-      "target": "3"
     },
     {
       "source": "Kurseinheit 1",
@@ -5473,791 +4857,395 @@
     },
     {
       "source": "4",
-      "target": "Kurseinheit 1"
-    },
-    {
-      "source": "4",
       "target": "4.1"
-    },
-    {
-      "source": "4.1",
-      "target": "4"
     },
     {
       "source": "4.1",
       "target": "4.1.1"
     },
     {
-      "source": "4.1.1",
-      "target": "4.1"
-    },
-    {
       "source": "4.1",
       "target": "4.1.2"
     },
     {
-      "source": "4.1.2",
-      "target": "4.1"
-    },
-    {
       "source": "4.1",
       "target": "4.1.3"
-    },
-    {
-      "source": "4.1.3",
-      "target": "4.1"
     },
     {
       "source": "4.1.3",
       "target": "bin\u00e4re Methode"
     },
     {
-      "source": "bin\u00e4re Methode",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1.3",
       "target": "bin\u00e4re Nachricht"
-    },
-    {
-      "source": "bin\u00e4re Nachricht",
-      "target": "4.1.3"
     },
     {
       "source": "4.1.3",
       "target": "Fluent API"
     },
     {
-      "source": "Fluent API",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1.3",
       "target": "metasyntaktische Variable"
     },
     {
-      "source": "metasyntaktische Variable",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1.3",
       "target": "Nachrichtenselektor"
-    },
-    {
-      "source": "Nachrichtenselektor",
-      "target": "4.1.3"
     },
     {
       "source": "4.1.3",
       "target": "Nebeneffekt"
     },
     {
-      "source": "Nebeneffekt",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1.3",
       "target": "Nebenwirkung"
-    },
-    {
-      "source": "Nebenwirkung",
-      "target": "4.1.3"
     },
     {
       "source": "4.1.3",
       "target": "Schl\u00fcsselwortnachricht"
     },
     {
-      "source": "Schl\u00fcsselwortnachricht",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1.3",
       "target": "Seiteneffekt"
     },
     {
-      "source": "Seiteneffekt",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1.3",
       "target": "tempor\u00e4re Variable"
-    },
-    {
-      "source": "tempor\u00e4re Variable",
-      "target": "4.1.3"
     },
     {
       "source": "4.1.3",
       "target": "un\u00e4re Nachricht"
     },
     {
-      "source": "un\u00e4re Nachricht",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1.3",
       "target": "metasyntaktische"
-    },
-    {
-      "source": "metasyntaktische",
-      "target": "4.1.3"
     },
     {
       "source": "4.1.3",
       "target": "Zuweisungsoperator"
     },
     {
-      "source": "Zuweisungsoperator",
-      "target": "4.1.3"
-    },
-    {
       "source": "4.1",
       "target": "4.1.4"
-    },
-    {
-      "source": "4.1.4",
-      "target": "4.1"
     },
     {
       "source": "4.1.4",
       "target": "Fluent API"
     },
     {
-      "source": "Fluent API",
-      "target": "4.1.4"
-    },
-    {
       "source": "4.1.4",
       "target": "-aufruf"
     },
     {
-      "source": "-aufruf",
-      "target": "4.1.4"
-    },
-    {
       "source": "4.1.4",
       "target": "Seiteneffekt"
-    },
-    {
-      "source": "Seiteneffekt",
-      "target": "4.1.4"
     },
     {
       "source": "4.1.4",
       "target": "Speicherbereinigung"
     },
     {
-      "source": "Speicherbereinigung",
-      "target": "4.1.4"
-    },
-    {
       "source": "4.1",
       "target": "Ausdruck"
-    },
-    {
-      "source": "Ausdruck",
-      "target": "4.1"
     },
     {
       "source": "4.1",
       "target": "Nachrichten -"
     },
     {
-      "source": "Nachrichten -",
-      "target": "4.1"
-    },
-    {
       "source": "4.1",
       "target": "primitive r"
-    },
-    {
-      "source": "primitive r",
-      "target": "4.1"
     },
     {
       "source": "4.1",
       "target": "Zuweisungs -"
     },
     {
-      "source": "Zuweisungs -",
-      "target": "4.1"
-    },
-    {
       "source": "4.1",
       "target": "Nachricht"
-    },
-    {
-      "source": "Nachricht",
-      "target": "4.1"
     },
     {
       "source": "4.1",
       "target": "Nachrichtenausdruck"
     },
     {
-      "source": "Nachrichtenausdruck",
-      "target": "4.1"
-    },
-    {
       "source": "4.1",
       "target": "Nachrichtenversand"
     },
     {
-      "source": "Nachrichtenversand",
-      "target": "4.1"
-    },
-    {
       "source": "4",
       "target": "4.2"
-    },
-    {
-      "source": "4.2",
-      "target": "4"
     },
     {
       "source": "4.2",
       "target": "Return -Anweisung"
     },
     {
-      "source": "Return -Anweisung",
-      "target": "4.2"
-    },
-    {
       "source": "4",
       "target": "4.3"
     },
     {
       "source": "4.3",
-      "target": "4"
-    },
-    {
-      "source": "4.3",
       "target": "4.3.1"
-    },
-    {
-      "source": "4.3.1",
-      "target": "4.3"
     },
     {
       "source": "4.3.1",
       "target": "formaler Parameter"
-    },
-    {
-      "source": "formaler Parameter",
-      "target": "4.3.1"
     },
     {
       "source": "4.3.1",
       "target": "Beeinflussung durch Return"
     },
     {
-      "source": "Beeinflussung durch Return",
-      "target": "4.3.1"
-    },
-    {
       "source": "4.3.1",
       "target": "metasyntaktische Variable"
     },
     {
-      "source": "metasyntaktische Variable",
-      "target": "4.3.1"
-    },
-    {
       "source": "4.3.1",
       "target": "-aufruf"
-    },
-    {
-      "source": "-aufruf",
-      "target": "4.3.1"
     },
     {
       "source": "4.3.1",
       "target": "Nachrichtenselektor"
     },
     {
-      "source": "Nachrichtenselektor",
-      "target": "4.3.1"
-    },
-    {
       "source": "4.3.1",
       "target": "Protokoll"
     },
     {
-      "source": "Protokoll",
-      "target": "4.3.1"
-    },
-    {
       "source": "4.3.1",
       "target": "Pseudovariable"
-    },
-    {
-      "source": "Pseudovariable",
-      "target": "4.3.1"
     },
     {
       "source": "4.3.1",
       "target": "Return -Anweisung"
     },
     {
-      "source": "Return -Anweisung",
-      "target": "4.3.1"
-    },
-    {
       "source": "4.3.1",
       "target": "self"
-    },
-    {
-      "source": "self",
-      "target": "4.3.1"
     },
     {
       "source": "4.3",
       "target": "4.3.2"
     },
     {
-      "source": "4.3.2",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "4.3.3"
-    },
-    {
-      "source": "4.3.3",
-      "target": "4.3"
     },
     {
       "source": "4.3.3",
       "target": "Aliasing"
     },
     {
-      "source": "Aliasing",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "Call by reference"
-    },
-    {
-      "source": "Call by reference",
-      "target": "4.3.3"
     },
     {
       "source": "4.3.3",
       "target": "Call by value"
     },
     {
-      "source": "Call by value",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "dynamisches Binden"
-    },
-    {
-      "source": "dynamisches Binden",
-      "target": "4.3.3"
     },
     {
       "source": "4.3.3",
       "target": "versteckte"
     },
     {
-      "source": "versteckte",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "Implementationsgeheimnis"
     },
     {
-      "source": "Implementationsgeheimnis",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "Kapselung"
-    },
-    {
-      "source": "Kapselung",
-      "target": "4.3.3"
     },
     {
       "source": "4.3.3",
       "target": "primitive"
     },
     {
-      "source": "primitive",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "Polymorphie"
-    },
-    {
-      "source": "Polymorphie",
-      "target": "4.3.3"
     },
     {
       "source": "4.3.3",
       "target": "vs. Polymorphismus"
     },
     {
-      "source": "vs. Polymorphismus",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "Polymorphismus"
-    },
-    {
-      "source": "Polymorphismus",
-      "target": "4.3.3"
     },
     {
       "source": "4.3.3",
       "target": "vs. Polymorphie"
     },
     {
-      "source": "vs. Polymorphie",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "statisches Binden"
     },
     {
-      "source": "statisches Binden",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "tats\u00e4chlicher Parameter"
-    },
-    {
-      "source": "tats\u00e4chlicher Parameter",
-      "target": "4.3.3"
     },
     {
       "source": "4.3.3",
       "target": "Zustand"
     },
     {
-      "source": "Zustand",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "explizite"
     },
     {
-      "source": "explizite",
-      "target": "4.3.3"
-    },
-    {
       "source": "4.3.3",
       "target": "implizite"
-    },
-    {
-      "source": "implizite",
-      "target": "4.3.3"
     },
     {
       "source": "4.3",
       "target": "4.3.4"
     },
     {
-      "source": "4.3.4",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "4.3.5"
-    },
-    {
-      "source": "4.3.5",
-      "target": "4.3"
     },
     {
       "source": "4.3.5",
       "target": "Accessor"
     },
     {
-      "source": "Accessor",
-      "target": "4.3.5"
-    },
-    {
       "source": "4.3.5",
       "target": "Getter"
     },
     {
-      "source": "Getter",
-      "target": "4.3.5"
-    },
-    {
       "source": "4.3.5",
       "target": "Implementationsgeheimnis"
-    },
-    {
-      "source": "Implementationsgeheimnis",
-      "target": "4.3.5"
     },
     {
       "source": "4.3.5",
       "target": "Konstante"
     },
     {
-      "source": "Konstante",
-      "target": "4.3.5"
-    },
-    {
       "source": "4.3.5",
       "target": "konstante Methode"
     },
     {
-      "source": "konstante Methode",
-      "target": "4.3.5"
-    },
-    {
       "source": "4.3.5",
       "target": "Literal"
-    },
-    {
-      "source": "Literal",
-      "target": "4.3.5"
     },
     {
       "source": "4.3.5",
       "target": "Nur-Lesen"
     },
     {
-      "source": "Nur-Lesen",
-      "target": "4.3.5"
-    },
-    {
       "source": "4.3.5",
       "target": "Nur-Schreiben"
-    },
-    {
-      "source": "Nur-Schreiben",
-      "target": "4.3.5"
     },
     {
       "source": "4.3.5",
       "target": "Protokoll"
     },
     {
-      "source": "Protokoll",
-      "target": "4.3.5"
-    },
-    {
       "source": "4.3.5",
       "target": "Seiteneffekt"
-    },
-    {
-      "source": "Seiteneffekt",
-      "target": "4.3.5"
     },
     {
       "source": "4.3.5",
       "target": "Setter"
     },
     {
-      "source": "Setter",
-      "target": "4.3.5"
-    },
-    {
       "source": "4.3.5",
       "target": "Zugriffsmethode"
-    },
-    {
-      "source": "Zugriffsmethode",
-      "target": "4.3.5"
     },
     {
       "source": "4.3",
       "target": "4.3.6"
     },
     {
-      "source": "4.3.6",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "4.3.7"
     },
     {
-      "source": "4.3.7",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "4.3.8"
-    },
-    {
-      "source": "4.3.8",
-      "target": "4.3"
     },
     {
       "source": "4.3.8",
       "target": "Implementation"
     },
     {
-      "source": "Implementation",
-      "target": "4.3.8"
-    },
-    {
       "source": "4.3.8",
       "target": "Implementationsgeheimnis"
     },
     {
-      "source": "Implementationsgeheimnis",
-      "target": "4.3.8"
-    },
-    {
       "source": "4.3.8",
       "target": "Interface"
-    },
-    {
-      "source": "Interface",
-      "target": "4.3.8"
     },
     {
       "source": "4.3.8",
       "target": "Kommentar"
     },
     {
-      "source": "Kommentar",
-      "target": "4.3.8"
-    },
-    {
       "source": "4.3.8",
       "target": "-rumpf"
-    },
-    {
-      "source": "-rumpf",
-      "target": "4.3.8"
     },
     {
       "source": "4.3.8",
       "target": "-signatur"
     },
     {
-      "source": "-signatur",
-      "target": "4.3.8"
-    },
-    {
       "source": "4.3.8",
       "target": "Protokoll"
-    },
-    {
-      "source": "Protokoll",
-      "target": "4.3.8"
     },
     {
       "source": "4.3.8",
       "target": "Protokollbeschr eibung"
     },
     {
-      "source": "Protokollbeschr eibung",
-      "target": "4.3.8"
-    },
-    {
       "source": "4.3",
       "target": "aktueller Parameter"
-    },
-    {
-      "source": "aktueller Parameter",
-      "target": "4.3"
     },
     {
       "source": "4.3",
       "target": "Anweisung"
     },
     {
-      "source": "Anweisung",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "formaler Parameter"
     },
     {
-      "source": "formaler Parameter",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "lokale Variable"
-    },
-    {
-      "source": "lokale Variable",
-      "target": "4.3"
     },
     {
       "source": "4.3",
       "target": "Message pattern"
     },
     {
-      "source": "Message pattern",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "Methode"
-    },
-    {
-      "source": "Methode",
-      "target": "4.3"
     },
     {
       "source": "4.3",
       "target": "-kopf"
     },
     {
-      "source": "-kopf",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "-rumpf"
-    },
-    {
-      "source": "-rumpf",
-      "target": "4.3"
     },
     {
       "source": "4.3",
       "target": "-signatur"
     },
     {
-      "source": "-signatur",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "Pseudovariable"
-    },
-    {
-      "source": "Pseudovariable",
-      "target": "4.3"
     },
     {
       "source": "4.3",
       "target": "tats\u00e4chlicher Parameter"
     },
     {
-      "source": "tats\u00e4chlicher Parameter",
-      "target": "4.3"
-    },
-    {
       "source": "4.3",
       "target": "tempor\u00e4re Variable"
-    },
-    {
-      "source": "tempor\u00e4re Variable",
-      "target": "4.3"
     },
     {
       "source": "4",
@@ -6265,191 +5253,95 @@
     },
     {
       "source": "4.4",
-      "target": "4"
-    },
-    {
-      "source": "4.4",
       "target": "4.4.1"
-    },
-    {
-      "source": "4.4.1",
-      "target": "4.4"
     },
     {
       "source": "4.4.1",
       "target": "Home context"
-    },
-    {
-      "source": "Home context",
-      "target": "4.4.1"
     },
     {
       "source": "4.4.1",
       "target": "self und super im Home context"
     },
     {
-      "source": "self und super im Home context",
-      "target": "4.4.1"
-    },
-    {
       "source": "4.4",
       "target": "4.4.2"
-    },
-    {
-      "source": "4.4.2",
-      "target": "4.4"
     },
     {
       "source": "4.4.2",
       "target": "Call stack"
     },
     {
-      "source": "Call stack",
-      "target": "4.4.2"
-    },
-    {
       "source": "4.4.2",
       "target": "Closure"
     },
     {
-      "source": "Closure",
-      "target": "4.4.2"
-    },
-    {
       "source": "4.4.2",
       "target": "Continuation"
-    },
-    {
-      "source": "Continuation",
-      "target": "4.4.2"
     },
     {
       "source": "4.4.2",
       "target": "funktionale Programmierung"
     },
     {
-      "source": "funktionale Programmierung",
-      "target": "4.4.2"
-    },
-    {
       "source": "4.4.2",
       "target": "bei Continuations"
     },
     {
-      "source": "bei Continuations",
-      "target": "4.4.2"
-    },
-    {
       "source": "4.4.2",
       "target": "Lambda -Ausdruck"
-    },
-    {
-      "source": "Lambda -Ausdruck",
-      "target": "4.4.2"
     },
     {
       "source": "4.4.2",
       "target": "bei Continuation"
     },
     {
-      "source": "bei Continuation",
-      "target": "4.4.2"
-    },
-    {
       "source": "4.4",
       "target": "4.4.3"
-    },
-    {
-      "source": "4.4.3",
-      "target": "4.4"
     },
     {
       "source": "4.4.3",
       "target": "eines Blocks"
     },
     {
-      "source": "eines Blocks",
-      "target": "4.4.3"
-    },
-    {
       "source": "4.4.3",
       "target": "Kontrollstruktur"
     },
     {
-      "source": "Kontrollstruktur",
-      "target": "4.4.3"
-    },
-    {
       "source": "4.4",
       "target": "Block"
-    },
-    {
-      "source": "Block",
-      "target": "4.4"
     },
     {
       "source": "4.4",
       "target": "Kontext eines Blocks"
     },
     {
-      "source": "Kontext eines Blocks",
-      "target": "4.4"
-    },
-    {
       "source": "4.4",
       "target": "Nachrichtenkategorie"
     },
     {
-      "source": "Nachrichtenkategorie",
-      "target": "4.4"
-    },
-    {
       "source": "4",
       "target": "4.5"
-    },
-    {
-      "source": "4.5",
-      "target": "4"
     },
     {
       "source": "4.5",
       "target": "4.5.1"
     },
     {
-      "source": "4.5.1",
-      "target": "4.5"
-    },
-    {
       "source": "4.5",
       "target": "4.5.2"
-    },
-    {
-      "source": "4.5.2",
-      "target": "4.5"
     },
     {
       "source": "4.5",
       "target": "dynamisches Binden"
     },
     {
-      "source": "dynamisches Binden",
-      "target": "4.5"
-    },
-    {
       "source": "4.5",
       "target": "versteckte"
     },
     {
-      "source": "versteckte",
-      "target": "4.5"
-    },
-    {
       "source": "4.5",
       "target": "paral lele Ausf\u00fchrung"
-    },
-    {
-      "source": "paral lele Ausf\u00fchrung",
-      "target": "4.5"
     },
     {
       "source": "4",
@@ -6457,111 +5349,55 @@
     },
     {
       "source": "4.6",
-      "target": "4"
-    },
-    {
-      "source": "4.6",
       "target": "4.6.1"
-    },
-    {
-      "source": "4.6.1",
-      "target": "4.6"
     },
     {
       "source": "4.6",
       "target": "4.6.2"
-    },
-    {
-      "source": "4.6.2",
-      "target": "4.6"
     },
     {
       "source": "4.6.2",
       "target": "Continuation"
     },
     {
-      "source": "Continuation",
-      "target": "4.6.2"
-    },
-    {
       "source": "4.6.2",
       "target": "dynamisches Binden"
     },
     {
-      "source": "dynamisches Binden",
-      "target": "4.6.2"
-    },
-    {
       "source": "4.6",
       "target": "4.6.3"
-    },
-    {
-      "source": "4.6.3",
-      "target": "4.6"
     },
     {
       "source": "4.6.3",
       "target": "Endrekursion"
     },
     {
-      "source": "Endrekursion",
-      "target": "4.6.3"
-    },
-    {
       "source": "4.6",
       "target": "4.6.4"
-    },
-    {
-      "source": "4.6.4",
-      "target": "4.6"
     },
     {
       "source": "4.6.4",
       "target": "externe"
     },
     {
-      "source": "externe",
-      "target": "4.6.4"
-    },
-    {
       "source": "4.6.4",
       "target": "interne"
-    },
-    {
-      "source": "interne",
-      "target": "4.6.4"
     },
     {
       "source": "4.6",
       "target": "Goto"
     },
     {
-      "source": "Goto",
-      "target": "4.6"
-    },
-    {
       "source": "4.6",
       "target": "Iteration"
-    },
-    {
-      "source": "Iteration",
-      "target": "4.6"
     },
     {
       "source": "4.6",
       "target": "Schl\u00fcsselwort"
     },
     {
-      "source": "Schl\u00fcsselwort",
-      "target": "4.6"
-    },
-    {
       "source": "4.6",
       "target": "strukturierte Programmierung"
-    },
-    {
-      "source": "strukturierte Programmierung",
-      "target": "4.6"
     },
     {
       "source": "Kurseinheit 1",
@@ -6569,303 +5405,151 @@
     },
     {
       "source": "5",
-      "target": "Kurseinheit 1"
-    },
-    {
-      "source": "5",
       "target": "Pseudovariable"
-    },
-    {
-      "source": "Pseudovariable",
-      "target": "5"
     },
     {
       "source": "5",
       "target": "Schl\u00fcsselwort"
-    },
-    {
-      "source": "Schl\u00fcsselwort",
-      "target": "5"
     },
     {
       "source": "5",
       "target": "Schl\u00fcsselwortnachricht"
     },
     {
-      "source": "Schl\u00fcsselwortnachricht",
-      "target": "5"
-    },
-    {
       "source": "5",
       "target": "Zwischenobjekt"
-    },
-    {
-      "source": "Zwischenobjekt",
-      "target": "5"
     },
     {
       "source": "Kurseinheit 1",
       "target": "6"
     },
     {
-      "source": "6",
-      "target": "Kurseinheit 1"
-    },
-    {
       "source": "Objektorientierte Programmierung",
       "target": "Kurseinheit 2"
     },
     {
       "source": "Kurseinheit 2",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Kurseinheit 2",
       "target": "7"
-    },
-    {
-      "source": "7",
-      "target": "Kurseinheit 2"
     },
     {
       "source": "7",
       "target": "7.1"
-    },
-    {
-      "source": "7.1",
-      "target": "7"
     },
     {
       "source": "7.1",
       "target": "Eigenschaft"
     },
     {
-      "source": "Eigenschaft",
-      "target": "7.1"
-    },
-    {
       "source": "7.1",
       "target": "Extension"
-    },
-    {
-      "source": "Extension",
-      "target": "7.1"
     },
     {
       "source": "7.1",
       "target": "Klassifikation"
     },
     {
-      "source": "Klassifikation",
-      "target": "7.1"
-    },
-    {
       "source": "7.1",
       "target": "Universalienstreit"
-    },
-    {
-      "source": "Universalienstreit",
-      "target": "7.1"
     },
     {
       "source": "7.1",
       "target": "Verhalten"
     },
     {
-      "source": "Verhalten",
-      "target": "7.1"
-    },
-    {
       "source": "7",
       "target": "7.2"
-    },
-    {
-      "source": "7.2",
-      "target": "7"
     },
     {
       "source": "7.2",
       "target": "Familie n\u00e4hnlichkeit"
     },
     {
-      "source": "Familie n\u00e4hnlichkeit",
-      "target": "7.2"
-    },
-    {
       "source": "7.2",
       "target": "Instanzvariable"
     },
     {
-      "source": "Instanzvariable",
-      "target": "7.2"
-    },
-    {
       "source": "7.2",
       "target": "Intension"
-    },
-    {
-      "source": "Intension",
-      "target": "7.2"
     },
     {
       "source": "7.2",
       "target": "-definition"
     },
     {
-      "source": "-definition",
-      "target": "7.2"
-    },
-    {
       "source": "7.2",
       "target": "-aufruf"
-    },
-    {
-      "source": "-aufruf",
-      "target": "7.2"
     },
     {
       "source": "7.2",
       "target": "Prototyp"
     },
     {
-      "source": "Prototyp",
-      "target": "7.2"
-    },
-    {
       "source": "7",
       "target": "7.3"
     },
     {
       "source": "7.3",
-      "target": "7"
-    },
-    {
-      "source": "7.3",
       "target": "Alias"
-    },
-    {
-      "source": "Alias",
-      "target": "7.3"
     },
     {
       "source": "7.3",
       "target": "globale Variable"
     },
     {
-      "source": "globale Variable",
-      "target": "7.3"
-    },
-    {
       "source": "7.3",
       "target": "Instanz"
-    },
-    {
-      "source": "Instanz",
-      "target": "7.3"
     },
     {
       "source": "7.3",
       "target": "Instanziierung"
     },
     {
-      "source": "Instanziierung",
-      "target": "7.3"
-    },
-    {
       "source": "7.3",
       "target": "Klassifikation"
-    },
-    {
-      "source": "Klassifikation",
-      "target": "7.3"
     },
     {
       "source": "7.3",
       "target": "Pseudovariable"
     },
     {
-      "source": "Pseudovariable",
-      "target": "7.3"
-    },
-    {
       "source": "7.3",
       "target": "Zwischenobjekt"
-    },
-    {
-      "source": "Zwischenobjekt",
-      "target": "7.3"
     },
     {
       "source": "7",
       "target": "Allgemeinbegriff"
     },
     {
-      "source": "Allgemeinbegriff",
-      "target": "7"
-    },
-    {
       "source": "7",
       "target": "Call by reference"
-    },
-    {
-      "source": "Call by reference",
-      "target": "7"
     },
     {
       "source": "7",
       "target": "Call by value"
     },
     {
-      "source": "Call by value",
-      "target": "7"
-    },
-    {
       "source": "7",
       "target": "dynamisches Binden"
     },
     {
-      "source": "dynamisches Binden",
-      "target": "7"
-    },
-    {
       "source": "7",
       "target": "Home context"
-    },
-    {
-      "source": "Home context",
-      "target": "7"
     },
     {
       "source": "7",
       "target": "Instanz"
     },
     {
-      "source": "Instanz",
-      "target": "7"
-    },
-    {
       "source": "7",
       "target": "Literaloptimierung"
-    },
-    {
-      "source": "Literaloptimierung",
-      "target": "7"
     },
     {
       "source": "7",
       "target": "klassenbasierte Form"
     },
     {
-      "source": "klassenbasierte Form",
-      "target": "7"
-    },
-    {
       "source": "7",
       "target": "prototypenbasierte Form"
-    },
-    {
-      "source": "prototypenbasierte Form",
-      "target": "7"
     },
     {
       "source": "Kurseinheit 2",
@@ -6873,103 +5557,51 @@
     },
     {
       "source": "8",
-      "target": "Kurseinheit 2"
-    },
-    {
-      "source": "8",
       "target": "8.1"
-    },
-    {
-      "source": "8.1",
-      "target": "8"
     },
     {
       "source": "8.1",
       "target": "Instanzmethode"
     },
     {
-      "source": "Instanzmethode",
-      "target": "8.1"
-    },
-    {
       "source": "8.1",
       "target": "Instanzvariable"
-    },
-    {
-      "source": "Instanzvariable",
-      "target": "8.1"
     },
     {
       "source": "8.1",
       "target": "-methode"
     },
     {
-      "source": "-methode",
-      "target": "8.1"
-    },
-    {
       "source": "8.1",
       "target": "-variable"
-    },
-    {
-      "source": "-variable",
-      "target": "8.1"
     },
     {
       "source": "8.1",
       "target": "Klassenmethode"
     },
     {
-      "source": "Klassenmethode",
-      "target": "8.1"
-    },
-    {
       "source": "8.1",
       "target": "Klassenvariable"
-    },
-    {
-      "source": "Klassenvariable",
-      "target": "8.1"
     },
     {
       "source": "8.1",
       "target": "Konstruktor"
     },
     {
-      "source": "Konstruktor",
-      "target": "8.1"
-    },
-    {
       "source": "8.1",
       "target": "Metaklasse"
     },
     {
-      "source": "Metaklasse",
-      "target": "8.1"
-    },
-    {
       "source": "8",
       "target": "8.2"
-    },
-    {
-      "source": "8.2",
-      "target": "8"
     },
     {
       "source": "8.2",
       "target": "Initialisierung"
     },
     {
-      "source": "Initialisierung",
-      "target": "8.2"
-    },
-    {
       "source": "8.2",
       "target": "primitive Methode"
-    },
-    {
-      "source": "primitive Methode",
-      "target": "8.2"
     },
     {
       "source": "8",
@@ -6977,415 +5609,207 @@
     },
     {
       "source": "8.3",
-      "target": "8"
-    },
-    {
-      "source": "8.3",
       "target": "Factory -Methode"
-    },
-    {
-      "source": "Factory -Methode",
-      "target": "8.3"
     },
     {
       "source": "8.3",
       "target": "Lazy initialization per"
     },
     {
-      "source": "Lazy initialization per",
-      "target": "8.3"
-    },
-    {
       "source": "8.3",
       "target": "Implementationsgeheimnis"
     },
     {
-      "source": "Implementationsgeheimnis",
-      "target": "8.3"
-    },
-    {
       "source": "8.3",
       "target": "lazy"
-    },
-    {
-      "source": "lazy",
-      "target": "8.3"
     },
     {
       "source": "8.3",
       "target": "f\u00fcr Klassenvariablen"
     },
     {
-      "source": "f\u00fcr Klassenvariablen",
-      "target": "8.3"
-    },
-    {
       "source": "8.3",
       "target": "Lazy initialization"
-    },
-    {
-      "source": "Lazy initialization",
-      "target": "8.3"
     },
     {
       "source": "8",
       "target": "8.4"
     },
     {
-      "source": "8.4",
-      "target": "8"
-    },
-    {
       "source": "8",
       "target": "8.5"
-    },
-    {
-      "source": "8.5",
-      "target": "8"
     },
     {
       "source": "8.5",
       "target": "Subklasse"
     },
     {
-      "source": "Subklasse",
-      "target": "8.5"
-    },
-    {
       "source": "8",
       "target": "8.6"
-    },
-    {
-      "source": "8.6",
-      "target": "8"
     },
     {
       "source": "8.6",
       "target": "Metaprogrammiersystem"
     },
     {
-      "source": "Metaprogrammiersystem",
-      "target": "8.6"
-    },
-    {
       "source": "8.6",
       "target": "automatische Einrichtung von"
-    },
-    {
-      "source": "automatische Einrichtung von",
-      "target": "8.6"
     },
     {
       "source": "8",
       "target": "direkte Instanz"
     },
     {
-      "source": "direkte Instanz",
-      "target": "8"
-    },
-    {
       "source": "8",
       "target": "Extension"
-    },
-    {
-      "source": "Extension",
-      "target": "8"
     },
     {
       "source": "8",
       "target": "direkte"
     },
     {
-      "source": "direkte",
-      "target": "8"
-    },
-    {
       "source": "8",
       "target": "indirekte"
-    },
-    {
-      "source": "indirekte",
-      "target": "8"
     },
     {
       "source": "8",
       "target": "Klonen"
     },
     {
-      "source": "Klonen",
-      "target": "8"
-    },
-    {
       "source": "8",
       "target": "Literal"
-    },
-    {
-      "source": "Literal",
-      "target": "8"
     },
     {
       "source": "8",
       "target": "primitive Methode"
     },
     {
-      "source": "primitive Methode",
-      "target": "8"
-    },
-    {
       "source": "8",
       "target": "UML"
     },
     {
-      "source": "UML",
-      "target": "8"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "9"
-    },
-    {
-      "source": "9",
-      "target": "Kurseinheit 2"
     },
     {
       "source": "9",
       "target": "9.1"
     },
     {
-      "source": "9.1",
-      "target": "9"
-    },
-    {
       "source": "9",
       "target": "9.2"
-    },
-    {
-      "source": "9.2",
-      "target": "9"
     },
     {
       "source": "9.2",
       "target": "Generalisierung als"
     },
     {
-      "source": "Generalisierung als",
-      "target": "9.2"
-    },
-    {
       "source": "9.2",
       "target": "Aristoteles"
     },
     {
-      "source": "Aristoteles",
-      "target": "9.2"
-    },
-    {
       "source": "9.2",
       "target": "direkte Instanz"
-    },
-    {
-      "source": "direkte Instanz",
-      "target": "9.2"
     },
     {
       "source": "9.2",
       "target": "einer Generalisierung"
     },
     {
-      "source": "einer Generalisierung",
-      "target": "9.2"
-    },
-    {
       "source": "9.2",
       "target": "Ergebnis der"
-    },
-    {
-      "source": "Ergebnis der",
-      "target": "9.2"
     },
     {
       "source": "9.2",
       "target": "Vorgang der"
     },
     {
-      "source": "Vorgang der",
-      "target": "9.2"
-    },
-    {
       "source": "9.2",
       "target": "Genus et differentiae"
-    },
-    {
-      "source": "Genus et differentiae",
-      "target": "9.2"
     },
     {
       "source": "9.2",
       "target": "indirekte Instanz"
     },
     {
-      "source": "indirekte Instanz",
-      "target": "9.2"
-    },
-    {
       "source": "9.2",
       "target": "direkte"
-    },
-    {
-      "source": "direkte",
-      "target": "9.2"
     },
     {
       "source": "9.2",
       "target": "indirekte"
     },
     {
-      "source": "indirekte",
-      "target": "9.2"
-    },
-    {
       "source": "9.2",
       "target": "kovariante Redefinition"
     },
     {
-      "source": "kovariante Redefinition",
-      "target": "9.2"
-    },
-    {
       "source": "9.2",
       "target": "Spezialisierung"
-    },
-    {
-      "source": "Spezialisierung",
-      "target": "9.2"
     },
     {
       "source": "9",
       "target": "Abstraktionshierarchie"
     },
     {
-      "source": "Abstraktionshierarchie",
-      "target": "9"
-    },
-    {
       "source": "9",
       "target": "Generalisierung"
-    },
-    {
-      "source": "Generalisierung",
-      "target": "9"
     },
     {
       "source": "9",
       "target": "Ist-ein-Beziehung"
     },
     {
-      "source": "Ist-ein-Beziehung",
-      "target": "9"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "10"
     },
     {
       "source": "10",
-      "target": "Kurseinheit 2"
-    },
-    {
-      "source": "10",
       "target": "10.1"
-    },
-    {
-      "source": "10.1",
-      "target": "10"
     },
     {
       "source": "10.1",
       "target": "abstrakte"
     },
     {
-      "source": "abstrakte",
-      "target": "10.1"
-    },
-    {
       "source": "10.1",
       "target": "Vererbung"
     },
     {
-      "source": "Vererbung",
-      "target": "10.1"
-    },
-    {
       "source": "10",
       "target": "10.2"
-    },
-    {
-      "source": "10.2",
-      "target": "10"
     },
     {
       "source": "10.2",
       "target": "Client -Schnittstelle"
     },
     {
-      "source": "Client -Schnittstelle",
-      "target": "10.2"
-    },
-    {
       "source": "10.2",
       "target": "\u00fcberschr eiben"
-    },
-    {
-      "source": "\u00fcberschr eiben",
-      "target": "10.2"
     },
     {
       "source": "10.2",
       "target": "Vererbungsschnittstell e"
     },
     {
-      "source": "Vererbungsschnittstell e",
-      "target": "10.2"
-    },
-    {
       "source": "10",
       "target": "10.3"
-    },
-    {
-      "source": "10.3",
-      "target": "10"
     },
     {
       "source": "10.3",
       "target": "nicht"
     },
     {
-      "source": "nicht",
-      "target": "10.3"
-    },
-    {
       "source": "10.3",
       "target": "abstrakte"
-    },
-    {
-      "source": "abstrakte",
-      "target": "10.3"
     },
     {
       "source": "10.3",
       "target": "Universalienstreit"
     },
     {
-      "source": "Universalienstreit",
-      "target": "10.3"
-    },
-    {
       "source": "10",
       "target": "Initialisierung"
-    },
-    {
-      "source": "Initialisierung",
-      "target": "10"
     },
     {
       "source": "Kurseinheit 2",
@@ -7393,239 +5817,119 @@
     },
     {
       "source": "11",
-      "target": "Kurseinheit 2"
-    },
-    {
-      "source": "11",
       "target": "11.1"
-    },
-    {
-      "source": "11.1",
-      "target": "11"
     },
     {
       "source": "11.1",
       "target": "Base class"
     },
     {
-      "source": "Base class",
-      "target": "11.1"
-    },
-    {
       "source": "11.1",
       "target": "Child class"
-    },
-    {
-      "source": "Child class",
-      "target": "11.1"
     },
     {
       "source": "11.1",
       "target": "Derived class"
     },
     {
-      "source": "Derived class",
-      "target": "11.1"
-    },
-    {
       "source": "11.1",
       "target": "abgeleitete"
-    },
-    {
-      "source": "abgeleitete",
-      "target": "11.1"
     },
     {
       "source": "11.1",
       "target": "Basis-"
     },
     {
-      "source": "Basis-",
-      "target": "11.1"
-    },
-    {
       "source": "11.1",
       "target": "-signatur"
-    },
-    {
-      "source": "-signatur",
-      "target": "11.1"
     },
     {
       "source": "11.1",
       "target": "Parent class"
     },
     {
-      "source": "Parent class",
-      "target": "11.1"
-    },
-    {
       "source": "11",
       "target": "11.2"
-    },
-    {
-      "source": "11.2",
-      "target": "11"
     },
     {
       "source": "11",
       "target": "11.3"
     },
     {
-      "source": "11.3",
-      "target": "11"
-    },
-    {
       "source": "11",
       "target": "11.4"
-    },
-    {
-      "source": "11.4",
-      "target": "11"
     },
     {
       "source": "11",
       "target": "11.5"
     },
     {
-      "source": "11.5",
-      "target": "11"
-    },
-    {
       "source": "11",
       "target": "direkte Subklasse"
-    },
-    {
-      "source": "direkte Subklasse",
-      "target": "11"
     },
     {
       "source": "11",
       "target": "direkte Superklasse"
     },
     {
-      "source": "direkte Superklasse",
-      "target": "11"
-    },
-    {
       "source": "11",
       "target": "abstrakte"
-    },
-    {
-      "source": "abstrakte",
-      "target": "11"
     },
     {
       "source": "11",
       "target": "konkrete"
     },
     {
-      "source": "konkrete",
-      "target": "11"
-    },
-    {
       "source": "11",
       "target": "-hierarchie"
-    },
-    {
-      "source": "-hierarchie",
-      "target": "11"
     },
     {
       "source": "11",
       "target": "konkrete Klasse"
     },
     {
-      "source": "konkrete Klasse",
-      "target": "11"
-    },
-    {
       "source": "11",
       "target": "offene Rekursion"
-    },
-    {
-      "source": "offene Rekursion",
-      "target": "11"
     },
     {
       "source": "11",
       "target": "Subklasse"
     },
     {
-      "source": "Subklasse",
-      "target": "11"
-    },
-    {
       "source": "11",
       "target": "direkte"
     },
     {
-      "source": "direkte",
-      "target": "11"
-    },
-    {
       "source": "11",
       "target": "Subklassenbeziehung"
-    },
-    {
-      "source": "Subklassenbeziehung",
-      "target": "11"
     },
     {
       "source": "11",
       "target": "Superklasse"
     },
     {
-      "source": "Superklasse",
-      "target": "11"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "12"
     },
     {
       "source": "12",
-      "target": "Kurseinheit 2"
-    },
-    {
-      "source": "12",
       "target": "12.1"
-    },
-    {
-      "source": "12.1",
-      "target": "12"
     },
     {
       "source": "12.1",
       "target": "Down cast"
-    },
-    {
-      "source": "Down cast",
-      "target": "12.1"
     },
     {
       "source": "12.1",
       "target": "Home context"
     },
     {
-      "source": "Home context",
-      "target": "12.1"
-    },
-    {
       "source": "12.1",
       "target": "JUnit"
     },
     {
-      "source": "JUnit",
-      "target": "12.1"
-    },
-    {
       "source": "12.1",
       "target": "offene Rekursion"
-    },
-    {
-      "source": "offene Rekursion",
-      "target": "12.1"
     },
     {
       "source": "12",
@@ -7633,471 +5937,235 @@
     },
     {
       "source": "12.2",
-      "target": "12"
-    },
-    {
-      "source": "12.2",
       "target": "Fragile -base-class-Problem"
-    },
-    {
-      "source": "Fragile -base-class-Problem",
-      "target": "12.2"
     },
     {
       "source": "12.2",
       "target": "mit Aufruf von super"
     },
     {
-      "source": "mit Aufruf von super",
-      "target": "12.2"
-    },
-    {
       "source": "12",
       "target": "12.3"
     },
     {
-      "source": "12.3",
-      "target": "12"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "13"
-    },
-    {
-      "source": "13",
-      "target": "Kurseinheit 2"
     },
     {
       "source": "13",
       "target": "13.1"
     },
     {
-      "source": "13.1",
-      "target": "13"
-    },
-    {
       "source": "13",
       "target": "13.2"
-    },
-    {
-      "source": "13.2",
-      "target": "13"
     },
     {
       "source": "13.2",
       "target": "13.2.1"
     },
     {
-      "source": "13.2.1",
-      "target": "13.2"
-    },
-    {
       "source": "13.2",
       "target": "13.2.2"
-    },
-    {
-      "source": "13.2.2",
-      "target": "13.2"
     },
     {
       "source": "13.2.2",
       "target": "Assoziativspeicher"
     },
     {
-      "source": "Assoziativspeicher",
-      "target": "13.2.2"
-    },
-    {
       "source": "13.2.2",
       "target": "Delegation"
-    },
-    {
-      "source": "Delegation",
-      "target": "13.2.2"
     },
     {
       "source": "13.2.2",
       "target": "formaler Parameter"
     },
     {
-      "source": "formaler Parameter",
-      "target": "13.2.2"
-    },
-    {
       "source": "13.2.2",
       "target": "Forwarding"
     },
     {
-      "source": "Forwarding",
-      "target": "13.2.2"
-    },
-    {
       "source": "13.2",
       "target": "13.2.3"
-    },
-    {
-      "source": "13.2.3",
-      "target": "13.2"
     },
     {
       "source": "13.2.3",
       "target": "Array -Literal"
     },
     {
-      "source": "Array -Literal",
-      "target": "13.2.3"
-    },
-    {
       "source": "13.2",
       "target": "l\u00f6schen von Methoden"
-    },
-    {
-      "source": "l\u00f6schen von Methoden",
-      "target": "13.2"
     },
     {
       "source": "13.2",
       "target": "Schl\u00fcssel"
     },
     {
-      "source": "Schl\u00fcssel",
-      "target": "13.2"
-    },
-    {
       "source": "13.2",
       "target": "\u00fcberschr eiben"
-    },
-    {
-      "source": "\u00fcberschr eiben",
-      "target": "13.2"
     },
     {
       "source": "13.2",
       "target": "Wert"
     },
     {
-      "source": "Wert",
-      "target": "13.2"
-    },
-    {
       "source": "13",
       "target": "13.3"
     },
     {
       "source": "13.3",
-      "target": "13"
-    },
-    {
-      "source": "13.3",
       "target": "Protokoll"
-    },
-    {
-      "source": "Protokoll",
-      "target": "13.3"
     },
     {
       "source": "13",
       "target": "-Klassen"
     },
     {
-      "source": "-Klassen",
-      "target": "13"
-    },
-    {
       "source": "13",
       "target": "double"
-    },
-    {
-      "source": "double",
-      "target": "13"
     },
     {
       "source": "13",
       "target": "single"
     },
     {
-      "source": "single",
-      "target": "13"
-    },
-    {
       "source": "13",
       "target": "Double dispatch"
     },
     {
-      "source": "Double dispatch",
-      "target": "13"
-    },
-    {
       "source": "13",
       "target": "Fallunterscheidung"
-    },
-    {
-      "source": "Fallunterscheidung",
-      "target": "13"
     },
     {
       "source": "13",
       "target": "Message dispatching"
     },
     {
-      "source": "Message dispatching",
-      "target": "13"
-    },
-    {
       "source": "13",
       "target": "Method dispatching"
-    },
-    {
-      "source": "Method dispatching",
-      "target": "13"
     },
     {
       "source": "13",
       "target": "Multi-dispatch"
     },
     {
-      "source": "Multi-dispatch",
-      "target": "13"
-    },
-    {
       "source": "13",
       "target": "\u00fcberladen"
     },
     {
-      "source": "\u00fcberladen",
-      "target": "13"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "14"
-    },
-    {
-      "source": "14",
-      "target": "Kurseinheit 2"
     },
     {
       "source": "14",
       "target": "14.1"
     },
     {
-      "source": "14.1",
-      "target": "14"
-    },
-    {
       "source": "14",
       "target": "14.2"
-    },
-    {
-      "source": "14.2",
-      "target": "14"
     },
     {
       "source": "14.2",
       "target": "atomares Objekt"
     },
     {
-      "source": "atomares Objekt",
-      "target": "14.2"
-    },
-    {
       "source": "14.2",
       "target": "flache"
-    },
-    {
-      "source": "flache",
-      "target": "14.2"
     },
     {
       "source": "14.2",
       "target": "tiefe"
     },
     {
-      "source": "tiefe",
-      "target": "14.2"
-    },
-    {
       "source": "14.2",
       "target": "zusammengesetztes Objekt"
     },
     {
-      "source": "zusammengesetztes Objekt",
-      "target": "14.2"
-    },
-    {
       "source": "14",
       "target": "14.3"
-    },
-    {
-      "source": "14.3",
-      "target": "14"
     },
     {
       "source": "14.3",
       "target": "lazy"
     },
     {
-      "source": "lazy",
-      "target": "14.3"
-    },
-    {
       "source": "14.3",
       "target": "wachsendes"
-    },
-    {
-      "source": "wachsendes",
-      "target": "14.3"
     },
     {
       "source": "14",
       "target": "14.4"
     },
     {
-      "source": "14.4",
-      "target": "14"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "15"
-    },
-    {
-      "source": "15",
-      "target": "Kurseinheit 2"
     },
     {
       "source": "15",
       "target": "Stream zum Zugriff auf eine"
     },
     {
-      "source": "Stream zum Zugriff auf eine",
-      "target": "15"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "16"
     },
     {
       "source": "16",
-      "target": "Kurseinheit 2"
-    },
-    {
-      "source": "16",
       "target": "aktives Objekt"
-    },
-    {
-      "source": "aktives Objekt",
-      "target": "16"
     },
     {
       "source": "16",
       "target": "passives Objekt"
     },
     {
-      "source": "passives Objekt",
-      "target": "16"
-    },
-    {
       "source": "Kurseinheit 2",
       "target": "17"
-    },
-    {
-      "source": "17",
-      "target": "Kurseinheit 2"
     },
     {
       "source": "17",
       "target": "aktives Objekt"
     },
     {
-      "source": "aktives Objekt",
-      "target": "17"
-    },
-    {
       "source": "Objektorientierte Programmierung",
       "target": "Kurseinheit 3"
     },
     {
       "source": "Kurseinheit 3",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Kurseinheit 3",
       "target": "18"
-    },
-    {
-      "source": "18",
-      "target": "Kurseinheit 3"
     },
     {
       "source": "18",
       "target": "deklariertes Element"
     },
     {
-      "source": "deklariertes Element",
-      "target": "18"
-    },
-    {
       "source": "18",
       "target": "dynamisches Binden"
-    },
-    {
-      "source": "dynamisches Binden",
-      "target": "18"
     },
     {
       "source": "18",
       "target": "Extension"
     },
     {
-      "source": "Extension",
-      "target": "18"
-    },
-    {
       "source": "18",
       "target": "Garbage collection"
     },
     {
-      "source": "Garbage collection",
-      "target": "18"
-    },
-    {
       "source": "18",
       "target": "Intension"
-    },
-    {
-      "source": "Intension",
-      "target": "18"
     },
     {
       "source": "18",
       "target": "Typ"
     },
     {
-      "source": "Typ",
-      "target": "18"
-    },
-    {
       "source": "18",
       "target": "-regel"
-    },
-    {
-      "source": "-regel",
-      "target": "18"
     },
     {
       "source": "18",
       "target": "-system"
     },
     {
-      "source": "-system",
-      "target": "18"
-    },
-    {
       "source": "18",
       "target": "optionales"
-    },
-    {
-      "source": "optionales",
-      "target": "18"
     },
     {
       "source": "Kurseinheit 3",
@@ -8105,351 +6173,175 @@
     },
     {
       "source": "19",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "19",
       "target": "Definition"
-    },
-    {
-      "source": "Definition",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "Deklaration"
     },
     {
-      "source": "Deklaration",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "Interface"
-    },
-    {
-      "source": "Interface",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "von Programmen"
     },
     {
-      "source": "von Programmen",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "Null pointer exception"
-    },
-    {
-      "source": "Null pointer exception",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "Redundanz"
     },
     {
-      "source": "Redundanz",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "Schnittstelle"
     },
     {
-      "source": "Schnittstelle",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "semantis cher Fehler"
-    },
-    {
-      "source": "semantis cher Fehler",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "Test"
     },
     {
-      "source": "Test",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "-annotation"
-    },
-    {
-      "source": "-annotation",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "fehlerhafte"
     },
     {
-      "source": "fehlerhafte",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "-fehler"
     },
     {
-      "source": "-fehler",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "-inferenz"
-    },
-    {
-      "source": "-inferenz",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "-korrektheit"
     },
     {
-      "source": "-korrektheit",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "dynamische"
-    },
-    {
-      "source": "dynamische",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "Typinferenz"
     },
     {
-      "source": "Typinferenz",
-      "target": "19"
-    },
-    {
       "source": "19",
       "target": "Typinvariante"
-    },
-    {
-      "source": "Typinvariante",
-      "target": "19"
     },
     {
       "source": "19",
       "target": "Variablendeklaration"
     },
     {
-      "source": "Variablendeklaration",
-      "target": "19"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "20"
     },
     {
       "source": "20",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "20",
       "target": "20.1"
-    },
-    {
-      "source": "20.1",
-      "target": "20"
     },
     {
       "source": "20.1",
       "target": "in Strongtalk"
-    },
-    {
-      "source": "in Strongtalk",
-      "target": "20.1"
     },
     {
       "source": "20.1",
       "target": "-konstruktor"
     },
     {
-      "source": "-konstruktor",
-      "target": "20.1"
-    },
-    {
       "source": "20",
       "target": "20.2"
-    },
-    {
-      "source": "20.2",
-      "target": "20"
     },
     {
       "source": "20.2",
       "target": "boolesche Algebra"
     },
     {
-      "source": "boolesche Algebra",
-      "target": "20.2"
-    },
-    {
       "source": "20.2",
       "target": "denotationale Semantik"
-    },
-    {
-      "source": "denotationale Semantik",
-      "target": "20.2"
     },
     {
       "source": "20.2",
       "target": "operationale Semantik"
     },
     {
-      "source": "operationale Semantik",
-      "target": "20.2"
-    },
-    {
       "source": "20.2",
       "target": "Typisierung"
-    },
-    {
-      "source": "Typisierung",
-      "target": "20.2"
     },
     {
       "source": "20",
       "target": "formaler Parameter"
     },
     {
-      "source": "formaler Parameter",
-      "target": "20"
-    },
-    {
       "source": "20",
       "target": "Initialisierung"
-    },
-    {
-      "source": "Initialisierung",
-      "target": "20"
     },
     {
       "source": "20",
       "target": "lokale Variable"
     },
     {
-      "source": "lokale Variable",
-      "target": "20"
-    },
-    {
       "source": "20",
       "target": "-rumpf"
-    },
-    {
-      "source": "-rumpf",
-      "target": "20"
     },
     {
       "source": "20",
       "target": "Methodendeklaration"
     },
     {
-      "source": "Methodendeklaration",
-      "target": "20"
-    },
-    {
       "source": "20",
       "target": "Protokoll"
     },
     {
-      "source": "Protokoll",
-      "target": "20"
-    },
-    {
       "source": "20",
       "target": "Pseudo -Typvariable Self"
-    },
-    {
-      "source": "Pseudo -Typvariable Self",
-      "target": "20"
     },
     {
       "source": "20",
       "target": "Signatur"
     },
     {
-      "source": "Signatur",
-      "target": "20"
-    },
-    {
       "source": "20",
       "target": "in Strongtalk"
-    },
-    {
-      "source": "in Strongtalk",
-      "target": "20"
     },
     {
       "source": "20",
       "target": "Verwendung eines Programmelements"
     },
     {
-      "source": "Verwendung eines Programmelements",
-      "target": "20"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "21"
-    },
-    {
-      "source": "21",
-      "target": "Kurseinheit 3"
     },
     {
       "source": "21",
       "target": "-invariante"
     },
     {
-      "source": "-invariante",
-      "target": "21"
-    },
-    {
       "source": "21",
       "target": "die von Ausdr\u00fccken einzuhalten sind"
-    },
-    {
-      "source": "die von Ausdr\u00fccken einzuhalten sind",
-      "target": "21"
     },
     {
       "source": "21",
       "target": ""
     },
     {
-      "source": "",
-      "target": "21"
-    },
-    {
       "source": "21",
       "target": "-system"
     },
     {
-      "source": "-system",
-      "target": "21"
-    },
-    {
       "source": "21",
       "target": "Zuweisungskompatib ilit\u00e4t"
-    },
-    {
-      "source": "Zuweisungskompatib ilit\u00e4t",
-      "target": "21"
     },
     {
       "source": "Kurseinheit 3",
@@ -8457,63 +6349,31 @@
     },
     {
       "source": "22",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "22",
       "target": "22.1"
-    },
-    {
-      "source": "22.1",
-      "target": "22"
     },
     {
       "source": "22.1",
       "target": "rekursive"
-    },
-    {
-      "source": "rekursive",
-      "target": "22.1"
     },
     {
       "source": "22.1",
       "target": "Namens\u00e4quivalenz"
     },
     {
-      "source": "Namens\u00e4quivalenz",
-      "target": "22.1"
-    },
-    {
       "source": "22.1",
       "target": "Struktur\u00e4quivalenz"
-    },
-    {
-      "source": "Struktur\u00e4quivalenz",
-      "target": "22.1"
     },
     {
       "source": "22.1",
       "target": "-\u00e4quivalenz"
     },
     {
-      "source": "-\u00e4quivalenz",
-      "target": "22.1"
-    },
-    {
       "source": "22.1",
       "target": "nominale"
     },
     {
-      "source": "nominale",
-      "target": "22.1"
-    },
-    {
       "source": "22.1",
       "target": "strukturelle"
-    },
-    {
-      "source": "strukturelle",
-      "target": "22.1"
     },
     {
       "source": "22",
@@ -8521,63 +6381,31 @@
     },
     {
       "source": "22.2",
-      "target": "22"
-    },
-    {
-      "source": "22.2",
       "target": "Filterfunktion"
-    },
-    {
-      "source": "Filterfunktion",
-      "target": "22.2"
     },
     {
       "source": "22.2",
       "target": "semantis cher Fehler"
     },
     {
-      "source": "semantis cher Fehler",
-      "target": "22.2"
-    },
-    {
       "source": "22.2",
       "target": "-fehler"
     },
     {
-      "source": "-fehler",
-      "target": "22.2"
-    },
-    {
       "source": "22.2",
       "target": "Type branding"
-    },
-    {
-      "source": "Type branding",
-      "target": "22.2"
     },
     {
       "source": "22",
       "target": "von Methodenaufrufen"
     },
     {
-      "source": "von Methodenaufrufen",
-      "target": "22"
-    },
-    {
       "source": "22",
       "target": "von Zuweisungen"
     },
     {
-      "source": "von Zuweisungen",
-      "target": "22"
-    },
-    {
       "source": "22",
       "target": "Zuweisungskompatib ilit\u00e4t"
-    },
-    {
-      "source": "Zuweisungskompatib ilit\u00e4t",
-      "target": "22"
     },
     {
       "source": "Kurseinheit 3",
@@ -8585,63 +6413,31 @@
     },
     {
       "source": "23",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "23",
       "target": "-erweiterung"
-    },
-    {
-      "source": "-erweiterung",
-      "target": "23"
     },
     {
       "source": "23",
       "target": "bei Typerweiterung"
     },
     {
-      "source": "bei Typerweiterung",
-      "target": "23"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "24"
-    },
-    {
-      "source": "24",
-      "target": "Kurseinheit 3"
     },
     {
       "source": "24",
       "target": "nominale"
     },
     {
-      "source": "nominale",
-      "target": "24"
-    },
-    {
       "source": "24",
       "target": "strukturelle"
-    },
-    {
-      "source": "strukturelle",
-      "target": "24"
     },
     {
       "source": "24",
       "target": "typkonform"
     },
     {
-      "source": "typkonform",
-      "target": "24"
-    },
-    {
       "source": "24",
       "target": "Zuweisungskompatib ilit\u00e4t"
-    },
-    {
-      "source": "Zuweisungskompatib ilit\u00e4t",
-      "target": "24"
     },
     {
       "source": "Kurseinheit 3",
@@ -8649,47 +6445,23 @@
     },
     {
       "source": "25",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "25",
       "target": "Filterfunktion"
-    },
-    {
-      "source": "Filterfunktion",
-      "target": "25"
     },
     {
       "source": "25",
       "target": "Marker interface"
     },
     {
-      "source": "Marker interface",
-      "target": "25"
-    },
-    {
       "source": "25",
       "target": "Tagging interface"
-    },
-    {
-      "source": "Tagging interface",
-      "target": "25"
     },
     {
       "source": "25",
       "target": "Type branding"
     },
     {
-      "source": "Type branding",
-      "target": "25"
-    },
-    {
       "source": "25",
       "target": "implizite"
-    },
-    {
-      "source": "implizite",
-      "target": "25"
     },
     {
       "source": "Kurseinheit 3",
@@ -8697,431 +6469,215 @@
     },
     {
       "source": "26",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "26",
       "target": "26.1"
-    },
-    {
-      "source": "26.1",
-      "target": "26"
     },
     {
       "source": "26.1",
       "target": "Dependent type"
     },
     {
-      "source": "Dependent type",
-      "target": "26.1"
-    },
-    {
       "source": "26.1",
       "target": "Redefinition"
     },
     {
-      "source": "Redefinition",
-      "target": "26.1"
-    },
-    {
       "source": "26.1",
       "target": "Spezialisierung"
-    },
-    {
-      "source": "Spezialisierung",
-      "target": "26.1"
     },
     {
       "source": "26.1",
       "target": "Subtyp"
     },
     {
-      "source": "Subtyp",
-      "target": "26.1"
-    },
-    {
       "source": "26.1",
       "target": "Subtypenbeziehung"
-    },
-    {
-      "source": "Subtypenbeziehung",
-      "target": "26.1"
     },
     {
       "source": "26.1",
       "target": "Supertyp"
     },
     {
-      "source": "Supertyp",
-      "target": "26.1"
-    },
-    {
       "source": "26",
       "target": "26.2"
-    },
-    {
-      "source": "26.2",
-      "target": "26"
     },
     {
       "source": "26.2",
       "target": "direkter Subtyp"
     },
     {
-      "source": "direkter Subtyp",
-      "target": "26.2"
-    },
-    {
       "source": "26.2",
       "target": "Generalisierung"
-    },
-    {
-      "source": "Generalisierung",
-      "target": "26.2"
     },
     {
       "source": "26.2",
       "target": "indirekter Subtyp"
     },
     {
-      "source": "indirekter Subtyp",
-      "target": "26.2"
-    },
-    {
       "source": "26.2",
       "target": "Mehrfachhierarchie"
-    },
-    {
-      "source": "Mehrfachhierarchie",
-      "target": "26.2"
     },
     {
       "source": "26.2",
       "target": "Subtypenhierarchie"
     },
     {
-      "source": "Subtypenhierarchie",
-      "target": "26.2"
-    },
-    {
       "source": "26.2",
       "target": "Subtyping"
-    },
-    {
-      "source": "Subtyping",
-      "target": "26.2"
     },
     {
       "source": "26.2",
       "target": "-hierarchie"
     },
     {
-      "source": "-hierarchie",
-      "target": "26.2"
-    },
-    {
       "source": "26",
       "target": "26.3"
     },
     {
-      "source": "26.3",
-      "target": "26"
-    },
-    {
       "source": "26",
       "target": "26.4"
-    },
-    {
-      "source": "26.4",
-      "target": "26"
     },
     {
       "source": "26.4",
       "target": "Invarianz"
     },
     {
-      "source": "Invarianz",
-      "target": "26.4"
-    },
-    {
       "source": "26.4",
       "target": "Kontravarianz"
-    },
-    {
-      "source": "Kontravarianz",
-      "target": "26.4"
     },
     {
       "source": "26.4",
       "target": "Kovarianz"
     },
     {
-      "source": "Kovarianz",
-      "target": "26.4"
-    },
-    {
       "source": "26.4",
       "target": "Novarianz"
-    },
-    {
-      "source": "Novarianz",
-      "target": "26.4"
     },
     {
       "source": "26.4",
       "target": "Polymorphie"
     },
     {
-      "source": "Polymorphie",
-      "target": "26.4"
-    },
-    {
       "source": "26.4",
       "target": "des Subtypen mit dem Supertypen"
-    },
-    {
-      "source": "des Subtypen mit dem Supertypen",
-      "target": "26.4"
     },
     {
       "source": "26",
       "target": "Alias"
     },
     {
-      "source": "Alias",
-      "target": "26"
-    },
-    {
       "source": "26",
       "target": "Redefinition"
-    },
-    {
-      "source": "Redefinition",
-      "target": "26"
     },
     {
       "source": "26",
       "target": "-annotation"
     },
     {
-      "source": "-annotation",
-      "target": "26"
-    },
-    {
       "source": "26",
       "target": "als Ausdruck einer Invariante"
-    },
-    {
-      "source": "als Ausdruck einer Invariante",
-      "target": "26"
     },
     {
       "source": "26",
       "target": "\u00fcberschr eiben"
     },
     {
-      "source": "\u00fcberschr eiben",
-      "target": "26"
-    },
-    {
       "source": "26",
       "target": "Wertsemantik"
     },
     {
-      "source": "Wertsemantik",
-      "target": "26"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "27"
-    },
-    {
-      "source": "27",
-      "target": "Kurseinheit 3"
     },
     {
       "source": "27",
       "target": "Inklusionspolymorphie"
     },
     {
-      "source": "Inklusionspolymorphie",
-      "target": "27"
-    },
-    {
       "source": "27",
       "target": "parametrischer"
-    },
-    {
-      "source": "parametrischer",
-      "target": "27"
     },
     {
       "source": "27",
       "target": "Subtyppolymorphie"
     },
     {
-      "source": "Subtyppolymorphie",
-      "target": "27"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "28"
     },
     {
       "source": "28",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "28",
       "target": "28.1"
-    },
-    {
-      "source": "28.1",
-      "target": "28"
     },
     {
       "source": "28.1",
       "target": "rekursive"
     },
     {
-      "source": "rekursive",
-      "target": "28.1"
-    },
-    {
       "source": "28.1",
       "target": "Geheimnisprinzip"
-    },
-    {
-      "source": "Geheimnisprinzip",
-      "target": "28.1"
     },
     {
       "source": "28.1",
       "target": "Interface"
     },
     {
-      "source": "Interface",
-      "target": "28.1"
-    },
-    {
       "source": "28.1",
       "target": "Schnittstelle"
     },
     {
-      "source": "Schnittstelle",
-      "target": "28.1"
-    },
-    {
       "source": "28.1",
       "target": "Zugriffsmodifikator"
-    },
-    {
-      "source": "Zugriffsmodifikator",
-      "target": "28.1"
     },
     {
       "source": "28",
       "target": "28.2"
     },
     {
-      "source": "28.2",
-      "target": "28"
-    },
-    {
       "source": "28",
       "target": "28.3"
-    },
-    {
-      "source": "28.3",
-      "target": "28"
     },
     {
       "source": "28.3",
       "target": "Interface -als-Typ-Konzept"
     },
     {
-      "source": "Interface -als-Typ-Konzept",
-      "target": "28.3"
-    },
-    {
       "source": "28.3",
       "target": "interfacebasierte Programmierung"
-    },
-    {
-      "source": "interfacebasierte Programmierung",
-      "target": "28.3"
     },
     {
       "source": "28",
       "target": "Cross cast"
     },
     {
-      "source": "Cross cast",
-      "target": "28"
-    },
-    {
       "source": "28",
       "target": "Down cast"
-    },
-    {
-      "source": "Down cast",
-      "target": "28"
     },
     {
       "source": "28",
       "target": "dynamische Typpr\u00fcfung"
     },
     {
-      "source": "dynamische Typpr\u00fcfung",
-      "target": "28"
-    },
-    {
       "source": "28",
       "target": "interfacebasierte Programmierung"
-    },
-    {
-      "source": "interfacebasierte Programmierung",
-      "target": "28"
     },
     {
       "source": "28",
       "target": "vs. Typ"
     },
     {
-      "source": "vs. Typ",
-      "target": "28"
-    },
-    {
       "source": "28",
       "target": "Protokoll"
-    },
-    {
-      "source": "Protokoll",
-      "target": "28"
     },
     {
       "source": "28",
       "target": "eines Objekts"
     },
     {
-      "source": "eines Objekts",
-      "target": "28"
-    },
-    {
       "source": "28",
       "target": "optionales"
     },
     {
-      "source": "optionales",
-      "target": "28"
-    },
-    {
       "source": "28",
       "target": "Up cast"
-    },
-    {
-      "source": "Up cast",
-      "target": "28"
     },
     {
       "source": "Kurseinheit 3",
@@ -9129,223 +6685,111 @@
     },
     {
       "source": "29",
-      "target": "Kurseinheit 3"
-    },
-    {
-      "source": "29",
       "target": "29.1"
-    },
-    {
-      "source": "29.1",
-      "target": "29"
     },
     {
       "source": "29.1",
       "target": "formaler Typparameter"
     },
     {
-      "source": "formaler Typparameter",
-      "target": "29.1"
-    },
-    {
       "source": "29.1",
       "target": "Generics"
-    },
-    {
-      "source": "Generics",
-      "target": "29.1"
     },
     {
       "source": "29.1",
       "target": "generischer Typ"
     },
     {
-      "source": "generischer Typ",
-      "target": "29.1"
-    },
-    {
       "source": "29.1",
       "target": "tats\u00e4chlicher Typparameter"
     },
     {
-      "source": "tats\u00e4chlicher Typparameter",
-      "target": "29.1"
-    },
-    {
       "source": "29",
       "target": "29.2"
-    },
-    {
-      "source": "29.2",
-      "target": "29"
     },
     {
       "source": "29.2",
       "target": "eines parametrischen Typs"
     },
     {
-      "source": "eines parametrischen Typs",
-      "target": "29.2"
-    },
-    {
       "source": "29",
       "target": "29.3"
-    },
-    {
-      "source": "29.3",
-      "target": "29"
     },
     {
       "source": "29.3",
       "target": "bei parametrisierten Subtypen"
     },
     {
-      "source": "bei parametrisierten Subtypen",
-      "target": "29.3"
-    },
-    {
       "source": "29",
       "target": "29.4"
-    },
-    {
-      "source": "29.4",
-      "target": "29"
     },
     {
       "source": "29.4",
       "target": "heterogene"
     },
     {
-      "source": "heterogene",
-      "target": "29.4"
-    },
-    {
       "source": "29.4",
       "target": "Down cast"
-    },
-    {
-      "source": "Down cast",
-      "target": "29.4"
     },
     {
       "source": "29.4",
       "target": "einer parametrischen Typdefinition"
     },
     {
-      "source": "einer parametrischen Typdefinition",
-      "target": "29.4"
-    },
-    {
       "source": "29",
       "target": "29.5"
-    },
-    {
-      "source": "29.5",
-      "target": "29"
     },
     {
       "source": "29.5",
       "target": "rekurs iver Typen"
     },
     {
-      "source": "rekurs iver Typen",
-      "target": "29.5"
-    },
-    {
       "source": "29.5",
       "target": "bin\u00e4re"
     },
     {
-      "source": "bin\u00e4re",
-      "target": "29.5"
-    },
-    {
       "source": "29.5",
       "target": "Pseudo -Typvariable Self"
-    },
-    {
-      "source": "Pseudo -Typvariable Self",
-      "target": "29.5"
     },
     {
       "source": "29",
       "target": "eines parametrischen Typs"
     },
     {
-      "source": "eines parametrischen Typs",
-      "target": "29"
-    },
-    {
       "source": "29",
       "target": "parametrische Typdefinition"
-    },
-    {
-      "source": "parametrische Typdefinition",
-      "target": "29"
     },
     {
       "source": "29",
       "target": "parametrischer"
     },
     {
-      "source": "parametrischer",
-      "target": "29"
-    },
-    {
       "source": "29",
       "target": "-variable"
-    },
-    {
-      "source": "-variable",
-      "target": "29"
     },
     {
       "source": "29",
       "target": "unter parametrischem Polymorphismus"
     },
     {
-      "source": "unter parametrischem Polymorphismus",
-      "target": "29"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "30"
-    },
-    {
-      "source": "30",
-      "target": "Kurseinheit 3"
     },
     {
       "source": "30",
       "target": "Pseudo -Typvariable Self"
     },
     {
-      "source": "Pseudo -Typvariable Self",
-      "target": "30"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "31"
-    },
-    {
-      "source": "31",
-      "target": "Kurseinheit 3"
     },
     {
       "source": "Kurseinheit 3",
       "target": "32"
     },
     {
-      "source": "32",
-      "target": "Kurseinheit 3"
-    },
-    {
       "source": "Kurseinheit 3",
       "target": "33"
-    },
-    {
-      "source": "33",
-      "target": "Kurseinheit 3"
     },
     {
       "source": "Objektorientierte Programmierung",
@@ -9353,679 +6797,339 @@
     },
     {
       "source": "Kurseinheit 4",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Kurseinheit 4",
       "target": "34"
-    },
-    {
-      "source": "34",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "34",
       "target": "Bytecode"
     },
     {
-      "source": "Bytecode",
-      "target": "34"
-    },
-    {
       "source": "34",
       "target": "Compilati on units"
-    },
-    {
-      "source": "Compilati on units",
-      "target": "34"
     },
     {
       "source": "34",
       "target": "multi"
     },
     {
-      "source": "multi",
-      "target": "34"
-    },
-    {
       "source": "34",
       "target": "Einfachvererbung"
     },
     {
-      "source": "Einfachvererbung",
-      "target": "34"
-    },
-    {
       "source": "34",
       "target": "Garbage collection"
-    },
-    {
-      "source": "Garbage collection",
-      "target": "34"
     },
     {
       "source": "34",
       "target": "Java Virtual Machine"
     },
     {
-      "source": "Java Virtual Machine",
-      "target": "34"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "35"
-    },
-    {
-      "source": "35",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "35",
       "target": "35.1"
     },
     {
-      "source": "35.1",
-      "target": "35"
-    },
-    {
       "source": "35",
       "target": "35.2"
-    },
-    {
-      "source": "35.2",
-      "target": "35"
     },
     {
       "source": "35.2",
       "target": "Klassen"
     },
     {
-      "source": "Klassen",
-      "target": "35.2"
-    },
-    {
       "source": "35",
       "target": "35.3"
     },
     {
-      "source": "35.3",
-      "target": "35"
-    },
-    {
       "source": "35",
       "target": "35.4"
-    },
-    {
-      "source": "35.4",
-      "target": "35"
     },
     {
       "source": "35.4",
       "target": "Auto unboxing"
     },
     {
-      "source": "Auto unboxing",
-      "target": "35.4"
-    },
-    {
       "source": "35.4",
       "target": "Call by reference"
-    },
-    {
-      "source": "Call by reference",
-      "target": "35.4"
     },
     {
       "source": "35.4",
       "target": "Call by value"
     },
     {
-      "source": "Call by value",
-      "target": "35.4"
-    },
-    {
       "source": "35.4",
       "target": "in Java"
-    },
-    {
-      "source": "in Java",
-      "target": "35.4"
     },
     {
       "source": "35.4",
       "target": "Referenzsemantik"
     },
     {
-      "source": "Referenzsemantik",
-      "target": "35.4"
-    },
-    {
       "source": "35.4",
       "target": "Wertsemantik"
     },
     {
-      "source": "Wertsemantik",
-      "target": "35.4"
-    },
-    {
       "source": "35",
       "target": "35.5"
-    },
-    {
-      "source": "35.5",
-      "target": "35"
     },
     {
       "source": "35.5",
       "target": "direkte Instanz"
     },
     {
-      "source": "direkte Instanz",
-      "target": "35.5"
-    },
-    {
       "source": "35.5",
       "target": "indirekte Instanz"
     },
     {
-      "source": "indirekte Instanz",
-      "target": "35.5"
-    },
-    {
       "source": "35.5",
       "target": "in Java"
-    },
-    {
-      "source": "in Java",
-      "target": "35.5"
     },
     {
       "source": "35.5",
       "target": "von Java"
     },
     {
-      "source": "von Java",
-      "target": "35.5"
-    },
-    {
       "source": "35",
       "target": "Annotationstyp"
-    },
-    {
-      "source": "Annotationstyp",
-      "target": "35"
     },
     {
       "source": "35",
       "target": "Application Programming Interface"
     },
     {
-      "source": "Application Programming Interface",
-      "target": "35"
-    },
-    {
       "source": "35",
       "target": "Array -Initialisierer"
-    },
-    {
-      "source": "Array -Initialisierer",
-      "target": "35"
     },
     {
       "source": "35",
       "target": "Array -Typ"
     },
     {
-      "source": "Array -Typ",
-      "target": "35"
-    },
-    {
       "source": "35",
       "target": "Aufz\u00e4hlungstyp"
-    },
-    {
-      "source": "Aufz\u00e4hlungstyp",
-      "target": "35"
     },
     {
       "source": "35",
       "target": "integrierte Entwicklungsumgebung"
     },
     {
-      "source": "integrierte Entwicklungsumgebung",
-      "target": "35"
-    },
-    {
       "source": "35",
       "target": "Interfacetyp"
-    },
-    {
-      "source": "Interfacetyp",
-      "target": "35"
     },
     {
       "source": "35",
       "target": "-typ"
     },
     {
-      "source": "-typ",
-      "target": "35"
-    },
-    {
       "source": "35",
       "target": "primitiver Typ"
-    },
-    {
-      "source": "primitiver Typ",
-      "target": "35"
     },
     {
       "source": "35",
       "target": "Wrapper -Typ"
     },
     {
-      "source": "Wrapper -Typ",
-      "target": "35"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "36"
-    },
-    {
-      "source": "36",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "36",
       "target": "36.1"
     },
     {
-      "source": "36.1",
-      "target": "36"
-    },
-    {
       "source": "36",
       "target": "36.2"
-    },
-    {
-      "source": "36.2",
-      "target": "36"
     },
     {
       "source": "36.2",
       "target": "Feld"
     },
     {
-      "source": "Feld",
-      "target": "36.2"
-    },
-    {
       "source": "36.2",
       "target": "innere Klasse"
-    },
-    {
-      "source": "innere Klasse",
-      "target": "36.2"
     },
     {
       "source": "36.2",
       "target": "Instanzmethode"
     },
     {
-      "source": "Instanzmethode",
-      "target": "36.2"
-    },
-    {
       "source": "36.2",
       "target": "Instanzvariable"
-    },
-    {
-      "source": "Instanzvariable",
-      "target": "36.2"
     },
     {
       "source": "36.2",
       "target": "Intension"
     },
     {
-      "source": "Intension",
-      "target": "36.2"
-    },
-    {
       "source": "36.2",
       "target": "in Java"
-    },
-    {
-      "source": "in Java",
-      "target": "36.2"
     },
     {
       "source": "36.2",
       "target": "konstante Methode"
     },
     {
-      "source": "konstante Methode",
-      "target": "36.2"
-    },
-    {
       "source": "36.2",
       "target": "Member"
-    },
-    {
-      "source": "Member",
-      "target": "36.2"
     },
     {
       "source": "36.2",
       "target": "Outer this"
     },
     {
-      "source": "Outer this",
-      "target": "36.2"
-    },
-    {
       "source": "36",
       "target": "36.3"
-    },
-    {
-      "source": "36.3",
-      "target": "36"
     },
     {
       "source": "36.3",
       "target": "in Java"
     },
     {
-      "source": "in Java",
-      "target": "36.3"
-    },
-    {
       "source": "36.3",
       "target": "Konstruktor"
-    },
-    {
-      "source": "Konstruktor",
-      "target": "36.3"
     },
     {
       "source": "36.3",
       "target": "Subklassenbeziehung"
     },
     {
-      "source": "Subklassenbeziehung",
-      "target": "36.3"
-    },
-    {
       "source": "36.3",
       "target": "-erweiterung"
-    },
-    {
-      "source": "-erweiterung",
-      "target": "36.3"
     },
     {
       "source": "36.3",
       "target": "Zuweisungskompatib ilit\u00e4t"
     },
     {
-      "source": "Zuweisungskompatib ilit\u00e4t",
-      "target": "36.3"
-    },
-    {
       "source": "36",
       "target": "36.4"
-    },
-    {
-      "source": "36.4",
-      "target": "36"
     },
     {
       "source": "36.4",
       "target": "Factory -Methode"
     },
     {
-      "source": "Factory -Methode",
-      "target": "36.4"
-    },
-    {
       "source": "36.4",
       "target": "\u00fcberladen"
-    },
-    {
-      "source": "\u00fcberladen",
-      "target": "36.4"
     },
     {
       "source": "36",
       "target": "Compilation unit"
     },
     {
-      "source": "Compilation unit",
-      "target": "36"
-    },
-    {
       "source": "36",
       "target": "innere Klasse"
-    },
-    {
-      "source": "innere Klasse",
-      "target": "36"
     },
     {
       "source": "36",
       "target": "metasyntaktische Variable"
     },
     {
-      "source": "metasyntaktische Variable",
-      "target": "36"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "37"
-    },
-    {
-      "source": "37",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "37",
       "target": "double"
     },
     {
-      "source": "double",
-      "target": "37"
-    },
-    {
       "source": "37",
       "target": "Method ambiguous error"
-    },
-    {
-      "source": "Method ambiguous error",
-      "target": "37"
     },
     {
       "source": "37",
       "target": "Multi-dispatch"
     },
     {
-      "source": "Multi-dispatch",
-      "target": "37"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "38"
-    },
-    {
-      "source": "38",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "38",
       "target": "Call by reference"
     },
     {
-      "source": "Call by reference",
-      "target": "38"
-    },
-    {
       "source": "38",
       "target": "Call by value"
-    },
-    {
-      "source": "Call by value",
-      "target": "38"
     },
     {
       "source": "38",
       "target": "Lambda -Ausdruck"
     },
     {
-      "source": "Lambda -Ausdruck",
-      "target": "38"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "39"
-    },
-    {
-      "source": "39",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "39",
       "target": "39.1"
     },
     {
-      "source": "39.1",
-      "target": "39"
-    },
-    {
       "source": "39",
       "target": "39.2"
-    },
-    {
-      "source": "39.2",
-      "target": "39"
     },
     {
       "source": "39.2",
       "target": "Abh\u00e4ngigkeit"
     },
     {
-      "source": "Abh\u00e4ngigkeit",
-      "target": "39.2"
-    },
-    {
       "source": "39.2",
       "target": "\u00c4nderungsabh\u00e4ngigkeit"
-    },
-    {
-      "source": "\u00c4nderungsabh\u00e4ngigkeit",
-      "target": "39.2"
     },
     {
       "source": "39.2",
       "target": "Dispatch"
     },
     {
-      "source": "Dispatch",
-      "target": "39.2"
-    },
-    {
       "source": "39.2",
       "target": "Multi -"
-    },
-    {
-      "source": "Multi -",
-      "target": "39.2"
     },
     {
       "source": "39.2",
       "target": "Multi -Methoden"
     },
     {
-      "source": "Multi -Methoden",
-      "target": "39.2"
-    },
-    {
       "source": "39.2",
       "target": "Schnittstellenspezifikation eines Moduls"
-    },
-    {
-      "source": "Schnittstellenspezifikation eines Moduls",
-      "target": "39.2"
     },
     {
       "source": "39.2",
       "target": "Sichtbarkeit"
     },
     {
-      "source": "Sichtbarkeit",
-      "target": "39.2"
-    },
-    {
       "source": "39.2",
       "target": "Vererbungsabh\u00e4ngigkeit"
-    },
-    {
-      "source": "Vererbungsabh\u00e4ngigkeit",
-      "target": "39.2"
     },
     {
       "source": "39.2",
       "target": "Zugriffsmodifikator"
     },
     {
-      "source": "Zugriffsmodifikator",
-      "target": "39.2"
-    },
-    {
       "source": "39",
       "target": "39.3"
-    },
-    {
-      "source": "39.3",
-      "target": "39"
     },
     {
       "source": "39.3",
       "target": "Compilation unit"
     },
     {
-      "source": "Compilation unit",
-      "target": "39.3"
-    },
-    {
       "source": "39",
       "target": "Fall through"
-    },
-    {
-      "source": "Fall through",
-      "target": "39"
     },
     {
       "source": "39",
       "target": "Modul"
     },
     {
-      "source": "Modul",
-      "target": "39"
-    },
-    {
       "source": "39",
       "target": "eines Moduls"
     },
     {
-      "source": "eines Moduls",
-      "target": "39"
-    },
-    {
       "source": "39",
       "target": "Seiteneffekt"
-    },
-    {
-      "source": "Seiteneffekt",
-      "target": "39"
     },
     {
       "source": "Kurseinheit 4",
@@ -10033,127 +7137,63 @@
     },
     {
       "source": "40",
-      "target": "Kurseinheit 4"
-    },
-    {
-      "source": "40",
       "target": "40.1"
-    },
-    {
-      "source": "40.1",
-      "target": "40"
     },
     {
       "source": "40.1",
       "target": "Definition"
     },
     {
-      "source": "Definition",
-      "target": "40.1"
-    },
-    {
       "source": "40.1",
       "target": "Interfaceimplementation"
-    },
-    {
-      "source": "Interfaceimplementation",
-      "target": "40.1"
     },
     {
       "source": "40.1",
       "target": "Member"
     },
     {
-      "source": "Member",
-      "target": "40.1"
-    },
-    {
       "source": "40.1",
       "target": "Zugriffsmethode"
     },
     {
-      "source": "Zugriffsmethode",
-      "target": "40.1"
-    },
-    {
       "source": "40",
       "target": "40.2"
-    },
-    {
-      "source": "40.2",
-      "target": "40"
     },
     {
       "source": "40.2",
       "target": "Interfacevererbung"
     },
     {
-      "source": "Interfacevererbung",
-      "target": "40.2"
-    },
-    {
       "source": "40.2",
       "target": "nominale Typkonformit\u00e4tsdeklaration"
-    },
-    {
-      "source": "nominale Typkonformit\u00e4tsdeklaration",
-      "target": "40.2"
     },
     {
       "source": "40",
       "target": "Open Services Gateway Initiative"
     },
     {
-      "source": "Open Services Gateway Initiative",
-      "target": "40"
-    },
-    {
       "source": "40",
       "target": "OSGi"
-    },
-    {
-      "source": "OSGi",
-      "target": "40"
     },
     {
       "source": "40",
       "target": "reflektiver Zugriff"
     },
     {
-      "source": "reflektiver Zugriff",
-      "target": "40"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "41"
-    },
-    {
-      "source": "41",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "41",
       "target": "Default -Methode"
     },
     {
-      "source": "Default -Methode",
-      "target": "41"
-    },
-    {
       "source": "41",
       "target": "Getter"
     },
     {
-      "source": "Getter",
-      "target": "41"
-    },
-    {
       "source": "41",
       "target": "Setter"
-    },
-    {
-      "source": "Setter",
-      "target": "41"
     },
     {
       "source": "Kurseinheit 4",
@@ -10161,183 +7201,91 @@
     },
     {
       "source": "42",
-      "target": "Kurseinheit 4"
-    },
-    {
-      "source": "42",
       "target": "Alias"
-    },
-    {
-      "source": "Alias",
-      "target": "42"
     },
     {
       "source": "42",
       "target": "Array store exception"
-    },
-    {
-      "source": "Array store exception",
-      "target": "42"
     },
     {
       "source": "42",
       "target": "dynamischen Typpr\u00fcfung"
     },
     {
-      "source": "dynamischen Typpr\u00fcfung",
-      "target": "42"
-    },
-    {
       "source": "42",
       "target": "Laufzeittypfehler"
     },
     {
-      "source": "Laufzeittypfehler",
-      "target": "42"
-    },
-    {
       "source": "42",
       "target": "Referenzsemantik"
-    },
-    {
-      "source": "Referenzsemantik",
-      "target": "42"
     },
     {
       "source": "42",
       "target": "statischen Typpr\u00fcfung"
     },
     {
-      "source": "statischen Typpr\u00fcfung",
-      "target": "42"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "43"
-    },
-    {
-      "source": "43",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "43",
       "target": "43.1"
     },
     {
-      "source": "43.1",
-      "target": "43"
-    },
-    {
       "source": "43",
       "target": "43.2"
-    },
-    {
-      "source": "43.2",
-      "target": "43"
     },
     {
       "source": "43.2",
       "target": "Declaration -site variance"
     },
     {
-      "source": "Declaration -site variance",
-      "target": "43.2"
-    },
-    {
       "source": "43.2",
       "target": "Down cast"
     },
     {
-      "source": "Down cast",
-      "target": "43.2"
-    },
-    {
       "source": "43.2",
       "target": "optionales"
-    },
-    {
-      "source": "optionales",
-      "target": "43.2"
     },
     {
       "source": "43.2",
       "target": "Use-site variance"
     },
     {
-      "source": "Use-site variance",
-      "target": "43.2"
-    },
-    {
       "source": "43",
       "target": "43.3"
-    },
-    {
-      "source": "43.3",
-      "target": "43"
     },
     {
       "source": "43.3",
       "target": "Array store exception"
     },
     {
-      "source": "Array store exception",
-      "target": "43.3"
-    },
-    {
       "source": "43.3",
       "target": "von Wildcard -Typen"
-    },
-    {
-      "source": "von Wildcard -Typen",
-      "target": "43.3"
     },
     {
       "source": "43.3",
       "target": "Wildcard -Typ"
     },
     {
-      "source": "Wildcard -Typ",
-      "target": "43.3"
-    },
-    {
       "source": "43",
       "target": "43.4"
     },
     {
-      "source": "43.4",
-      "target": "43"
-    },
-    {
       "source": "43",
       "target": "43.5"
-    },
-    {
-      "source": "43.5",
-      "target": "43"
     },
     {
       "source": "43.5",
       "target": "-inferenz"
     },
     {
-      "source": "-inferenz",
-      "target": "43.5"
-    },
-    {
       "source": "43",
       "target": "43.6"
     },
     {
       "source": "43.6",
-      "target": "43"
-    },
-    {
-      "source": "43.6",
       "target": "optionales"
-    },
-    {
-      "source": "optionales",
-      "target": "43.6"
     },
     {
       "source": "Kurseinheit 4",
@@ -10345,311 +7293,155 @@
     },
     {
       "source": "44",
-      "target": "Kurseinheit 4"
-    },
-    {
-      "source": "44",
       "target": "44.1"
-    },
-    {
-      "source": "44.1",
-      "target": "44"
     },
     {
       "source": "44.1",
       "target": "Cross cast"
     },
     {
-      "source": "Cross cast",
-      "target": "44.1"
-    },
-    {
       "source": "44.1",
       "target": "Down cast"
-    },
-    {
-      "source": "Down cast",
-      "target": "44.1"
     },
     {
       "source": "44.1",
       "target": "Raw type"
     },
     {
-      "source": "Raw type",
-      "target": "44.1"
-    },
-    {
       "source": "44.1",
       "target": "optionales"
     },
     {
-      "source": "optionales",
-      "target": "44.1"
-    },
-    {
       "source": "44.1",
       "target": "Type erasure"
-    },
-    {
-      "source": "Type erasure",
-      "target": "44.1"
     },
     {
       "source": "44.1",
       "target": "Up cast"
     },
     {
-      "source": "Up cast",
-      "target": "44.1"
-    },
-    {
       "source": "44",
       "target": "44.2"
-    },
-    {
-      "source": "44.2",
-      "target": "44"
     },
     {
       "source": "Kurseinheit 4",
       "target": "45"
     },
     {
-      "source": "45",
-      "target": "Kurseinheit 4"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "46"
-    },
-    {
-      "source": "46",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "46",
       "target": "46.1"
     },
     {
-      "source": "46.1",
-      "target": "46"
-    },
-    {
       "source": "46",
       "target": "46.2"
-    },
-    {
-      "source": "46.2",
-      "target": "46"
     },
     {
       "source": "46.2",
       "target": "interne"
     },
     {
-      "source": "interne",
-      "target": "46.2"
-    },
-    {
       "source": "46.2",
       "target": "Lambda -Ausdruck"
-    },
-    {
-      "source": "Lambda -Ausdruck",
-      "target": "46.2"
     },
     {
       "source": "46.2",
       "target": "Streams"
     },
     {
-      "source": "Streams",
-      "target": "46.2"
-    },
-    {
       "source": "46",
       "target": "Annotation"
-    },
-    {
-      "source": "Annotation",
-      "target": "46"
     },
     {
       "source": "46",
       "target": "Filterfunktion"
     },
     {
-      "source": "Filterfunktion",
-      "target": "46"
-    },
-    {
       "source": "46",
       "target": "Marker"
-    },
-    {
-      "source": "Marker",
-      "target": "46"
     },
     {
       "source": "46",
       "target": "Tagg ing"
     },
     {
-      "source": "Tagg ing",
-      "target": "46"
-    },
-    {
       "source": "46",
       "target": "Iterator"
-    },
-    {
-      "source": "Iterator",
-      "target": "46"
     },
     {
       "source": "46",
       "target": "package local"
     },
     {
-      "source": "package local",
-      "target": "46"
-    },
-    {
       "source": "46",
       "target": "Zwischenobjekt"
     },
     {
-      "source": "Zwischenobjekt",
-      "target": "46"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "47"
-    },
-    {
-      "source": "47",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "47",
       "target": "47.1"
     },
     {
-      "source": "47.1",
-      "target": "47"
-    },
-    {
       "source": "47",
       "target": "47.2"
     },
     {
-      "source": "47.2",
-      "target": "47"
-    },
-    {
       "source": "47",
       "target": "47.3"
-    },
-    {
-      "source": "47.3",
-      "target": "47"
     },
     {
       "source": "47.3",
       "target": "checked"
     },
     {
-      "source": "checked",
-      "target": "47.3"
-    },
-    {
       "source": "47.3",
       "target": "unchecked"
-    },
-    {
-      "source": "unchecked",
-      "target": "47.3"
     },
     {
       "source": "47.3",
       "target": "Monitor"
     },
     {
-      "source": "Monitor",
-      "target": "47.3"
-    },
-    {
       "source": "47",
       "target": "47.4"
-    },
-    {
-      "source": "47.4",
-      "target": "47"
     },
     {
       "source": "47.4",
       "target": "Annotation"
     },
     {
-      "source": "Annotation",
-      "target": "47.4"
-    },
-    {
       "source": "47.4",
       "target": "Reflection"
-    },
-    {
-      "source": "Reflection",
-      "target": "47.4"
     },
     {
       "source": "47",
       "target": "interner Iterator"
     },
     {
-      "source": "interner Iterator",
-      "target": "47"
-    },
-    {
       "source": "47",
       "target": "Pipelining"
-    },
-    {
-      "source": "Pipelining",
-      "target": "47"
     },
     {
       "source": "Kurseinheit 4",
       "target": "48"
     },
     {
-      "source": "48",
-      "target": "Kurseinheit 4"
-    },
-    {
       "source": "Kurseinheit 4",
       "target": "49"
-    },
-    {
-      "source": "49",
-      "target": "Kurseinheit 4"
     },
     {
       "source": "49",
       "target": "Ausgabestrom"
     },
     {
-      "source": "Ausgabestrom",
-      "target": "49"
-    },
-    {
       "source": "49",
       "target": "per dynamischem Binden"
-    },
-    {
-      "source": "per dynamischem Binden",
-      "target": "49"
     },
     {
       "source": "Objektorientierte Programmierung",
@@ -10657,415 +7449,207 @@
     },
     {
       "source": "Kurseinheit 5",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Kurseinheit 5",
       "target": "50"
-    },
-    {
-      "source": "50",
-      "target": "Kurseinheit 5"
     },
     {
       "source": "50",
       "target": "50.1"
-    },
-    {
-      "source": "50.1",
-      "target": "50"
     },
     {
       "source": "50.1",
       "target": "Common Intermediate Language"
     },
     {
-      "source": "Common Intermediate Language",
-      "target": "50.1"
-    },
-    {
       "source": "50.1",
       "target": "Garbage collection"
-    },
-    {
-      "source": "Garbage collection",
-      "target": "50.1"
     },
     {
       "source": "50.1",
       "target": "unsicher (unsafe)"
     },
     {
-      "source": "unsicher (unsafe)",
-      "target": "50.1"
-    },
-    {
       "source": "50",
       "target": "50.2"
-    },
-    {
-      "source": "50.2",
-      "target": "50"
     },
     {
       "source": "50.2",
       "target": "in C#"
     },
     {
-      "source": "in C#",
-      "target": "50.2"
-    },
-    {
       "source": "50",
       "target": "50.3"
-    },
-    {
-      "source": "50.3",
-      "target": "50"
     },
     {
       "source": "50.3",
       "target": "50.3.1"
     },
     {
-      "source": "50.3.1",
-      "target": "50.3"
-    },
-    {
       "source": "50.3",
       "target": "50.3.2"
-    },
-    {
-      "source": "50.3.2",
-      "target": "50.3"
     },
     {
       "source": "50.3.2",
       "target": "Indexer"
     },
     {
-      "source": "Indexer",
-      "target": "50.3.2"
-    },
-    {
       "source": "50.3",
       "target": "50.3.3"
-    },
-    {
-      "source": "50.3.3",
-      "target": "50.3"
     },
     {
       "source": "50.3",
       "target": "chaining"
     },
     {
-      "source": "chaining",
-      "target": "50.3"
-    },
-    {
       "source": "50.3",
       "target": "checked"
-    },
-    {
-      "source": "checked",
-      "target": "50.3"
     },
     {
       "source": "50.3",
       "target": "tunneling"
     },
     {
-      "source": "tunneling",
-      "target": "50.3"
-    },
-    {
       "source": "50.3",
       "target": "unchecked"
-    },
-    {
-      "source": "unchecked",
-      "target": "50.3"
     },
     {
       "source": "50.3",
       "target": "Fragile -base-class-Problem"
     },
     {
-      "source": "Fragile -base-class-Problem",
-      "target": "50.3"
-    },
-    {
       "source": "50.3",
       "target": "Getter"
-    },
-    {
-      "source": "Getter",
-      "target": "50.3"
     },
     {
       "source": "50.3",
       "target": "Property"
     },
     {
-      "source": "Property",
-      "target": "50.3"
-    },
-    {
       "source": "50.3",
       "target": "Setter"
     },
     {
-      "source": "Setter",
-      "target": "50.3"
-    },
-    {
       "source": "50",
       "target": "50.4"
-    },
-    {
-      "source": "50.4",
-      "target": "50"
     },
     {
       "source": "50.4",
       "target": "50.4.1"
     },
     {
-      "source": "50.4.1",
-      "target": "50.4"
-    },
-    {
       "source": "50.4",
       "target": "50.4.2"
-    },
-    {
-      "source": "50.4.2",
-      "target": "50.4"
     },
     {
       "source": "50.4.2",
       "target": "Annotation"
     },
     {
-      "source": "Annotation",
-      "target": "50.4.2"
-    },
-    {
       "source": "50.4.2",
       "target": "Attribute"
-    },
-    {
-      "source": "Attribute",
-      "target": "50.4.2"
     },
     {
       "source": "50.4.2",
       "target": "Auto boxing und unboxing"
     },
     {
-      "source": "Auto boxing und unboxing",
-      "target": "50.4.2"
-    },
-    {
       "source": "50.4.2",
       "target": "Delegate"
     },
     {
-      "source": "Delegate",
-      "target": "50.4.2"
-    },
-    {
       "source": "50.4.2",
       "target": "explizite"
-    },
-    {
-      "source": "explizite",
-      "target": "50.4.2"
     },
     {
       "source": "50.4.2",
       "target": "Marker -Interface"
     },
     {
-      "source": "Marker -Interface",
-      "target": "50.4.2"
-    },
-    {
       "source": "50.4.2",
       "target": "Typerweiterung"
-    },
-    {
-      "source": "Typerweiterung",
-      "target": "50.4.2"
     },
     {
       "source": "50.4.2",
       "target": "Vererbung"
     },
     {
-      "source": "Vererbung",
-      "target": "50.4.2"
-    },
-    {
       "source": "50.4",
       "target": "50.4.3"
-    },
-    {
-      "source": "50.4.3",
-      "target": "50.4"
     },
     {
       "source": "50.4.3",
       "target": "Boxing und Unboxing"
     },
     {
-      "source": "Boxing und Unboxing",
-      "target": "50.4.3"
-    },
-    {
       "source": "50.4.3",
       "target": "implizite"
-    },
-    {
-      "source": "implizite",
-      "target": "50.4.3"
     },
     {
       "source": "50.4.3",
       "target": "Reflection"
     },
     {
-      "source": "Reflection",
-      "target": "50.4.3"
-    },
-    {
       "source": "50.4.3",
       "target": "-expansion"
     },
     {
-      "source": "-expansion",
-      "target": "50.4.3"
-    },
-    {
       "source": "50.4.3",
       "target": "-inferenz"
-    },
-    {
-      "source": "-inferenz",
-      "target": "50.4.3"
     },
     {
       "source": "50.4.3",
       "target": "Type erasure"
     },
     {
-      "source": "Type erasure",
-      "target": "50.4.3"
-    },
-    {
       "source": "50.4.3",
       "target": "ungarische Notation"
     },
     {
-      "source": "ungarische Notation",
-      "target": "50.4.3"
-    },
-    {
       "source": "50.4",
       "target": "50.4.4"
-    },
-    {
-      "source": "50.4.4",
-      "target": "50.4"
     },
     {
       "source": "50.4.4",
       "target": "declaration -site variance"
     },
     {
-      "source": "declaration -site variance",
-      "target": "50.4.4"
-    },
-    {
       "source": "50.4",
       "target": "Common Type System"
-    },
-    {
-      "source": "Common Type System",
-      "target": "50.4"
     },
     {
       "source": "50.4",
       "target": "Delegate"
     },
     {
-      "source": "Delegate",
-      "target": "50.4"
-    },
-    {
       "source": "50.4",
       "target": "Event"
-    },
-    {
-      "source": "Event",
-      "target": "50.4"
     },
     {
       "source": "50.4",
       "target": "Event handler"
     },
     {
-      "source": "Event handler",
-      "target": "50.4"
-    },
-    {
       "source": "50.4",
       "target": "Pattern"
     },
     {
-      "source": "Pattern",
-      "target": "50.4"
-    },
-    {
       "source": "50",
       "target": "50.5"
-    },
-    {
-      "source": "50.5",
-      "target": "50"
     },
     {
       "source": "50.5",
       "target": "Block"
     },
     {
-      "source": "Block",
-      "target": "50.5"
-    },
-    {
       "source": "50.5",
       "target": "funktionale Programmiersprache"
-    },
-    {
-      "source": "funktionale Programmiersprache",
-      "target": "50.5"
     },
     {
       "source": "50.5",
       "target": "Lambda -Ausdruck"
     },
     {
-      "source": "Lambda -Ausdruck",
-      "target": "50.5"
-    },
-    {
       "source": "50",
       "target": "Down cast"
-    },
-    {
-      "source": "Down cast",
-      "target": "50"
     },
     {
       "source": "Kurseinheit 5",
@@ -11073,455 +7657,227 @@
     },
     {
       "source": "51",
-      "target": "Kurseinheit 5"
-    },
-    {
-      "source": "51",
       "target": "51.1"
-    },
-    {
-      "source": "51.1",
-      "target": "51"
     },
     {
       "source": "51.1",
       "target": "Metaklasse"
     },
     {
-      "source": "Metaklasse",
-      "target": "51.1"
-    },
-    {
       "source": "51",
       "target": "51.2"
     },
     {
-      "source": "51.2",
-      "target": "51"
-    },
-    {
       "source": "51",
       "target": "51.3"
-    },
-    {
-      "source": "51.3",
-      "target": "51"
     },
     {
       "source": "51.3",
       "target": "Call by reference"
     },
     {
-      "source": "Call by reference",
-      "target": "51.3"
-    },
-    {
       "source": "51.3",
       "target": "Call by value"
-    },
-    {
-      "source": "Call by value",
-      "target": "51.3"
     },
     {
       "source": "51.3",
       "target": "Identit\u00e4t"
     },
     {
-      "source": "Identit\u00e4t",
-      "target": "51.3"
-    },
-    {
       "source": "51.3",
       "target": "Referenzsemantik"
-    },
-    {
-      "source": "Referenzsemantik",
-      "target": "51.3"
     },
     {
       "source": "51.3",
       "target": "Wertsemantik"
     },
     {
-      "source": "Wertsemantik",
-      "target": "51.3"
-    },
-    {
       "source": "51.3",
       "target": "implizite"
     },
     {
-      "source": "implizite",
-      "target": "51.3"
-    },
-    {
       "source": "51",
       "target": "51.4"
-    },
-    {
-      "source": "51.4",
-      "target": "51"
     },
     {
       "source": "51.4",
       "target": "Delegation"
     },
     {
-      "source": "Delegation",
-      "target": "51.4"
-    },
-    {
       "source": "51.4",
       "target": "Forwarding"
     },
     {
-      "source": "Forwarding",
-      "target": "51.4"
-    },
-    {
       "source": "51.4",
       "target": "als Interface"
-    },
-    {
-      "source": "als Interface",
-      "target": "51.4"
     },
     {
       "source": "51.4",
       "target": "Mehrfachvererbung"
     },
     {
-      "source": "Mehrfachvererbung",
-      "target": "51.4"
-    },
-    {
       "source": "51.4",
       "target": "qualifizierter Export"
     },
     {
-      "source": "qualifizierter Export",
-      "target": "51.4"
-    },
-    {
       "source": "51",
       "target": "51.5"
-    },
-    {
-      "source": "51.5",
-      "target": "51"
     },
     {
       "source": "51.5",
       "target": "51.5.1"
     },
     {
-      "source": "51.5.1",
-      "target": "51.5"
-    },
-    {
       "source": "51.5",
       "target": "51.5.2"
-    },
-    {
-      "source": "51.5.2",
-      "target": "51.5"
     },
     {
       "source": "51.5.2",
       "target": "als Interface"
     },
     {
-      "source": "als Interface",
-      "target": "51.5.2"
-    },
-    {
       "source": "51.5.2",
       "target": "Runtime type information"
-    },
-    {
-      "source": "Runtime type information",
-      "target": "51.5.2"
     },
     {
       "source": "51.5.2",
       "target": "Template"
     },
     {
-      "source": "Template",
-      "target": "51.5.2"
-    },
-    {
       "source": "51.5.2",
       "target": "-expansion"
-    },
-    {
-      "source": "-expansion",
-      "target": "51.5.2"
     },
     {
       "source": "51.5.2",
       "target": "optionales"
     },
     {
-      "source": "optionales",
-      "target": "51.5.2"
-    },
-    {
       "source": "51.5.2",
       "target": "Type cast"
-    },
-    {
-      "source": "Type cast",
-      "target": "51.5.2"
     },
     {
       "source": "51.5.2",
       "target": "Virtual function table"
     },
     {
-      "source": "Virtual function table",
-      "target": "51.5.2"
-    },
-    {
       "source": "51.5",
       "target": "dynamisches Binden"
     },
     {
-      "source": "dynamisches Binden",
-      "target": "51.5"
-    },
-    {
       "source": "51.5",
       "target": "offene Rekursion"
-    },
-    {
-      "source": "offene Rekursion",
-      "target": "51.5"
     },
     {
       "source": "51",
       "target": "51.6"
     },
     {
-      "source": "51.6",
-      "target": "51"
-    },
-    {
       "source": "Kurseinheit 5",
       "target": "52"
     },
     {
       "source": "52",
-      "target": "Kurseinheit 5"
-    },
-    {
-      "source": "52",
       "target": "52.1"
-    },
-    {
-      "source": "52.1",
-      "target": "52"
     },
     {
       "source": "52.1",
       "target": "Garbage collection"
     },
     {
-      "source": "Garbage collection",
-      "target": "52.1"
-    },
-    {
       "source": "52",
       "target": "52.2"
-    },
-    {
-      "source": "52.2",
-      "target": "52"
     },
     {
       "source": "52.2",
       "target": "Abfrage"
     },
     {
-      "source": "Abfrage",
-      "target": "52.2"
-    },
-    {
       "source": "52.2",
       "target": "Befehl"
-    },
-    {
-      "source": "Befehl",
-      "target": "52.2"
     },
     {
       "source": "52.2",
       "target": "Datenkapselung"
     },
     {
-      "source": "Datenkapselung",
-      "target": "52.2"
-    },
-    {
       "source": "52.2",
       "target": "Getter"
     },
     {
-      "source": "Getter",
-      "target": "52.2"
-    },
-    {
       "source": "52.2",
       "target": "Informat ion hiding"
-    },
-    {
-      "source": "Informat ion hiding",
-      "target": "52.2"
     },
     {
       "source": "52.2",
       "target": "Repr\u00e4sentationsunabh\u00e4ngigkeit"
     },
     {
-      "source": "Repr\u00e4sentationsunabh\u00e4ngigkeit",
-      "target": "52.2"
-    },
-    {
       "source": "52.2",
       "target": "Routine"
-    },
-    {
-      "source": "Routine",
-      "target": "52.2"
     },
     {
       "source": "52.2",
       "target": "Setter"
     },
     {
-      "source": "Setter",
-      "target": "52.2"
-    },
-    {
       "source": "52",
       "target": "52.3"
-    },
-    {
-      "source": "52.3",
-      "target": "52"
     },
     {
       "source": "52.3",
       "target": "in Eifel"
     },
     {
-      "source": "in Eifel",
-      "target": "52.3"
-    },
-    {
       "source": "52.3",
       "target": "dedizierter"
-    },
-    {
-      "source": "dedizierter",
-      "target": "52.3"
     },
     {
       "source": "52.3",
       "target": "Friend"
     },
     {
-      "source": "Friend",
-      "target": "52.3"
-    },
-    {
       "source": "52.3",
       "target": "in Eiffel"
-    },
-    {
-      "source": "in Eiffel",
-      "target": "52.3"
     },
     {
       "source": "52.3",
       "target": "qualifizierter Export"
     },
     {
-      "source": "qualifizierter Export",
-      "target": "52.3"
-    },
-    {
       "source": "52.3",
       "target": "Redefinition"
-    },
-    {
-      "source": "Redefinition",
-      "target": "52.3"
     },
     {
       "source": "52",
       "target": "52.4"
     },
     {
-      "source": "52.4",
-      "target": "52"
-    },
-    {
       "source": "52",
       "target": "52.5"
-    },
-    {
-      "source": "52.5",
-      "target": "52"
     },
     {
       "source": "52.5",
       "target": "52.5.1"
     },
     {
-      "source": "52.5.1",
-      "target": "52.5"
-    },
-    {
       "source": "52.5",
       "target": "52.5.2"
     },
     {
       "source": "52.5.2",
-      "target": "52.5"
-    },
-    {
-      "source": "52.5.2",
       "target": "Substituierbarkeit"
-    },
-    {
-      "source": "Substituierbarkeit",
-      "target": "52.5.2"
     },
     {
       "source": "52.5.2",
       "target": "Typerweiterung"
     },
     {
-      "source": "Typerweiterung",
-      "target": "52.5.2"
-    },
-    {
       "source": "52.5.2",
       "target": "Typkonformit\u00e4t"
     },
     {
-      "source": "Typkonformit\u00e4t",
-      "target": "52.5.2"
-    },
-    {
       "source": "52.5.2",
       "target": "Vererbung"
-    },
-    {
-      "source": "Vererbung",
-      "target": "52.5.2"
     },
     {
       "source": "52.5",
@@ -11529,511 +7885,255 @@
     },
     {
       "source": "52.5.3",
-      "target": "52.5"
-    },
-    {
-      "source": "52.5.3",
       "target": "Aggregation"
-    },
-    {
-      "source": "Aggregation",
-      "target": "52.5.3"
     },
     {
       "source": "52.5.3",
       "target": "Alias"
     },
     {
-      "source": "Alias",
-      "target": "52.5.3"
-    },
-    {
       "source": "52.5.3",
       "target": "per dynamischem Binden"
-    },
-    {
-      "source": "per dynamischem Binden",
-      "target": "52.5.3"
     },
     {
       "source": "52.5.3",
       "target": "verankerter Typ"
     },
     {
-      "source": "verankerter Typ",
-      "target": "52.5.3"
-    },
-    {
       "source": "52.5.3",
       "target": "explizite"
-    },
-    {
-      "source": "explizite",
-      "target": "52.5.3"
     },
     {
       "source": "52.5.3",
       "target": "Zuweisungsversuch"
     },
     {
-      "source": "Zuweisungsversuch",
-      "target": "52.5.3"
-    },
-    {
       "source": "52",
       "target": "52.6"
     },
     {
-      "source": "52.6",
-      "target": "52"
-    },
-    {
       "source": "52",
       "target": "52.7"
-    },
-    {
-      "source": "52.7",
-      "target": "52"
     },
     {
       "source": "52.7",
       "target": "Tupel"
     },
     {
-      "source": "Tupel",
-      "target": "52.7"
-    },
-    {
       "source": "52",
       "target": "52.8"
-    },
-    {
-      "source": "52.8",
-      "target": "52"
     },
     {
       "source": "Kurseinheit 5",
       "target": "53"
     },
     {
-      "source": "53",
-      "target": "Kurseinheit 5"
-    },
-    {
       "source": "Objektorientierte Programmierung",
       "target": "Kurseinheit 6"
     },
     {
       "source": "Kurseinheit 6",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Kurseinheit 6",
       "target": "54"
-    },
-    {
-      "source": "54",
-      "target": "Kurseinheit 6"
     },
     {
       "source": "54",
       "target": "54.1"
-    },
-    {
-      "source": "54.1",
-      "target": "54"
     },
     {
       "source": "54.1",
       "target": "Fallunterscheidung"
-    },
-    {
-      "source": "Fallunterscheidung",
-      "target": "54.1"
     },
     {
       "source": "54.1",
       "target": "Substituierbarkeit"
     },
     {
-      "source": "Substituierbarkeit",
-      "target": "54.1"
-    },
-    {
       "source": "54.1",
       "target": "-konformit\u00e4t"
     },
     {
-      "source": "-konformit\u00e4t",
-      "target": "54.1"
-    },
-    {
       "source": "54",
       "target": "54.2"
-    },
-    {
-      "source": "54.2",
-      "target": "54"
     },
     {
       "source": "54.2",
       "target": "funktionale Anforderung"
     },
     {
-      "source": "funktionale Anforderung",
-      "target": "54.2"
-    },
-    {
       "source": "54.2",
       "target": "nichtfunktionale Anforderung"
-    },
-    {
-      "source": "nichtfunktionale Anforderung",
-      "target": "54.2"
     },
     {
       "source": "54",
       "target": "54.3"
     },
     {
-      "source": "54.3",
-      "target": "54"
-    },
-    {
       "source": "54",
       "target": "54.4"
-    },
-    {
-      "source": "54.4",
-      "target": "54"
     },
     {
       "source": "54.4",
       "target": "s. verhaltensbasiertes Subtyping"
     },
     {
-      "source": "s. verhaltensbasiertes Subtyping",
-      "target": "54.4"
-    },
-    {
       "source": "54.4",
       "target": "Liskov -Substitutionsprinz ip"
-    },
-    {
-      "source": "Liskov -Substitutionsprinz ip",
-      "target": "54.4"
     },
     {
       "source": "54.4",
       "target": "verhaltensbezogenes"
     },
     {
-      "source": "verhaltensbezogenes",
-      "target": "54.4"
-    },
-    {
       "source": "54.4",
       "target": "verhaltensbasiertes Subtyping"
     },
     {
-      "source": "verhaltensbasiertes Subtyping",
-      "target": "54.4"
-    },
-    {
       "source": "54",
       "target": "54.5"
-    },
-    {
-      "source": "54.5",
-      "target": "54"
     },
     {
       "source": "54.5",
       "target": "Zustandswechs el-"
     },
     {
-      "source": "Zustandswechs el-",
-      "target": "54.5"
-    },
-    {
       "source": "54.5",
       "target": "Rolle"
-    },
-    {
-      "source": "Rolle",
-      "target": "54.5"
     },
     {
       "source": "54",
       "target": "Subtyping"
     },
     {
-      "source": "Subtyping",
-      "target": "54"
-    },
-    {
       "source": "Kurseinheit 6",
       "target": "55"
-    },
-    {
-      "source": "55",
-      "target": "Kurseinheit 6"
     },
     {
       "source": "55",
       "target": "Basisklasse"
     },
     {
-      "source": "Basisklasse",
-      "target": "55"
-    },
-    {
       "source": "55",
       "target": "Fragile -base-class-Problem"
-    },
-    {
-      "source": "Fragile -base-class-Problem",
-      "target": "55"
     },
     {
       "source": "55",
       "target": "Interface -als-Typ-Konzept"
     },
     {
-      "source": "Interface -als-Typ-Konzept",
-      "target": "55"
-    },
-    {
       "source": "Kurseinheit 6",
       "target": "56"
-    },
-    {
-      "source": "56",
-      "target": "Kurseinheit 6"
     },
     {
       "source": "56",
       "target": "Component Object Model"
     },
     {
-      "source": "Component Object Model",
-      "target": "56"
-    },
-    {
       "source": "56",
       "target": "dedizierter"
-    },
-    {
-      "source": "dedizierter",
-      "target": "56"
     },
     {
       "source": "56",
       "target": "Informat ion hiding"
     },
     {
-      "source": "Informat ion hiding",
-      "target": "56"
-    },
-    {
       "source": "56",
       "target": "Lokalit\u00e4tsprinzip"
-    },
-    {
-      "source": "Lokalit\u00e4tsprinzip",
-      "target": "56"
     },
     {
       "source": "56",
       "target": "offene Rekursion"
     },
     {
-      "source": "offene Rekursion",
-      "target": "56"
-    },
-    {
       "source": "56",
       "target": "Refactoring"
-    },
-    {
-      "source": "Refactoring",
-      "target": "56"
     },
     {
       "source": "56",
       "target": "Vererbungsinterface"
     },
     {
-      "source": "Vererbungsinterface",
-      "target": "56"
-    },
-    {
       "source": "Kurseinheit 6",
       "target": "57"
-    },
-    {
-      "source": "57",
-      "target": "Kurseinheit 6"
     },
     {
       "source": "57",
       "target": "Beziehung"
     },
     {
-      "source": "Beziehung",
-      "target": "57"
-    },
-    {
       "source": "57",
       "target": "Fallunterscheidung"
-    },
-    {
-      "source": "Fallunterscheidung",
-      "target": "57"
     },
     {
       "source": "57",
       "target": "Inlining"
     },
     {
-      "source": "Inlining",
-      "target": "57"
-    },
-    {
       "source": "57",
       "target": "hierarchische"
-    },
-    {
-      "source": "hierarchische",
-      "target": "57"
     },
     {
       "source": "57",
       "target": "strukturierte Programmierung"
     },
     {
-      "source": "strukturierte Programmierung",
-      "target": "57"
-    },
-    {
       "source": "Kurseinheit 6",
       "target": "58"
-    },
-    {
-      "source": "58",
-      "target": "Kurseinheit 6"
     },
     {
       "source": "58",
       "target": "Allgemeinbegriff"
     },
     {
-      "source": "Allgemeinbegriff",
-      "target": "58"
-    },
-    {
       "source": "58",
       "target": "Kapselung"
-    },
-    {
-      "source": "Kapselung",
-      "target": "58"
     },
     {
       "source": "58",
       "target": "Klassenschnittstelle"
     },
     {
-      "source": "Klassenschnittstelle",
-      "target": "58"
-    },
-    {
       "source": "58",
       "target": "Separation of concerns"
-    },
-    {
-      "source": "Separation of concerns",
-      "target": "58"
     },
     {
       "source": "58",
       "target": "Trennung der Belange"
     },
     {
-      "source": "Trennung der Belange",
-      "target": "58"
-    },
-    {
       "source": "Kurseinheit 6",
       "target": "59"
-    },
-    {
-      "source": "59",
-      "target": "Kurseinheit 6"
     },
     {
       "source": "59",
       "target": "Aliasing -Problem"
     },
     {
-      "source": "Aliasing -Problem",
-      "target": "59"
-    },
-    {
       "source": "59",
       "target": "Geheimnisprinzip"
-    },
-    {
-      "source": "Geheimnisprinzip",
-      "target": "59"
     },
     {
       "source": "59",
       "target": "Informat ion hiding"
     },
     {
-      "source": "Informat ion hiding",
-      "target": "59"
-    },
-    {
       "source": "59",
       "target": "relationales Datenmodell"
-    },
-    {
-      "source": "relationales Datenmodell",
-      "target": "59"
     },
     {
       "source": "59",
       "target": "Teil-Ganzes -Beziehung"
     },
     {
-      "source": "Teil-Ganzes -Beziehung",
-      "target": "59"
-    },
-    {
       "source": "Kurseinheit 6",
       "target": "60"
-    },
-    {
-      "source": "60",
-      "target": "Kurseinheit 6"
     },
     {
       "source": "60",
       "target": "innere Klasse"
     },
     {
-      "source": "innere Klasse",
-      "target": "60"
-    },
-    {
       "source": "60",
       "target": "Komponente"
-    },
-    {
-      "source": "Komponente",
-      "target": "60"
     },
     {
       "source": "Kurseinheit 6",
@@ -12041,79 +8141,39 @@
     },
     {
       "source": "61",
-      "target": "Kurseinheit 6"
-    },
-    {
-      "source": "61",
       "target": "Dereferenzierung"
-    },
-    {
-      "source": "Dereferenzierung",
-      "target": "61"
     },
     {
       "source": "61",
       "target": "Fremdschl\u00fcssel"
     },
     {
-      "source": "Fremdschl\u00fcssel",
-      "target": "61"
-    },
-    {
       "source": "61",
       "target": "funktionale Programmiersprache"
-    },
-    {
-      "source": "funktionale Programmiersprache",
-      "target": "61"
     },
     {
       "source": "61",
       "target": "Impedance mismatch"
     },
     {
-      "source": "Impedance mismatch",
-      "target": "61"
-    },
-    {
       "source": "61",
       "target": "logische Programmiersprache"
-    },
-    {
-      "source": "logische Programmiersprache",
-      "target": "61"
     },
     {
       "source": "61",
       "target": "Lokalit\u00e4tsprinzip"
     },
     {
-      "source": "Lokalit\u00e4tsprinzip",
-      "target": "61"
-    },
-    {
       "source": "61",
       "target": "Navigation"
-    },
-    {
-      "source": "Navigation",
-      "target": "61"
     },
     {
       "source": "61",
       "target": "Persistenzlayer"
     },
     {
-      "source": "Persistenzlayer",
-      "target": "61"
-    },
-    {
       "source": "61",
       "target": "Schl\u00fcssel"
-    },
-    {
-      "source": "Schl\u00fcssel",
-      "target": "61"
     },
     {
       "source": "Objektorientierte Programmierung",
@@ -12121,263 +8181,131 @@
     },
     {
       "source": "Kurseinheit 7",
-      "target": "Objektorientierte Programmierung"
-    },
-    {
-      "source": "Kurseinheit 7",
       "target": "62"
-    },
-    {
-      "source": "62",
-      "target": "Kurseinheit 7"
     },
     {
       "source": "62",
       "target": "62.1"
-    },
-    {
-      "source": "62.1",
-      "target": "62"
     },
     {
       "source": "62.1",
       "target": "-inferenz"
     },
     {
-      "source": "-inferenz",
-      "target": "62.1"
-    },
-    {
       "source": "62",
       "target": "62.2"
     },
     {
       "source": "62.2",
-      "target": "62"
-    },
-    {
-      "source": "62.2",
       "target": "62.2.1"
-    },
-    {
-      "source": "62.2.1",
-      "target": "62.2"
     },
     {
       "source": "62.2.1",
       "target": "Befehl"
     },
     {
-      "source": "Befehl",
-      "target": "62.2.1"
-    },
-    {
       "source": "62.2.1",
       "target": "ungarische Notation"
-    },
-    {
-      "source": "ungarische Notation",
-      "target": "62.2.1"
     },
     {
       "source": "62.2",
       "target": "62.2.2"
     },
     {
-      "source": "62.2.2",
-      "target": "62.2"
-    },
-    {
       "source": "Kurseinheit 7",
       "target": "63"
-    },
-    {
-      "source": "63",
-      "target": "Kurseinheit 7"
     },
     {
       "source": "63",
       "target": "Coding convention"
     },
     {
-      "source": "Coding convention",
-      "target": "63"
-    },
-    {
       "source": "63",
       "target": "Programmierstil"
-    },
-    {
-      "source": "Programmierstil",
-      "target": "63"
     },
     {
       "source": "63",
       "target": "Rolle"
     },
     {
-      "source": "Rolle",
-      "target": "63"
-    },
-    {
       "source": "63",
       "target": "\u00fcberladen"
-    },
-    {
-      "source": "\u00fcberladen",
-      "target": "63"
     },
     {
       "source": "Kurseinheit 7",
       "target": "64"
     },
     {
-      "source": "64",
-      "target": "Kurseinheit 7"
-    },
-    {
       "source": "Kurseinheit 7",
       "target": "65"
     },
     {
-      "source": "65",
-      "target": "Kurseinheit 7"
-    },
-    {
       "source": "Kurseinheit 7",
       "target": "66"
-    },
-    {
-      "source": "66",
-      "target": "Kurseinheit 7"
     },
     {
       "source": "66",
       "target": "Seiteneffekt"
     },
     {
-      "source": "Seiteneffekt",
-      "target": "66"
-    },
-    {
       "source": "Kurseinheit 7",
       "target": "67"
     },
     {
-      "source": "67",
-      "target": "Kurseinheit 7"
-    },
-    {
       "source": "Kurseinheit 7",
       "target": "68"
-    },
-    {
-      "source": "68",
-      "target": "Kurseinheit 7"
     },
     {
       "source": "68",
       "target": "68.1"
     },
     {
-      "source": "68.1",
-      "target": "68"
-    },
-    {
       "source": "68",
       "target": "68.2"
-    },
-    {
-      "source": "68.2",
-      "target": "68"
     },
     {
       "source": "68.2",
       "target": "Zugreifbarkeitsregel"
     },
     {
-      "source": "Zugreifbarkeitsregel",
-      "target": "68.2"
-    },
-    {
       "source": "68",
       "target": "68.3"
-    },
-    {
-      "source": "68.3",
-      "target": "68"
     },
     {
       "source": "68",
       "target": "Aggregation"
     },
     {
-      "source": "Aggregation",
-      "target": "68"
-    },
-    {
       "source": "68",
       "target": "gleiche"
-    },
-    {
-      "source": "gleiche",
-      "target": "68"
     },
     {
       "source": "68",
       "target": "Generalisierung"
     },
     {
-      "source": "Generalisierung",
-      "target": "68"
-    },
-    {
       "source": "68",
       "target": "Komposition"
-    },
-    {
-      "source": "Komposition",
-      "target": "68"
     },
     {
       "source": "68",
       "target": "Law of Demeter"
     },
     {
-      "source": "Law of Demeter",
-      "target": "68"
-    },
-    {
       "source": "68",
       "target": "Spezialisierung"
-    },
-    {
-      "source": "Spezialisierung",
-      "target": "68"
     },
     {
       "source": "Kurseinheit 7",
       "target": "69"
     },
     {
-      "source": "69",
-      "target": "Kurseinheit 7"
-    },
-    {
       "source": "Kurseinheit 7",
       "target": "70"
     },
     {
-      "source": "70",
-      "target": "Kurseinheit 7"
-    },
-    {
       "source": "Kurseinheit 7",
       "target": "71"
-    },
-    {
-      "source": "71",
-      "target": "Kurseinheit 7"
     }
   ]
 }
