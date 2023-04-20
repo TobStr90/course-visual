@@ -1,6 +1,8 @@
 import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-import * as d3 from "d3-force";
+// import * as d3 from "d3-force";
+import * as d3 from "d3";
+// import { forceSimulation, force, forceX } from "d3-force";
 import React from "react";
 
 function Graph2D(props) {
@@ -152,11 +154,86 @@ function Graph2D(props) {
         };
     }, [height]);
 
+    const getDagMode = () => {
+        if (!props.dagMode) return null;
+        else return props.dagMode;
+    };
+
+    useEffect(() => {
+        // const customForce = () => {
+        //     props.graph.nodes.forEach((d) => {
+        //         d.x = props.graph.nodes.indexOf(d) * 100;
+        //         d.y = props.graph.nodes.indexOf(d) * 100;
+        //         // d.x += (d.targetX - d.x) * alpha * 0.1;
+        //         // d.y += (d.targetY - d.y) * alpha * 0.1;
+        //     });
+        //     console.log(props.graph.nodes);
+        // };
+        // fgRef.d3Force("center", null);
+        // fgRef.d3Force("charge", null);
+        // fgRef.d3Force("collide", null);
+        // fgRef.d3Force("x", null);
+        // fgRef.d3Force("y", null);
+        // fgRef.d3Force("x", customForce());
+        // fgRef.d3Force("y", customForce());
+        // d3.forceSimulation().force("x", null).force("y", null);
+        // d3.forceSimulation()
+        //     .force(
+        //         "x",
+        //         d3.forceX().x((d) => props.graph.nodes.indexOf(d) * 100)
+        //     )
+        //     .force(
+        //         "y",
+        //         d3.forceY().y((d) => props.graph.nodes.indexOf(d) * 100)
+        //     );
+        // fgRef.d3Force("x", null);
+        // fgRef.d3Force("y", null);
+        // const simulation = fgRef.current.d3forceSimulation();
+        // simulation.force("x", null);
+        // simulation.force(
+        //     "x",
+        //     d3.forceX().x((d) => props.graph.nodes.indexOf(d) * 100)
+        // );
+        // fgRef.current.graphData(props.graph);
+    }, [props.graph]);
+
+    const config = React.useMemo(() => {
+        return {
+            d3Force: {
+                // fx: d3.forceX().x((d) => props.graph.nodes.indexOf(d) * 100),
+                // fy: d3.forceY().y((d) => props.graph.nodes.indexOf(d) * 100),
+                x: null,
+                y: null,
+            },
+        };
+    }, [props.graph]);
+
+    const getForce = () => {
+        const customForce = () => {
+            props.graph.nodes.forEach((d) => {
+                d.x = props.graph.nodes.indexOf(d) * 100;
+                d.y = props.graph.nodes.indexOf(d) * 100;
+                // d.x += (d.targetX - d.x) * alpha * 0.1;
+                // d.y += (d.targetY - d.y) * alpha * 0.1;
+            });
+            console.log(props.graph.nodes);
+        };
+
+        return {
+            linkDistance: 999,
+            charge: -100,
+            x: customForce(),
+            y: customForce(),
+        };
+    };
+
     const getGraph = () => {
         return (
             <ForceGraph2D
-                dagMode={props.dagMode}
-                dagLevelDistance={50}
+                dagMode={getDagMode()}
+                // {...config}
+                d3Force={getForce()}
+                dagLevelDistance={100}
                 height={getHeight()}
                 ref={fgRef}
                 graphData={props.graph}
@@ -221,7 +298,7 @@ function Graph2D(props) {
                             ...bckgDimensions
                         );
                 }}
-            />
+            ></ForceGraph2D>
         );
     };
 
