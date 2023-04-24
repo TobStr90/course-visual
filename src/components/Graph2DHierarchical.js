@@ -1,11 +1,11 @@
 import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-// import * as d3 from "d3-force";
 import * as d3 from "d3";
-// import { forceSimulation, force, forceX } from "d3-force";
 import React from "react";
+import Graph2D from "./Graph2D";
 
-function Graph2D(props) {
+function Graph2DHierarchical(props) {
+  console.log("Graph2DHierarchical");
   const handleNodeClick = (node) => {
     props.onNodeClick(node);
   };
@@ -89,46 +89,10 @@ function Graph2D(props) {
 
   const graphRef = useRef();
 
-  // useEffect(() => {
-  //   const fg = graphRef.current;
-
-  // const graphContainer = document.getElementById("Graph");
-  // const graphContainerTop = graphContainer.getBoundingClientRect().top;
-  // const graphContainerHeight = graphContainer.clientHeight;
-  // const height = 100;
-  // const width = window.innerWidth;
-  // const padding = 10;
-
-  // d3.forceSimulation()
-  //   .force(
-  //     "x",
-  //     d3.forceX().x((d) => Math.max(padding, Math.min(width - padding, d.x)))
-  //   )
-  //   .force(
-  //     "y",
-  //     d3.forceY().y((d) => Math.max(padding, Math.min(height - padding, d.y)))
-  //   );
-
-  // const centerForce = d3.forceCenter(0, 0);
-
-  // const nodeToCenter = props.graph.nodes.find(
-  //   (node) => node.id === "Objektorientierte Programmierung"
-  // );
-  // nodeToCenter.fx = 0;
-  // nodeToCenter.fy = 0;
-  // console.log(nodeToCenter);
-
-  // fg.d3Force("center", centerForce);
-
-  // fg.d3Force("link", d3.forceLink().distance(30));
-  // fg.d3Force("collide", d3.forceCollide(50));
-  // fg.d3Force("charge", d3.forceManyBody().strength(-10).distanceMin(10));
-  // });
-
   const [height, setHeight] = useState(0);
 
   const getHeight = () => {
-    const graphContainer = document.getElementById("Graph2D");
+    const graphContainer = document.getElementById("Graph2DHierarchical");
     if (!graphContainer) return 0;
 
     const graphContainerTop = graphContainer.getBoundingClientRect().top;
@@ -159,84 +123,60 @@ function Graph2D(props) {
     else return props.dagMode;
   };
 
+  const nodesRef = useRef([]);
+  const linksRef = useRef([]);
+
   useEffect(() => {
-    // const customForce = () => {
-    //     props.graph.nodes.forEach((d) => {
-    //         d.x = props.graph.nodes.indexOf(d) * 100;
-    //         d.y = props.graph.nodes.indexOf(d) * 100;
-    //         // d.x += (d.targetX - d.x) * alpha * 0.1;
-    //         // d.y += (d.targetY - d.y) * alpha * 0.1;
-    //     });
-    //     console.log(props.graph.nodes);
-    // };
-    // fgRef.d3Force("center", null);
-    // fgRef.d3Force("charge", null);
-    // fgRef.d3Force("collide", null);
-    // fgRef.d3Force("x", null);
-    // fgRef.d3Force("y", null);
-    // fgRef.d3Force("x", customForce());
-    // fgRef.d3Force("y", customForce());
-    // d3.forceSimulation().force("x", null).force("y", null);
-    // d3.forceSimulation()
-    //     .force(
-    //         "x",
-    //         d3.forceX().x((d) => props.graph.nodes.indexOf(d) * 100)
-    //     )
-    //     .force(
-    //         "y",
-    //         d3.forceY().y((d) => props.graph.nodes.indexOf(d) * 100)
-    //     );
-    // fgRef.d3Force("x", null);
-    // fgRef.d3Force("y", null);
-    // const simulation = fgRef.current.d3forceSimulation();
-    // simulation.force("x", null);
-    // simulation.force(
-    //     "x",
-    //     d3.forceX().x((d) => props.graph.nodes.indexOf(d) * 100)
-    // );
-    // fgRef.current.graphData(props.graph);
+    console.log("useEffect");
+    nodesRef.current = props.graph.nodes;
+    linksRef.current = props.graph.links;
   }, [props.graph]);
 
-  //   const config = React.useMemo(() => {
-  //     return {
-  //       d3Force: {
-  //         // fx: d3.forceX().x((d) => props.graph.nodes.indexOf(d) * 100),
-  //         // fy: d3.forceY().y((d) => props.graph.nodes.indexOf(d) * 100),
-  //         x: null,
-  //         y: null,
-  //       },
-  //     };
-  //   }, [props.graph]);
+  const handleEngineTick = () => {
+    const nodesByLayer = {};
+    props.graph.nodes.forEach((node) => {
+      const layer = node.x;
 
-  //   const getForce = () => {
-  //     const customForce = () => {
-  //       props.graph.nodes.forEach((d) => {
-  //         d.x = props.graph.nodes.indexOf(d) * 100;
-  //         d.y = props.graph.nodes.indexOf(d) * 100;
-  //         // d.x += (d.targetX - d.x) * alpha * 0.1;
-  //         // d.y += (d.targetY - d.y) * alpha * 0.1;
-  //       });
-  //       console.log(props.graph.nodes);
-  //     };
+      if (!nodesByLayer[layer]) nodesByLayer[layer] = [];
 
-  //     return {
-  //       linkDistance: 999,
-  //       charge: -100,
-  //       x: customForce(),
-  //       y: customForce(),
-  //     };
-  //   };
+      nodesByLayer[layer].push(node);
+    });
+
+    const sortedLayers = Object.keys(nodesByLayer).sort(
+      (a, b) => Number(a) - Number(b)
+    );
+
+    const sortedNodesByLayer = {};
+    sortedLayers.forEach((layer) => {
+      sortedNodesByLayer[layer] = nodesByLayer[layer].sort((a, b) =>
+        a.id.localeCompare(b.id)
+      );
+    });
+
+    Object.values(sortedNodesByLayer).forEach((layer) => {
+      const yValues = [];
+      layer.forEach((node) => {
+        yValues.push(node.y);
+      });
+
+      const sortedYValues = yValues.sort((a, b) => a - b);
+
+      for (let i = 0; i < sortedYValues.length; i++)
+        layer[i].y = sortedYValues[i];
+    });
+
+    nodesRef.current = Object.values(sortedNodesByLayer).flat();
+  };
 
   const getGraph = () => {
     return (
       <ForceGraph2D
         dagMode={getDagMode()}
-        // {...config}
-        // d3Force={getForce()}
         dagLevelDistance={100}
         height={getHeight()}
         ref={graphRef}
-        graphData={props.graph}
+        // graphData={props.graph}
+        graphData={{ nodes: nodesRef.current, links: linksRef.current }}
         linkDirectionalParticles={4}
         linkDirectionalParticleColor={(link) => getColor(link.source)}
         linkDirectionalParticleSpeed={0.001}
@@ -244,6 +184,7 @@ function Graph2D(props) {
           highlightLinks.has(link) ? 4 : 0
         }
         linkWidth={(link) => (highlightLinks.has(link) ? 5 : 1)}
+        onEngineTick={handleEngineTick}
         onLinkHover={handleLinkHover}
         onNodeClick={handleNodeClick}
         onNodeHover={handleNodeHover}
@@ -304,4 +245,4 @@ function Graph2D(props) {
   return getGraph();
 }
 
-export default Graph2D;
+export default Graph2DHierarchical;
