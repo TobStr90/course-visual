@@ -1,46 +1,51 @@
 import React from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 
-function SearchBar(props) {
-  // const handleOnSearch = (string, results) => {
-  //   console.log(string, results);
-  // };
+function SearchBar({ items, onSelect, width }) {
+    items.forEach((item) => {
+        if (item.chapter) item.keyName = item.chapter + " " + item.name;
+        else item.keyName = item.name;
+    });
+    // const handleOnSearch = (string, results) => {
+    //   console.log(string, results);
+    // };
 
-  // const handleOnHover = (result) => {
-  //   console.log(result);
-  // };
+    // const handleOnHover = (result) => {
+    //   console.log(result);
+    // };
 
-  const handleOnSelect = (item) => {
-    props.handleOnSelect(item);
-  };
+    const handleOnSelect = (item) => {
+        onSelect(item);
+    };
 
-  // const handleOnFocus = () => {
-  //   console.log("Focused");
-  // };
+    // const handleOnFocus = () => {
+    //   console.log("Focused");
+    // };
 
-  // const handleOnClear = () => {
-  //   console.log("Cleared");
-  // };
+    // const handleOnClear = () => {
+    //   console.log("Cleared");
+    // };
 
-  return (
-    <div className="Searchbar">
-      <header className="Searchbar-header">
-        <div style={{ width: 1000, margin: 20 }}>
-          <div style={{ marginBottom: 20 }}>Search for nodes</div>
-          <ReactSearchAutocomplete
-            items={props.items}
-            // onSearch={handleOnSearch}
-            // onHover={handleOnHover}
-            onSelect={handleOnSelect}
-            // onFocus={handleOnFocus}
-            // onClear={handleOnClear}
-            styling={{ zIndex: 4 }} // To display it on top of the search box below
-            autoFocus
-          />
+    return (
+        <div className="Searchbar">
+            <header className="Searchbar-header">
+                <div style={{ width: width, margin: 10 }}>
+                    <ReactSearchAutocomplete
+                        items={items}
+                        // onSearch={handleOnSearch}
+                        // onHover={handleOnHover}
+                        onSelect={handleOnSelect}
+                        // onFocus={handleOnFocus}
+                        // onClear={handleOnClear}
+                        styling={{ zIndex: 4 }} // To display it on top of the search box below
+                        autoFocus
+                        resultStringKeyName={"keyName"}
+                        placeholder={"Search for node"}
+                    />
+                </div>
+            </header>
         </div>
-      </header>
-    </div>
-  );
+    );
 }
 
 export default SearchBar;

@@ -139,15 +139,11 @@ function Graph2DHierarchical(props) {
 
             nodesByLayer[layer].push(node);
         });
-        console.log("nodesByLayer");
-        console.log(nodesByLayer);
 
         //sort layers from left to right
         const sortedLayers = Object.entries(nodesByLayer)
-            .sort((a, b) => Number(a[0]) - Number(b[0])) // sort by key
-            .map(([_, nodes]) => nodes); // extract values
-        console.log("sortedLayers");
-        console.log(sortedLayers);
+            .sort((a, b) => Number(a[0]) - Number(b[0]))
+            .map(([_, nodes]) => nodes);
 
         //sort nodes in each layer
         const sortedNodesByLayer = {};
@@ -170,8 +166,6 @@ function Graph2DHierarchical(props) {
                 });
                 node.order = sum / num;
             });
-            console.log("sortedLayers[layer]");
-            console.log(sortedLayers[layer]);
 
             //sort by order, chapter and id
             sortedNodesByLayer[layer] = sortedLayers[layer].sort((a, b) => {
@@ -188,8 +182,6 @@ function Graph2DHierarchical(props) {
                 }
                 return a.order - b.order;
             });
-            console.log("sortedNodesByLayer[layer]");
-            console.log(sortedNodesByLayer[layer]);
 
             for (let i = 0; i < sortedNodesByLayer[layer].length; i++)
                 sortedNodesByLayer[layer][i].order = i + 1;

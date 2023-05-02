@@ -1,104 +1,161 @@
 import React, { useState } from "react";
+import SearchBar from "./SearchBar";
 
-const NodeInfo = ({ node, onSave, onClose }) => {
-  const [id, setId] = useState(node.id);
-  const [name, setName] = useState(node.name);
-  const [chapter, setChapter] = useState(node.chapter);
-  const [unit, setUnit] = useState(node.unit);
-  const [startpage, setStartpage] = useState(node.startpage);
-  const [notes, setNotes] = useState(node.notes);
+const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
+    const [id, setId] = useState(node.id);
+    const [name, setName] = useState(node.name);
+    const [childLinks, setChildLinks] = useState(node.childLinks);
+    const [newLinks, setNewLinks] = useState(new Set());
+    const [removedLinks, setRemovedLinks] = useState(new Set());
+    const [chapter, setChapter] = useState(node.chapter);
+    const [unit, setUnit] = useState(node.unit);
+    const [startpage, setStartpage] = useState(node.startpage);
+    const [notes, setNotes] = useState(node.notes);
 
-  const handleSave = () => {
-    onSave({ ...node, id, name, chapter, unit, startpage, notes });
-  };
+    console.log(childLinks);
 
-  const handleClose = () => {
-    onClose();
-  };
+    const handleCreate = () => {
+        const newNode = {
+            id: name,
+            name: name,
+            childLinks: childLinks,
+            notes: notes,
+        };
+        onCreate(newNode);
+    };
 
-  return (
-    <div
-      style={{
-        backgroundColor: "lightgrey",
-        paddingBottom: "5px",
-        paddingLeft: "5px",
-        paddingRight: "5px",
-        paddintTop: "5px",
-      }}
-    >
-      {/* <label htmlFor="id" style={{ display: "block" }}>
-        Id:
-      </label>
-      <input
-        id="id"
-        type="text"
-        value={id}
-        onChange={(e) => setId(e.target.value)}
-        style={{ width: "100%" }}
-      /> */}
+    const handleSave = () => {
+        onSave(
+            {
+                ...node,
+                id,
+                name,
+                chapter,
+                childLinks,
+                unit,
+                startpage,
+                notes,
+            },
+            newLinks,
+            removedLinks
+        );
+    };
 
-      <label htmlFor="name" style={{ display: "block" }}>
-        Name:
-      </label>
-      <input
-        id="name"
-        type="text"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        style={{ width: "100%" }}
-      />
+    const handleClose = () => {
+        onClose();
+    };
 
-      <label htmlFor="chapter" style={{ display: "block" }}>
-        Chapter:
-      </label>
-      <input
-        id="chapter"
-        type="text"
-        value={chapter}
-        onChange={(e) => setChapter(e.target.value)}
-        style={{ width: "100%" }}
-      />
+    const handleOnSelect = (selectedNode) => {
+        newLinks.add(selectedNode.id);
+    };
 
-      <label htmlFor="unit" style={{ display: "block" }}>
-        Unit:
-      </label>
-      <input
-        id="unit"
-        type="text"
-        value={unit}
-        onChange={(e) => setUnit(e.target.value)}
-        style={{ width: "100%" }}
-      />
+    const handleDeleteChildLink = (childLink, key) => {
+        console.log(childLink);
+        console.log(key);
+        setChildLinks(childLinks.filter((link) => link !== childLink));
+        removedLinks.add(key);
+        console.log(childLinks);
+    };
 
-      {/* <label htmlFor="startpage" style={{ display: "block" }}>
-        Startpage:
-      </label>
-      <input
-        id="startpage"
-        type="text"
-        value={startpage}
-        onChange={(e) => setStartpage(e.target.value)}
-        style={{ width: "100%" }}
-      /> */}
+    return (
+        <div
+            style={{
+                backgroundColor: "lightgrey",
+                paddingBottom: "5px",
+                paddingLeft: "5px",
+                paddingRight: "5px",
+                paddintTop: "5px",
+            }}
+        >
+            <label htmlFor="name" style={{ display: "block" }}>
+                Name:
+            </label>
+            <input
+                id="name"
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                style={{ width: "100%" }}
+            />
+            <label htmlFor="links" style={{ display: "block" }}>
+                Links:
+            </label>
+            <ul>
+                {childLinks.map((childLink) => {
+                    let key =
+                        childLink.source.id !== id
+                            ? childLink.source.id
+                            : childLink.target.id;
+                    if (!key)
+                        key =
+                            childLink.source !== id
+                                ? childLink.source
+                                : childLink.target;
 
-      <label htmlFor="notes" style={{ display: "block" }}>
-        Notes:
-      </label>
-      <textarea
-        id="notes"
-        type="text"
-        value={notes}
-        onChange={(e) => setNotes(e.target.value)}
-        style={{ width: "100%" }}
-      />
-
-      <div style={{ display: "block" }}>
-        <button onClick={handleSave}>Save</button>
-
-        <button onClick={handleClose}>Close</button>
-      </div>
-    </div>
-  );
+                    return (
+                        <li key={key}>
+                            {key}
+                            <button
+                                onClick={() =>
+                                    handleDeleteChildLink(childLink, key)
+                                }
+                            >
+                                X
+                            </button>
+                        </li>
+                    );
+                })}
+            </ul>
+            <SearchBar
+                items={chapters}
+                onSelect={handleOnSelect}
+                width={300}
+            ></SearchBar>{" "}
+            {node.chapter && (
+                <div>
+                    <label htmlFor="chapter" style={{ display: "block" }}>
+                        Chapter:
+                    </label>
+                    <input
+                        id="chapter"
+                        type="text"
+                        value={chapter}
+                        onChange={(e) => setChapter(e.target.value)}
+                        style={{ width: "100%" }}
+                    />
+                </div>
+            )}
+            {node.unit && (
+                <div>
+                    <label htmlFor="unit" style={{ display: "block" }}>
+                        Unit:
+                    </label>
+                    <input
+                        id="unit"
+                        type="text"
+                        value={unit}
+                        onChange={(e) => setUnit(e.target.value)}
+                        style={{ width: "100%" }}
+                    />
+                </div>
+            )}
+            <label htmlFor="notes" style={{ display: "block" }}>
+                Notes:
+            </label>
+            <textarea
+                id="notes"
+                type="text"
+                value={notes}
+                onChange={(e) => setNotes(e.target.value)}
+                style={{ width: "100%" }}
+            />
+            <div style={{ display: "block" }}>
+                {!node && <button onClick={handleCreate}>Create</button>}
+                {node && <button onClick={handleSave}>Save</button>}
+                <button onClick={handleClose}>Close</button>
+            </div>
+        </div>
+    );
 };
 
 export default NodeInfo;

@@ -250,28 +250,88 @@ function GraphDisplay() {
                         ? link.target.id
                         : link.target;
                     if (
-                        !links_dict[source].includes(target) ||
-                        !links_dict[target].includes(source)
+                        !links_dict[source].includes(target)
+                        // || !links_dict[target].includes(source)
                     ) {
                         links.push({ source: source, target: target });
                         links_dict[source].push(target);
+                        // links_dict[target].push(source);
                     }
                 });
             }
         });
+        console.log(links);
         localStorage.setItem(
             "graphData",
             JSON.stringify({ nodes: nodes, links: links })
         );
     };
 
-    const handleNodeInfoSave = (updatedNode) => {
+    const handleNodeInfoCreate = (newNode) => {
+        if (getNode(newNode)) {
+            console.log("exists");
+            return;
+        }
+
+        graphData.nodes.add(newNode);
+
+        saveDataLocally();
+
+        setGraph(getGraph());
+        setSelectedNode(null);
+        setShowNodeInfo(false);
+    };
+
+    const handleNodeInfoSave = (updatedNode, newLinks, removedLinks) => {
         var node = getNode(updatedNode);
         node.name = updatedNode.name;
         node.chapter = updatedNode.chapter;
         node.unit = updatedNode.unit;
         node.startpage = updatedNode.startpage;
         node.notes = updatedNode.notes;
+        console.log(graphData.links);
+
+        graphData.links.forEach((link) => {
+            if (
+                (removedLinks.has(link.source.id) &&
+                    link.target.id === updatedNode.id) ||
+                (link.source.id === updatedNode.id &&
+                    removedLinks.has(link.target.id))
+            ) {
+                const source = getNode(link.source.id);
+                const sourceIndex = source.childLinks.indexOf(link);
+                if (sourceIndex > -1) {
+                    source.childLinks.splice(sourceIndex, 1);
+                }
+                console.log(source);
+
+                const target = getNode(link.target.id);
+                const targetIndex = target.childLinks.indexOf(link);
+                if (targetIndex > -1) {
+                    target.childLinks.splice(targetIndex, 1);
+                }
+                console.log(target);
+
+                const graphDataIndex = graphData.links.indexOf(link);
+                if (graphDataIndex > -1) {
+                    graphData.links.splice(graphDataIndex, 1);
+                }
+                console.log(graphData.links);
+            }
+        });
+
+        console.log(newLinks);
+        newLinks.forEach((id) => {
+            const newLinkNode = getNode(id);
+            const link = {
+                source: newLinkNode,
+                target: node,
+            };
+            graphData.links.push(link);
+            newLinkNode.childLinks.push(link);
+            node.childLinks.push(link);
+        });
+        console.log(graphData.links);
 
         saveDataLocally();
 
@@ -285,11 +345,20 @@ function GraphDisplay() {
         setShowNodeInfo(false);
     };
 
+    const getChapters = () => {
+        return graphData.nodes.filter((node) => node.unit || node.chapter);
+    };
+
     // const [displayOption, setDisplayOption] = useState("2D-ForceDirected");
     const [displayOption, setDisplayOption] = useState("2D-Hierarchical");
 
     const handleDisplayOptionChange = (selectedOption) => {
         setDisplayOption(selectedOption);
+    };
+
+    const createNode = () => {
+        setSelectedNode(false);
+        setShowNodeInfo(true);
     };
 
     const collapseAll = () => {
@@ -456,6 +525,10 @@ function GraphDisplay() {
                     </div>
                     <div>
                         <Button
+                            text="Add Node"
+                            handleClick={createNode}
+                        ></Button>
+                        <Button
                             text="Collapse all"
                             handleClick={collapseAll}
                         ></Button>
@@ -468,9 +541,16 @@ function GraphDisplay() {
                             handleClick={resetGraphData}
                         ></Button>
                     </div>
+                    {/* <div>
+                        <div style={{ marginTop: 10, marginBottom: 10 }}>
+                            Search for nodes
+                        </div>
+                    </div> */}
                     <SearchBar
                         items={graphData.nodes}
-                        handleOnSelect={handleOnSelect}
+                        onSelect={handleOnSelect}
+                        // text={"Search for nodes"}
+                        width={500}
                     ></SearchBar>{" "}
                 </div>
             )}
@@ -570,6 +650,8 @@ function GraphDisplay() {
                                 node={selectedNode}
                                 onSave={handleNodeInfoSave}
                                 onClose={handleNodeInfoClose}
+                                onCreate={handleNodeInfoCreate}
+                                chapters={getChapters()}
                             />
                         </div>
                     )}
