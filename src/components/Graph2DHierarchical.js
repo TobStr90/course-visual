@@ -17,6 +17,8 @@ function Graph2DHierarchical({
     getDisplayLabel,
     getMouseOverLabel,
     getColor,
+    nodeCanvasObject,
+    nodePointerAreaPaint,
 }) {
     const graphRef = useRef();
 
@@ -161,9 +163,21 @@ function Graph2DHierarchical({
                 layer[i].y = sortedYValues[i];
         });
 
-        console.log(graph.nodes);
-
         graph.nodes = Object.values(sortedNodesByLayer).flat();
+    };
+
+    const getDagLevelDistance = () => {
+        let maxLength = 10;
+
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+
+        graph.nodes.forEach((node) => {
+            const width = context.measureText(getDisplayLabel(node)).width;
+            maxLength = Math.max(maxLength, width);
+        });
+
+        return maxLength + 10;
     };
 
     const getGraph = () => {
@@ -171,7 +185,7 @@ function Graph2DHierarchical({
             <ForceGraph2D
                 // cooldownTime={2500}
                 dagMode={getDagMode()}
-                dagLevelDistance={200}
+                dagLevelDistance={getDagLevelDistance()}
                 height={height}
                 ref={graphRef}
                 graphData={graph}
@@ -188,55 +202,9 @@ function Graph2DHierarchical({
                 onNodeHover={onNodeHover}
                 onNodeRightClick={onNodeRightClick}
                 nodeAutoColorBy={"group"}
-                nodeCanvasObject={(node, ctx, globalScale) => {
-                    const label = getDisplayLabel(node);
-                    const fontSize = 16 / globalScale;
-                    ctx.font = `${fontSize}px Sans-Serif`;
-                    const textWidth = ctx.measureText(label).width;
-                    const bckgDimensions = [
-                        textWidth * 1.1,
-                        fontSize * 1.1,
-                    ].map((n) => n + fontSize * 0.2);
-
-                    // ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
-                    ctx.fillStyle = node.expandable
-                        ? "rgba(11, 156, 49, 0.2)"
-                        : "rgba(239, 239, 240, 0.8)";
-
-                    ctx.fillRect(
-                        node.x - bckgDimensions[0] / 2,
-                        node.y - bckgDimensions[1] / 2,
-                        ...bckgDimensions
-                    );
-
-                    ctx.textAlign = "center";
-                    ctx.textBaseline = "middle";
-                    ctx.fillStyle = getColor(node);
-                    ctx.fillText(label, node.x, node.y);
-
-                    node.__bckgDimensions = bckgDimensions;
-
-                    if (highlightNodes.has(node)) {
-                        ctx.strokeStyle = getColor(node);
-                        ctx.lineWidth = fontSize / 15;
-                        ctx.strokeRect(
-                            node.x - bckgDimensions[0] / 2,
-                            node.y - bckgDimensions[1] / 2,
-                            ...bckgDimensions
-                        );
-                    }
-                }}
+                nodeCanvasObject={nodeCanvasObject}
                 nodeLabel={getMouseOverLabel}
-                nodePointerAreaPaint={(node, color, ctx) => {
-                    ctx.fillStyle = color;
-                    const bckgDimensions = node.__bckgDimensions;
-                    bckgDimensions &&
-                        ctx.fillRect(
-                            node.x - bckgDimensions[0] / 2,
-                            node.y - bckgDimensions[1] / 2,
-                            ...bckgDimensions
-                        );
-                }}
+                nodePointerAreaPaint={nodePointerAreaPaint}
             ></ForceGraph2D>
         );
     };

@@ -10,6 +10,18 @@ import TestGround from "./TestGround";
 import "./GraphDisplay.css";
 
 import graphDataJson from "../assets/graph.json";
+import Filter from "./Filters";
+
+const units = new Set([
+    "Kurseinheit 1",
+    "Kurseinheit 2",
+    "Kurseinheit 3",
+    "Kurseinheit 4",
+    "Kurseinheit 5",
+    "Kurseinheit 6",
+    "Kurseinheit 7",
+    "Vorwort",
+]);
 
 function GraphDisplay() {
     const savedGraphData = localStorage.getItem("graphData");
@@ -46,13 +58,29 @@ function GraphDisplay() {
         return null;
     };
 
+    const [activeUnits, setActiveUnits] = useState(new Set(units));
+
+    const changeFilter = (newFilter) => {
+        console.log(newFilter);
+        setActiveUnits(newFilter);
+    };
+
+    useEffect(() => {
+        setGraph(getGraph);
+        setQuizGraph(getRandomQuiz(level));
+    }, [activeUnits]);
+
     var visibleNodesCount = 0;
+
+    const isActiveNode = (node) => {
+        return !node.unit || node.unit === "Kurs" || activeUnits.has(node.unit);
+    };
 
     const getGraph = () => {
         const visibleNodes = new Set();
         const visibleLinks = new Set();
         const traverseGraph = (node = getNode(rootId)) => {
-            if (visibleNodes.has(node)) return;
+            if (visibleNodes.has(node) || !isActiveNode(node)) return;
 
             visibleNodes.add(node);
             if (node.collapsed) {
@@ -60,7 +88,11 @@ function GraphDisplay() {
             }
 
             node.childLinks.forEach((link) => {
-                visibleLinks.add(link);
+                if (
+                    isActiveNode(getNode(link.source)) &&
+                    isActiveNode(getNode(link.target))
+                )
+                    visibleLinks.add(link);
             });
 
             node.childLinks
@@ -85,7 +117,11 @@ function GraphDisplay() {
             var expandable = false;
             if (node.collapsed && node.childLinks) {
                 node.childLinks.forEach((link) => {
-                    if (!visibleLinks.has(link)) {
+                    if (
+                        !visibleLinks.has(link) &&
+                        isActiveNode(getNode(link.source)) &&
+                        isActiveNode(getNode(link.target))
+                    ) {
                         expandable = true;
                     }
                 });
@@ -391,15 +427,21 @@ function GraphDisplay() {
     const [finished, setFinished] = useState(false);
 
     const getRandomQuiz = (level) => {
+        const activeStartNodes = graphData.nodes.filter(
+            (node) => isActiveNode(node) && node.unit
+        );
+
         const startNode =
-            graphData.nodes[Math.floor(Math.random() * graphData.nodes.length)];
+            activeStartNodes[
+                Math.floor(Math.random() * activeStartNodes.length)
+            ];
 
         const possibleNeighbours = new Set();
         possibleNeighbours.add(getNode(startNode));
         const nodes = new Set();
         const num = level * 2 + 3;
         for (let i = 1; i <= num; i++) {
-            if (possibleNeighbours.length === 0) break;
+            if (possibleNeighbours.size === 0) break;
 
             const possibleNeighboursArr = Array.from(possibleNeighbours);
             const randomNode =
@@ -411,9 +453,11 @@ function GraphDisplay() {
             nodes.add(node);
             node.childLinks.forEach((link) => {
                 const source = getNode(link.source);
-                if (!nodes.has(source)) possibleNeighbours.add(source);
+                if (!nodes.has(source) && isActiveNode(source))
+                    possibleNeighbours.add(source);
                 const target = getNode(link.target);
-                if (!nodes.has(target)) possibleNeighbours.add(target);
+                if (!nodes.has(target) && isActiveNode(target))
+                    possibleNeighbours.add(target);
             });
             possibleNeighbours.delete(node);
         }
@@ -455,9 +499,7 @@ function GraphDisplay() {
     const [experience, setExperience] = useState(0);
 
     const nextLevelExperience = () => {
-        // return 50 * 2 ** level;
-        //ToDo
-        return 50;
+        return 50 * 2 ** level;
     };
 
     const getExperienceProgress = () => {
@@ -562,12 +604,23 @@ function GraphDisplay() {
                 </button>
                 {isOptionsOpen && (
                     <div className="options-container">
-                        <Dropdown
-                            mode={displayOption}
-                            handleDisplayOptionChange={
-                                handleDisplayOptionChange
-                            }
-                        ></Dropdown>
+                        <div
+                            style={{
+                                marginLeft: "10px",
+                            }}
+                        >
+                            <Dropdown
+                                mode={displayOption}
+                                handleDisplayOptionChange={
+                                    handleDisplayOptionChange
+                                }
+                            ></Dropdown>
+                        </div>
+                        <Filter
+                            units={units}
+                            activeUnits={activeUnits}
+                            changeFilter={changeFilter}
+                        ></Filter>
                         {displayOption !== "Quiz" && (
                             <div>
                                 <div
@@ -583,27 +636,35 @@ function GraphDisplay() {
                                             width={500}
                                         />
                                     </div>
-                                    <div>
-                                        <Button
-                                            text="Knoten hinzufügen"
-                                            onHandleClick={createNode}
-                                        />
-                                        <Button
-                                            text="Alle Knoten einklappen"
-                                            onHandleClick={collapseAll}
-                                        />
-                                        <Button
-                                            text="Alle Knoten ausklappen"
-                                            onHandleClick={expandAll}
-                                        />
-                                        <Button
-                                            text="Lokale Daten zurücksetzen"
-                                            onHandleClick={resetGraphData}
-                                        />
-                                    </div>
+                                </div>
+                                <div
+                                    style={{
+                                        marginLeft: "5px",
+                                    }}
+                                >
+                                    <Button
+                                        text="Knoten hinzufügen"
+                                        onHandleClick={createNode}
+                                    />
+                                    <Button
+                                        text="Alle Knoten einklappen"
+                                        onHandleClick={collapseAll}
+                                    />
+                                    <Button
+                                        text="Alle Knoten ausklappen"
+                                        onHandleClick={expandAll}
+                                    />
+                                    <Button
+                                        text="Lokale Daten zurücksetzen"
+                                        onHandleClick={resetGraphData}
+                                    />
                                 </div>
 
-                                <div>
+                                <div
+                                    style={{
+                                        marginLeft: "10px",
+                                    }}
+                                >
                                     <p>Angezeigte Knoten: {getLabel()}</p>
 
                                     <div>
@@ -614,7 +675,11 @@ function GraphDisplay() {
                         )}
                         {displayOption === "Quiz" && (
                             <div>
-                                <div>
+                                <div
+                                    style={{
+                                        marginLeft: "10px",
+                                    }}
+                                >
                                     <p style={{ marginBottom: "5px" }}>
                                         Level: {level}
                                     </p>
@@ -634,7 +699,11 @@ function GraphDisplay() {
                                     </div>
                                 </div>
                                 {finished && (
-                                    <div>
+                                    <div
+                                        style={{
+                                            marginLeft: "5px",
+                                        }}
+                                    >
                                         <Button
                                             text="Neues Quiz"
                                             onHandleClick={newQuiz}
@@ -642,7 +711,11 @@ function GraphDisplay() {
                                     </div>
                                 )}
                                 {!finished && (
-                                    <div>
+                                    <div
+                                        style={{
+                                            marginLeft: "10px",
+                                        }}
+                                    >
                                         Klicken Sie auf Knoten um Sie zu
                                         verbinden!
                                     </div>

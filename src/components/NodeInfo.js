@@ -111,7 +111,7 @@ const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
                 onSelect={handleOnSelect}
                 width={300}
             ></SearchBar>{" "}
-            {node.chapter && (
+            {/* {node.chapter && (
                 <div>
                     <label htmlFor="chapter" style={{ display: "block" }}>
                         Chapter:
@@ -138,7 +138,7 @@ const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
                         style={{ width: "100%" }}
                     />
                 </div>
-            )}
+            )} */}
             <label htmlFor="notes" style={{ display: "block" }}>
                 Notes:
             </label>
