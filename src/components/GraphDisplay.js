@@ -1,14 +1,13 @@
 import { React, useCallback, useEffect, useState, useMemo } from "react";
 import Button from "./Button";
 import Dropdown from "./Dropdown";
-import Graph2D from "./Graph2D";
-import Graph2DHierarchical from "./Graph2DHierarchical";
-import Graph3D from "./Graph3D";
-import GraphQuiz from "./GraphQuiz";
+import Graph from "./Graph.js";
 import NodeInfo from "./NodeInfo";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import SearchBar from "./SearchBar";
 import TestGround from "./TestGround";
+
+import "./GraphDisplay.css";
 
 import graphDataJson from "../assets/graph.json";
 
@@ -260,7 +259,6 @@ function GraphDisplay() {
                 });
             }
         });
-        console.log(links);
         localStorage.setItem(
             "graphData",
             JSON.stringify({ nodes: nodes, links: links })
@@ -269,7 +267,6 @@ function GraphDisplay() {
 
     const handleNodeInfoCreate = (newNode) => {
         if (getNode(newNode)) {
-            console.log("exists");
             return;
         }
 
@@ -289,7 +286,6 @@ function GraphDisplay() {
         node.unit = updatedNode.unit;
         node.startpage = updatedNode.startpage;
         node.notes = updatedNode.notes;
-        console.log(graphData.links);
 
         graphData.links.forEach((link) => {
             if (
@@ -303,24 +299,20 @@ function GraphDisplay() {
                 if (sourceIndex > -1) {
                     source.childLinks.splice(sourceIndex, 1);
                 }
-                console.log(source);
 
                 const target = getNode(link.target.id);
                 const targetIndex = target.childLinks.indexOf(link);
                 if (targetIndex > -1) {
                     target.childLinks.splice(targetIndex, 1);
                 }
-                console.log(target);
 
                 const graphDataIndex = graphData.links.indexOf(link);
                 if (graphDataIndex > -1) {
                     graphData.links.splice(graphDataIndex, 1);
                 }
-                console.log(graphData.links);
             }
         });
 
-        console.log(newLinks);
         newLinks.forEach((id) => {
             const newLinkNode = getNode(id);
             const link = {
@@ -331,7 +323,6 @@ function GraphDisplay() {
             newLinkNode.childLinks.push(link);
             node.childLinks.push(link);
         });
-        console.log(graphData.links);
 
         saveDataLocally();
 
@@ -349,10 +340,14 @@ function GraphDisplay() {
         return graphData.nodes.filter((node) => node.unit || node.chapter);
     };
 
-    // const [displayOption, setDisplayOption] = useState("2D-ForceDirected");
     const [displayOption, setDisplayOption] = useState("2D-Hierarchical");
 
     const handleDisplayOptionChange = (selectedOption) => {
+        //Delete fx for nodes or layers are used in force-directed graphs
+        graphData.nodes.forEach((node) => {
+            delete node.fx;
+        });
+
         setDisplayOption(selectedOption);
     };
 
@@ -457,23 +452,43 @@ function GraphDisplay() {
         setQuizGraph(newGraph);
     };
 
-    const updateExperience = () => {
-        if (experience + 10 === nextLevelExperience) {
-            setLevel(level + 1);
-            setExperience(0);
-        } else setExperience(experience + 10);
+    const [experience, setExperience] = useState(0);
+
+    const nextLevelExperience = () => {
+        // return 50 * 2 ** level;
+        //ToDo
+        return 50;
+    };
+
+    const getExperienceProgress = () => {
+        return (experience / nextLevelExperience()) * 100;
+    };
+
+    const getExperienceLabel = () => {
+        return `${experience} / ${nextLevelExperience()}`;
     };
 
     useEffect(() => {
-        if (quizGraph.links.length > 0) {
-            updateExperience();
+        if (experience >= nextLevelExperience()) {
+            setLevel(level + 1);
+            setExperience(0);
         }
+    }, [experience]);
 
+    useEffect(() => {
+        if (
+            quizGraph.links.length > 0 &&
+            quizGraph.links.length < maxQuizGraphLinks
+        ) {
+            setExperience(experience + 10);
+        }
         if (
             quizGraph.links.length > 0 &&
             quizGraph.links.length >= maxQuizGraphLinks
-        )
+        ) {
+            setExperience(experience + level * 10 + 10);
             setFinished(true);
+        }
     }, [quizGraph.links.length]);
 
     const handleNodeClickQuiz = (links) => {
@@ -495,94 +510,148 @@ function GraphDisplay() {
         setFinished(false);
         setQuizGraph(getRandomQuiz(level));
     };
+    const [isOptionsOpen, setIsOptionsOpen] = useState(true);
+    const closeOptionsText = "Optionen ausblenden";
+    const openOptionsText = "Optionen einblenden";
 
-    const [experience, setExperience] = useState(0);
+    function toggleOptions() {
+        setIsOptionsOpen(!isOptionsOpen);
+    }
 
-    const nextLevelExperience = () => {
-        return 50 * 2 ** level;
+    useEffect(() => {
+        setGraphHeight(getGraphHeight);
+    }, [isOptionsOpen]);
+
+    const [graphHeight, setGraphHeight] = useState(0);
+
+    const getGraphHeight = () => {
+        const graphContainer = document.getElementById("Graph");
+        if (!graphContainer) return 0;
+
+        const graphContainerTop = graphContainer.getBoundingClientRect().top;
+
+        const height = window.innerHeight - graphContainerTop;
+
+        setGraphHeight(height - 5);
     };
 
-    const getExperienceProgress = () => {
-        return (experience / nextLevelExperience()) * 100;
-    };
+    useEffect(() => {
+        const updateGraphHeight = () => {
+            const newHeight = getGraphHeight();
+            if (newHeight !== graphHeight) {
+                setGraphHeight(newHeight);
+            }
+        };
 
-    const getExperienceLabel = () => {
-        return `${experience} / ${nextLevelExperience()}`;
-    };
+        window.addEventListener("resize", updateGraphHeight);
+        updateGraphHeight();
+
+        return () => {
+            window.removeEventListener("resize", updateGraphHeight);
+        };
+    }, []);
 
     return (
         <div>
-            <Dropdown
-                handleDisplayOptionChange={handleDisplayOptionChange}
-            ></Dropdown>
-            {displayOption !== "Quiz" && (
-                <div>
-                    <div>
-                        <ProgressBar
-                            now={getProgress()}
-                            label={getLabel()}
-                        ></ProgressBar>
+            <div className="options-wrapper">
+                <button
+                    className="options-toggle-button"
+                    onClick={toggleOptions}
+                >
+                    {isOptionsOpen ? closeOptionsText : openOptionsText}
+                </button>
+                {isOptionsOpen && (
+                    <div className="options-container">
+                        <Dropdown
+                            mode={displayOption}
+                            handleDisplayOptionChange={
+                                handleDisplayOptionChange
+                            }
+                        ></Dropdown>
+                        {displayOption !== "Quiz" && (
+                            <div>
+                                <div
+                                    style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                    }}
+                                >
+                                    <div>
+                                        <SearchBar
+                                            items={graphData.nodes}
+                                            onSelect={handleOnSelect}
+                                            width={500}
+                                        />
+                                    </div>
+                                    <div>
+                                        <Button
+                                            text="Knoten hinzufügen"
+                                            onHandleClick={createNode}
+                                        />
+                                        <Button
+                                            text="Alle Knoten einklappen"
+                                            onHandleClick={collapseAll}
+                                        />
+                                        <Button
+                                            text="Alle Knoten ausklappen"
+                                            onHandleClick={expandAll}
+                                        />
+                                        <Button
+                                            text="Lokale Daten zurücksetzen"
+                                            onHandleClick={resetGraphData}
+                                        />
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Angezeigte Knoten: {getLabel()}</p>
+
+                                    <div>
+                                        <ProgressBar now={getProgress()} />
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                        {displayOption === "Quiz" && (
+                            <div>
+                                <div>
+                                    <p style={{ marginBottom: "5px" }}>
+                                        Level: {level}
+                                    </p>
+                                    <div style={{ marginBottom: "5px" }}>
+                                        Erfahrung
+                                        <ProgressBar
+                                            now={getExperienceProgress()}
+                                            label={getExperienceLabel()}
+                                        ></ProgressBar>
+                                    </div>
+                                    <div style={{ marginBottom: "5px" }}>
+                                        Quiz-Fortschritt
+                                        <ProgressBar
+                                            now={getQuizProgress()}
+                                            label={getQuizLabel()}
+                                        ></ProgressBar>
+                                    </div>
+                                </div>
+                                {finished && (
+                                    <div>
+                                        <Button
+                                            text="Neues Quiz"
+                                            onHandleClick={newQuiz}
+                                        ></Button>
+                                    </div>
+                                )}
+                                {!finished && (
+                                    <div>
+                                        Klicken Sie auf Knoten um Sie zu
+                                        verbinden!
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
-                    <div>
-                        <Button
-                            text="Add Node"
-                            handleClick={createNode}
-                        ></Button>
-                        <Button
-                            text="Collapse all"
-                            handleClick={collapseAll}
-                        ></Button>
-                        <Button
-                            text="Expand all"
-                            handleClick={expandAll}
-                        ></Button>
-                        <Button
-                            text="Reset local graphdata"
-                            handleClick={resetGraphData}
-                        ></Button>
-                    </div>
-                    {/* <div>
-                        <div style={{ marginTop: 10, marginBottom: 10 }}>
-                            Search for nodes
-                        </div>
-                    </div> */}
-                    <SearchBar
-                        items={graphData.nodes}
-                        onSelect={handleOnSelect}
-                        // text={"Search for nodes"}
-                        width={500}
-                    ></SearchBar>{" "}
-                </div>
-            )}
-            {displayOption === "Quiz" && (
-                <div>
-                    <div>
-                        <div style={{ marginBottom: "5px" }}>
-                            Quiz Progress
-                            <ProgressBar
-                                now={getQuizProgress()}
-                                label={getQuizLabel()}
-                            ></ProgressBar>
-                        </div>
-                        <div>
-                            Experience
-                            <ProgressBar
-                                now={getExperienceProgress()}
-                                label={getExperienceLabel()}
-                            ></ProgressBar>
-                        </div>
-                    </div>
-                    {finished && (
-                        <div>
-                            <Button
-                                text="New quiz"
-                                handleClick={newQuiz}
-                            ></Button>
-                        </div>
-                    )}
-                    {!finished && <div>Click on nodes to connect them</div>}
-                </div>
-            )}
+                )}
+            </div>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <div
                     id={"Graph"}
@@ -592,48 +661,17 @@ function GraphDisplay() {
                         position: "relative",
                     }}
                 >
-                    {displayOption === "2D-ForceDirected" && (
-                        <div id={"Graph2D"}>
-                            <Graph2D
-                                dagMode=""
-                                onNodeClick={handleNodeClick}
-                                onNodeRightClick={handleNodeRightClick}
-                                graph={graph}
-                                setGraph={setGraph}
-                            />
-                        </div>
-                    )}
-                    {displayOption === "2D-Hierarchical" && (
-                        <div id={"Graph2DHierarchical"}>
-                            <Graph2DHierarchical
-                                dagMode="lr"
-                                onNodeClick={handleNodeClick}
-                                onNodeRightClick={handleNodeRightClick}
-                                graph={graph}
-                                setGraph={setGraph}
-                            />
-                        </div>
-                    )}
-                    {displayOption === "3D" && (
-                        <div id={"Graph3D"}>
-                            <Graph3D
-                                onNodeClick={handleNodeClick}
-                                onNodeRightClick={handleNodeRightClick}
-                                graph={graph}
-                                setGraph={setGraph}
-                            />
-                        </div>
-                    )}
-                    {displayOption === "Quiz" && (
-                        <div id={"GraphQuiz"}>
-                            <GraphQuiz
-                                onNodeClick={handleNodeClickQuiz}
-                                // onNodeRightClick={handleNodeRightClick}
-                                graph={quizGraph}
-                                setGraph={setQuizGraph}
-                            />
-                        </div>
-                    )}
+                    <div>
+                        <Graph
+                            onNodeClick={handleNodeClick}
+                            onNodeRightClick={handleNodeRightClick}
+                            graph={graph}
+                            height={graphHeight}
+                            mode={displayOption}
+                            onQuizNodeClick={handleNodeClickQuiz}
+                            quizGraph={quizGraph}
+                        />
+                    </div>
                     {showNodeInfo && (
                         <div
                             style={{

@@ -1,6 +1,8 @@
 import React from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 
+import "./SearchBar.css";
+
 function SearchBar({ items, onSelect, width }) {
     items.forEach((item) => {
         if (item.chapter) item.keyName = item.chapter + " " + item.name;
@@ -37,10 +39,10 @@ function SearchBar({ items, onSelect, width }) {
                         onSelect={handleOnSelect}
                         // onFocus={handleOnFocus}
                         // onClear={handleOnClear}
-                        styling={{ zIndex: 4 }} // To display it on top of the search box below
+                        styling={{ zIndex: 4, borderRadius: 0 }}
                         autoFocus
                         resultStringKeyName={"keyName"}
-                        placeholder={"Search for node"}
+                        placeholder={"Knoten suchen"}
                     />
                 </div>
             </header>

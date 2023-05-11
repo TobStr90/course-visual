@@ -1,27 +1,28 @@
 import React, { useState } from "react";
 
-function Dropdown(props) {
-    // const [selectedOption, setSelectedOption] = useState("2D-ForceDirected");
-    const [selectedOption, setSelectedOption] = useState("2D-Hierarchical");
+function Dropdown({ mode, handleDisplayOptionChange }) {
+    const [selectedOption, setSelectedOption] = useState(mode);
 
     const handleSelectChange = (event) => {
         const newValue = event.target.value;
         if (newValue === selectedOption) return;
 
         setSelectedOption(newValue);
-        props.handleDisplayOptionChange(newValue);
+        handleDisplayOptionChange(newValue);
     };
 
     return (
         <div>
-            <label htmlFor="dropdown">Select an option:</label>
+            <label style={{ marginRight: "5px" }} htmlFor="dropdown">
+                Graphmodus:
+            </label>
             <select
                 id="dropdown"
                 value={selectedOption}
                 onChange={handleSelectChange}
             >
-                <option value="2D-ForceDirected">2D-ForceDirected</option>
-                <option value="2D-Hierarchical">2D-Hierarchical</option>
+                <option value="2D-ForceDirected">2D-Kräftebasiert</option>
+                <option value="2D-Hierarchical">2D-Hierarchisch</option>
                 <option value="3D">3D</option>
                 <option value="Quiz">Quiz</option>
             </select>

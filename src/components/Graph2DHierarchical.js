@@ -2,137 +2,45 @@ import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import * as d3 from "d3";
 import React from "react";
-import Graph2D from "./Graph2D";
+import Graph2DForceDirected from "./Graph2DForceDirected";
 
-function Graph2DHierarchical(props) {
-    const handleNodeClick = (node) => {
-        props.onNodeClick(node);
-    };
-
-    const handleNodeRightClick = (node) => {
-        props.onNodeRightClick(node);
-    };
-
-    const [highlightNodes, setHighlightNodes] = useState(new Set());
-    const [highlightLinks, setHighlightLinks] = useState(new Set());
-
-    const updateHighlight = () => {
-        setHighlightNodes(highlightNodes);
-        setHighlightLinks(highlightLinks);
-    };
-
-    const handleNodeHover = (node) => {
-        highlightNodes.clear();
-        highlightLinks.clear();
-
-        if (node) {
-            highlightNodes.add(node);
-            node.childLinks.forEach((childLink) => {
-                highlightNodes.add(childLink.target);
-                highlightNodes.add(childLink.source);
-            });
-            node.childLinks.forEach((link) => highlightLinks.add(link));
-        }
-
-        updateHighlight();
-    };
-
-    const handleLinkHover = (link) => {
-        highlightNodes.clear();
-        highlightLinks.clear();
-
-        if (link) {
-            highlightLinks.add(link);
-            link.source.childLinks
-                .filter(
-                    (childLink) =>
-                        childLink.source === link.target &&
-                        link.source === childLink.target
-                )
-                .forEach((childLink) => highlightLinks.add(childLink));
-            highlightNodes.add(link.source);
-            highlightNodes.add(link.target);
-        }
-    };
-
-    const getColor = (node) => {
-        switch (node.unit) {
-            case "Vorwort":
-                return "Red";
-            case "Kurseinheit 1":
-                return "Blue";
-            case "Kurseinheit 2":
-                return "Green";
-            case "Kurseinheit 3":
-                return "Orange";
-            case "Kurseinheit 4":
-                return "Purple";
-            case "Kurseinheit 5":
-                return "Teal";
-            case "Kurseinheit 6":
-                return "Gray";
-            case "Kurseinheit 7":
-                return "Brown";
-            default:
-                return "Black";
-        }
-    };
-
-    const getDisplayLabel = (node) => {
-        return node.chapter ? node.chapter : node.name;
-    };
-
-    const getMouseOverLabel = (node) => {
-        return node.name;
-    };
-
+function Graph2DHierarchical({
+    graph,
+    onNodeClick,
+    onNodeRightClick,
+    dagMode,
+    height,
+    highlightLinks,
+    highlightNodes,
+    onLinkHover,
+    onNodeHover,
+    getDisplayLabel,
+    getMouseOverLabel,
+    getColor,
+}) {
     const graphRef = useRef();
 
-    const [height, setHeight] = useState(0);
-
-    const getHeight = () => {
-        const graphContainer = document.getElementById("Graph2DHierarchical");
-        if (!graphContainer) return 0;
-
-        const graphContainerTop = graphContainer.getBoundingClientRect().top;
-
-        const height = window.innerHeight - graphContainerTop;
-
-        return height - 5;
-    };
-
     useEffect(() => {
-        const updateHeight = () => {
-            const newHeight = getHeight();
-            if (newHeight !== height) {
-                setHeight(newHeight);
-            }
-        };
-
-        window.addEventListener("resize", updateHeight);
-        updateHeight();
-
-        return () => {
-            window.removeEventListener("resize", updateHeight);
-        };
-    }, [height]);
+        const fg = graphRef.current;
+        fg.d3Force("charge", d3.forceManyBody().strength(-100));
+    });
 
     const getDagMode = () => {
-        if (!props.dagMode) return null;
-        else return props.dagMode;
+        if (!dagMode) return null;
+        else return dagMode;
     };
 
     const handleEngineTick = () => {
         // nodesRef.current.some((node) => {
         //     if (!node.x) {
-        //         nodesRef.current = props.graph.nodes;
+        //         nodesRef.current = graph.nodes;
         //         return true;
         //     }
         // });
 
         //sort nodes into layers based on x value
         const nodesByLayer = {};
-        props.graph.nodes.forEach((node) => {
+        graph.nodes.forEach((node) => {
             const layer = node.x;
 
             if (!nodesByLayer[layer]) nodesByLayer[layer] = [];
@@ -141,9 +49,52 @@ function Graph2DHierarchical(props) {
         });
 
         //sort layers from left to right
-        const sortedLayers = Object.entries(nodesByLayer)
+        let sortedLayers = Object.entries(nodesByLayer)
             .sort((a, b) => Number(a[0]) - Number(b[0]))
             .map(([_, nodes]) => nodes);
+        sortedLayers[sortedLayers.length] = [];
+
+        //sort nodes into correct layer
+        // sortedLayers.forEach((layer) => {
+        for (const [layerIndex, layer] of sortedLayers.entries()) {
+            layer.forEach((node) => {
+                if (node.chapter) {
+                    const chapter = node.chapter;
+                    if (chapter && /^[0-9.]+$/.test(chapter)) {
+                        const dots = chapter.split(".").length - 1;
+                        const newLayer = 2 + dots;
+                        const nodeIndex = layer.indexOf(node);
+                        if (nodeIndex > -1) {
+                            layer.splice(nodeIndex, 1);
+                        }
+                        if (sortedLayers[newLayer]) {
+                            sortedLayers[newLayer].push(node);
+                            node.x = sortedLayers[newLayer][0].x;
+                        }
+                    }
+                }
+                if (!node.unit) {
+                    for (const link of node.childLinks) {
+                        if (
+                            link.source.x &&
+                            link.target.x &&
+                            link.source.x === link.target.x
+                        ) {
+                            const index = layer.indexOf(node);
+                            if (index > -1) {
+                                layer.splice(index, 1);
+                            }
+                            if (!sortedLayers[layerIndex + 1][0]) {
+                                node.x +=
+                                    node.x - sortedLayers[layerIndex - 1][0].x;
+                            } else node.x = sortedLayers[layerIndex + 1][0].x;
+                            sortedLayers[layerIndex + 1].push(node);
+                            break;
+                        }
+                    }
+                }
+            });
+        }
 
         //sort nodes in each layer
         const sortedNodesByLayer = {};
@@ -169,6 +120,16 @@ function Graph2DHierarchical(props) {
 
             //sort by order, chapter and id
             sortedNodesByLayer[layer] = sortedLayers[layer].sort((a, b) => {
+                if (a.chapter && b.chapter) {
+                    const chapterA = a.chapter.split(".");
+                    const chapterB = b.chapter.split(".");
+                    for (let i = 0; i < chapterA.length; i++) {
+                        if (Number(chapterA[i]) < Number(chapterB[i]))
+                            return -1;
+                        if (Number(chapterB[i]) < Number(chapterA[i])) return 1;
+                    }
+                }
+
                 if (a.order === b.order) {
                     if (a.chapter && b.chapter) {
                         const chapterA = Number(a.chapter.split(".").pop());
@@ -200,18 +161,20 @@ function Graph2DHierarchical(props) {
                 layer[i].y = sortedYValues[i];
         });
 
-        props.graph.nodes = Object.values(sortedNodesByLayer).flat();
+        console.log(graph.nodes);
+
+        graph.nodes = Object.values(sortedNodesByLayer).flat();
     };
 
     const getGraph = () => {
         return (
             <ForceGraph2D
+                // cooldownTime={2500}
                 dagMode={getDagMode()}
-                dagLevelDistance={100}
-                height={getHeight()}
+                dagLevelDistance={200}
+                height={height}
                 ref={graphRef}
-                graphData={props.graph}
-                // graphData={{ nodes: nodesRef.current, links: linksRef.current }}
+                graphData={graph}
                 linkDirectionalParticles={4}
                 linkDirectionalParticleColor={(link) => getColor(link.source)}
                 linkDirectionalParticleSpeed={0.001}
@@ -220,10 +183,10 @@ function Graph2DHierarchical(props) {
                 }
                 linkWidth={(link) => (highlightLinks.has(link) ? 5 : 1)}
                 onEngineTick={handleEngineTick}
-                onLinkHover={handleLinkHover}
-                onNodeClick={handleNodeClick}
-                onNodeHover={handleNodeHover}
-                onNodeRightClick={handleNodeRightClick}
+                onLinkHover={onLinkHover}
+                onNodeClick={onNodeClick}
+                onNodeHover={onNodeHover}
+                onNodeRightClick={onNodeRightClick}
                 nodeAutoColorBy={"group"}
                 nodeCanvasObject={(node, ctx, globalScale) => {
                     const label = getDisplayLabel(node);

@@ -1,0 +1,32 @@
+.button {
+    padding: 100;
+    margin: 100;
+}
+
+.options-wrapper {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    transition: height 0.3s ease-in-out;
+}
+
+.options-container {
+    /* padding: 10px; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.options-container > * {
+    padding: 5px;
+    /* margin: 5px; */
+}
+
+.options-toggle-button {
+    width: 180px;
+    display: block;
+    margin: 5px 10px;
+    padding: 5px 10px;
+}

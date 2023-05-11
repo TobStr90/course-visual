@@ -1,11 +1,15 @@
 import React from "react";
 
-function Button(props) {
-  const handleClick = () => {
-    props.handleClick();
-  };
+function Button({ text, onHandleClick }) {
+    const handleClick = () => {
+        onHandleClick();
+    };
 
-  return <button onClick={handleClick}>{props.text}</button>;
+    return (
+        <button style={{ padding: "5px", margin: "5px" }} onClick={handleClick}>
+            {text}
+        </button>
+    );
 }
 
 export default Button;
