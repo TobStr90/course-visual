@@ -43,6 +43,9 @@ function SearchBar({ items, onSelect, width }) {
                         autoFocus
                         resultStringKeyName={"keyName"}
                         placeholder={"Knoten suchen"}
+                        fuseOptions={{
+                            keys: ["name", "chapter"],
+                        }}
                     />
                 </div>
             </header>

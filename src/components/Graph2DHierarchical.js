@@ -24,7 +24,7 @@ function Graph2DHierarchical({
 
     useEffect(() => {
         const fg = graphRef.current;
-        fg.d3Force("charge", d3.forceManyBody().strength(-100));
+        fg.d3Force("charge", d3.forceManyBody().strength(-150));
     });
 
     const getDagMode = () => {
@@ -57,7 +57,6 @@ function Graph2DHierarchical({
         sortedLayers[sortedLayers.length] = [];
 
         //sort nodes into correct layer
-        // sortedLayers.forEach((layer) => {
         for (const [layerIndex, layer] of sortedLayers.entries()) {
             layer.forEach((node) => {
                 if (node.chapter) {
@@ -80,7 +79,7 @@ function Graph2DHierarchical({
                         if (
                             link.source.x &&
                             link.target.x &&
-                            link.source.x === link.target.x
+                            link.target.x <= link.source.x
                         ) {
                             const index = layer.indexOf(node);
                             if (index > -1) {

@@ -2,9 +2,11 @@ import { React, useCallback, useEffect, useState, useMemo } from "react";
 import Button from "./Button";
 import Dropdown from "./Dropdown";
 import Graph from "./Graph.js";
+import HelpWindow from "./HelpWindow";
 import NodeInfo from "./NodeInfo";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import SearchBar from "./SearchBar";
+import SuccessWindow from "./SuccessWindow";
 import TestGround from "./TestGround";
 
 import "./GraphDisplay.css";
@@ -41,18 +43,23 @@ function GraphDisplay() {
             node.expandable = false;
         });
         graphData.links.forEach((link) => {
-            if (!nodesById[link.source]) {
-                window.location.reload();
-            }
+            // if (!nodesById[link.source] || !nodesById[link.target]) {
+            //     window.location.reload();
+            // }
             nodesById[link.source].childLinks.push(link);
             nodesById[link.target].childLinks.push(link);
         });
 
         return nodesById;
         // }, [graphData]);
-    }, []);
+    }, [graphData.nodes.length]);
 
     const getNode = (node) => {
+        if (node === "test" || node.id === "test") {
+            console.log(node);
+            console.log(nodesById[node]);
+            console.log(nodesById[node.id]);
+        }
         if (nodesById[node]) return nodesById[node];
         else if (nodesById[node.id]) return nodesById[node.id];
         return null;
@@ -61,7 +68,6 @@ function GraphDisplay() {
     const [activeUnits, setActiveUnits] = useState(new Set(units));
 
     const changeFilter = (newFilter) => {
-        console.log(newFilter);
         setActiveUnits(newFilter);
     };
 
@@ -73,6 +79,7 @@ function GraphDisplay() {
     var visibleNodesCount = 0;
 
     const isActiveNode = (node) => {
+        if (!node) return false;
         return !node.unit || node.unit === "Kurs" || activeUnits.has(node.unit);
     };
 
@@ -275,25 +282,30 @@ function GraphDisplay() {
             });
             links_dict[node.id] = [];
         });
-        graphData.nodes.forEach((node) => {
-            if (node.childLinks && node.childLinks.length > 0) {
-                node.childLinks.forEach((link) => {
-                    const source = link.source.id
-                        ? link.source.id
-                        : link.source;
-                    const target = link.target.id
-                        ? link.target.id
-                        : link.target;
-                    if (
-                        !links_dict[source].includes(target)
-                        // || !links_dict[target].includes(source)
-                    ) {
-                        links.push({ source: source, target: target });
-                        links_dict[source].push(target);
-                        // links_dict[target].push(source);
-                    }
-                });
-            }
+        // graphData.nodes.forEach((node) => {
+        //     if (node.childLinks && node.childLinks.length > 0) {
+        //         node.childLinks.forEach((link) => {
+        //             const source = link.source.id
+        //                 ? link.source.id
+        //                 : link.source;
+        //             const target = link.target.id
+        //                 ? link.target.id
+        //                 : link.target;
+        //             if (
+        //                 !links_dict[source].includes(target)
+        //                 // || !links_dict[target].includes(source)
+        //             ) {
+        //                 links.push({ source: source, target: target });
+        //                 links_dict[source].push(target);
+        //                 // links_dict[target].push(source);
+        //             }
+        //         });
+        //     }
+        // });
+        graphData.links.forEach((link) => {
+            const source = link.source.id ? link.source.id : link.source;
+            const target = link.target.id ? link.target.id : link.target;
+            links.push({ source: source, target: target });
         });
         localStorage.setItem(
             "graphData",
@@ -301,12 +313,35 @@ function GraphDisplay() {
         );
     };
 
-    const handleNodeInfoCreate = (newNode) => {
+    const handleNodeInfoCreate = (newNode, newLinks) => {
         if (getNode(newNode)) {
+            window.alert(
+                "Knoten mit gleichem Namen oder gleicher ID existiert bereits!"
+            );
+            return;
+        }
+        if (!newNode.name) {
+            window.alert("Ein ist notwendig!");
+            return;
+        }
+        if (!newLinks) {
+            window.alert("Ein Kapitel ist notwendig!");
             return;
         }
 
-        graphData.nodes.add(newNode);
+        console.log(newNode);
+
+        newLinks.forEach((key) => {
+            const source = getNode(key);
+            const link = {
+                source: source,
+                target: newNode.id,
+            };
+            graphData.links.push(link);
+            newNode.childLinks.push(link);
+            source.childLinks.push(link);
+        });
+        graphData.nodes.push(newNode);
 
         saveDataLocally();
 
@@ -316,6 +351,26 @@ function GraphDisplay() {
     };
 
     const handleNodeInfoSave = (updatedNode, newLinks, removedLinks) => {
+        if (getNode(updatedNode.name)) {
+            window.alert(
+                "Knoten mit gleichem Namen oder gleicher ID existiert bereits!"
+            );
+            return;
+        }
+        if (!updatedNode.name) {
+            window.alert("Ein Name ist notwendig!");
+            return;
+        }
+        if (
+            updatedNode.childLinks.length +
+                newLinks.length -
+                removedLinks.length <=
+            0
+        ) {
+            window.alert("Ein Kapitel ist notwendig!");
+            return;
+        }
+
         var node = getNode(updatedNode);
         node.name = updatedNode.name;
         node.chapter = updatedNode.chapter;
@@ -323,20 +378,26 @@ function GraphDisplay() {
         node.startpage = updatedNode.startpage;
         node.notes = updatedNode.notes;
 
-        graphData.links.forEach((link) => {
+        for (let i = graphData.links.length - 1; i >= 0; i--) {
+            const link = graphData.links[i];
+            // graphData.links.forEach((link) => {
             if (
-                (removedLinks.has(link.source.id) &&
-                    link.target.id === updatedNode.id) ||
-                (link.source.id === updatedNode.id &&
-                    removedLinks.has(link.target.id))
+                ((removedLinks.has(link.source) ||
+                    removedLinks.has(link.source.id)) &&
+                    (link.target === updatedNode.id ||
+                        link.target.id === updatedNode.id)) ||
+                ((link.source === updatedNode.id ||
+                    link.source.id === updatedNode.id) &&
+                    (removedLinks.has(link.target) ||
+                        removedLinks.has(link.target.id)))
             ) {
-                const source = getNode(link.source.id);
+                const source = getNode(link.source);
                 const sourceIndex = source.childLinks.indexOf(link);
                 if (sourceIndex > -1) {
                     source.childLinks.splice(sourceIndex, 1);
                 }
 
-                const target = getNode(link.target.id);
+                const target = getNode(link.target);
                 const targetIndex = target.childLinks.indexOf(link);
                 if (targetIndex > -1) {
                     target.childLinks.splice(targetIndex, 1);
@@ -347,18 +408,42 @@ function GraphDisplay() {
                     graphData.links.splice(graphDataIndex, 1);
                 }
             }
+        }
+
+        removedLinks.forEach((id) => {
+            const removedNode = getNode(id);
+            if (!removedNode.childLinks || removedNode.childLinks.length <= 0) {
+                const graphDataIndex = graphData.nodes.indexOf(removedNode);
+                if (graphDataIndex > -1) {
+                    graphData.nodes.splice(graphDataIndex, 1);
+                }
+            }
         });
 
-        newLinks.forEach((id) => {
-            const newLinkNode = getNode(id);
-            const link = {
-                source: newLinkNode,
-                target: node,
-            };
-            graphData.links.push(link);
-            newLinkNode.childLinks.push(link);
-            node.childLinks.push(link);
-        });
+        if (node.chapter || node.unit) {
+            newLinks.forEach((id) => {
+                const target = getNode(id);
+                const link = {
+                    source: node,
+                    target: target,
+                };
+                graphData.links.push(link);
+                target.childLinks.push(link);
+                node.childLinks.push(link);
+            });
+        }
+        if (!node.chapter && !node.unit) {
+            newLinks.forEach((id) => {
+                const source = getNode(id);
+                const link = {
+                    source: source,
+                    target: node,
+                };
+                graphData.links.push(link);
+                source.childLinks.push(link);
+                node.childLinks.push(link);
+            });
+        }
 
         saveDataLocally();
 
@@ -374,6 +459,10 @@ function GraphDisplay() {
 
     const getChapters = () => {
         return graphData.nodes.filter((node) => node.unit || node.chapter);
+    };
+
+    const getTerms = () => {
+        return graphData.nodes.filter((node) => !node.unit && !node.chapter);
     };
 
     const [displayOption, setDisplayOption] = useState("2D-Hierarchical");
@@ -407,8 +496,15 @@ function GraphDisplay() {
     };
 
     const resetGraphData = () => {
-        localStorage.removeItem("graphData");
-        graphData = graphDataJson;
+        const confirmed = window.confirm(
+            "Sollen die lokalen Daten tatsächlich gelöscht werden? Dies kann nicht rückgängig gemacht werden!"
+        );
+
+        if (confirmed) {
+            localStorage.removeItem("graphData");
+            graphData = graphDataJson;
+            setGraph(getGraph);
+        }
     };
 
     const getProgress = () => {
@@ -424,7 +520,7 @@ function GraphDisplay() {
 
     const [level, setLevel] = useState(1);
 
-    const [finished, setFinished] = useState(false);
+    const [isFinished, setIsFinished] = useState(false);
 
     const getRandomQuiz = (level) => {
         const activeStartNodes = graphData.nodes.filter(
@@ -480,7 +576,10 @@ function GraphDisplay() {
         var count = 0;
         quizGraph.nodes.forEach((node) => {
             node.childLinks.forEach((link) => {
-                if (node.id === link.source && nodeIds.has(link.target))
+                if (
+                    (node.id === link.source || node.id === link.source.id) &&
+                    (nodeIds.has(link.target) || nodeIds.has(link.target.id))
+                )
                     count++;
             });
         });
@@ -510,12 +609,27 @@ function GraphDisplay() {
         return `${experience} / ${nextLevelExperience()}`;
     };
 
+    const [recentLevelUp, setRecentLevelUp] = useState(false);
+
     useEffect(() => {
         if (experience >= nextLevelExperience()) {
             setLevel(level + 1);
+            setRecentLevelUp(true);
             setExperience(0);
         }
     }, [experience]);
+
+    useEffect(() => {
+        if (recentLevelUp) {
+            const timer = setTimeout(() => {
+                setRecentLevelUp(false);
+            }, 5000);
+
+            return () => {
+                clearTimeout(timer);
+            };
+        }
+    }, [recentLevelUp]);
 
     useEffect(() => {
         if (
@@ -529,7 +643,8 @@ function GraphDisplay() {
             quizGraph.links.length >= maxQuizGraphLinks
         ) {
             setExperience(experience + level * 10 + 10);
-            setFinished(true);
+            setIsFinished(true);
+            setIsSuccessOpen(true);
         }
     }, [quizGraph.links.length]);
 
@@ -549,15 +664,30 @@ function GraphDisplay() {
     };
 
     const newQuiz = () => {
-        setFinished(false);
+        setIsFinished(false);
         setQuizGraph(getRandomQuiz(level));
     };
+
     const [isOptionsOpen, setIsOptionsOpen] = useState(true);
     const closeOptionsText = "Optionen ausblenden";
     const openOptionsText = "Optionen einblenden";
 
     function toggleOptions() {
         setIsOptionsOpen(!isOptionsOpen);
+    }
+
+    const [isHelpOpen, setIsHelpOpen] = useState(false);
+    const closeHelpText = "Hilfe ausblenden";
+    const openHelpText = "Hilfe einblenden";
+
+    function toggleHelp() {
+        setIsHelpOpen(!isHelpOpen);
+    }
+
+    const [isSuccessOpen, setIsSuccessOpen] = useState(false);
+
+    function closeSuccess() {
+        setIsSuccessOpen(false);
     }
 
     useEffect(() => {
@@ -596,12 +726,25 @@ function GraphDisplay() {
     return (
         <div>
             <div className="options-wrapper">
-                <button
-                    className="options-toggle-button"
-                    onClick={toggleOptions}
-                >
-                    {isOptionsOpen ? closeOptionsText : openOptionsText}
-                </button>
+                <div style={{ display: "flex" }}>
+                    <button
+                        className="options-toggle-button"
+                        onClick={toggleHelp}
+                    >
+                        {isHelpOpen ? closeHelpText : openHelpText}
+                    </button>
+                    <button
+                        className="options-toggle-button"
+                        onClick={toggleOptions}
+                    >
+                        {isOptionsOpen ? closeOptionsText : openOptionsText}
+                    </button>
+                </div>
+                {isHelpOpen && (
+                    <div className="help-window">
+                        <HelpWindow onClose={toggleHelp}></HelpWindow>
+                    </div>
+                )}
                 {isOptionsOpen && (
                     <div className="options-container">
                         <div
@@ -680,7 +823,14 @@ function GraphDisplay() {
                                         marginLeft: "10px",
                                     }}
                                 >
-                                    <p style={{ marginBottom: "5px" }}>
+                                    <p
+                                        style={{
+                                            marginBottom: "5px",
+                                            backgroundColor: recentLevelUp
+                                                ? "lightgreen"
+                                                : "inherit",
+                                        }}
+                                    >
                                         Level: {level}
                                     </p>
                                     <div style={{ marginBottom: "5px" }}>
@@ -698,7 +848,7 @@ function GraphDisplay() {
                                         ></ProgressBar>
                                     </div>
                                 </div>
-                                {finished && (
+                                {isFinished && (
                                     <div
                                         style={{
                                             marginLeft: "5px",
@@ -708,9 +858,17 @@ function GraphDisplay() {
                                             text="Neues Quiz"
                                             onHandleClick={newQuiz}
                                         ></Button>
+                                        {isSuccessOpen && (
+                                            <div className="success-window">
+                                                <SuccessWindow
+                                                    onClose={closeSuccess}
+                                                    onNewQuiz={newQuiz}
+                                                ></SuccessWindow>
+                                            </div>
+                                        )}
                                     </div>
                                 )}
-                                {!finished && (
+                                {!isFinished && (
                                     <div
                                         style={{
                                             marginLeft: "10px",
@@ -746,16 +904,7 @@ function GraphDisplay() {
                         />
                     </div>
                     {showNodeInfo && (
-                        <div
-                            style={{
-                                position: "absolute",
-                                right: "0",
-                                top: "0",
-                                width: "20%",
-                                zIndex: "1",
-                                overflow: "hidden",
-                            }}
-                        >
+                        <div className="node-info">
                             <NodeInfo
                                 key={selectedNode.id}
                                 node={selectedNode}
@@ -763,6 +912,8 @@ function GraphDisplay() {
                                 onClose={handleNodeInfoClose}
                                 onCreate={handleNodeInfoCreate}
                                 chapters={getChapters()}
+                                terms={getTerms()}
+                                getNode={getNode}
                             />
                         </div>
                     )}

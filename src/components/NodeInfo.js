@@ -1,7 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SearchBar from "./SearchBar";
 
-const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
+import "./NodeInfo.css";
+
+const NodeInfo = ({
+    node,
+    onSave,
+    onClose,
+    onCreate,
+    chapters,
+    terms,
+    getNode,
+}) => {
     const [id, setId] = useState(node.id);
     const [name, setName] = useState(node.name);
     const [childLinks, setChildLinks] = useState(node.childLinks);
@@ -11,17 +21,61 @@ const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
     const [unit, setUnit] = useState(node.unit);
     const [startpage, setStartpage] = useState(node.startpage);
     const [notes, setNotes] = useState(node.notes);
+    const [shownLinks, setShownLinks] = useState([]);
 
-    console.log(childLinks);
+    useEffect(() => {
+        if (childLinks) {
+            const links = childLinks.filter((childLink) => {
+                return isChapterTermLink(childLink);
+            });
+
+            let keys = links.map((link) => {
+                let key =
+                    link.source.id !== id ? link.source.id : link.target.id;
+                if (!key) {
+                    key = link.source !== id ? link.source : link.target;
+                }
+                return key;
+            });
+
+            keys.sort((a, b) => {
+                let keyA;
+                if (a.source && a.target)
+                    keyA = a.source.id !== id ? a.source.id : a.target.id;
+                else keyA = a.source !== id ? a.source : a.target;
+                let keyB;
+                if (b.source && b.target)
+                    keyB = b.source.id !== id ? b.source.id : b.target.id;
+                else keyB = b.source !== id ? b.source : b.target;
+
+                const splitA = keyA ? keyA.split(".") : a;
+                const splitB = keyB ? keyB.split(".") : b;
+
+                for (
+                    let i = 0;
+                    i < Math.min(splitA.length, splitB.length);
+                    i++
+                ) {
+                    if (splitA[i] < splitB[i]) return -1;
+                    if (splitB[i] < splitA[i]) return 1;
+                }
+
+                return splitA.length - splitB.length;
+            });
+
+            setShownLinks(keys);
+        }
+    }, []);
 
     const handleCreate = () => {
         const newNode = {
             id: name,
             name: name,
-            childLinks: childLinks,
             notes: notes,
+            childLinks: [],
+            group: 2,
         };
-        onCreate(newNode);
+        onCreate(newNode, shownLinks);
     };
 
     const handleSave = () => {
@@ -31,7 +85,7 @@ const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
                 id,
                 name,
                 chapter,
-                childLinks,
+                shownLinks,
                 unit,
                 startpage,
                 notes,
@@ -46,101 +100,101 @@ const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
     };
 
     const handleOnSelect = (selectedNode) => {
+        removedLinks.delete(selectedNode);
         newLinks.add(selectedNode.id);
+        setShownLinks([...shownLinks, selectedNode.id]);
     };
 
-    const handleDeleteChildLink = (childLink, key) => {
-        console.log(childLink);
-        console.log(key);
-        setChildLinks(childLinks.filter((link) => link !== childLink));
-        removedLinks.add(key);
-        console.log(childLinks);
+    const handleDeleteChildLink = (deletedKey) => {
+        // setChildLinks(childLinks.filter((link) => link !== childLink));
+        setShownLinks(shownLinks.filter((key) => key !== deletedKey));
+        newLinks.delete(deletedKey);
+        removedLinks.add(deletedKey);
+    };
+
+    const isChapterTermLink = (link) => {
+        const source = getNode(link.source);
+        const target = getNode(link.target);
+
+        if ((source.unit || source.chapter) && (target.unit || target.chapter))
+            return false;
+        return true;
     };
 
     return (
-        <div
-            style={{
-                backgroundColor: "lightgrey",
-                paddingBottom: "5px",
-                paddingLeft: "5px",
-                paddingRight: "5px",
-                paddintTop: "5px",
-            }}
-        >
+        <div className="node-info-container">
             <label htmlFor="name" style={{ display: "block" }}>
                 Name:
             </label>
             <input
                 id="name"
                 type="text"
-                value={name}
+                value={node ? name : name || ""}
                 onChange={(e) => setName(e.target.value)}
                 style={{ width: "100%" }}
             />
-            <label htmlFor="links" style={{ display: "block" }}>
-                Links:
-            </label>
-            <ul>
-                {childLinks.map((childLink) => {
-                    let key =
-                        childLink.source.id !== id
-                            ? childLink.source.id
-                            : childLink.target.id;
-                    if (!key)
-                        key =
-                            childLink.source !== id
-                                ? childLink.source
-                                : childLink.target;
-
-                    return (
-                        <li key={key}>
-                            {key}
-                            <button
-                                onClick={() =>
-                                    handleDeleteChildLink(childLink, key)
-                                }
-                            >
-                                X
-                            </button>
-                        </li>
-                    );
-                })}
-            </ul>
-            <SearchBar
-                items={chapters}
-                onSelect={handleOnSelect}
-                width={300}
-            ></SearchBar>{" "}
-            {/* {node.chapter && (
+            {(chapter || unit) && (
                 <div>
-                    <label htmlFor="chapter" style={{ display: "block" }}>
-                        Chapter:
+                    <label htmlFor="links" style={{ display: "block" }}>
+                        Terme:
                     </label>
-                    <input
-                        id="chapter"
-                        type="text"
-                        value={chapter}
-                        onChange={(e) => setChapter(e.target.value)}
-                        style={{ width: "100%" }}
-                    />
+                    <ul>
+                        {shownLinks.map((key) => {
+                            return (
+                                <li key={key}>
+                                    {key}
+                                    <button
+                                        onClick={() =>
+                                            handleDeleteChildLink(key)
+                                        }
+                                    >
+                                        X
+                                    </button>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                    <SearchBar
+                        items={terms}
+                        onSelect={handleOnSelect}
+                        width={300}
+                    ></SearchBar>{" "}
                 </div>
             )}
-            {node.unit && (
+            {!chapter && !unit && (
                 <div>
-                    <label htmlFor="unit" style={{ display: "block" }}>
-                        Unit:
+                    <label htmlFor="links" style={{ display: "block" }}>
+                        Kapitel:
                     </label>
-                    <input
-                        id="unit"
-                        type="text"
-                        value={unit}
-                        onChange={(e) => setUnit(e.target.value)}
-                        style={{ width: "100%" }}
-                    />
+                    {shownLinks && (
+                        <div>
+                            <ul>
+                                {shownLinks.map((key) => {
+                                    return (
+                                        <li key={key}>
+                                            {key}
+                                            <button
+                                                onClick={() =>
+                                                    handleDeleteChildLink(key)
+                                                }
+                                            >
+                                                X
+                                            </button>
+                                        </li>
+                                    );
+                                })}
+                            </ul>
+                        </div>
+                    )}
+                    <SearchBar
+                        items={chapters}
+                        onSelect={handleOnSelect}
+                        width={300}
+                    ></SearchBar>{" "}
                 </div>
-            )} */}
+            )}
             <label htmlFor="notes" style={{ display: "block" }}>
-                Notes:
+                Notizen:
             </label>
             <textarea
                 id="notes"
@@ -150,9 +204,19 @@ const NodeInfo = ({ node, onSave, onClose, onCreate, chapters }) => {
                 style={{ width: "100%" }}
             />
             <div style={{ display: "block" }}>
-                {!node && <button onClick={handleCreate}>Create</button>}
-                {node && <button onClick={handleSave}>Save</button>}
-                <button onClick={handleClose}>Close</button>
+                {!node && (
+                    <button className="button" onClick={handleCreate}>
+                        Create
+                    </button>
+                )}
+                {node && (
+                    <button className="button" onClick={handleSave}>
+                        Save
+                    </button>
+                )}
+                <button className="button" onClick={handleClose}>
+                    Close
+                </button>
             </div>
         </div>
     );
