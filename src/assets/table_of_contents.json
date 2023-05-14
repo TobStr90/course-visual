@@ -73,7 +73,7 @@
     "chapter": "XI",
     "name": "Literatur zu SMALLTALK",
     "start_page": "9",
-    "end_page": 11,
+    "end_page": 10,
     "terms": []
   },
   {
@@ -164,7 +164,7 @@
     "chapter": "1.9",
     "name": "Lebenslauf von Objekten",
     "start_page": "25",
-    "end_page": 27,
+    "end_page": 26,
     "terms": []
   },
   {
@@ -220,7 +220,7 @@
     "chapter": "3.1",
     "name": "Eingrenzung",
     "start_page": "34",
-    "end_page": 36,
+    "end_page": 35,
     "terms": []
   },
   {
@@ -297,7 +297,7 @@
     "chapter": "4.3.2",
     "name": "Methodenaufruf und dynamisches Binden",
     "start_page": "48",
-    "end_page": 52,
+    "end_page": 51,
     "terms": []
   },
   {
@@ -437,7 +437,7 @@
     "chapter": "6",
     "name": "L\u00f6sungen zu den Selbsttestaufgaben",
     "start_page": "70",
-    "end_page": 73,
+    "end_page": 72,
     "terms": []
   },
   {
@@ -521,7 +521,7 @@
     "chapter": "8.6",
     "name": "Praktische Bedeutung der Metaklassen f\u00fcr die Programmierung",
     "start_page": "93",
-    "end_page": 94,
+    "end_page": 93,
     "terms": []
   },
   {
@@ -549,7 +549,7 @@
     "chapter": "10",
     "name": "Vererbung und abstrakte Klassen",
     "start_page": "101",
-    "end_page": 100,
+    "end_page": 101,
     "terms": []
   },
   {
@@ -640,7 +640,7 @@
     "chapter": "12.3",
     "name": "Double dispatch",
     "start_page": "118",
-    "end_page": 120,
+    "end_page": 119,
     "terms": []
   },
   {
@@ -654,7 +654,7 @@
     "chapter": "13.1",
     "name": "Pflegen von : n-Beziehungen",
     "start_page": "120",
-    "end_page": 123,
+    "end_page": 122,
     "terms": []
   },
   {
@@ -745,7 +745,7 @@
     "chapter": "17",
     "name": "L\u00f6sungen zu den Selbsttestaufgaben",
     "start_page": "138",
-    "end_page": 145,
+    "end_page": 144,
     "terms": []
   },
   {
@@ -766,7 +766,7 @@
     "chapter": "19",
     "name": "Deklaration, Definition und Verwendung von Programmelementen",
     "start_page": "151",
-    "end_page": 153,
+    "end_page": 152,
     "terms": []
   },
   {
@@ -815,7 +815,7 @@
     "chapter": "22.2",
     "name": "Namens\u00e4quivalenz",
     "start_page": "161",
-    "end_page": 162,
+    "end_page": 161,
     "terms": []
   },
   {
@@ -836,7 +836,7 @@
     "chapter": "25",
     "name": "Typeinschr\u00e4nkung",
     "start_page": "165",
-    "end_page": 169,
+    "end_page": 168,
     "terms": []
   },
   {
@@ -976,7 +976,7 @@
     "chapter": "33",
     "name": "L\u00f6sungen zu den Selbsttestaufgaben",
     "start_page": "195",
-    "end_page": 197,
+    "end_page": 196,
     "terms": []
   },
   {
@@ -1032,7 +1032,7 @@
     "chapter": "35.5",
     "name": "Zuweisungskompatibilit\u00e4t",
     "start_page": "202",
-    "end_page": 203,
+    "end_page": 202,
     "terms": []
   },
   {
@@ -1116,7 +1116,7 @@
     "chapter": "40",
     "name": "Interfaces",
     "start_page": "219",
-    "end_page": 220,
+    "end_page": 219,
     "terms": []
   },
   {
@@ -1165,21 +1165,21 @@
     "chapter": "43.2",
     "name": "Parametrische Typen und Subtyping: Wildcards",
     "start_page": "228",
-    "end_page": 232,
+    "end_page": 231,
     "terms": []
   },
   {
     "chapter": "43.3",
     "name": "Beschr\u00e4nkter parametrischer Polymorphismus in JAVA",
     "start_page": "232",
-    "end_page": 233,
+    "end_page": 232,
     "terms": []
   },
   {
     "chapter": "43.4",
     "name": "Rekursiv beschr\u00e4nkter parametrischer Polymorphismus",
     "start_page": "233",
-    "end_page": 234,
+    "end_page": 233,
     "terms": []
   },
   {
@@ -1200,7 +1200,7 @@
     "chapter": "44",
     "name": "Dynamische Typpr\u00fcfung in JAVA",
     "start_page": "235",
-    "end_page": 236,
+    "end_page": 235,
     "terms": []
   },
   {
@@ -1263,7 +1263,7 @@
     "chapter": "47.2",
     "name": "Exception handling",
     "start_page": "243",
-    "end_page": 246,
+    "end_page": 245,
     "terms": []
   },
   {
@@ -1291,7 +1291,7 @@
     "chapter": "49",
     "name": "L\u00f6sungen zu den Selbsttestaufgaben",
     "start_page": "250",
-    "end_page": 253,
+    "end_page": 252,
     "terms": []
   },
   {
@@ -1466,7 +1466,7 @@
     "chapter": "52.1",
     "name": "Das Programmiermodell EIFFELs",
     "start_page": "275",
-    "end_page": 276,
+    "end_page": 275,
     "terms": []
   },
   {
@@ -1501,7 +1501,7 @@
     "chapter": "52.5.1",
     "name": "Ein motivierendes Beispiel",
     "start_page": "279",
-    "end_page": 281,
+    "end_page": 280,
     "terms": []
   },
   {
@@ -1515,7 +1515,7 @@
     "chapter": "52.5.3",
     "name": "Die dynamische Komponente",
     "start_page": "286",
-    "end_page": 288,
+    "end_page": 287,
     "terms": []
   },
   {
@@ -1536,14 +1536,14 @@
     "chapter": "52.8",
     "name": "Fazit",
     "start_page": "289",
-    "end_page": 290,
+    "end_page": 289,
     "terms": []
   },
   {
     "chapter": "53",
     "name": "L\u00f6sungen  zu den Selbsttestaufgaben",
     "start_page": "290",
-    "end_page": 291,
+    "end_page": 290,
     "terms": []
   },
   {
@@ -1557,7 +1557,7 @@
     "chapter": "54",
     "name": "Das Problem der Substituierbar keit",
     "start_page": "291",
-    "end_page": 292,
+    "end_page": 291,
     "terms": []
   },
   {
@@ -1578,7 +1578,7 @@
     "chapter": "54.3",
     "name": "Verhaltensbasiertes Subtyping",
     "start_page": "296",
-    "end_page": 298,
+    "end_page": 297,
     "terms": []
   },
   {
@@ -1641,7 +1641,7 @@
     "chapter": "61",
     "name": "L\u00f6sungen zu  den Selbsttestaufgaben",
     "start_page": "321",
-    "end_page": 323,
+    "end_page": 322,
     "terms": []
   },
   {
@@ -1655,7 +1655,7 @@
     "chapter": "62",
     "name": "Namenwahl",
     "start_page": "325",
-    "end_page": 326,
+    "end_page": 325,
     "terms": []
   },
   {
@@ -1767,14 +1767,14 @@
     "chapter": "71",
     "name": "L\u00f6sungen zu den Selbsttestaufgaben",
     "start_page": "339",
-    "end_page": 341,
+    "end_page": 340,
     "terms": []
   },
   {
     "chapter": "XII",
     "name": "Verzeichnis der Weblinks im Rand",
     "start_page": "341",
-    "end_page": 345,
+    "end_page": 344,
     "terms": []
   },
   {

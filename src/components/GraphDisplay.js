@@ -55,11 +55,6 @@ function GraphDisplay() {
     }, [graphData.nodes.length]);
 
     const getNode = (node) => {
-        if (node === "test" || node.id === "test") {
-            console.log(node);
-            console.log(nodesById[node]);
-            console.log(nodesById[node.id]);
-        }
         if (nodesById[node]) return nodesById[node];
         else if (nodesById[node.id]) return nodesById[node.id];
         return null;
@@ -329,8 +324,6 @@ function GraphDisplay() {
             return;
         }
 
-        console.log(newNode);
-
         newLinks.forEach((key) => {
             const source = getNode(key);
             const link = {
@@ -350,8 +343,12 @@ function GraphDisplay() {
         setShowNodeInfo(false);
     };
 
-    const handleNodeInfoSave = (updatedNode, newLinks, removedLinks) => {
-        if (getNode(updatedNode.name)) {
+    const isTerm = (node) => {
+        return !node.chapter && !node.unit;
+    };
+
+    const handleNodeInfoSave = (oldId, updatedNode, newLinks, removedLinks) => {
+        if (oldId !== updatedNode.name && getNode(updatedNode.name)) {
             window.alert(
                 "Knoten mit gleichem Namen oder gleicher ID existiert bereits!"
             );
@@ -420,7 +417,7 @@ function GraphDisplay() {
             }
         });
 
-        if (node.chapter || node.unit) {
+        if (!isTerm(node)) {
             newLinks.forEach((id) => {
                 const target = getNode(id);
                 const link = {
@@ -432,7 +429,7 @@ function GraphDisplay() {
                 node.childLinks.push(link);
             });
         }
-        if (!node.chapter && !node.unit) {
+        if (isTerm(node)) {
             newLinks.forEach((id) => {
                 const source = getNode(id);
                 const link = {
@@ -503,7 +500,8 @@ function GraphDisplay() {
         if (confirmed) {
             localStorage.removeItem("graphData");
             graphData = graphDataJson;
-            setGraph(getGraph);
+            setGraph(getGraph());
+            document.location.reload();
         }
     };
 

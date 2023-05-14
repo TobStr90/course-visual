@@ -16,8 +16,6 @@ function GraphQuiz({ graph, onNodeClick, height }) {
                         link.source.id === node.id ||
                         link.source === node.id
                 );
-                console.log(node);
-                console.log(links);
                 if (links.length > 0) {
                     onNodeClick(links);
                 } else {

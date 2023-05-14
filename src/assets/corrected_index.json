@@ -1,0 +1,222 @@
+{
+  "Auto boxing": {
+    "pages": [
+      "201"
+    ],
+    "chapters": ["35.3"]
+  },
+  "direkte Instanz": {
+    "pages": [
+      "202"
+    ],
+    "chapters": ["35.4"]
+  },
+  "direkte Subklasse": {
+    "pages": [
+      "108"
+    ],
+    "chapters": ["11"]
+  },
+  "direkte Superklasse": {
+    "pages": [
+      "108"
+    ],
+    "chapters": ["11"]
+  },
+  "double Dispatch": {
+    "pages": [
+      "119"
+    ],
+    "chapters": ["12.3"]
+  },
+  "multi Dispatch": {
+    "pages": [
+      "196"
+    ],
+    "chapters": ["12.3"]
+  },
+  "single Dispatch": {
+    "pages": [
+      "119"
+    ],
+    "chapters": ["12.3"]
+  },
+  "dynamisches Binden": {
+    "pages": [
+      "62",
+      "73"
+    ],
+    "chapters": ["4.5", "4.5.2"]
+  },
+  "funktionale Programmierung": {
+    "pages": [
+      "18"
+    ],
+    "chapters": ["Kurseinheit 2"]
+  },
+  "Implementationsgeheimnis": {
+    "pages": [
+      "36"
+    ],
+    "chapters": ["3.2"]
+  },
+  "indirekte Instanz": {
+    "pages": [
+      "98",
+      "202"
+    ],
+    "chapters": ["9.1", "35.4"]
+  },
+  "interner Iterator": {
+    "pages": [
+      "242",
+      "169"
+    ],
+    "chapters": ["46.2"]
+  },
+  "Invariante": {
+    "pages": [
+      "242",
+      "169"
+    ],
+    "chapters": ["26"]
+  },
+  "Kontravarianz von Wildcard-Typen": {
+    "pages": [
+      "231"
+    ],
+    "chapters": ["43.2"]
+  },
+  "Kovarianz von Wildcard-Typen": {
+    "pages": [
+      "231"
+    ],
+    "chapters": ["43.2"]
+  },
+  "l\u00f6schen von Methoden": {
+    "pages": [
+      "122"
+    ],
+    "chapters": ["13.1"]
+  },
+  "Metaprogrammiersystem": {
+    "pages": [
+      "93"
+    ],
+    "chapters": ["8.6"]
+  },
+  "Method dispatching": {
+    "pages": [
+      "119"
+    ],
+    "chapters": ["12.3"]
+  },
+  "Methodendefinition": {
+    "pages": [
+      "45"
+    ],
+    "chapters": ["4.3"]
+  },
+  "Multi-dispatch": {
+    "pages": [
+      "119"
+    ],
+    "chapters": ["12.3"]
+  },
+  "nominale Typkonformit\u00e4t in Java": {
+    "pages": [
+      "202"
+    ],
+    "chapters": ["35.5"]
+  },
+  "Novarianz von Java": {
+    "pages": [
+      "202"
+    ],
+    "chapters": ["35.5"]
+  },
+  "klassenbasierte Form der Objektorientierung": {
+    "pages": [
+      "73"
+    ],
+    "chapters": ["Kurseinheit 2"]
+  },
+  "prototypenbasierte Form der Objektorientierung": {
+    "pages": [
+      "73"
+    ],
+    "chapters": ["Kurseinheit 2"]
+  },
+  "reflektiver Zugriff": {
+    "pages": [
+      "219"
+    ],
+    "chapters": ["39.3"]
+  },
+  "Repräsentationsobjekt": {
+    "pages": [
+      "315"
+    ],
+    "chapters": ["58"]
+  },
+  "semantischer Fehler": {
+    "pages": [
+      "160"
+    ],
+    "chapters": ["22.1"]
+  },
+  "Typfehler": {
+    "pages": [
+      "160"
+    ],
+    "chapters": ["22.1"]
+  },
+  "Typumwandlung": {
+    "pages": [
+      "116",
+      "178",
+      "227",
+      "235",
+      "236",
+      "273"
+    ],
+    "chapters": ["12", "27", "43.1", "44", "44.1", "51.5.1"]
+  },
+  "Type branding": {
+    "pages": [
+      "160",
+      "161"
+    ],
+    "chapters": ["22.1", "22"]
+  },
+  "\u00fcberladen": {
+    "pages": [
+      "119"
+    ],
+    "chapters": ["12.3"]
+  },
+  "verhaltensbasiertes Subtyping": {
+    "pages": [
+      "297"
+    ],
+    "chapters": ["54.3"]
+  },
+  "Verwendung eines Programmelements": {
+    "pages": [
+      "152"
+    ],
+    "chapters": ["19"]
+  },
+  "automatische Einrichtung von Zugriffsmethode": {
+    "pages": [
+      "93"
+    ],
+    "chapters": ["8.6"]
+  },
+  "Zul\u00c3\u00a4ssigkeit von Zuweisungen und Methodenaufrufen": {
+    "pages": [
+      "149"
+    ],
+    "chapters": ["18"]
+  }
+}

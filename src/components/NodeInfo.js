@@ -39,25 +39,16 @@ const NodeInfo = ({
             });
 
             keys.sort((a, b) => {
-                let keyA;
-                if (a.source && a.target)
-                    keyA = a.source.id !== id ? a.source.id : a.target.id;
-                else keyA = a.source !== id ? a.source : a.target;
-                let keyB;
-                if (b.source && b.target)
-                    keyB = b.source.id !== id ? b.source.id : b.target.id;
-                else keyB = b.source !== id ? b.source : b.target;
-
-                const splitA = keyA ? keyA.split(".") : a;
-                const splitB = keyB ? keyB.split(".") : b;
+                const splitA = a.split(".");
+                const splitB = b.split(".");
 
                 for (
                     let i = 0;
                     i < Math.min(splitA.length, splitB.length);
                     i++
                 ) {
-                    if (splitA[i] < splitB[i]) return -1;
-                    if (splitB[i] < splitA[i]) return 1;
+                    if (Number(splitA[i]) < Number(splitB[i])) return -1;
+                    if (Number(splitB[i]) < Number(splitA[i])) return 1;
                 }
 
                 return splitA.length - splitB.length;
@@ -80,6 +71,7 @@ const NodeInfo = ({
 
     const handleSave = () => {
         onSave(
+            id,
             {
                 ...node,
                 id,

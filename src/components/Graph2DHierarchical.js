@@ -2,7 +2,6 @@ import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import * as d3 from "d3";
 import React from "react";
-import Graph2DForceDirected from "./Graph2DForceDirected";
 
 function Graph2DHierarchical({
     graph,
@@ -54,45 +53,55 @@ function Graph2DHierarchical({
         let sortedLayers = Object.entries(nodesByLayer)
             .sort((a, b) => Number(a[0]) - Number(b[0]))
             .map(([_, nodes]) => nodes);
-        sortedLayers[sortedLayers.length] = [];
+
+        const getLayer = (chapter) => {
+            if (!chapter) return 0;
+
+            if (!/^[0-9.]+$/.test(chapter)) return 1;
+
+            const dots = chapter.split(".").length - 1;
+            return 2 + dots;
+        };
+
+        const swapLayer = (oldLayer, newLayer, layers, node) => {
+            const nodeIndex = layers[oldLayer].indexOf(node);
+            if (nodeIndex > -1) layers[oldLayer].splice(nodeIndex, 1);
+
+            if (layers[newLayer]) {
+                layers[newLayer].push(node);
+                const x = layers[newLayer][0].x;
+                node.x = x;
+                node.fx = x;
+            } else {
+                while (layers.length <= newLayer) layers[layers.length] = [];
+                const layerDiff = layers[1][0].x - layers[0][0].x;
+                layers[newLayer].push(node);
+                const x = layers[0][0].x + layerDiff * newLayer;
+                node.x = x;
+                node.fx = x;
+            }
+        };
 
         //sort nodes into correct layer
         for (const [layerIndex, layer] of sortedLayers.entries()) {
             layer.forEach((node) => {
                 if (node.chapter) {
-                    const chapter = node.chapter;
-                    if (chapter && /^[0-9.]+$/.test(chapter)) {
-                        const dots = chapter.split(".").length - 1;
-                        const newLayer = 2 + dots;
-                        const nodeIndex = layer.indexOf(node);
-                        if (nodeIndex > -1) {
-                            layer.splice(nodeIndex, 1);
-                        }
-                        if (sortedLayers[newLayer]) {
-                            sortedLayers[newLayer].push(node);
-                            node.x = sortedLayers[newLayer][0].x;
-                        }
+                    const newLayer = getLayer(node.chapter);
+                    if (newLayer > layerIndex) {
+                        swapLayer(layerIndex, newLayer, sortedLayers, node);
                     }
                 }
-                if (!node.unit) {
-                    for (const link of node.childLinks) {
-                        if (
-                            link.source.x &&
-                            link.target.x &&
-                            link.target.x <= link.source.x
-                        ) {
-                            const index = layer.indexOf(node);
-                            if (index > -1) {
-                                layer.splice(index, 1);
-                            }
-                            if (!sortedLayers[layerIndex + 1][0]) {
-                                node.x +=
-                                    node.x - sortedLayers[layerIndex - 1][0].x;
-                            } else node.x = sortedLayers[layerIndex + 1][0].x;
-                            sortedLayers[layerIndex + 1].push(node);
-                            break;
+                if (!node.chapter && !node.unit) {
+                    let maxLayer = layerIndex;
+                    node.childLinks.forEach((childLink) => {
+                        if (childLink.source.x) {
+                            const newLayer =
+                                getLayer(childLink.source.chapter) + 1;
+                            maxLayer = Math.max(maxLayer, newLayer);
                         }
-                    }
+                    });
+                    if (maxLayer > layerIndex)
+                        swapLayer(layerIndex, maxLayer, sortedLayers, node);
                 }
             });
         }
