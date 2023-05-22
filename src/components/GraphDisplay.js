@@ -347,6 +347,59 @@ function GraphDisplay() {
         return !node.chapter && !node.unit;
     };
 
+    const handleNodeInfoDelete = (id) => {
+        const confirmed = window.confirm(
+            "Soll der Begriff wirklich gelöscht werden? Dies kann nicht rückgängig gemacht werden!"
+        );
+
+        if (confirmed) {
+            var deleteNode = getNode(id);
+
+            for (let i = graphData.nodes.length - 1; i >= 0; i--) {
+                const node = graphData.nodes[i];
+
+                if (deleteNode === getNode(node)) graphData.nodes.splice(i, 1);
+            }
+
+            for (let i = graphData.links.length - 1; i >= 0; i--) {
+                const link = graphData.links[i];
+
+                if (
+                    link.target === deleteNode.id ||
+                    link.target.id === deleteNode.id ||
+                    link.source === deleteNode.id ||
+                    link.source.id === deleteNode.id
+                )
+                    deleteLink(link);
+            }
+
+            saveDataLocally();
+
+            setGraph(getGraph());
+            setSelectedNode(null);
+            setShowNodeInfo(false);
+        }
+    };
+
+    const deleteLink = (link) => {
+        const source = getNode(link.source);
+        const sourceIndex = source.childLinks.indexOf(link);
+        if (sourceIndex > -1) {
+            source.childLinks.splice(sourceIndex, 1);
+        }
+
+        const target = getNode(link.target);
+        const targetIndex = target.childLinks.indexOf(link);
+        if (targetIndex > -1) {
+            target.childLinks.splice(targetIndex, 1);
+        }
+
+        const graphDataIndex = graphData.links.indexOf(link);
+        if (graphDataIndex > -1) {
+            graphData.links.splice(graphDataIndex, 1);
+        }
+    };
+
     const handleNodeInfoSave = (oldId, updatedNode, newLinks, removedLinks) => {
         if (oldId !== updatedNode.name && getNode(updatedNode.name)) {
             window.alert(
@@ -387,24 +440,8 @@ function GraphDisplay() {
                     link.source.id === updatedNode.id) &&
                     (removedLinks.has(link.target) ||
                         removedLinks.has(link.target.id)))
-            ) {
-                const source = getNode(link.source);
-                const sourceIndex = source.childLinks.indexOf(link);
-                if (sourceIndex > -1) {
-                    source.childLinks.splice(sourceIndex, 1);
-                }
-
-                const target = getNode(link.target);
-                const targetIndex = target.childLinks.indexOf(link);
-                if (targetIndex > -1) {
-                    target.childLinks.splice(targetIndex, 1);
-                }
-
-                const graphDataIndex = graphData.links.indexOf(link);
-                if (graphDataIndex > -1) {
-                    graphData.links.splice(graphDataIndex, 1);
-                }
-            }
+            )
+                deleteLink(link);
         }
 
         removedLinks.forEach((id) => {
@@ -909,6 +946,7 @@ function GraphDisplay() {
                                 onSave={handleNodeInfoSave}
                                 onClose={handleNodeInfoClose}
                                 onCreate={handleNodeInfoCreate}
+                                onDelete={handleNodeInfoDelete}
                                 chapters={getChapters()}
                                 terms={getTerms()}
                                 getNode={getNode}

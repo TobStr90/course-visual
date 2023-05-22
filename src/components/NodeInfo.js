@@ -8,6 +8,7 @@ const NodeInfo = ({
     onSave,
     onClose,
     onCreate,
+    onDelete,
     chapters,
     terms,
     getNode,
@@ -85,6 +86,10 @@ const NodeInfo = ({
             newLinks,
             removedLinks
         );
+    };
+
+    const handleDelete = () => {
+        onDelete(id);
     };
 
     const handleClose = () => {
@@ -198,16 +203,21 @@ const NodeInfo = ({
             <div style={{ display: "block" }}>
                 {!node && (
                     <button className="button" onClick={handleCreate}>
-                        Create
+                        Erstellen
                     </button>
                 )}
                 {node && (
                     <button className="button" onClick={handleSave}>
-                        Save
+                        Speichern
+                    </button>
+                )}
+                {node && !node.chapter && !node.unit && (
+                    <button className="button" onClick={handleDelete}>
+                        Löschen
                     </button>
                 )}
                 <button className="button" onClick={handleClose}>
-                    Close
+                    Schließen
                 </button>
             </div>
         </div>
