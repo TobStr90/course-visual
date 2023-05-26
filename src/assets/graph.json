@@ -440,13 +440,13 @@
       "group": 2
     },
     {
-      "id": "implizite ",
-      "name": "implizite ",
+      "id": "implizite Zuweisung",
+      "name": "implizite Zuweisung",
       "group": 2
     },
     {
-      "id": " linke und rechte Seite",
-      "name": " linke und rechte Seite",
+      "id": "Zuweisung linke und rechte Seite",
+      "name": "Zuweisung linke und rechte Seite",
       "group": 2
     },
     {
@@ -964,8 +964,8 @@
       "group": 2
     },
     {
-      "id": "explizite ",
-      "name": "explizite ",
+      "id": "explizite Zuweisung",
+      "name": "explizite Zuweisung",
       "group": 2
     },
     {
@@ -4483,11 +4483,11 @@
     },
     {
       "source": "1.6",
-      "target": "implizite "
+      "target": "implizite Zuweisung"
     },
     {
       "source": "1.6",
-      "target": " linke und rechte Seite"
+      "target": "Zuweisung linke und rechte Seite"
     },
     {
       "source": "1.6",
@@ -4955,11 +4955,11 @@
     },
     {
       "source": "4.3.2",
-      "target": "explizite "
+      "target": "explizite Zuweisung"
     },
     {
       "source": "4.3.2",
-      "target": "implizite "
+      "target": "implizite Zuweisung"
     },
     {
       "source": "4.3",
@@ -6291,7 +6291,7 @@
     },
     {
       "source": "24",
-      "target": "implizite "
+      "target": "implizite Zuweisung"
     },
     {
       "source": "Kurseinheit 3",
@@ -7535,7 +7535,7 @@
     },
     {
       "source": "51.2",
-      "target": "implizite "
+      "target": "implizite Zuweisung"
     },
     {
       "source": "51",
@@ -7759,7 +7759,7 @@
     },
     {
       "source": "52.5.2",
-      "target": "explizite "
+      "target": "explizite Zuweisung"
     },
     {
       "source": "52.5",

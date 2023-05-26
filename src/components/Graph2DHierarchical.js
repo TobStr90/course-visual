@@ -63,24 +63,61 @@ function Graph2DHierarchical({
             return 2 + dots;
         };
 
-        const swapLayer = (oldLayer, newLayer, layers, node) => {
+        const layerDiff = getDagLevelDistance();
+        const root = sortedLayers[0].find(
+            (node) => node.name === "Objektorientierte Programmierung"
+        );
+        const baseX = root.x;
+
+        const swapLayer = (
+            oldLayer,
+            newLayer,
+            layers,
+            node,
+            layerDiff,
+            baseX
+        ) => {
             const nodeIndex = layers[oldLayer].indexOf(node);
+
             if (nodeIndex > -1) layers[oldLayer].splice(nodeIndex, 1);
 
-            if (layers[newLayer]) {
-                layers[newLayer].push(node);
-                const x = layers[newLayer][0].x;
-                node.x = x;
-                node.fx = x;
-            } else {
-                while (layers.length <= newLayer) layers[layers.length] = [];
-                const layerDiff = layers[1][0].x - layers[0][0].x;
-                layers[newLayer].push(node);
-                const x = layers[0][0].x + layerDiff * newLayer;
-                node.x = x;
-                node.fx = x;
-            }
+            while (layers.length <= newLayer) layers[layers.length] = [];
+
+            layers[newLayer].push(node);
+
+            const x = baseX + layerDiff * newLayer;
+            node.x = x;
+            node.fx = x;
+            //   console.log(layers);
         };
+
+        // const swapLayer = (oldLayer, newLayer, layers, node,) => {
+        //     const nodeIndex = layers[oldLayer].indexOf(node);
+        //     if (nodeIndex > -1) layers[oldLayer].splice(nodeIndex, 1);
+
+        //     if (
+        //         layers[newLayer] &&
+        //         layers[newLayer][0] &&
+        //         getLayer(layers[newLayer].chapter) === newLayer &&
+        //         layers[newLayer][0].x
+        //     ) {
+        //         layers[newLayer].push(node);
+        //         const x = layers[newLayer][0].x;
+        //         node.x = x;
+        //         node.fx = x;
+        //     } else {
+        //         while (layers.length <= newLayer) layers[layers.length] = [];
+        //         var layerDiff = 100;
+        //         if (layers[1][0] && layers[0][0]) {
+        //             layerDiff = layers[1][0].x - layers[0][0].x;
+        //         }
+        //         layers[newLayer].push(node);
+        //         const x = layers[0][0].x + layerDiff * newLayer;
+        //         node.x = x;
+        //         node.fx = x;
+        //     }
+        //     //   console.log(layers);
+        // };
 
         //sort nodes into correct layer
         for (const [layerIndex, layer] of sortedLayers.entries()) {
@@ -88,7 +125,14 @@ function Graph2DHierarchical({
                 if (node.chapter) {
                     const newLayer = getLayer(node.chapter);
                     if (newLayer > layerIndex) {
-                        swapLayer(layerIndex, newLayer, sortedLayers, node);
+                        swapLayer(
+                            layerIndex,
+                            newLayer,
+                            sortedLayers,
+                            node,
+                            layerDiff,
+                            baseX
+                        );
                     }
                 }
                 if (!node.chapter && !node.unit) {
@@ -101,10 +145,49 @@ function Graph2DHierarchical({
                         }
                     });
                     if (maxLayer > layerIndex)
-                        swapLayer(layerIndex, maxLayer, sortedLayers, node);
+                        swapLayer(
+                            layerIndex,
+                            maxLayer,
+                            sortedLayers,
+                            node,
+                            layerDiff,
+                            baseX
+                        );
                 }
             });
         }
+
+        // const xValues = [sortedLayers[0][0].x];
+        // for (let layer = 1; layer < sortedLayers.length; layer++) {
+        //   xValues[layer] = Number.MAX_SAFE_INTEGER;
+        //   sortedLayers[layer].forEach((node) => {
+        //     xValues[layer] = Math.min(xValues[layer], node.x, node.fx);
+        //   });
+        // }
+        // for (let layer = 1; layer < sortedLayers.length; layer++) {
+        //   sortedLayers[layer].forEach((node) => {
+        //     node.x = xValues[layer];
+        //     node.fx = xValues[layer];
+        //   });
+        // }
+
+        // console.log("sortedLayers");
+        // console.log(sortedLayers);
+
+        // let layer = 1;
+        // while (sortedLayers.length > layer && !sortedLayers[layer][0]) layer += 1;
+
+        // if (sortedLayers.length > layer) {
+        //   const layerDiff =
+        //     (sortedLayers[0][0].x - sortedLayers[layer][0].x) / layer;
+
+        //   for (let i = 1; i < sortedLayers.length; i++) {
+        //     sortedLayers[i].forEach((node) => {
+        //       node.x = sortedLayers[0][0].x + layerDiff * i;
+        //       node.fx = sortedLayers[0][0].x + layerDiff * i;
+        //     });
+        //   }
+        // }
 
         //sort nodes in each layer
         const sortedNodesByLayer = {};
@@ -187,6 +270,8 @@ function Graph2DHierarchical({
 
         return maxLength + 10;
     };
+
+    console.log(graph);
 
     const getGraph = () => {
         return (

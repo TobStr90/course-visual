@@ -481,11 +481,11 @@
                 "start_page": "21"
               },
               {
-                "name": "implizite ",
+                "name": "implizite Zuweisung",
                 "start_page": "22"
               },
               {
-                "name": " linke und rechte Seite",
+                "name": "Zuweisung linke und rechte Seite",
                 "start_page": "22"
               },
               {
@@ -1154,15 +1154,15 @@
                     "start_page": "50"
                   },
                   {
-                    "name": "explizite ",
+                    "name": "explizite Zuweisung",
                     "start_page": "50"
                   },
                   {
-                    "name": "implizite ",
+                    "name": "implizite Zuweisung",
                     "start_page": "50"
                   },
                   {
-                    "name": "implizite ",
+                    "name": "implizite Zuweisung",
                     "start_page": "51"
                   }
                 ],
@@ -2981,7 +2981,7 @@
             "start_page": "163"
           },
           {
-            "name": "implizite ",
+            "name": "implizite Zuweisung",
             "start_page": "165"
           }
         ],
@@ -4712,7 +4712,7 @@
                 "start_page": "268"
               },
               {
-                "name": "implizite ",
+                "name": "implizite Zuweisung",
                 "start_page": "268"
               }
             ],
@@ -5001,7 +5001,7 @@
                     "start_page": "281"
                   },
                   {
-                    "name": "explizite ",
+                    "name": "explizite Zuweisung",
                     "start_page": "286"
                   }
                 ],
