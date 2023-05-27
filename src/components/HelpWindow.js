@@ -8,6 +8,22 @@ const HelpWindow = ({ onClose }) => {
             <button className="close-button" onClick={onClose}>
                 X
             </button>
+            <h2>Information:</h2>
+            <ul style={{ listStyleType: "none" }}>
+                <li>
+                    Diese Anwendung wurde entwickelt um die Zusammenhänge des
+                    Kurses "Objektorientierte Programmierung" graphisch
+                    darzustellen.
+                </li>
+                <li>
+                    Begriffe sind mit den Kapiteln verbunden, in denen sie
+                    auftreten.
+                </li>
+                <li>
+                    Begriffe die mit Kapiteln auf demselben Pfad verbunden sind,
+                    können als relevant zueinander angesehen werden.
+                </li>
+            </ul>
             <h2>Bedienung:</h2>
             <ul style={{ listStyleType: "none" }}>
                 <li>
@@ -45,8 +61,8 @@ const HelpWindow = ({ onClose }) => {
                     Kurseinheiten.
                 </li>
                 <li>
-                    <b>Knoten suchen:</b> Zeigt alle Pfade zum gesuchten Knoten
-                    an.
+                    <b>Knoten suchen:</b> Zeigt den Knoten bzw. alle Pfade zum
+                    gesuchten Knoten an.
                 </li>
                 <li>
                     <b>Knoten hinzufügen:</b> Öffnet ein Fenster zum Erstellen
