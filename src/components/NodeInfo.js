@@ -97,9 +97,14 @@ const NodeInfo = ({
     };
 
     const handleOnSelect = (selectedNode) => {
-        removedLinks.delete(selectedNode);
-        newLinks.add(selectedNode.id);
-        setShownLinks([...shownLinks, selectedNode.id]);
+        if (
+            !newLinks.has(selectedNode.id) &&
+            !shownLinks.includes(selectedNode.id)
+        ) {
+            removedLinks.delete(selectedNode);
+            newLinks.add(selectedNode.id);
+            setShownLinks([...shownLinks, selectedNode.id]);
+        }
     };
 
     const handleDeleteChildLink = (deletedKey) => {

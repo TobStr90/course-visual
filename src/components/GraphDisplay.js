@@ -53,13 +53,14 @@ function GraphDisplay({
 
         if (link) {
             highlightLinks.add(link);
-            link.source.childLinks
-                .filter(
-                    (childLink) =>
-                        childLink.source === link.target &&
-                        link.source === childLink.target
-                )
-                .forEach((childLink) => highlightLinks.add(childLink));
+            if (link.source.childLinks)
+                link.source.childLinks
+                    .filter(
+                        (childLink) =>
+                            childLink.source === link.target &&
+                            link.source === childLink.target
+                    )
+                    .forEach((childLink) => highlightLinks.add(childLink));
             highlightNodes.add(link.source);
             highlightNodes.add(link.target);
         }

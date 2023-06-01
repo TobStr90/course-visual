@@ -1,9 +1,119 @@
 {
+  ":1-Beziehung": {
+    "pages": [
+      "30"
+    ],
+    "chapters": ["2.2"]
+  },
+  "Abstraktionshierarchie": {
+    "pages": [
+      "94"
+    ],
+    "chapters": ["9"]
+  },
+  "aktives Objekt": {
+    "pages": [
+      "136",
+      "138"
+    ],
+    "chapters": ["16"]
+  },
+  "aktueller Parameter": {
+    "pages": [
+      "45"
+    ],
+    "chapters": ["4.3"]
+  },
+  "\u00c4nderungsabh\u00e4ngigkeit": {
+    "pages": [
+      "217"
+    ],
+    "chapters": ["39.2"]
+  },
+  "Array-Initialisierer": {
+    "pages": [
+      "199"
+    ],
+    "chapters": ["35.1"]
+  },
+  "Array-Literal": {
+    "pages": [
+      "126"
+    ],
+    "chapters": ["13.2.3"]
+  },
+  "Attribut und Zustand": {
+    "pages": [
+      "34"
+    ],
+    "chapters": ["3.1"]
+  },
+  "Nachrichtenausdruck": {
+    "pages": [
+      "37",
+      "37"
+    ],
+    "chapters": ["4.1"]
+  },
+  "primitiver Ausdruck": {
+    "pages": [
+      "37"
+    ],
+    "chapters": ["4.1"]
+  },
+  "Ausgabestrom": {
+    "pages": [
+      "201"
+    ],
+    "chapters": []
+  },
   "Auto boxing": {
     "pages": [
       "201"
     ],
     "chapters": ["35.3"]
+  },
+  "Auto boxing und unboxing": {
+    "pages": [
+      "262"
+    ],
+    "chapters": ["50.4.1"]
+  },
+  "Block": {
+    "pages": [
+      "266"
+    ],
+    "chapters": ["50.5"]
+  },
+  "Boxing und Unboxing": {
+    "pages": [
+      "264"
+    ],
+    "chapters": ["50.4.1"]
+  },
+  "Coding convention": {
+    "pages": [
+      "329"
+    ],
+    "chapters": ["63"]
+  },
+  "Compilation unit": {
+    "pages": [
+      "203"
+    ],
+    "chapters": ["36"]
+  },
+  "deklariertes Element": {
+    "pages": [
+      "146"
+    ],
+    "chapters": ["18"]
+  },
+  "Delegate": {
+    "pages": [
+      "261"
+    ],
+    "chapters": ["50.4.1"]
   },
   "direkte Instanz": {
     "pages": [
@@ -23,17 +133,23 @@
     ],
     "chapters": ["11"]
   },
+  "Dispatch": {
+    "pages": [
+      "217"
+    ],
+    "chapters": ["39.1"]
+  },
   "double Dispatch": {
     "pages": [
-      "119"
+      "209"
     ],
-    "chapters": ["12.3"]
+    "chapters": ["36.4"]
   },
   "multi Dispatch": {
     "pages": [
       "196"
     ],
-    "chapters": ["12.3"]
+    "chapters": ["33"]
   },
   "single Dispatch": {
     "pages": [
@@ -41,24 +157,151 @@
     ],
     "chapters": ["12.3"]
   },
-  "dynamisches Binden": {
+  "dynamische Binden": {
     "pages": [
-      "62",
-      "73"
+      "291",
+	  "303"
     ],
-    "chapters": ["4.5", "4.5.2"]
+    "chapters": ["54", "55"]
+  },
+  "dynamische Typpr\u00fcfung": {
+    "pages": [
+      "178"
+    ],
+    "chapters": ["27"]
+  },
+  "dynamisches Binden": {
+    "pages": ["62", "271"
+    ],
+    "chapters": ["4.5", "51.4"]
+  },
+  "Exception handling in Eifel": {
+    "pages": [
+      "277"
+    ],
+    "chapters": ["52.3"]
+  },
+  "rekursive Expansion": {
+    "pages": [
+      "159"
+    ],
+    "chapters": ["22.1"]
+  },
+  "dedizierter Export": {
+    "pages": [
+      "277"
+    ],
+    "chapters": ["52.2"]
+  },
+  "Extension": {
+    "pages": [
+      "146"
+    ],
+    "chapters": ["18"]
+  },
+  "Fallunterscheidung per dynamischem Binden": {
+    "pages": [
+      "286"
+    ],
+    "chapters": ["52.5.3"]
+  },
+  "Familien\u00e4hnlichkeit": {
+    "pages": [
+      "76"
+    ],
+    "chapters": ["7.1"]
+  },
+  "formaler Parameter": {
+    "pages": [
+      "23",
+      "45",
+      "46",
+      "48",
+      "125"
+    ],
+    "chapters": ["1.7", "4.3", "4.3.1", "13.2.2"]
+  },
+  "formaler Parameter eines Blocks": {
+    "pages": [
+      "61"
+    ],
+    "chapters": ["4.4.3"]
+  },
+  "formaler Typparameter": {
+    "pages": [
+      "183"
+    ],
+    "chapters": ["29"]
+  },
+  "Fragile-base-class-Problem": {
+    "pages": [
+      "302"
+    ],
+    "chapters": ["55"]
+  },
+  "funktionale Programmiersprache": {
+    "pages": [
+      "266"
+    ],
+    "chapters": ["50.5"]
   },
   "funktionale Programmierung": {
     "pages": [
-      "18"
+      "3",
+      "16",
+      "18",
+      "60"
     ],
-    "chapters": ["Kurseinheit 2"]
+    "chapters": ["IV","1.3","1.5", "4.4.2"]
+  },
+  "Garbage collection": {
+    "pages": [
+      "197"
+    ],
+    "chapters": ["Kurseinheit 4"]
+  },
+  "generischer Typ": {
+    "pages": [
+      "183"
+    ],
+    "chapters": ["29"]
+  },
+  "Getter": {
+    "pages": [
+      "222",
+      "257"
+    ],
+    "chapters": ["40.2", "50.3.1"]
+  },
+  "Goto": {
+    "pages": [
+      "63"
+    ],
+    "chapters": ["4.6"]
+  },
+  "Home context bei Continuations": {
+    "pages": [
+      "60"
+    ],
+    "chapters": ["4.4.2"]
+  },
+  "imperative Programmierung": {
+    "pages": [
+      "16"
+    ],
+    "chapters": ["1.3"]
+  },
+  "Implementation": {
+    "pages": [
+      "57"
+    ],
+    "chapters": ["4.3.8"]
   },
   "Implementationsgeheimnis": {
     "pages": [
-      "36"
+      "36", "57"
     ],
-    "chapters": ["3.2"]
+    "chapters": ["3.2", "4.3.8"]
   },
   "indirekte Instanz": {
     "pages": [
@@ -66,6 +309,56 @@
       "202"
     ],
     "chapters": ["9.1", "35.4"]
+  },
+  "lazy Initialisierung": {
+    "pages": [
+      "131"
+    ],
+    "chapters": ["14.3"]
+  },
+  "innere Klasse": {
+    "pages": [
+      "204"
+    ],
+    "chapters": ["36.1"]
+  },
+  "Instanziierung eines parametrischen Typs": {
+    "pages": [
+      "182",
+      "184"
+    ],
+    "chapters": ["29", "29.1"]
+  },
+  "Instanzmethode": {
+    "pages": [
+      "84",
+      "204"
+    ],
+    "chapters": ["8", "29.2"]
+  },
+  "Intension": {
+    "pages": [
+      "146"
+    ],
+    "chapters": ["18"]
+  },
+  "Interface": {
+    "pages": [
+      "57"
+    ],
+    "chapters": ["4.3.8"]
+  },
+  "Interface-als-Typ-Konzept": {
+    "pages": [
+      "181"
+    ],
+    "chapters": ["28.2"]
+  },
+  "interfacebasierte Programmierung": {
+    "pages": [
+      "178"
+    ],
+    "chapters": ["27"]
   },
   "interner Iterator": {
     "pages": [
@@ -80,6 +373,80 @@
       "169"
     ],
     "chapters": ["26"]
+  },
+  "Ist-ein-Beziehung": {
+    "pages": [
+      "94"
+    ],
+    "chapters": ["9.1"]
+  },
+  "Kapselung": {
+    "pages": [
+      "33",
+      "52"
+    ],
+    "chapters": ["2.3", "4.3.4"]
+  },
+  "abstrakte Klasse": {
+    "pages": [
+      "106"
+    ],
+    "chapters": ["10.3"]
+  },
+  "abstrakte Klasse als Interface": {
+    "pages": [
+      "270"
+    ],
+    "chapters": ["51.4"]
+  },
+  "abstrakte Klasse in Eiffel": {
+    "pages": [
+      "277"
+    ],
+    "chapters": ["52.4"]
+  },
+  "abstrakte Klasse vs. Typ": {
+    "pages": [
+      "178"
+    ],
+    "chapters": ["28"]
+  },
+  "Klassenmethode in Java": {
+    "pages": [
+      "204"
+    ],
+    "chapters": ["36.1"]
+  },
+  "Klassenvariable in Java": {
+    "pages": [
+      "204"
+    ],
+    "chapters": ["36.1"]
+  },
+  "Klassenschnittstelle": {
+    "pages": [
+      "313"
+    ],
+    "chapters": ["58"]
+  },
+  "Klassifikation": {
+    "pages": [
+      "79"
+    ],
+    "chapters": ["7.3"]
+  },
+  "Kommentar": {
+    "pages": [
+      "57"
+    ],
+    "chapters": ["4.3.8"]
+  },
+  "Komposition": {
+    "pages": [
+      "32",
+      "33"
+    ],
+    "chapters": ["2.3"]
   },
   "Kontravarianz von Wildcard-Typen": {
     "pages": [
@@ -99,6 +466,22 @@
     ],
     "chapters": ["13.1"]
   },
+  "Lambda-Ausdruck": {
+    "pages": [
+      "60",
+      "211",
+      "241",
+      "266"
+    ],
+    "chapters": ["4.4.1", "37", "46.2", "50.5"]
+  },
+  "lokale Variable": {
+    "pages": [
+      "28",
+      "45"
+    ],
+    "chapters": ["2.1", "4.3"]
+  },
   "Metaprogrammiersystem": {
     "pages": [
       "93"
@@ -113,15 +496,46 @@
   },
   "Methodendefinition": {
     "pages": [
-      "45"
+      "45, 76"
+    ],
+    "chapters": ["4.3", "7.2"]
+  },
+  "Methodenaufruf": {
+    "pages": [
+      "45",
+      "76"
     ],
     "chapters": ["4.3"]
+  },
+  "Methodenrumpf": {
+    "pages": [
+      "57"
+    ],
+    "chapters": ["4.3.8"]
+  },
+  "Methodensignatur": {
+    "pages": [
+      "57"
+    ],
+    "chapters": ["4.3.8"]
+  },
+  "hierarchische Modularisierung": {
+    "pages": [
+      "312"
+    ],
+    "chapters": ["57"]
   },
   "Multi-dispatch": {
     "pages": [
       "119"
     ],
     "chapters": ["12.3"]
+  },
+  "Netzwerkmodell": {
+    "pages": [
+      "27"
+    ],
+    "chapters": ["2"]
   },
   "nominale Typkonformit\u00e4t in Java": {
     "pages": [
@@ -147,6 +561,98 @@
     ],
     "chapters": ["Kurseinheit 2"]
   },
+  "strukturiertes Objekt": {
+    "pages": [
+      "28"
+    ],
+    "chapters": ["2.1"]
+  },
+  "wachsendes Objekt": {
+    "pages": [
+      "131"
+    ],
+    "chapters": ["14.2"]
+  },
+  "Objektgeflecht": {
+    "pages": [
+      "27"
+    ],
+    "chapters": ["2"]
+  },
+  "offene Rekursion": {
+    "pages": [
+      "271"
+    ],
+    "chapters": ["51.4"]
+  },
+  "passives Objekt": {
+    "pages": [
+      "136"
+    ],
+    "chapters": ["16"]
+  },
+  "parametrischer Polymorphismus": {
+    "pages": [
+      "177"
+    ],
+    "chapters": ["26.4"]
+  },
+  "primitive Methode": {
+    "pages": [
+      "85"
+    ],
+    "chapters": ["8.1"]
+  },
+  "primitiver Typ": {
+    "pages": [
+      "199"
+    ],
+    "chapters": ["35"]
+  },
+  "primitiver Typ in Java": {
+    "pages": [
+      "201"
+    ],
+    "chapters": ["35.3", "35.4"]
+  },
+  "Property": {
+    "pages": [
+      "257"
+    ],
+    "chapters": ["50.3.1"]
+  },
+  "Protokollbeschreibung": {
+    "pages": [
+      "57"
+    ],
+    "chapters": ["4.3.8"]
+  },
+  "Prototyp": {
+    "pages": [
+      "76"
+    ],
+    "chapters": ["7.1"]
+  },
+  "Pseudo-Typvariable Self": {
+    "pages": [
+      "191",
+      "193"
+    ],
+    "chapters": ["29.5", "30"]
+  },
+  "Pseudovariable self und super im Home context": {
+    "pages": [
+      "59"
+    ],
+    "chapters": ["4.4.1"]
+  },
+  "qualifizierter Export": {
+    "pages": [
+      "270",
+      "277"
+    ],
+    "chapters": ["51.3", "52.2"]
+  },
   "reflektiver Zugriff": {
     "pages": [
       "219"
@@ -164,6 +670,122 @@
       "160"
     ],
     "chapters": ["22.1"]
+  },
+  "relationales Datenmodell": {
+    "pages": [
+      "27"
+    ],
+    "chapters": ["2"]
+  },
+  "Return-Anweisung": {
+    "pages": [
+      "44",
+      "47"
+    ],
+    "chapters": ["4.2", "4.3"]
+  },
+  "Return-Anweisung bei Continuation": {
+    "pages": [
+      "60"
+    ],
+    "chapters": ["4.4.2"]
+  },
+  "Rollenwechsel eines Objekts": {
+    "pages": [
+      "178"
+    ],
+    "chapters": ["27"]
+  },
+  "Runtime type information": {
+    "pages": [
+      "273"
+    ],
+    "chapters": ["51.5.2"]
+  },
+  "Schl\u00fcsselwort": {
+    "pages": [
+      "63"
+    ],
+    "chapters": ["4.6"]
+  },
+  "Seiteneffekt": {
+    "pages": [
+      "42",
+      "55",
+      "332"
+    ],
+    "chapters": ["4.1.3", "4.3.5", "65"]
+  },
+  "Setter": {
+    "pages": [
+      "257"
+    ],
+    "chapters": ["50.3.1"]
+  },
+  "Spezialisierung": {
+    "pages": [
+      "171"
+    ],
+    "chapters": ["26"]
+  },
+  "strukturierte Programmierung": {
+    "pages": [
+      "63"
+    ],
+    "chapters": ["4.6"]
+  },
+  "Subtyppolymorphie": {
+    "pages": [
+      "177"
+    ],
+    "chapters": ["26.4"]
+  },
+  "tats\u00e4chlicher Parameter": {
+    "pages": [
+      "45"
+    ],
+    "chapters": ["4.3"]
+  },
+  "tats\u00e4chlicher Typparameter": {
+    "pages": [
+      "183"
+    ],
+    "chapters": ["29"]
+  },
+  "tempor\u00e4re Variable": {
+    "pages": [
+      "41",
+      "45"
+    ],
+    "chapters": ["4.1.2", "4.3"]
+  },
+  "Weglassen von Typannotation in Strongtalk": {
+    "pages": [
+      "154"
+    ],
+    "chapters": ["20"]
+  },
+  "Typregel": {
+    "pages": [
+      "146"
+    ],
+    "chapters": ["18"]
+  },
+  "Typumwandlung": {
+    "pages": [
+      "116",
+      "178",
+      "235",
+      "236",
+      "273"
+    ],
+    "chapters": ["12", "27", "44", "44.1", "51.5.1"]
+  },
+  "Type erasure": {
+    "pages": [
+      "264"
+    ],
+    "chapters": ["50.4.3"]
   },
   "Typfehler": {
     "pages": [
@@ -218,5 +840,78 @@
       "149"
     ],
     "chapters": ["18"]
+  },
+  "\u00fcberschreiben in Eiffel": {
+    "pages": [
+      "277"
+    ],
+    "chapters": ["52.4"]
+  },
+  "\u00fcberschreiben mit Aufruf von super": {
+    "pages": [
+      "117"
+    ],
+    "chapters": ["12.2"]
+  },
+  "Universalienstreit": {
+    "pages": [
+      "104"
+    ],
+    "chapters": ["10.2"]
+  },
+  "unsicher (unsafe)": {
+    "pages": [
+      "254"
+    ],
+    "chapters": ["50.1"]
+  },
+  "unver\u00e4nderliches Objekt": {
+    "pages": [
+      "34"
+    ],
+    "chapters": ["3"]
+  },
+  "ver\u00e4nderliches Objekt": {
+    "pages": [
+      "34"
+    ],
+    "chapters": ["3"]
+  },
+  "automatische Einrichtung von Zugriffsmethode": {
+    "pages": [
+      "93"
+    ],
+    "chapters": ["8.6"]
+  },
+  "Zugriffsmodifikator": {
+    "pages": [
+      "180"
+    ],
+    "chapters": ["28.2"]
+  },
+  "Zul\u00e4ssigkeit von Methodenaufrufen": {
+    "pages": [
+      "158"
+    ],
+    "chapters": ["21"]
+  },
+  "Zul\u00e4ssigkeit von Zuweisungen": {
+    "pages": [
+      "149"
+    ],
+    "chapters": ["18"]
+  },
+  "Zuweisungskompatibilit\u00e4t": {
+    "pages": [
+      "281",
+	  "291"
+    ],
+    "chapters": ["52.5.2", "54"]
+  },
+  "Zuweisungskompatibilit\u00e4t bei parametrisierten Subtypen": {
+    "pages": [
+      "186"
+    ],
+    "chapters": ["29.2"]
   }
 }

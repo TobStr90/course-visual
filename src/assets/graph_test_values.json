@@ -1,0 +1,689 @@
+{
+  "nodes": [
+    {
+      "id": "Objektorientierte Programmierung",
+      "unit": "Kurs",
+      "name": "Objektorientierte Programmierung"
+    },
+    {
+      "id": "Vorwort",
+      "chapter": "Vorwort",
+      "unit": "Vorwort",
+      "name": "Vorwort"
+    },
+    {
+      "id": "Kurseinheit 1",
+      "chapter": "Kurseinheit 1",
+      "unit": "Kurseinheit 1",
+      "name": "Grundkonzepte der objektorientierten Programmierung"
+    },
+    {
+      "id": "Kurseinheit 7",
+      "chapter": "Kurseinheit 7",
+      "unit": "Kurseinheit 7",
+      "name": "Objektorientierter Stil"
+    },
+    {
+      "id": "Kurseinheit 4",
+      "chapter": "Kurseinheit 4",
+      "unit": "Kurseinheit 4",
+      "name": "JAVA"
+    },
+    {
+      "id": "1",
+      "chapter": "1",
+      "unit": "Kurseinheit 1",
+      "name": "Objekte"
+    },
+    {
+      "id": "71",
+      "chapter": "71",
+      "unit": "Kurseinheit 7",
+      "name": "L\u00f6sungen zu den Selbsttestaufgaben"
+    },
+    {
+      "id": "35",
+      "chapter": "35",
+      "unit": "Kurseinheit 4",
+      "name": "Objekte und Typen"
+    },
+    {
+      "id": "1.1",
+      "chapter": "1.1",
+      "unit": "Kurseinheit 1",
+      "name": "Was ist ein Objekt?"
+    },
+    {
+      "id": "68.3",
+      "chapter": "68.3",
+      "unit": "Kurseinheit 7",
+      "name": "Ein Beispiel"
+    },
+    {
+      "id": "50.3",
+      "chapter": "50.3",
+      "unit": "Kurseinheit 5",
+      "name": "Zus\u00e4tzliche Ingredienzien von Klassendefinitionen in C#"
+    },
+    {
+      "id": "1.5.1",
+      "chapter": "1.5.1",
+      "unit": "Kurseinheit 1",
+      "name": "Inhalt"
+    },
+    {
+      "id": "62.2.2",
+      "chapter": "62.2.2",
+      "unit": "Kurseinheit 7",
+      "name": "Grammatikalisch-inhaltliche (semantische) Namenskonventionen"
+    },
+    {
+      "id": "50.4.2",
+      "chapter": "50.4.2",
+      "unit": "Kurseinheit 5",
+      "name": "Interfacetypen in C#"
+    },
+    {
+      "id": ":1-Beziehung",
+      "name": ":1-Beziehung"
+    },
+    {
+      "id": "Ausgabestrom",
+      "name": "Ausgabestrom"
+    },
+    {
+      "id": "Auto boxing",
+      "name": "Auto boxing"
+    },
+    {
+      "id": "Compilation units",
+      "name": "Compilation units"
+    },
+    {
+      "id": "Component Object Model",
+      "name": "Component Object Model"
+    },
+    {
+      "id": "Exception handling in Eifel",
+      "name": "Exception handling in Eifel"
+    },
+    {
+      "id": "rekursive Expansion",
+      "name": "rekursive Expansion"
+    },
+    {
+      "id": "Home context",
+      "name": "Home context"
+    },
+    {
+      "id": "Home context bei Continuations",
+      "name": "Home context bei Continuations"
+    },
+    {
+      "id": "interner Iterator",
+      "name": "interner Iterator"
+    },
+    {
+      "id": "Invariante",
+      "name": "Invariante"
+    },
+    {
+      "id": "Kontravarianz von Wildcard-Typen",
+      "name": "Kontravarianz von Wildcard-Typen"
+    },
+    {
+      "id": "Kontrollflussbeeinflussung durch Return",
+      "name": "Kontrollflussbeeinflussung durch Return"
+    },
+    {
+      "id": "Methodenaufruf",
+      "name": "Methodenaufruf"
+    },
+    {
+      "id": "Methodendefinition",
+      "name": "Methodendefinition"
+    },
+    {
+      "id": "Open Services Gateway Initiative",
+      "name": "Open Services Gateway Initiative"
+    },
+    {
+      "id": "operationale Semantik",
+      "name": "operationale Semantik"
+    },
+    {
+      "id": "relationales Datenmodell",
+      "name": "relationales Datenmodell"
+    },
+    {
+      "id": "Repräsentationsobjekt",
+      "name": "Repräsentationsobjekt"
+    },
+    {
+      "id": "Subtypenhierarchie",
+      "name": "Subtypenhierarchie"
+    },
+    {
+      "id": "Subtyping",
+      "name": "Subtyping"
+    },
+    {
+      "id": "optionales Typsystem",
+      "name": "optionales Typsystem"
+    },
+    {
+      "id": "Typumwandlung",
+      "name": "Typumwandlung"
+    },
+    {
+      "id": "Werten",
+      "name": "Werten"
+    },
+    {
+      "id": "Wertsemantik",
+      "name": "Wertsemantik"
+    },
+    {
+      "id": "Zul\u00c3\u00a4ssigkeit von Zuweisungen und Methodenaufrufen",
+      "name": "Zul\u00c3\u00a4ssigkeit von Zuweisungen und Methodenaufrufen"
+    },
+    {
+      "id": "Zulässigkeit von Zuweisungen und Methodenaufrufen",
+      "name": "Zulässigkeit von Zuweisungen und Methodenaufrufen"
+    },
+    {
+      "id": "Zwischenobjekt",
+      "name": "Zwischenobjekt"
+    },
+    {
+      "id": "Alias",
+      "name": "Alias"
+    },
+    {
+      "id": "formaler Parameter",
+      "name": "formaler Parameter"
+    },
+    {
+      "id": "Instanziierung einer parametrischen Typdefinition",
+      "name": "Instanziierung einer parametrischen Typdefinition"
+    },
+    {
+      "id": "Marker Interface",
+      "name": "Marker Interface"
+    },
+    {
+      "id": "primitiver Typ in Java",
+      "name": "primitiver Typ in Java"
+    },
+    {
+      "id": "Typinferenz",
+      "name": "Typinferenz"
+    },
+    {
+      "id": "Zuweisungskompatibilit\u00e4t",
+      "name": "Zuweisungskompatibilit\u00e4t"
+    },	
+    {
+      "id": "52.6",
+      "chapter": "52.6",
+      "unit": "Kurseinheit 5",
+      "name": "Zusicherungen in EIFFEL: Vorbedingungen, Nachbedingungen und Klasseninvarianten"
+    },
+    {
+      "id": "Kurseinheit 6",
+      "chapter": "Kurseinheit 6",
+      "unit": "Kurseinheit 6",
+      "name": "Probleme der objektorientierten Programmierung"
+	},
+    {
+      "id": "II",
+      "chapter": "II",
+      "unit": "Vorwort",
+      "name": "Zum Inhalt"
+	},
+    {
+      "id": "14.4",
+      "chapter": "14.4",
+      "unit": "Kurseinheit 2",
+      "name": "Selbstdarstellung"
+    },
+    {
+      "id": "Tagging interface",
+      "name": "Tagging interface"
+    },
+    {
+      "id": "Deklaration",
+      "name": "Deklaration"
+    },
+    {
+      "id": "deklariertes Element",
+      "name": "deklariertes Element"
+    },
+    {
+      "id": "Marker-Interface",
+      "name": "Marker-Interface"
+    },
+    {
+      "id": "Typ\u00e4quivalenz",
+      "name": "Typ\u00e4quivalenz"
+    },
+    {
+      "id": "Basisklasse",
+      "name": "Basisklasse"
+    },
+    {
+      "id": "Methodenrumpf",
+      "name": "Methodenrumpf"
+    },
+    {
+      "id": "Method ambiguous error",
+      "name": "Method ambiguous error"
+    },
+    {
+      "id": "Nachricht",
+      "name": "Nachricht"
+    },
+    {
+      "id": "Nachrichtenausdruck",
+      "name": "Nachrichtenausdruck"
+    }
+	],
+	"links": [
+	{
+		"source": "Objektorientierte Programmierung",
+		"target": "Vorwort"
+	},
+	{
+		"source": "Objektorientierte Programmierung",
+		"target": "Kurseinheit 1"
+	},
+	{
+		"source": "Objektorientierte Programmierung",
+		"target": "Kurseinheit 7"
+	},
+	{
+		"source": "Objektorientierte Programmierung",
+		"target": "Kurseinheit 4"
+	},
+	{
+		"source": "Vorwort",
+		"target": "I"
+	},
+	{
+		"source": "Vorwort",
+		"target": "X"
+	},
+	{
+		"source": "Vorwort",
+		"target": "III"
+	},
+	{
+		"source": "Kurseinheit 1",
+		"target": "1"
+	},
+	{
+		"source": "Kurseinheit 1",
+		"target": "6"
+	},
+	{
+		"source": "Kurseinheit 1",
+		"target": "3"
+	},
+	{
+		"source": "Kurseinheit 7",
+		"target": "62"
+	},
+	{
+		"source": "Kurseinheit 7",
+		"target": "71"
+	},
+	{
+		"source": "Kurseinheit 7",
+		"target": "65"
+	},
+	{
+		"source": "Kurseinheit 4",
+		"target": "34"
+	},
+	{
+		"source": "Kurseinheit 4",
+		"target": "49"
+	},
+	{
+		"source": "Kurseinheit 4",
+		"target": "40"
+	},
+	{
+		"source": "1",
+		"target": "1.1"
+	},
+	{
+		"source": "1",
+		"target": "1.10"
+	},
+	{
+		"source": "1",
+		"target": "1.5"
+	},
+	{
+		"source": "Kurseinheit 4",
+		"target": "35"
+	},
+	{
+		"source": "35",
+		"target": "35.1"
+	},
+	{
+		"source": "35",
+		"target": "35.5"
+	},
+	{
+		"source": "35",
+		"target": "35.3"
+	},
+	{
+		"source": "68",
+		"target": "68.3"
+	},
+	{
+		"source": "50.3",
+		"target": "50.3.1"
+	},
+	{
+		"source": "50.3",
+		"target": "50.3.3"
+	},
+	{
+		"source": "50.3",
+		"target": "50.3.2"
+	},
+	{
+		"source": "50",
+		"target": "50.3"
+	},
+	{
+		"source": "1.5",
+		"target": "1.5.1"
+	},
+	{
+		"source": "62.2",
+		"target": "62.2.2"
+	},
+	{
+		"source": "50.4",
+		"target": "50.4.2"
+	},
+	{
+		"source": "2.2",
+		"target": ":1-Beziehung"
+	},
+    {
+      "source": "48",
+      "target": "Ausgabestrom"
+    },
+    {
+      "source": "35.3",
+      "target": "Auto boxing"
+    },
+    {
+      "source": "34",
+      "target": "Compilation units"
+    },
+    {
+      "source": "55",
+      "target": "Component Object Model"
+    },
+    {
+      "source": "52.3",
+      "target": "Exception handling in Eifel"
+    },
+    {
+      "source": "22.1",
+      "target": "rekursive Expansion"
+    },
+    {
+      "source": "28",
+      "target": "rekursive Expansion"
+    },
+    {
+      "source": "4.4.1",
+      "target": "Home context"
+    },
+    {
+      "source": "6",
+      "target": "Home context"
+    },
+    {
+      "source": "12.1",
+      "target": "Home context"
+    },
+    {
+      "source": "4.4.2",
+      "target": "Home context bei Continuations"
+    },
+    {
+      "source": "46.2",
+      "target": "interner Iterator"
+    },
+    {
+      "source": "26",
+      "target": "Invariante"
+    },
+    {
+      "source": "43.2",
+      "target": "Kontravarianz von Wildcard-Typen"
+    },
+    {
+      "source": "4.3",
+      "target": "Kontrollflussbeeinflussung durch Return"
+    },
+    {
+      "source": "1.6",
+      "target": "Methodenaufruf"
+    },
+    {
+      "source": "4.1.3",
+      "target": "Methodenaufruf"
+    },
+    {
+      "source": "4.3.2",
+      "target": "Methodenaufruf"
+    },
+    {
+      "source": "4.3",
+      "target": "Methodendefinition"
+    },
+    {
+      "source": "7.2",
+      "target": "Methodendefinition"
+    },
+    {
+      "source": "39.3",
+      "target": "Open Services Gateway Initiative"
+    },
+    {
+      "source": "20.1",
+      "target": "operationale Semantik"
+    },
+    {
+      "source": "2",
+      "target": "relationales Datenmodell"
+    },
+    {
+      "source": "58",
+      "target": "Repräsentationsobjekt"
+    },
+    {
+      "source": "26.1",
+      "target": "Subtypenhierarchie"
+    },
+    {
+      "source": "V",
+      "target": "Subtyping"
+    },
+    {
+      "source": "26.1",
+      "target": "Subtyping"
+    },
+    {
+      "source": "54",
+      "target": "Subtyping"
+    },
+    {
+      "source": "Kurseinheit 3",
+      "target": "optionales Typsystem"
+    },
+    {
+      "source": "12",
+      "target": "Typumwandlung"
+    },
+    {
+      "source": "44",
+      "target": "Typumwandlung"
+    },
+    {
+      "source": "51.5.1",
+      "target": "Typumwandlung"
+    },
+    {
+      "source": "1.1",
+      "target": "Werten"
+    },
+    {
+      "source": "1.5.1",
+      "target": "Wertsemantik"
+    },
+    {
+      "source": "35.3",
+      "target": "Wertsemantik"
+    },
+    {
+      "source": "51.2",
+      "target": "Wertsemantik"
+    },
+    {
+      "source": "21",
+      "target": "Zul\u00e4ssigkeit von Zuweisungen"
+    },
+    {
+      "source": "18",
+      "target": "Zulässigkeit von Zuweisungen und Methodenaufrufen"
+    },
+    {
+      "source": "2.2",
+      "target": "Zwischenobjekt"
+    },
+    {
+      "source": "4.6.4",
+      "target": "Zwischenobjekt"
+    },
+    {
+      "source": "46",
+      "target": "Zwischenobjekt"
+    },
+    {
+      "source": "1.5",
+      "target": "Alias"
+    },
+    {
+      "source": "25",
+      "target": "Alias"
+    },
+    {
+      "source": "52.5.2",
+      "target": "Alias"
+    },
+    {
+      "source": "1.7",
+      "target": "formaler Parameter"
+    },
+    {
+      "source": "4.3.1",
+      "target": "formaler Parameter"
+    },
+    {
+      "source": "19",
+      "target": "formaler Parameter"
+    },
+    {
+      "source": "29.3",
+      "target": "Instanziierung einer parametrischen Typdefinition"
+    },
+    {
+      "source": "24",
+      "target": "Marker interface"
+    },
+    {
+      "source": "35.3",
+      "target": "primitiver Typ in Java"
+    },
+    {
+      "source": "18",
+      "target": "Typinferenz"
+    },
+    {
+      "source": "50.4.3",
+      "target": "Typinferenz"
+    },
+    {
+      "source": "62.1",
+      "target": "Typinferenz"
+    },
+    {
+      "source": "21",
+      "target": "Zuweisungskompatibilit\u00e4t"
+    },
+    {
+      "source": "52.5.2",
+      "target": "Zuweisungskompatibilit\u00e4t"
+    },
+    {
+      "source": "54",
+      "target": "Zuweisungskompatibilit\u00e4t"
+    },
+	{
+		"source": "24",
+		"target": "Tagging interface"
+	},
+	{
+		"source": "18",
+		"target": "Deklaration"
+	},
+	{
+		"source": "19",
+		"target": "Deklaration"
+	},
+	{
+		"source": "18",
+		"target": "deklariertes Element"
+	},
+	{
+		"source": "50.4.1",
+		"target": "Marker-Interface"
+	},
+	{
+		"source": "22",
+		"target": "Typ\u00e4quivalenz"
+	},
+	{
+		"source": "11.1",
+		"target": "Basisklasse"
+	},
+	{
+		"source": "4.3.8",
+		"target": "Methodenrumpf"
+	},
+	{
+		"source": "36.4",
+		"target": "Method ambiguous error"
+	},
+	{
+		"source": "4.1.2",
+		"target": "Nachricht"
+	},
+	{
+		"source": "4.1",
+		"target": "Nachrichtenausdruck"
+	}
+	]
+}

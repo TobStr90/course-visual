@@ -42,6 +42,11 @@
       "group": 2
     },
     {
+      "id": "funktionale Programmierung",
+      "name": "funktionale Programmierung",
+      "group": 2
+    },
+    {
       "id": "V",
       "chapter": "V",
       "unit": "Vorwort",
@@ -120,11 +125,6 @@
     {
       "id": "Compilation unit",
       "name": "Compilation unit",
-      "group": 2
-    },
-    {
-      "id": "funktionale Programmierung",
-      "name": "funktionale Programmierung",
       "group": 2
     },
     {
@@ -295,8 +295,8 @@
       "group": 2
     },
     {
-      "id": "Identit\u00e4t von Objekten",
-      "name": "Identit\u00e4t von Objekten",
+      "id": "imperative Programmierung",
+      "name": "imperative Programmierung",
       "group": 2
     },
     {
@@ -312,8 +312,8 @@
       "group": 2
     },
     {
-      "id": "imperative Programmierung",
-      "name": "imperative Programmierung",
+      "id": "Identit\u00e4t von Objekten",
+      "name": "Identit\u00e4t von Objekten",
       "group": 2
     },
     {
@@ -361,11 +361,6 @@
       "group": 2
     },
     {
-      "id": "Sichtbarkeit",
-      "name": "Sichtbarkeit",
-      "group": 2
-    },
-    {
       "id": "Verweis",
       "name": "Verweis",
       "group": 2
@@ -408,6 +403,11 @@
       "group": 2
     },
     {
+      "id": "Sichtbarkeit",
+      "name": "Sichtbarkeit",
+      "group": 2
+    },
+    {
       "id": "Sichtbarkeitsregeln",
       "name": "Sichtbarkeitsregeln",
       "group": 2
@@ -415,11 +415,6 @@
     {
       "id": "Sichtbarkeitsregeln von Variablen",
       "name": "Sichtbarkeitsregeln von Variablen",
-      "group": 2
-    },
-    {
-      "id": "Zuweisung",
-      "name": "Zuweisung",
       "group": 2
     },
     {
@@ -437,6 +432,11 @@
     {
       "id": "Methodenaufruf",
       "name": "Methodenaufruf",
+      "group": 2
+    },
+    {
+      "id": "Zuweisung",
+      "name": "Zuweisung",
       "group": 2
     },
     {
@@ -462,15 +462,15 @@
       "group": 2
     },
     {
+      "id": "formaler Parameter",
+      "name": "formaler Parameter",
+      "group": 2
+    },
+    {
       "id": "1.8",
       "chapter": "1.8",
       "unit": "Kurseinheit 1",
       "name": "Aliasing",
-      "group": 2
-    },
-    {
-      "id": "formaler Parameter",
-      "name": "formaler Parameter",
       "group": 2
     },
     {
@@ -557,8 +557,8 @@
       "group": 2
     },
     {
-      "id": "strukturiertes Objekt",
-      "name": "strukturiertes Objekt",
+      "id": "Instanzvariable",
+      "name": "Instanzvariable",
       "group": 2
     },
     {
@@ -567,15 +567,15 @@
       "group": 2
     },
     {
+      "id": "strukturiertes Objekt",
+      "name": "strukturiertes Objekt",
+      "group": 2
+    },
+    {
       "id": "2.2",
       "chapter": "2.2",
       "unit": "Kurseinheit 1",
       "name": "Unterscheidung von :1- und :n-Beziehungen",
-      "group": 2
-    },
-    {
-      "id": ":1-Beziehung",
-      "name": ":1-Beziehung",
       "group": 2
     },
     {
@@ -599,11 +599,6 @@
       "group": 2
     },
     {
-      "id": "Teil-Ganzes-Beziehung",
-      "name": "Teil-Ganzes-Beziehung",
-      "group": 2
-    },
-    {
       "id": "UML",
       "name": "UML",
       "group": 2
@@ -624,6 +619,11 @@
       "group": 2
     },
     {
+      "id": ":1-Beziehung",
+      "name": ":1-Beziehung",
+      "group": 2
+    },
+    {
       "id": "2.3",
       "chapter": "2.3",
       "unit": "Kurseinheit 1",
@@ -636,13 +636,23 @@
       "group": 2
     },
     {
-      "id": "Komposition",
-      "name": "Komposition",
+      "id": "Mereologie",
+      "name": "Mereologie",
       "group": 2
     },
     {
-      "id": "Mereologie",
-      "name": "Mereologie",
+      "id": "Teil-Ganzes-Beziehung",
+      "name": "Teil-Ganzes-Beziehung",
+      "group": 2
+    },
+    {
+      "id": "Kapselung",
+      "name": "Kapselung",
+      "group": 2
+    },
+    {
+      "id": "Komposition",
+      "name": "Komposition",
       "group": 2
     },
     {
@@ -655,16 +665,6 @@
     {
       "id": "Attributwert",
       "name": "Attributwert",
-      "group": 2
-    },
-    {
-      "id": "Kapselung",
-      "name": "Kapselung",
-      "group": 2
-    },
-    {
-      "id": "Instanzvariable",
-      "name": "Instanzvariable",
       "group": 2
     },
     {
@@ -702,16 +702,6 @@
       "group": 2
     },
     {
-      "id": "unver\u00e4nderliches Objekt",
-      "name": "unver\u00e4nderliches Objekt",
-      "group": 2
-    },
-    {
-      "id": "ver\u00e4nderliches Objekt",
-      "name": "ver\u00e4nderliches Objekt",
-      "group": 2
-    },
-    {
       "id": "3.2",
       "chapter": "3.2",
       "unit": "Kurseinheit 1",
@@ -726,6 +716,21 @@
     {
       "id": "Information hiding",
       "name": "Information hiding",
+      "group": 2
+    },
+    {
+      "id": "Implementationsgeheimnis",
+      "name": "Implementationsgeheimnis",
+      "group": 2
+    },
+    {
+      "id": "unver\u00e4nderliches Objekt",
+      "name": "unver\u00e4nderliches Objekt",
+      "group": 2
+    },
+    {
+      "id": "ver\u00e4nderliches Objekt",
+      "name": "ver\u00e4nderliches Objekt",
       "group": 2
     },
     {
@@ -762,16 +767,6 @@
       "group": 2
     },
     {
-      "id": "Nachrichtenausdruck",
-      "name": "Nachrichtenausdruck",
-      "group": 2
-    },
-    {
-      "id": "primitiver Ausdruck",
-      "name": "primitiver Ausdruck",
-      "group": 2
-    },
-    {
       "id": "Zuweisungsausdruck",
       "name": "Zuweisungsausdruck",
       "group": 2
@@ -797,6 +792,11 @@
       "group": 2
     },
     {
+      "id": "Nachricht",
+      "name": "Nachricht",
+      "group": 2
+    },
+    {
       "id": "Nachrichtenselektor",
       "name": "Nachrichtenselektor",
       "group": 2
@@ -814,6 +814,11 @@
     {
       "id": "un\u00e4re Nachricht",
       "name": "un\u00e4re Nachricht",
+      "group": 2
+    },
+    {
+      "id": "tempor\u00e4re Variable",
+      "name": "tempor\u00e4re Variable",
       "group": 2
     },
     {
@@ -844,11 +849,6 @@
       "group": 2
     },
     {
-      "id": "tempor\u00e4re Variable",
-      "name": "tempor\u00e4re Variable",
-      "group": 2
-    },
-    {
       "id": "4.1.4",
       "chapter": "4.1.4",
       "unit": "Kurseinheit 1",
@@ -856,8 +856,13 @@
       "group": 2
     },
     {
-      "id": "Nachricht",
-      "name": "Nachricht",
+      "id": "Nachrichtenausdruck",
+      "name": "Nachrichtenausdruck",
+      "group": 2
+    },
+    {
+      "id": "primitiver Ausdruck",
+      "name": "primitiver Ausdruck",
       "group": 2
     },
     {
@@ -865,11 +870,6 @@
       "chapter": "4.2",
       "unit": "Kurseinheit 1",
       "name": "Anweisungen",
-      "group": 2
-    },
-    {
-      "id": "Methode",
-      "name": "Methode",
       "group": 2
     },
     {
@@ -993,11 +993,6 @@
       "group": 2
     },
     {
-      "id": "Implementationsgeheimnis",
-      "name": "Implementationsgeheimnis",
-      "group": 2
-    },
-    {
       "id": "Nur-Lesen",
       "name": "Nur-Lesen",
       "group": 2
@@ -1025,15 +1020,15 @@
       "group": 2
     },
     {
-      "id": "Konstante",
-      "name": "Konstante",
-      "group": 2
-    },
-    {
       "id": "4.3.6",
       "chapter": "4.3.6",
       "unit": "Kurseinheit 1",
       "name": "Konstante Methoden",
+      "group": 2
+    },
+    {
+      "id": "Konstante",
+      "name": "Konstante",
       "group": 2
     },
     {
@@ -1048,6 +1043,11 @@
       "chapter": "4.3.8",
       "unit": "Kurseinheit 1",
       "name": "Protokoll",
+      "group": 2
+    },
+    {
+      "id": "Nachrichtenkategorie",
+      "name": "Nachrichtenkategorie",
       "group": 2
     },
     {
@@ -1076,18 +1076,8 @@
       "group": 2
     },
     {
-      "id": "Nachrichtenkategorie",
-      "name": "Nachrichtenkategorie",
-      "group": 2
-    },
-    {
       "id": "Protokollbeschreibung",
       "name": "Protokollbeschreibung",
-      "group": 2
-    },
-    {
-      "id": "aktueller Parameter",
-      "name": "aktueller Parameter",
       "group": 2
     },
     {
@@ -1101,8 +1091,23 @@
       "group": 2
     },
     {
+      "id": "Methode",
+      "name": "Methode",
+      "group": 2
+    },
+    {
       "id": "Methodenkopf",
       "name": "Methodenkopf",
+      "group": 2
+    },
+    {
+      "id": "aktueller Parameter",
+      "name": "aktueller Parameter",
+      "group": 2
+    },
+    {
+      "id": "Methodendefinition",
+      "name": "Methodendefinition",
       "group": 2
     },
     {
@@ -1125,8 +1130,13 @@
       "group": 2
     },
     {
-      "id": "Continuation",
-      "name": "Continuation",
+      "id": "Home context",
+      "name": "Home context",
+      "group": 2
+    },
+    {
+      "id": "Lambda-Ausdruck",
+      "name": "Lambda-Ausdruck",
       "group": 2
     },
     {
@@ -1147,8 +1157,8 @@
       "group": 2
     },
     {
-      "id": "Home context bei Continuations",
-      "name": "Home context bei Continuations",
+      "id": "Continuation",
+      "name": "Continuation",
       "group": 2
     },
     {
@@ -1157,8 +1167,8 @@
       "group": 2
     },
     {
-      "id": "Lambda-Ausdruck",
-      "name": "Lambda-Ausdruck",
+      "id": "Home context bei Continuations",
+      "name": "Home context bei Continuations",
       "group": 2
     },
     {
@@ -1181,11 +1191,6 @@
     {
       "id": "Block",
       "name": "Block",
-      "group": 2
-    },
-    {
-      "id": "Home context",
-      "name": "Home context",
       "group": 2
     },
     {
@@ -1234,16 +1239,6 @@
       "group": 2
     },
     {
-      "id": "Goto",
-      "name": "Goto",
-      "group": 2
-    },
-    {
-      "id": "strukturierte Programmierung",
-      "name": "strukturierte Programmierung",
-      "group": 2
-    },
-    {
       "id": "4.6.2",
       "chapter": "4.6.2",
       "unit": "Kurseinheit 1",
@@ -1280,8 +1275,13 @@
       "group": 2
     },
     {
-      "id": "Iteration",
-      "name": "Iteration",
+      "id": "Goto",
+      "name": "Goto",
+      "group": 2
+    },
+    {
+      "id": "strukturierte Programmierung",
+      "name": "strukturierte Programmierung",
       "group": 2
     },
     {
@@ -1330,8 +1330,18 @@
       "group": 2
     },
     {
-      "id": "Klassendefinition",
-      "name": "Klassendefinition",
+      "id": "Klassifikation",
+      "name": "Klassifikation",
+      "group": 2
+    },
+    {
+      "id": "Familien\u00e4hnlichkeit",
+      "name": "Familien\u00e4hnlichkeit",
+      "group": 2
+    },
+    {
+      "id": "Prototyp",
+      "name": "Prototyp",
       "group": 2
     },
     {
@@ -1342,18 +1352,8 @@
       "group": 2
     },
     {
-      "id": "Familien\u00e4hnlichkeit",
-      "name": "Familien\u00e4hnlichkeit",
-      "group": 2
-    },
-    {
       "id": "Instanz",
       "name": "Instanz",
-      "group": 2
-    },
-    {
-      "id": "Instanziierung",
-      "name": "Instanziierung",
       "group": 2
     },
     {
@@ -1362,8 +1362,8 @@
       "group": 2
     },
     {
-      "id": "Prototyp",
-      "name": "Prototyp",
+      "id": "Klassendefinition",
+      "name": "Klassendefinition",
       "group": 2
     },
     {
@@ -1381,11 +1381,6 @@
     {
       "id": "indirekte Instanz",
       "name": "indirekte Instanz",
-      "group": 2
-    },
-    {
-      "id": "Klassifikation",
-      "name": "Klassifikation",
       "group": 2
     },
     {
@@ -1423,16 +1418,6 @@
       "group": 2
     },
     {
-      "id": "Initialisierung",
-      "name": "Initialisierung",
-      "group": 2
-    },
-    {
-      "id": "Instanzmethode",
-      "name": "Instanzmethode",
-      "group": 2
-    },
-    {
       "id": "8.2",
       "chapter": "8.2",
       "unit": "Kurseinheit 2",
@@ -1440,13 +1425,13 @@
       "group": 2
     },
     {
-      "id": "Factory-Methode",
-      "name": "Factory-Methode",
+      "id": "Lazy initialization per Getter",
+      "name": "Lazy initialization per Getter",
       "group": 2
     },
     {
-      "id": "Lazy initialization per Getter",
-      "name": "Lazy initialization per Getter",
+      "id": "Initialisierung",
+      "name": "Initialisierung",
       "group": 2
     },
     {
@@ -1469,6 +1454,11 @@
       "chapter": "8.3",
       "unit": "Kurseinheit 2",
       "name": "Factory-Methoden",
+      "group": 2
+    },
+    {
+      "id": "Factory-Methode",
+      "name": "Factory-Methode",
       "group": 2
     },
     {
@@ -1498,6 +1488,16 @@
       "group": 2
     },
     {
+      "id": "Metaprogrammiersystem",
+      "name": "Metaprogrammiersystem",
+      "group": 2
+    },
+    {
+      "id": "automatische Einrichtung von Zugriffsmethode",
+      "name": "automatische Einrichtung von Zugriffsmethode",
+      "group": 2
+    },
+    {
       "id": "Klassenmethode",
       "name": "Klassenmethode",
       "group": 2
@@ -1508,13 +1508,13 @@
       "group": 2
     },
     {
-      "id": "Konstruktor",
-      "name": "Konstruktor",
+      "id": "Metaklasse",
+      "name": "Metaklasse",
       "group": 2
     },
     {
-      "id": "Metaklasse",
-      "name": "Metaklasse",
+      "id": "Instanzmethode",
+      "name": "Instanzmethode",
       "group": 2
     },
     {
@@ -1529,11 +1529,6 @@
       "chapter": "9.1",
       "unit": "Kurseinheit 2",
       "name": "Generalisierung",
-      "group": 2
-    },
-    {
-      "id": "Abstraktionshierarchie",
-      "name": "Abstraktionshierarchie",
       "group": 2
     },
     {
@@ -1572,13 +1567,13 @@
       "group": 2
     },
     {
-      "id": "Ist-ein-Beziehung",
-      "name": "Ist-ein-Beziehung",
+      "id": "kovariante Redefinition",
+      "name": "kovariante Redefinition",
       "group": 2
     },
     {
-      "id": "kovariante Redefinition",
-      "name": "kovariante Redefinition",
+      "id": "Ist-ein-Beziehung",
+      "name": "Ist-ein-Beziehung",
       "group": 2
     },
     {
@@ -1594,8 +1589,8 @@
       "group": 2
     },
     {
-      "id": "Generalisierung",
-      "name": "Generalisierung",
+      "id": "Abstraktionshierarchie",
+      "name": "Abstraktionshierarchie",
       "group": 2
     },
     {
@@ -1615,6 +1610,11 @@
     {
       "id": "Client-Schnittstelle",
       "name": "Client-Schnittstelle",
+      "group": 2
+    },
+    {
+      "id": "abstrakte Klasse",
+      "name": "abstrakte Klasse",
       "group": 2
     },
     {
@@ -1647,11 +1647,6 @@
       "group": 2
     },
     {
-      "id": "abstrakte Klasse",
-      "name": "abstrakte Klasse",
-      "group": 2
-    },
-    {
       "id": "konkrete Klasse",
       "name": "konkrete Klasse",
       "group": 2
@@ -1659,11 +1654,6 @@
     {
       "id": "offene Rekursion",
       "name": "offene Rekursion",
-      "group": 2
-    },
-    {
-      "id": "Superklasse",
-      "name": "Superklasse",
       "group": 2
     },
     {
@@ -1754,8 +1744,18 @@
       "group": 2
     },
     {
+      "id": "Superklasse",
+      "name": "Superklasse",
+      "group": 2
+    },
+    {
       "id": "direkte",
       "name": "direkte",
+      "group": 2
+    },
+    {
+      "id": "direkte Superklasse",
+      "name": "direkte Superklasse",
       "group": 2
     },
     {
@@ -1797,6 +1797,16 @@
       "group": 2
     },
     {
+      "id": "double Dispatch",
+      "name": "double Dispatch",
+      "group": 2
+    },
+    {
+      "id": "single Dispatch",
+      "name": "single Dispatch",
+      "group": 2
+    },
+    {
       "id": "Double dispatch",
       "name": "Double dispatch",
       "group": 2
@@ -1812,6 +1822,21 @@
       "group": 2
     },
     {
+      "id": "Method dispatching",
+      "name": "Method dispatching",
+      "group": 2
+    },
+    {
+      "id": "Multi-dispatch",
+      "name": "Multi-dispatch",
+      "group": 2
+    },
+    {
+      "id": "\u00fcberladen",
+      "name": "\u00fcberladen",
+      "group": 2
+    },
+    {
       "id": "Down cast",
       "name": "Down cast",
       "group": 2
@@ -1819,6 +1844,11 @@
     {
       "id": "JUnit",
       "name": "JUnit",
+      "group": 2
+    },
+    {
+      "id": "Typumwandlung",
+      "name": "Typumwandlung",
       "group": 2
     },
     {
@@ -1833,6 +1863,11 @@
       "chapter": "13.1",
       "unit": "Kurseinheit 2",
       "name": "Pflegen von :n-Beziehungen",
+      "group": 2
+    },
+    {
+      "id": "l\u00f6schen von Methoden",
+      "name": "l\u00f6schen von Methoden",
       "group": 2
     },
     {
@@ -1927,15 +1962,15 @@
       "group": 2
     },
     {
+      "id": "wachsendes Objekt",
+      "name": "wachsendes Objekt",
+      "group": 2
+    },
+    {
       "id": "14.3",
       "chapter": "14.3",
       "unit": "Kurseinheit 2",
       "name": "Kommunikation mit mehreren: Multicasting",
-      "group": 2
-    },
-    {
-      "id": "wachsends",
-      "name": "wachsends",
       "group": 2
     },
     {
@@ -1982,6 +2017,16 @@
       "group": 2
     },
     {
+      "id": "klassenbasierte Form der Objektorientierung",
+      "name": "klassenbasierte Form der Objektorientierung",
+      "group": 2
+    },
+    {
+      "id": "prototypenbasierte Form der Objektorientierung",
+      "name": "prototypenbasierte Form der Objektorientierung",
+      "group": 2
+    },
+    {
       "id": "Kurseinheit 3",
       "chapter": "Kurseinheit 3",
       "unit": "Kurseinheit 3",
@@ -1996,18 +2041,8 @@
       "group": 2
     },
     {
-      "id": "Definition",
-      "name": "Definition",
-      "group": 2
-    },
-    {
       "id": "Deklaration",
       "name": "Deklaration",
-      "group": 2
-    },
-    {
-      "id": "deklariertes Element",
-      "name": "deklariertes Element",
       "group": 2
     },
     {
@@ -2071,11 +2106,6 @@
       "group": 2
     },
     {
-      "id": "Typregel",
-      "name": "Typregel",
-      "group": 2
-    },
-    {
       "id": "Typinvariante",
       "name": "Typinvariante",
       "group": 2
@@ -2086,10 +2116,35 @@
       "group": 2
     },
     {
+      "id": "deklariertes Element",
+      "name": "deklariertes Element",
+      "group": 2
+    },
+    {
+      "id": "Typregel",
+      "name": "Typregel",
+      "group": 2
+    },
+    {
+      "id": "Zul\u00c3\u00a4ssigkeit von Zuweisungen und Methodenaufrufen",
+      "name": "Zul\u00c3\u00a4ssigkeit von Zuweisungen und Methodenaufrufen",
+      "group": 2
+    },
+    {
+      "id": "Zul\u00e4ssigkeit von Zuweisungen",
+      "name": "Zul\u00e4ssigkeit von Zuweisungen",
+      "group": 2
+    },
+    {
       "id": "19",
       "chapter": "19",
       "unit": "Kurseinheit 3",
       "name": "Deklaration, Definition und Verwendung von Programmelementen",
+      "group": 2
+    },
+    {
+      "id": "Definition",
+      "name": "Definition",
       "group": 2
     },
     {
@@ -2100,6 +2155,11 @@
     {
       "id": "Signatur",
       "name": "Signatur",
+      "group": 2
+    },
+    {
+      "id": "Verwendung eines Programmelements",
+      "name": "Verwendung eines Programmelements",
       "group": 2
     },
     {
@@ -2132,11 +2192,6 @@
       "group": 2
     },
     {
-      "id": "Weglassen von Typannotation in Strongtalk",
-      "name": "Weglassen von Typannotation in Strongtalk",
-      "group": 2
-    },
-    {
       "id": "Typkonstruktor",
       "name": "Typkonstruktor",
       "group": 2
@@ -2164,6 +2219,11 @@
       "group": 2
     },
     {
+      "id": "Weglassen von Typannotation in Strongtalk",
+      "name": "Weglassen von Typannotation in Strongtalk",
+      "group": 2
+    },
+    {
       "id": "21",
       "chapter": "21",
       "unit": "Kurseinheit 3",
@@ -2186,13 +2246,13 @@
       "group": 2
     },
     {
-      "id": "Zul\u00e4ssigkeit von Zuweisungen",
-      "name": "Zul\u00e4ssigkeit von Zuweisungen",
+      "id": "Zuweisungskompatibilit\u00e4t",
+      "name": "Zuweisungskompatibilit\u00e4t",
       "group": 2
     },
     {
-      "id": "Zuweisungskompatibilit\u00e4t",
-      "name": "Zuweisungskompatibilit\u00e4t",
+      "id": "Zul\u00e4ssigkeit von Methodenaufrufen",
+      "name": "Zul\u00e4ssigkeit von Methodenaufrufen",
       "group": 2
     },
     {
@@ -2207,6 +2267,11 @@
       "chapter": "22.1",
       "unit": "Kurseinheit 3",
       "name": "Struktur\u00e4quivalenz",
+      "group": 2
+    },
+    {
+      "id": "Type branding",
+      "name": "Type branding",
       "group": 2
     },
     {
@@ -2232,11 +2297,6 @@
       "group": 2
     },
     {
-      "id": "Struktur\u00e4quivalenz",
-      "name": "Struktur\u00e4quivalenz",
-      "group": 2
-    },
-    {
       "id": "Typ\u00e4quivalenz",
       "name": "Typ\u00e4quivalenz",
       "group": 2
@@ -2244,16 +2304,6 @@
     {
       "id": "nominale Typ\u00e4quivalenz",
       "name": "nominale Typ\u00e4quivalenz",
-      "group": 2
-    },
-    {
-      "id": "strukturelle Typ\u00e4quivalenz",
-      "name": "strukturelle Typ\u00e4quivalenz",
-      "group": 2
-    },
-    {
-      "id": "Zul\u00e4ssigkeit von Methodenaufrufen",
-      "name": "Zul\u00e4ssigkeit von Methodenaufrufen",
       "group": 2
     },
     {
@@ -2301,11 +2351,6 @@
       "group": 2
     },
     {
-      "id": "Type branding",
-      "name": "Type branding",
-      "group": 2
-    },
-    {
       "id": "typkonform",
       "name": "typkonform",
       "group": 2
@@ -2339,6 +2384,11 @@
     {
       "id": "direkter Subtyp",
       "name": "direkter Subtyp",
+      "group": 2
+    },
+    {
+      "id": "Generalisierung",
+      "name": "Generalisierung",
       "group": 2
     },
     {
@@ -2423,6 +2473,16 @@
       "group": 2
     },
     {
+      "id": "parametrischer Polymorphismus",
+      "name": "parametrischer Polymorphismus",
+      "group": 2
+    },
+    {
+      "id": "Subtyppolymorphie",
+      "name": "Subtyppolymorphie",
+      "group": 2
+    },
+    {
       "id": "Dependent type",
       "name": "Dependent type",
       "group": 2
@@ -2438,6 +2498,11 @@
       "group": 2
     },
     {
+      "id": "Invariante",
+      "name": "Invariante",
+      "group": 2
+    },
+    {
       "id": "27",
       "chapter": "27",
       "unit": "Kurseinheit 3",
@@ -2450,18 +2515,18 @@
       "group": 2
     },
     {
-      "id": "parametrischer Polymorphismus",
-      "name": "parametrischer Polymorphismus",
-      "group": 2
-    },
-    {
-      "id": "Subtyppolymorphie",
-      "name": "Subtyppolymorphie",
-      "group": 2
-    },
-    {
       "id": "Up cast",
       "name": "Up cast",
+      "group": 2
+    },
+    {
+      "id": "interfacebasierte Programmierung",
+      "name": "interfacebasierte Programmierung",
+      "group": 2
+    },
+    {
+      "id": "Rollenwechsel eines Objekts",
+      "name": "Rollenwechsel eines Objekts",
       "group": 2
     },
     {
@@ -2486,8 +2551,8 @@
       "group": 2
     },
     {
-      "id": "interfacebasierte Programmierung",
-      "name": "interfacebasierte Programmierung",
+      "id": "Interface-als-Typ-Konzept",
+      "name": "Interface-als-Typ-Konzept",
       "group": 2
     },
     {
@@ -2503,23 +2568,8 @@
       "group": 2
     },
     {
-      "id": "Interface-als-Typ-Konzept",
-      "name": "Interface-als-Typ-Konzept",
-      "group": 2
-    },
-    {
       "id": "abstrakte Klasse vs. Typ",
       "name": "abstrakte Klasse vs. Typ",
-      "group": 2
-    },
-    {
-      "id": "Rollenwechsel eines Objekts",
-      "name": "Rollenwechsel eines Objekts",
-      "group": 2
-    },
-    {
-      "id": "optionales Typsystem",
-      "name": "optionales Typsystem",
       "group": 2
     },
     {
@@ -2537,23 +2587,8 @@
       "group": 2
     },
     {
-      "id": "formaler Typparameter",
-      "name": "formaler Typparameter",
-      "group": 2
-    },
-    {
-      "id": "generischer Typ",
-      "name": "generischer Typ",
-      "group": 2
-    },
-    {
       "id": "Instanziierung eines parametrischen Typs",
       "name": "Instanziierung eines parametrischen Typs",
-      "group": 2
-    },
-    {
-      "id": "tats\u00e4chlicher Typparameter",
-      "name": "tats\u00e4chlicher Typparameter",
       "group": 2
     },
     {
@@ -2561,6 +2596,11 @@
       "chapter": "29.2",
       "unit": "Kurseinheit 3",
       "name": "Collections als Standardanwendungsfall f\u00fcr parametrischen Polymorphismus",
+      "group": 2
+    },
+    {
+      "id": "Zuweisungskompatibilit\u00e4t bei parametrisierten Subtypen",
+      "name": "Zuweisungskompatibilit\u00e4t bei parametrisierten Subtypen",
       "group": 2
     },
     {
@@ -2578,11 +2618,6 @@
     {
       "id": "Instanziierung einer parametrischen Typdefinition",
       "name": "Instanziierung einer parametrischen Typdefinition",
-      "group": 2
-    },
-    {
-      "id": "Zuweisungskompatibilit\u00e4t bei parametrisierten Subtypen",
-      "name": "Zuweisungskompatibilit\u00e4t bei parametrisierten Subtypen",
       "group": 2
     },
     {
@@ -2625,6 +2660,21 @@
       "group": 2
     },
     {
+      "id": "formaler Typparameter",
+      "name": "formaler Typparameter",
+      "group": 2
+    },
+    {
+      "id": "generischer Typ",
+      "name": "generischer Typ",
+      "group": 2
+    },
+    {
+      "id": "tats\u00e4chlicher Typparameter",
+      "name": "tats\u00e4chlicher Typparameter",
+      "group": 2
+    },
+    {
       "id": "30",
       "chapter": "30",
       "unit": "Kurseinheit 3",
@@ -2653,8 +2703,18 @@
       "group": 2
     },
     {
+      "id": "multi Dispatch",
+      "name": "multi Dispatch",
+      "group": 2
+    },
+    {
       "id": "Typ",
       "name": "Typ",
+      "group": 2
+    },
+    {
+      "id": "optionales Typsystem",
+      "name": "optionales Typsystem",
       "group": 2
     },
     {
@@ -2711,18 +2771,13 @@
       "group": 2
     },
     {
-      "id": "Array-Initialisierer",
-      "name": "Array-Initialisierer",
-      "group": 2
-    },
-    {
       "id": "Klassen",
       "name": "Klassen",
       "group": 2
     },
     {
-      "id": "primitiver Typ",
-      "name": "primitiver Typ",
+      "id": "Array-Initialisierer",
+      "name": "Array-Initialisierer",
       "group": 2
     },
     {
@@ -2745,10 +2800,8 @@
       "group": 2
     },
     {
-      "id": "35.4",
-      "chapter": "35.4",
-      "unit": "Kurseinheit 4",
-      "name": "Operationen und Methoden",
+      "id": "Auto boxing",
+      "name": "Auto boxing",
       "group": 2
     },
     {
@@ -2757,10 +2810,27 @@
       "group": 2
     },
     {
+      "id": "35.4",
+      "chapter": "35.4",
+      "unit": "Kurseinheit 4",
+      "name": "Operationen und Methoden",
+      "group": 2
+    },
+    {
       "id": "35.5",
       "chapter": "35.5",
       "unit": "Kurseinheit 4",
       "name": "Zuweisungskompatibilit\u00e4t",
+      "group": 2
+    },
+    {
+      "id": "nominale Typkonformit\u00e4t in Java",
+      "name": "nominale Typkonformit\u00e4t in Java",
+      "group": 2
+    },
+    {
+      "id": "Novarianz von Java",
+      "name": "Novarianz von Java",
       "group": 2
     },
     {
@@ -2794,6 +2864,11 @@
       "group": 2
     },
     {
+      "id": "primitiver Typ",
+      "name": "primitiver Typ",
+      "group": 2
+    },
+    {
       "id": "36",
       "chapter": "36",
       "unit": "Kurseinheit 4",
@@ -2823,6 +2898,16 @@
       "group": 2
     },
     {
+      "id": "Klassenmethode in Java",
+      "name": "Klassenmethode in Java",
+      "group": 2
+    },
+    {
+      "id": "Klassenvariable in Java",
+      "name": "Klassenvariable in Java",
+      "group": 2
+    },
+    {
       "id": "36.2",
       "chapter": "36.2",
       "unit": "Kurseinheit 4",
@@ -2832,16 +2917,6 @@
     {
       "id": "abstrakte Klasse in Java",
       "name": "abstrakte Klasse in Java",
-      "group": 2
-    },
-    {
-      "id": "Klassenmethode in Java",
-      "name": "Klassenmethode in Java",
-      "group": 2
-    },
-    {
-      "id": "Klassenvariable in Java",
-      "name": "Klassenvariable in Java",
       "group": 2
     },
     {
@@ -2857,6 +2932,11 @@
       "group": 2
     },
     {
+      "id": "Konstruktor",
+      "name": "Konstruktor",
+      "group": 2
+    },
+    {
       "id": "36.4",
       "chapter": "36.4",
       "unit": "Kurseinheit 4",
@@ -2869,25 +2949,10 @@
       "group": 2
     },
     {
-      "id": "\u00fcberladen",
-      "name": "\u00fcberladen",
-      "group": 2
-    },
-    {
       "id": "37",
       "chapter": "37",
       "unit": "Kurseinheit 4",
       "name": "Ausdr\u00fccke",
-      "group": 2
-    },
-    {
-      "id": "double Dispatch",
-      "name": "double Dispatch",
-      "group": 2
-    },
-    {
-      "id": "Multi-dispatch",
-      "name": "Multi-dispatch",
       "group": 2
     },
     {
@@ -2900,11 +2965,6 @@
     {
       "id": "Fall through",
       "name": "Fall through",
-      "group": 2
-    },
-    {
-      "id": "Modul",
-      "name": "Modul",
       "group": 2
     },
     {
@@ -2922,13 +2982,13 @@
       "group": 2
     },
     {
-      "id": "Abh\u00e4ngigkeit",
-      "name": "Abh\u00e4ngigkeit",
+      "id": "Schnittstellenspezifikation eines Moduls",
+      "name": "Schnittstellenspezifikation eines Moduls",
       "group": 2
     },
     {
-      "id": "Schnittstellenspezifikation eines Moduls",
-      "name": "Schnittstellenspezifikation eines Moduls",
+      "id": "Dispatch",
+      "name": "Dispatch",
       "group": 2
     },
     {
@@ -2939,13 +2999,8 @@
       "group": 2
     },
     {
-      "id": "\u00c4nderungsabh\u00e4ngigkeit",
-      "name": "\u00c4nderungsabh\u00e4ngigkeit",
-      "group": 2
-    },
-    {
-      "id": "Dispatch",
-      "name": "Dispatch",
+      "id": "Abh\u00e4ngigkeit",
+      "name": "Abh\u00e4ngigkeit",
       "group": 2
     },
     {
@@ -2964,6 +3019,11 @@
       "group": 2
     },
     {
+      "id": "\u00c4nderungsabh\u00e4ngigkeit",
+      "name": "\u00c4nderungsabh\u00e4ngigkeit",
+      "group": 2
+    },
+    {
       "id": "39.3",
       "chapter": "39.3",
       "unit": "Kurseinheit 4",
@@ -2978,6 +3038,16 @@
     {
       "id": "OSGi",
       "name": "OSGi",
+      "group": 2
+    },
+    {
+      "id": "reflektiver Zugriff",
+      "name": "reflektiver Zugriff",
+      "group": 2
+    },
+    {
+      "id": "Modul",
+      "name": "Modul",
       "group": 2
     },
     {
@@ -3019,11 +3089,6 @@
     {
       "id": "Default-Methode",
       "name": "Default-Methode",
-      "group": 2
-    },
-    {
-      "id": "nominale Typkonformit\u00e4tsdeklaration",
-      "name": "nominale Typkonformit\u00e4tsdeklaration",
       "group": 2
     },
     {
@@ -3084,6 +3149,16 @@
     {
       "id": "Declaration-site variance",
       "name": "Declaration-site variance",
+      "group": 2
+    },
+    {
+      "id": "Kontravarianz von Wildcard-Typen",
+      "name": "Kontravarianz von Wildcard-Typen",
+      "group": 2
+    },
+    {
+      "id": "Kovarianz von Wildcard-Typen",
+      "name": "Kovarianz von Wildcard-Typen",
       "group": 2
     },
     {
@@ -3216,6 +3291,11 @@
     {
       "id": "Streams",
       "name": "Streams",
+      "group": 2
+    },
+    {
+      "id": "interner Iterator",
+      "name": "interner Iterator",
       "group": 2
     },
     {
@@ -3394,11 +3474,6 @@
       "group": 2
     },
     {
-      "id": "Event handler",
-      "name": "Event handler",
-      "group": 2
-    },
-    {
       "id": "Pattern",
       "name": "Pattern",
       "group": 2
@@ -3433,8 +3508,23 @@
       "group": 2
     },
     {
+      "id": "Event handler",
+      "name": "Event handler",
+      "group": 2
+    },
+    {
       "id": "Marker-Interface",
       "name": "Marker-Interface",
+      "group": 2
+    },
+    {
+      "id": "Auto boxing und unboxing",
+      "name": "Auto boxing und unboxing",
+      "group": 2
+    },
+    {
+      "id": "Boxing und Unboxing",
+      "name": "Boxing und Unboxing",
       "group": 2
     },
     {
@@ -3442,11 +3532,6 @@
       "chapter": "50.4.2",
       "unit": "Kurseinheit 5",
       "name": "Interfacetypen in C#",
-      "group": 2
-    },
-    {
-      "id": "Auto boxing und unboxing",
-      "name": "Auto boxing und unboxing",
       "group": 2
     },
     {
@@ -3472,11 +3557,6 @@
       "group": 2
     },
     {
-      "id": "Boxing und Unboxing",
-      "name": "Boxing und Unboxing",
-      "group": 2
-    },
-    {
       "id": "Typexpansion",
       "name": "Typexpansion",
       "group": 2
@@ -3498,6 +3578,11 @@
       "chapter": "50.5",
       "unit": "Kurseinheit 5",
       "name": "Ausblick",
+      "group": 2
+    },
+    {
+      "id": "funktionale Programmiersprache",
+      "name": "funktionale Programmiersprache",
       "group": 2
     },
     {
@@ -3529,8 +3614,8 @@
       "group": 2
     },
     {
-      "id": "Mehrfachvererbung",
-      "name": "Mehrfachvererbung",
+      "id": "qualifizierter Export",
+      "name": "qualifizierter Export",
       "group": 2
     },
     {
@@ -3541,13 +3626,13 @@
       "group": 2
     },
     {
-      "id": "abstrakte Klasse als Interface",
-      "name": "abstrakte Klasse als Interface",
+      "id": "Mehrfachvererbung",
+      "name": "Mehrfachvererbung",
       "group": 2
     },
     {
-      "id": "qualifizierter Export",
-      "name": "qualifizierter Export",
+      "id": "abstrakte Klasse als Interface",
+      "name": "abstrakte Klasse als Interface",
       "group": 2
     },
     {
@@ -3596,11 +3681,6 @@
       "chapter": "51.6",
       "unit": "Kurseinheit 5",
       "name": "Der ganze Rest",
-      "group": 2
-    },
-    {
-      "id": "funktionale Programmiersprache",
-      "name": "funktionale Programmiersprache",
       "group": 2
     },
     {
@@ -3655,17 +3735,15 @@
       "group": 2
     },
     {
+      "id": "dedizierter Export",
+      "name": "dedizierter Export",
+      "group": 2
+    },
+    {
       "id": "52.3",
       "chapter": "52.3",
       "unit": "Kurseinheit 5",
       "name": "Anweisungen",
-      "group": 2
-    },
-    {
-      "id": "52.4",
-      "chapter": "52.4",
-      "unit": "Kurseinheit 5",
-      "name": "Vererbung und \u00dcberladen",
       "group": 2
     },
     {
@@ -3674,8 +3752,10 @@
       "group": 2
     },
     {
-      "id": "dedizierter Export",
-      "name": "dedizierter Export",
+      "id": "52.4",
+      "chapter": "52.4",
+      "unit": "Kurseinheit 5",
+      "name": "Vererbung und \u00dcberladen",
       "group": 2
     },
     {
@@ -3744,15 +3824,15 @@
       "group": 2
     },
     {
-      "id": "Tupel",
-      "name": "Tupel",
-      "group": 2
-    },
-    {
       "id": "52.7",
       "chapter": "52.7",
       "unit": "Kurseinheit 5",
       "name": "Tupel anstelle von Klassen",
+      "group": 2
+    },
+    {
+      "id": "Tupel",
+      "name": "Tupel",
       "group": 2
     },
     {
@@ -3820,6 +3900,11 @@
       "group": 2
     },
     {
+      "id": "verhaltensbasiertes Subtyping",
+      "name": "verhaltensbasiertes Subtyping",
+      "group": 2
+    },
+    {
       "id": "54.4",
       "chapter": "54.4",
       "unit": "Kurseinheit 6",
@@ -3851,6 +3936,11 @@
     {
       "id": "Rolle",
       "name": "Rolle",
+      "group": 2
+    },
+    {
+      "id": "dynamische Binden",
+      "name": "dynamische Binden",
       "group": 2
     },
     {
@@ -3905,11 +3995,6 @@
       "group": 2
     },
     {
-      "id": "hierarchische Modularisierung",
-      "name": "hierarchische Modularisierung",
-      "group": 2
-    },
-    {
       "id": "Separation of concerns",
       "name": "Separation of concerns",
       "group": 2
@@ -3917,6 +4002,11 @@
     {
       "id": "Trennung der Belange",
       "name": "Trennung der Belange",
+      "group": 2
+    },
+    {
+      "id": "hierarchische Modularisierung",
+      "name": "hierarchische Modularisierung",
       "group": 2
     },
     {
@@ -3934,6 +4024,11 @@
     {
       "id": "Klassenschnittstelle",
       "name": "Klassenschnittstelle",
+      "group": 2
+    },
+    {
+      "id": "Repr\u00c3\u00a4sentationsobjekt",
+      "name": "Repr\u00c3\u00a4sentationsobjekt",
       "group": 2
     },
     {
@@ -4042,13 +4137,13 @@
       "group": 2
     },
     {
-      "id": "Coding convention",
-      "name": "Coding convention",
+      "id": "Programmierstil",
+      "name": "Programmierstil",
       "group": 2
     },
     {
-      "id": "Programmierstil",
-      "name": "Programmierstil",
+      "id": "Coding convention",
+      "name": "Coding convention",
       "group": 2
     },
     {
@@ -4085,11 +4180,6 @@
       "group": 2
     },
     {
-      "id": "Law of Demeter",
-      "name": "Law of Demeter",
-      "group": 2
-    },
-    {
       "id": "68",
       "chapter": "68",
       "unit": "Kurseinheit 7",
@@ -4101,6 +4191,11 @@
       "chapter": "68.1",
       "unit": "Kurseinheit 7",
       "name": "Bedeutung",
+      "group": 2
+    },
+    {
+      "id": "Law of Demeter",
+      "name": "Law of Demeter",
       "group": 2
     },
     {
@@ -4166,6 +4261,10 @@
       "target": "IV"
     },
     {
+      "source": "IV",
+      "target": "funktionale Programmierung"
+    },
+    {
       "source": "Vorwort",
       "target": "V"
     },
@@ -4224,10 +4323,6 @@
     {
       "source": "VII",
       "target": "Compilation unit"
-    },
-    {
-      "source": "VII",
-      "target": "funktionale Programmierung"
     },
     {
       "source": "VII",
@@ -4351,11 +4446,15 @@
     },
     {
       "source": "1.3",
-      "target": "Identit\u00e4t von Objekten"
+      "target": "Zustand"
     },
     {
       "source": "1.3",
-      "target": "Zustand"
+      "target": "funktionale Programmierung"
+    },
+    {
+      "source": "1.3",
+      "target": "imperative Programmierung"
     },
     {
       "source": "1",
@@ -4363,15 +4462,11 @@
     },
     {
       "source": "1.4",
-      "target": "funktionale Programmierung"
-    },
-    {
-      "source": "1.4",
       "target": "Gleichheit von Objekten"
     },
     {
       "source": "1.4",
-      "target": "imperative Programmierung"
+      "target": "Identit\u00e4t von Objekten"
     },
     {
       "source": "1.4",
@@ -4411,10 +4506,6 @@
     },
     {
       "source": "1.5.1",
-      "target": "Sichtbarkeit"
-    },
-    {
-      "source": "1.5.1",
       "target": "Verweis"
     },
     {
@@ -4447,15 +4538,15 @@
     },
     {
       "source": "1.5.2",
+      "target": "Sichtbarkeit"
+    },
+    {
+      "source": "1.5.2",
       "target": "Sichtbarkeitsregeln"
     },
     {
       "source": "1.5.2",
       "target": "Sichtbarkeitsregeln von Variablen"
-    },
-    {
-      "source": "1.5.2",
-      "target": "Zuweisung"
     },
     {
       "source": "1.5",
@@ -4464,6 +4555,14 @@
     {
       "source": "1.5",
       "target": "Name"
+    },
+    {
+      "source": "1.5",
+      "target": "Variable"
+    },
+    {
+      "source": "1.5",
+      "target": "funktionale Programmierung"
     },
     {
       "source": "1",
@@ -4475,11 +4574,11 @@
     },
     {
       "source": "1.6",
-      "target": "Pseudovariable"
+      "target": "Wertzuweisung"
     },
     {
       "source": "1.6",
-      "target": "Wertzuweisung"
+      "target": "Zuweisung"
     },
     {
       "source": "1.6",
@@ -4491,10 +4590,6 @@
     },
     {
       "source": "1.6",
-      "target": "Zuweisung"
-    },
-    {
-      "source": "1.6",
       "target": "Zuweisungsoperator"
     },
     {
@@ -4503,15 +4598,15 @@
     },
     {
       "source": "1.7",
-      "target": "Alias"
-    },
-    {
-      "source": "1.7",
-      "target": "Aliasing"
+      "target": "Pseudovariable"
     },
     {
       "source": "1.7",
       "target": "Zuweisungsoperator"
+    },
+    {
+      "source": "1.7",
+      "target": "formaler Parameter"
     },
     {
       "source": "1",
@@ -4519,7 +4614,11 @@
     },
     {
       "source": "1.8",
-      "target": "formaler Parameter"
+      "target": "Alias"
+    },
+    {
+      "source": "1.8",
+      "target": "Aliasing"
     },
     {
       "source": "1.8",
@@ -4611,6 +4710,14 @@
     },
     {
       "source": "2.1",
+      "target": "Instanzvariable"
+    },
+    {
+      "source": "2.1",
+      "target": "Struktur von Objekten"
+    },
+    {
+      "source": "2.1",
       "target": "lokale Variable"
     },
     {
@@ -4618,16 +4725,8 @@
       "target": "strukturiertes Objekt"
     },
     {
-      "source": "2.1",
-      "target": "Struktur von Objekten"
-    },
-    {
       "source": "2",
       "target": "2.2"
-    },
-    {
-      "source": "2.2",
-      "target": ":1-Beziehung"
     },
     {
       "source": "2.2",
@@ -4647,10 +4746,6 @@
     },
     {
       "source": "2.2",
-      "target": "Teil-Ganzes-Beziehung"
-    },
-    {
-      "source": "2.2",
       "target": "UML"
     },
     {
@@ -4666,6 +4761,10 @@
       "target": "Zwischenobjekt"
     },
     {
+      "source": "2.2",
+      "target": ":1-Beziehung"
+    },
+    {
       "source": "2",
       "target": "2.3"
     },
@@ -4675,11 +4774,19 @@
     },
     {
       "source": "2.3",
-      "target": "Komposition"
+      "target": "Mereologie"
     },
     {
       "source": "2.3",
-      "target": "Mereologie"
+      "target": "Teil-Ganzes-Beziehung"
+    },
+    {
+      "source": "2.3",
+      "target": "Kapselung"
+    },
+    {
+      "source": "2.3",
+      "target": "Komposition"
     },
     {
       "source": "2",
@@ -4688,18 +4795,6 @@
     {
       "source": "2.4",
       "target": "Attributwert"
-    },
-    {
-      "source": "2.4",
-      "target": "Kapselung"
-    },
-    {
-      "source": "2.4",
-      "target": "Zustand"
-    },
-    {
-      "source": "2",
-      "target": "Instanzvariable"
     },
     {
       "source": "2",
@@ -4726,14 +4821,6 @@
       "target": "Attribut und Zustand"
     },
     {
-      "source": "3.1",
-      "target": "unver\u00e4nderliches Objekt"
-    },
-    {
-      "source": "3.1",
-      "target": "ver\u00e4nderliches Objekt"
-    },
-    {
       "source": "3",
       "target": "3.2"
     },
@@ -4751,7 +4838,19 @@
     },
     {
       "source": "3.2",
-      "target": "Zwischenobjekt"
+      "target": "Implementationsgeheimnis"
+    },
+    {
+      "source": "3",
+      "target": "Zustand"
+    },
+    {
+      "source": "3",
+      "target": "unver\u00e4nderliches Objekt"
+    },
+    {
+      "source": "3",
+      "target": "ver\u00e4nderliches Objekt"
     },
     {
       "source": "Kurseinheit 1",
@@ -4775,14 +4874,6 @@
     },
     {
       "source": "4.1.2",
-      "target": "Nachrichtenausdruck"
-    },
-    {
-      "source": "4.1.2",
-      "target": "primitiver Ausdruck"
-    },
-    {
-      "source": "4.1.2",
       "target": "Zuweisungsausdruck"
     },
     {
@@ -4803,6 +4894,10 @@
     },
     {
       "source": "4.1.2",
+      "target": "Nachricht"
+    },
+    {
+      "source": "4.1.2",
       "target": "Nachrichtenselektor"
     },
     {
@@ -4816,6 +4911,10 @@
     {
       "source": "4.1.2",
       "target": "un\u00e4re Nachricht"
+    },
+    {
+      "source": "4.1.2",
+      "target": "tempor\u00e4re Variable"
     },
     {
       "source": "4.1",
@@ -4847,10 +4946,6 @@
     },
     {
       "source": "4.1.3",
-      "target": "tempor\u00e4re Variable"
-    },
-    {
-      "source": "4.1.3",
       "target": "Zuweisungsoperator"
     },
     {
@@ -4859,7 +4954,11 @@
     },
     {
       "source": "4.1",
-      "target": "Nachricht"
+      "target": "Nachrichtenausdruck"
+    },
+    {
+      "source": "4.1",
+      "target": "primitiver Ausdruck"
     },
     {
       "source": "4",
@@ -4868,10 +4967,6 @@
     {
       "source": "4.2",
       "target": "Anweisung"
-    },
-    {
-      "source": "4.2",
-      "target": "Methode"
     },
     {
       "source": "4.2",
@@ -4887,10 +4982,6 @@
     },
     {
       "source": "4.3.1",
-      "target": "Methodenaufruf"
-    },
-    {
-      "source": "4.3.1",
       "target": "Protokoll"
     },
     {
@@ -4900,6 +4991,10 @@
     {
       "source": "4.3.1",
       "target": "self"
+    },
+    {
+      "source": "4.3.1",
+      "target": "formaler Parameter"
     },
     {
       "source": "4.3",
@@ -4923,11 +5018,11 @@
     },
     {
       "source": "4.3.2",
-      "target": "formaler Parameter"
+      "target": "primitive Kontrollstruktur"
     },
     {
       "source": "4.3.2",
-      "target": "primitive Kontrollstruktur"
+      "target": "Methodenaufruf"
     },
     {
       "source": "4.3.2",
@@ -4966,10 +5061,6 @@
       "target": "4.3.3"
     },
     {
-      "source": "4.3.3",
-      "target": "Zustand"
-    },
-    {
       "source": "4.3",
       "target": "4.3.4"
     },
@@ -4988,10 +5079,6 @@
     {
       "source": "4.3.4",
       "target": "Implementationsgeheimnis"
-    },
-    {
-      "source": "4.3.4",
-      "target": "Kapselung"
     },
     {
       "source": "4.3.4",
@@ -5014,16 +5101,32 @@
       "target": "Zugriffsmethode"
     },
     {
+      "source": "4.3.4",
+      "target": "Zustand"
+    },
+    {
+      "source": "4.3.4",
+      "target": "Kapselung"
+    },
+    {
       "source": "4.3",
       "target": "4.3.5"
     },
     {
       "source": "4.3.5",
-      "target": "Konstante"
+      "target": "Implementationsgeheimnis"
+    },
+    {
+      "source": "4.3.5",
+      "target": "Seiteneffekt"
     },
     {
       "source": "4.3",
       "target": "4.3.6"
+    },
+    {
+      "source": "4.3.6",
+      "target": "Konstante"
     },
     {
       "source": "4.3.6",
@@ -5034,20 +5137,16 @@
       "target": "Literal"
     },
     {
-      "source": "4.3.6",
-      "target": "Seiteneffekt"
-    },
-    {
       "source": "4.3",
       "target": "4.3.7"
     },
     {
-      "source": "4.3.7",
-      "target": "Protokoll"
-    },
-    {
       "source": "4.3",
       "target": "4.3.8"
+    },
+    {
+      "source": "4.3.8",
+      "target": "Nachrichtenkategorie"
     },
     {
       "source": "4.3.8",
@@ -5075,27 +5174,11 @@
     },
     {
       "source": "4.3.8",
-      "target": "Nachrichtenkategorie"
-    },
-    {
-      "source": "4.3.8",
       "target": "Protokollbeschreibung"
     },
     {
       "source": "4.3",
-      "target": "aktueller Parameter"
-    },
-    {
-      "source": "4.3",
-      "target": "formaler Parameter"
-    },
-    {
-      "source": "4.3",
       "target": "Kontrollflussbeeinflussung durch Return"
-    },
-    {
-      "source": "4.3",
-      "target": "lokale Variable"
     },
     {
       "source": "4.3",
@@ -5104,6 +5187,10 @@
     {
       "source": "4.3",
       "target": "metasyntaktische Variable"
+    },
+    {
+      "source": "4.3",
+      "target": "Methode"
     },
     {
       "source": "4.3",
@@ -5131,6 +5218,22 @@
     },
     {
       "source": "4.3",
+      "target": "aktueller Parameter"
+    },
+    {
+      "source": "4.3",
+      "target": "formaler Parameter"
+    },
+    {
+      "source": "4.3",
+      "target": "lokale Variable"
+    },
+    {
+      "source": "4.3",
+      "target": "Methodendefinition"
+    },
+    {
+      "source": "4.3",
       "target": "Return-Anweisung"
     },
     {
@@ -5140,10 +5243,6 @@
     {
       "source": "4.3",
       "target": "tempor\u00e4re Variable"
-    },
-    {
-      "source": "4.3",
-      "target": "Zwischenobjekt"
     },
     {
       "source": "4",
@@ -5159,7 +5258,11 @@
     },
     {
       "source": "4.4.1",
-      "target": "Continuation"
+      "target": "Home context"
+    },
+    {
+      "source": "4.4.1",
+      "target": "Lambda-Ausdruck"
     },
     {
       "source": "4.4.1",
@@ -5175,11 +5278,7 @@
     },
     {
       "source": "4.4.2",
-      "target": "funktionale Programmierung"
-    },
-    {
-      "source": "4.4.2",
-      "target": "Home context bei Continuations"
+      "target": "Continuation"
     },
     {
       "source": "4.4.2",
@@ -5187,7 +5286,11 @@
     },
     {
       "source": "4.4.2",
-      "target": "Lambda-Ausdruck"
+      "target": "funktionale Programmierung"
+    },
+    {
+      "source": "4.4.2",
+      "target": "Home context bei Continuations"
     },
     {
       "source": "4.4.2",
@@ -5204,10 +5307,6 @@
     {
       "source": "4.4",
       "target": "Block"
-    },
-    {
-      "source": "4.4",
-      "target": "Home context"
     },
     {
       "source": "4.4",
@@ -5234,12 +5333,8 @@
       "target": "4.5.2"
     },
     {
-      "source": "4.5.2",
-      "target": "Zwischenobjekt"
-    },
-    {
       "source": "4.5",
-      "target": "Zwischenobjekt"
+      "target": "dynamisches Binden"
     },
     {
       "source": "4",
@@ -5256,18 +5351,6 @@
     {
       "source": "4.6.1",
       "target": "dynamisches Binden"
-    },
-    {
-      "source": "4.6.1",
-      "target": "Goto"
-    },
-    {
-      "source": "4.6.1",
-      "target": "Schl\u00fcsselwort"
-    },
-    {
-      "source": "4.6.1",
-      "target": "strukturierte Programmierung"
     },
     {
       "source": "4.6",
@@ -5299,7 +5382,15 @@
     },
     {
       "source": "4.6",
-      "target": "Iteration"
+      "target": "Goto"
+    },
+    {
+      "source": "4.6",
+      "target": "Schl\u00fcsselwort"
+    },
+    {
+      "source": "4.6",
+      "target": "strukturierte Programmierung"
     },
     {
       "source": "4",
@@ -5363,7 +5454,15 @@
     },
     {
       "source": "7.1",
-      "target": "Klassendefinition"
+      "target": "Klassifikation"
+    },
+    {
+      "source": "7.1",
+      "target": "Familien\u00e4hnlichkeit"
+    },
+    {
+      "source": "7.1",
+      "target": "Prototyp"
     },
     {
       "source": "7",
@@ -5375,10 +5474,6 @@
     },
     {
       "source": "7.2",
-      "target": "Familien\u00e4hnlichkeit"
-    },
-    {
-      "source": "7.2",
       "target": "globale Variable"
     },
     {
@@ -5387,19 +5482,11 @@
     },
     {
       "source": "7.2",
-      "target": "Instanziierung"
-    },
-    {
-      "source": "7.2",
       "target": "Intension"
     },
     {
       "source": "7.2",
-      "target": "Methodenaufruf"
-    },
-    {
-      "source": "7.2",
-      "target": "Prototyp"
+      "target": "Klassendefinition"
     },
     {
       "source": "7.2",
@@ -5408,6 +5495,10 @@
     {
       "source": "7.2",
       "target": "Zwischenobjekt"
+    },
+    {
+      "source": "7.2",
+      "target": "Methodendefinition"
     },
     {
       "source": "7",
@@ -5427,10 +5518,6 @@
     },
     {
       "source": "7.3",
-      "target": "Klassifikation"
-    },
-    {
-      "source": "7.3",
       "target": "Klonen"
     },
     {
@@ -5446,16 +5533,16 @@
       "target": "UML"
     },
     {
+      "source": "7.3",
+      "target": "Klassifikation"
+    },
+    {
       "source": "7",
       "target": "Allgemeinbegriff"
     },
     {
       "source": "7",
       "target": "Eigenschaft"
-    },
-    {
-      "source": "7",
-      "target": "Klassifikation"
     },
     {
       "source": "7",
@@ -5475,19 +5562,11 @@
     },
     {
       "source": "8.1",
-      "target": "Initialisierung"
-    },
-    {
-      "source": "8.1",
-      "target": "Instanzmethode"
+      "target": "primitive Methode"
     },
     {
       "source": "8",
       "target": "8.2"
-    },
-    {
-      "source": "8.2",
-      "target": "Factory-Methode"
     },
     {
       "source": "8.2",
@@ -5496,6 +5575,10 @@
     {
       "source": "8.2",
       "target": "Implementationsgeheimnis"
+    },
+    {
+      "source": "8.2",
+      "target": "Initialisierung"
     },
     {
       "source": "8.2",
@@ -5510,12 +5593,12 @@
       "target": "Lazy initialization"
     },
     {
-      "source": "8.2",
-      "target": "primitive Methode"
-    },
-    {
       "source": "8",
       "target": "8.3"
+    },
+    {
+      "source": "8.3",
+      "target": "Factory-Methode"
     },
     {
       "source": "8",
@@ -5535,7 +5618,11 @@
     },
     {
       "source": "8.6",
-      "target": "Zwischenobjekt"
+      "target": "Metaprogrammiersystem"
+    },
+    {
+      "source": "8.6",
+      "target": "automatische Einrichtung von Zugriffsmethode"
     },
     {
       "source": "8",
@@ -5551,11 +5638,11 @@
     },
     {
       "source": "8",
-      "target": "Konstruktor"
+      "target": "Metaklasse"
     },
     {
       "source": "8",
-      "target": "Metaklasse"
+      "target": "Instanzmethode"
     },
     {
       "source": "Kurseinheit 2",
@@ -5564,10 +5651,6 @@
     {
       "source": "9",
       "target": "9.1"
-    },
-    {
-      "source": "9.1",
-      "target": "Abstraktionshierarchie"
     },
     {
       "source": "9.1",
@@ -5607,15 +5690,11 @@
     },
     {
       "source": "9.1",
-      "target": "Ist-ein-Beziehung"
-    },
-    {
-      "source": "9.1",
       "target": "kovariante Redefinition"
     },
     {
       "source": "9.1",
-      "target": "Zwischenobjekt"
+      "target": "Ist-ein-Beziehung"
     },
     {
       "source": "9",
@@ -5635,7 +5714,7 @@
     },
     {
       "source": "9",
-      "target": "Generalisierung"
+      "target": "Abstraktionshierarchie"
     },
     {
       "source": "Kurseinheit 2",
@@ -5651,7 +5730,15 @@
     },
     {
       "source": "10.1",
+      "target": "abstrakte Klasse"
+    },
+    {
+      "source": "10.1",
       "target": "\u00fcberschreiben"
+    },
+    {
+      "source": "10.1",
+      "target": "Vererbung"
     },
     {
       "source": "10.1",
@@ -5664,6 +5751,10 @@
     {
       "source": "10.2",
       "target": "nicht instanziierbar"
+    },
+    {
+      "source": "10.2",
+      "target": "Universalienstreit"
     },
     {
       "source": "10",
@@ -5680,26 +5771,6 @@
     {
       "source": "10.3",
       "target": "offene Rekursion"
-    },
-    {
-      "source": "10.3",
-      "target": "Subklasse"
-    },
-    {
-      "source": "10.3",
-      "target": "Superklasse"
-    },
-    {
-      "source": "10.3",
-      "target": "Universalienstreit"
-    },
-    {
-      "source": "10",
-      "target": "abstrakte Klasse"
-    },
-    {
-      "source": "10",
-      "target": "Vererbung"
     },
     {
       "source": "Kurseinheit 2",
@@ -5759,6 +5830,10 @@
     },
     {
       "source": "11",
+      "target": "Subklasse"
+    },
+    {
+      "source": "11",
       "target": "direkte Subklasse"
     },
     {
@@ -5767,11 +5842,15 @@
     },
     {
       "source": "11",
+      "target": "Superklasse"
+    },
+    {
+      "source": "11",
       "target": "direkte"
     },
     {
       "source": "11",
-      "target": "Zwischenobjekt"
+      "target": "direkte Superklasse"
     },
     {
       "source": "Kurseinheit 2",
@@ -5807,6 +5886,14 @@
     },
     {
       "source": "12.3",
+      "target": "double Dispatch"
+    },
+    {
+      "source": "12.3",
+      "target": "single Dispatch"
+    },
+    {
+      "source": "12.3",
       "target": "Double dispatch"
     },
     {
@@ -5819,7 +5906,15 @@
     },
     {
       "source": "12.3",
-      "target": "Zwischenobjekt"
+      "target": "Method dispatching"
+    },
+    {
+      "source": "12.3",
+      "target": "Multi-dispatch"
+    },
+    {
+      "source": "12.3",
+      "target": "\u00fcberladen"
     },
     {
       "source": "12",
@@ -5831,7 +5926,7 @@
     },
     {
       "source": "12",
-      "target": "Zwischenobjekt"
+      "target": "Typumwandlung"
     },
     {
       "source": "Kurseinheit 2",
@@ -5843,11 +5938,11 @@
     },
     {
       "source": "13.1",
-      "target": "\u00fcberschreiben"
+      "target": "l\u00f6schen von Methoden"
     },
     {
       "source": "13.1",
-      "target": "Zwischenobjekt"
+      "target": "\u00fcberschreiben"
     },
     {
       "source": "13",
@@ -5887,11 +5982,11 @@
     },
     {
       "source": "13.2.3",
-      "target": "Array-Literal"
+      "target": "Protokoll"
     },
     {
       "source": "13.2.3",
-      "target": "Protokoll"
+      "target": "Array-Literal"
     },
     {
       "source": "13.2",
@@ -5934,16 +6029,16 @@
       "target": "14.2"
     },
     {
+      "source": "14.2",
+      "target": "wachsendes Objekt"
+    },
+    {
       "source": "14",
       "target": "14.3"
     },
     {
       "source": "14.3",
       "target": "lazy Initialisierung"
-    },
-    {
-      "source": "14.3",
-      "target": "wachsends"
     },
     {
       "source": "14",
@@ -5974,8 +6069,8 @@
       "target": "17"
     },
     {
-      "source": "17",
-      "target": "aktives Objekt"
+      "source": "Kurseinheit 2",
+      "target": "dynamisches Binden"
     },
     {
       "source": "Kurseinheit 2",
@@ -5983,7 +6078,11 @@
     },
     {
       "source": "Kurseinheit 2",
-      "target": "Zwischenobjekt"
+      "target": "klassenbasierte Form der Objektorientierung"
+    },
+    {
+      "source": "Kurseinheit 2",
+      "target": "prototypenbasierte Form der Objektorientierung"
     },
     {
       "source": "Objektorientierte Programmierung",
@@ -5995,23 +6094,7 @@
     },
     {
       "source": "18",
-      "target": "Definition"
-    },
-    {
-      "source": "18",
       "target": "Deklaration"
-    },
-    {
-      "source": "18",
-      "target": "deklariertes Element"
-    },
-    {
-      "source": "18",
-      "target": "Extension"
-    },
-    {
-      "source": "18",
-      "target": "Intension"
     },
     {
       "source": "18",
@@ -6067,10 +6150,6 @@
     },
     {
       "source": "18",
-      "target": "Typregel"
-    },
-    {
-      "source": "18",
       "target": "Typinvariante"
     },
     {
@@ -6079,11 +6158,39 @@
     },
     {
       "source": "18",
-      "target": "Zwischenobjekt"
+      "target": "deklariertes Element"
+    },
+    {
+      "source": "18",
+      "target": "Extension"
+    },
+    {
+      "source": "18",
+      "target": "Intension"
+    },
+    {
+      "source": "18",
+      "target": "Typregel"
+    },
+    {
+      "source": "18",
+      "target": "Zul\u00c3\u00a4ssigkeit von Zuweisungen und Methodenaufrufen"
+    },
+    {
+      "source": "18",
+      "target": "Zul\u00e4ssigkeit von Zuweisungen"
     },
     {
       "source": "Kurseinheit 3",
       "target": "19"
+    },
+    {
+      "source": "19",
+      "target": "Definition"
+    },
+    {
+      "source": "19",
+      "target": "Deklaration"
     },
     {
       "source": "19",
@@ -6111,7 +6218,7 @@
     },
     {
       "source": "19",
-      "target": "Zwischenobjekt"
+      "target": "Verwendung eines Programmelements"
     },
     {
       "source": "Kurseinheit 3",
@@ -6132,10 +6239,6 @@
     {
       "source": "20.1",
       "target": "operationale Semantik"
-    },
-    {
-      "source": "20.1",
-      "target": "Weglassen von Typannotation in Strongtalk"
     },
     {
       "source": "20.1",
@@ -6160,6 +6263,10 @@
     {
       "source": "20",
       "target": "Typannotation in Strongtalk"
+    },
+    {
+      "source": "20",
+      "target": "Weglassen von Typannotation in Strongtalk"
     },
     {
       "source": "Kurseinheit 3",
@@ -6190,6 +6297,10 @@
       "target": "Zuweisungskompatibilit\u00e4t"
     },
     {
+      "source": "21",
+      "target": "Zul\u00e4ssigkeit von Methodenaufrufen"
+    },
+    {
       "source": "Kurseinheit 3",
       "target": "22"
     },
@@ -6199,11 +6310,19 @@
     },
     {
       "source": "22.1",
-      "target": "rekursive Expansion"
+      "target": "semantischer Fehler"
     },
     {
       "source": "22.1",
-      "target": "Zwischenobjekt"
+      "target": "Typfehler"
+    },
+    {
+      "source": "22.1",
+      "target": "Type branding"
+    },
+    {
+      "source": "22.1",
+      "target": "rekursive Expansion"
     },
     {
       "source": "22",
@@ -6214,12 +6333,12 @@
       "target": "Filterfunktion"
     },
     {
-      "source": "22",
-      "target": "Namens\u00e4quivalenz"
+      "source": "22.2",
+      "target": "Type branding"
     },
     {
       "source": "22",
-      "target": "Struktur\u00e4quivalenz"
+      "target": "Namens\u00e4quivalenz"
     },
     {
       "source": "22",
@@ -6231,15 +6350,7 @@
     },
     {
       "source": "22",
-      "target": "strukturelle Typ\u00e4quivalenz"
-    },
-    {
-      "source": "22",
-      "target": "Zul\u00e4ssigkeit von Methodenaufrufen"
-    },
-    {
-      "source": "22",
-      "target": "Zwischenobjekt"
+      "target": "Type branding"
     },
     {
       "source": "Kurseinheit 3",
@@ -6343,10 +6454,6 @@
     },
     {
       "source": "26.1",
-      "target": "Spezialisierung"
-    },
-    {
-      "source": "26.1",
       "target": "Subtypenbeziehung"
     },
     {
@@ -6406,6 +6513,14 @@
       "target": "Polymorphie"
     },
     {
+      "source": "26.4",
+      "target": "parametrischer Polymorphismus"
+    },
+    {
+      "source": "26.4",
+      "target": "Subtyppolymorphie"
+    },
+    {
       "source": "26",
       "target": "Dependent type"
     },
@@ -6423,7 +6538,11 @@
     },
     {
       "source": "26",
-      "target": "Zwischenobjekt"
+      "target": "Invariante"
+    },
+    {
+      "source": "26",
+      "target": "Spezialisierung"
     },
     {
       "source": "Kurseinheit 3",
@@ -6439,19 +6558,23 @@
     },
     {
       "source": "27",
-      "target": "parametrischer Polymorphismus"
-    },
-    {
-      "source": "27",
-      "target": "Subtyppolymorphie"
-    },
-    {
-      "source": "27",
       "target": "Up cast"
     },
     {
       "source": "27",
-      "target": "Zwischenobjekt"
+      "target": "dynamische Typpr\u00fcfung"
+    },
+    {
+      "source": "27",
+      "target": "interfacebasierte Programmierung"
+    },
+    {
+      "source": "27",
+      "target": "Rollenwechsel eines Objekts"
+    },
+    {
+      "source": "27",
+      "target": "Typumwandlung"
     },
     {
       "source": "Kurseinheit 3",
@@ -6460,10 +6583,6 @@
     {
       "source": "28",
       "target": "28.1"
-    },
-    {
-      "source": "28.1",
-      "target": "Schnittstelle"
     },
     {
       "source": "28",
@@ -6479,23 +6598,19 @@
     },
     {
       "source": "28.2",
+      "target": "Schnittstelle"
+    },
+    {
+      "source": "28.2",
+      "target": "Interface-als-Typ-Konzept"
+    },
+    {
+      "source": "28.2",
       "target": "Zugriffsmodifikator"
     },
     {
       "source": "28",
       "target": "28.3"
-    },
-    {
-      "source": "28.3",
-      "target": "Interface-als-Typ-Konzept"
-    },
-    {
-      "source": "28.3",
-      "target": "parametrischer Polymorphismus"
-    },
-    {
-      "source": "28",
-      "target": "dynamische Typpr\u00fcfung"
     },
     {
       "source": "28",
@@ -6507,23 +6622,11 @@
     },
     {
       "source": "28",
-      "target": "interfacebasierte Programmierung"
-    },
-    {
-      "source": "28",
-      "target": "abstrakte Klasse vs. Typ"
-    },
-    {
-      "source": "28",
       "target": "Protokoll"
     },
     {
       "source": "28",
-      "target": "Rollenwechsel eines Objekts"
-    },
-    {
-      "source": "28",
-      "target": "optionales Typsystem"
+      "target": "abstrakte Klasse vs. Typ"
     },
     {
       "source": "Kurseinheit 3",
@@ -6535,23 +6638,19 @@
     },
     {
       "source": "29.1",
-      "target": "formaler Typparameter"
-    },
-    {
-      "source": "29.1",
-      "target": "generischer Typ"
-    },
-    {
-      "source": "29.1",
       "target": "Instanziierung eines parametrischen Typs"
-    },
-    {
-      "source": "29.1",
-      "target": "tats\u00e4chlicher Typparameter"
     },
     {
       "source": "29",
       "target": "29.2"
+    },
+    {
+      "source": "29.2",
+      "target": "Instanzmethode"
+    },
+    {
+      "source": "29.2",
+      "target": "Zuweisungskompatibilit\u00e4t bei parametrisierten Subtypen"
     },
     {
       "source": "29",
@@ -6568,10 +6667,6 @@
     {
       "source": "29.3",
       "target": "Instanziierung einer parametrischen Typdefinition"
-    },
-    {
-      "source": "29.3",
-      "target": "Zuweisungskompatibilit\u00e4t bei parametrisierten Subtypen"
     },
     {
       "source": "29",
@@ -6599,11 +6694,11 @@
     },
     {
       "source": "29",
-      "target": "Instanziierung eines parametrischen Typs"
+      "target": "parametrische Typdefinition"
     },
     {
       "source": "29",
-      "target": "parametrische Typdefinition"
+      "target": "parametrischer Polymorphismus"
     },
     {
       "source": "29",
@@ -6612,6 +6707,22 @@
     {
       "source": "29",
       "target": "Zuweisungskompatibilit\u00e4t unter parametrischem Polymorphismus"
+    },
+    {
+      "source": "29",
+      "target": "formaler Typparameter"
+    },
+    {
+      "source": "29",
+      "target": "generischer Typ"
+    },
+    {
+      "source": "29",
+      "target": "Instanziierung eines parametrischen Typs"
+    },
+    {
+      "source": "29",
+      "target": "tats\u00e4chlicher Typparameter"
     },
     {
       "source": "Kurseinheit 3",
@@ -6632,6 +6743,10 @@
     {
       "source": "Kurseinheit 3",
       "target": "33"
+    },
+    {
+      "source": "33",
+      "target": "multi Dispatch"
     },
     {
       "source": "Kurseinheit 3",
@@ -6675,10 +6790,6 @@
     },
     {
       "source": "34",
-      "target": "Garbage collection"
-    },
-    {
-      "source": "34",
       "target": "integrierte Entwicklungsumgebung"
     },
     {
@@ -6695,15 +6806,11 @@
     },
     {
       "source": "35.1",
-      "target": "Array-Initialisierer"
-    },
-    {
-      "source": "35.1",
       "target": "Klassen"
     },
     {
       "source": "35.1",
-      "target": "primitiver Typ"
+      "target": "Array-Initialisierer"
     },
     {
       "source": "35",
@@ -6735,7 +6842,11 @@
     },
     {
       "source": "35.3",
-      "target": "Zwischenobjekt"
+      "target": "Auto boxing"
+    },
+    {
+      "source": "35.3",
+      "target": "primitiver Typ in Java"
     },
     {
       "source": "35",
@@ -6743,11 +6854,15 @@
     },
     {
       "source": "35.4",
-      "target": "primitiver Typ in Java"
+      "target": "direkte Instanz"
     },
     {
       "source": "35.4",
-      "target": "Zwischenobjekt"
+      "target": "indirekte Instanz"
+    },
+    {
+      "source": "35.4",
+      "target": "primitiver Typ in Java"
     },
     {
       "source": "35",
@@ -6755,7 +6870,11 @@
     },
     {
       "source": "35.5",
-      "target": "Zwischenobjekt"
+      "target": "nominale Typkonformit\u00e4t in Java"
+    },
+    {
+      "source": "35.5",
+      "target": "Novarianz von Java"
     },
     {
       "source": "35",
@@ -6782,16 +6901,16 @@
       "target": "Wrapper-Typ"
     },
     {
+      "source": "35",
+      "target": "primitiver Typ"
+    },
+    {
       "source": "Kurseinheit 4",
       "target": "36"
     },
     {
       "source": "36",
       "target": "36.1"
-    },
-    {
-      "source": "36.1",
-      "target": "Compilation unit"
     },
     {
       "source": "36.1",
@@ -6826,28 +6945,20 @@
       "target": "Outer this"
     },
     {
+      "source": "36.1",
+      "target": "Klassenmethode in Java"
+    },
+    {
+      "source": "36.1",
+      "target": "Klassenvariable in Java"
+    },
+    {
       "source": "36",
       "target": "36.2"
     },
     {
       "source": "36.2",
-      "target": "Instanzmethode"
-    },
-    {
-      "source": "36.2",
       "target": "abstrakte Klasse in Java"
-    },
-    {
-      "source": "36.2",
-      "target": "Klassenmethode in Java"
-    },
-    {
-      "source": "36.2",
-      "target": "Klassenvariable in Java"
-    },
-    {
-      "source": "36.2",
-      "target": "Konstruktor"
     },
     {
       "source": "36.2",
@@ -6874,6 +6985,10 @@
       "target": "Factory-Methode"
     },
     {
+      "source": "36.3",
+      "target": "Konstruktor"
+    },
+    {
       "source": "36",
       "target": "36.4"
     },
@@ -6884,6 +6999,14 @@
     {
       "source": "36.4",
       "target": "\u00fcberladen"
+    },
+    {
+      "source": "36.4",
+      "target": "double Dispatch"
+    },
+    {
+      "source": "36",
+      "target": "Compilation unit"
     },
     {
       "source": "Kurseinheit 4",
@@ -6899,11 +7022,7 @@
     },
     {
       "source": "37",
-      "target": "double Dispatch"
-    },
-    {
-      "source": "37",
-      "target": "Multi-dispatch"
+      "target": "Lambda-Ausdruck"
     },
     {
       "source": "Kurseinheit 4",
@@ -6912,14 +7031,6 @@
     {
       "source": "38",
       "target": "Fall through"
-    },
-    {
-      "source": "38",
-      "target": "Lambda-Ausdruck"
-    },
-    {
-      "source": "38",
-      "target": "Modul"
     },
     {
       "source": "38",
@@ -6935,10 +7046,6 @@
     },
     {
       "source": "39.1",
-      "target": "Abh\u00e4ngigkeit"
-    },
-    {
-      "source": "39.1",
       "target": "Schnittstellenspezifikation eines Moduls"
     },
     {
@@ -6950,20 +7057,20 @@
       "target": "Zugriffsmodifikator"
     },
     {
+      "source": "39.1",
+      "target": "Dispatch"
+    },
+    {
       "source": "39",
       "target": "39.2"
     },
     {
       "source": "39.2",
-      "target": "\u00c4nderungsabh\u00e4ngigkeit"
+      "target": "Abh\u00e4ngigkeit"
     },
     {
       "source": "39.2",
       "target": "Compilation unit"
-    },
-    {
-      "source": "39.2",
-      "target": "Dispatch"
     },
     {
       "source": "39.2",
@@ -6976,6 +7083,10 @@
     {
       "source": "39.2",
       "target": "Vererbungsabh\u00e4ngigkeit"
+    },
+    {
+      "source": "39.2",
+      "target": "\u00c4nderungsabh\u00e4ngigkeit"
     },
     {
       "source": "39",
@@ -6991,7 +7102,11 @@
     },
     {
       "source": "39.3",
-      "target": "Zwischenobjekt"
+      "target": "reflektiver Zugriff"
+    },
+    {
+      "source": "39",
+      "target": "Modul"
     },
     {
       "source": "39",
@@ -7035,11 +7150,11 @@
     },
     {
       "source": "40.2",
-      "target": "nominale Typkonformit\u00e4tsdeklaration"
+      "target": "Setter"
     },
     {
       "source": "40.2",
-      "target": "Setter"
+      "target": "Getter"
     },
     {
       "source": "Kurseinheit 4",
@@ -7056,10 +7171,6 @@
     {
       "source": "41",
       "target": "dynamischen Typpr\u00fcfung"
-    },
-    {
-      "source": "41",
-      "target": "Getter"
     },
     {
       "source": "41",
@@ -7095,7 +7206,7 @@
     },
     {
       "source": "43.1",
-      "target": "Zwischenobjekt"
+      "target": "Typumwandlung"
     },
     {
       "source": "43",
@@ -7111,15 +7222,19 @@
     },
     {
       "source": "43.2",
+      "target": "Kontravarianz von Wildcard-Typen"
+    },
+    {
+      "source": "43.2",
+      "target": "Kovarianz von Wildcard-Typen"
+    },
+    {
+      "source": "43.2",
       "target": "Use-site variance"
     },
     {
       "source": "43.2",
       "target": "Wildcard-Typ"
-    },
-    {
-      "source": "43.2",
-      "target": "Zwischenobjekt"
     },
     {
       "source": "43",
@@ -7171,7 +7286,7 @@
     },
     {
       "source": "44.1",
-      "target": "Zwischenobjekt"
+      "target": "Typumwandlung"
     },
     {
       "source": "44",
@@ -7179,7 +7294,7 @@
     },
     {
       "source": "44",
-      "target": "Zwischenobjekt"
+      "target": "Typumwandlung"
     },
     {
       "source": "Kurseinheit 4",
@@ -7227,10 +7342,6 @@
     },
     {
       "source": "46.2",
-      "target": "Lambda-Ausdruck"
-    },
-    {
-      "source": "46.2",
       "target": "Pipelining"
     },
     {
@@ -7239,7 +7350,11 @@
     },
     {
       "source": "46.2",
-      "target": "Zwischenobjekt"
+      "target": "interner Iterator"
+    },
+    {
+      "source": "46.2",
+      "target": "Lambda-Ausdruck"
     },
     {
       "source": "46",
@@ -7308,6 +7423,10 @@
     {
       "source": "Kurseinheit 4",
       "target": "Einfachvererbung"
+    },
+    {
+      "source": "Kurseinheit 4",
+      "target": "Garbage collection"
     },
     {
       "source": "Objektorientierte Programmierung",
@@ -7399,10 +7518,6 @@
     },
     {
       "source": "50.3.3",
-      "target": "Event handler"
-    },
-    {
-      "source": "50.3.3",
       "target": "Pattern"
     },
     {
@@ -7431,6 +7546,10 @@
     },
     {
       "source": "50.4.1",
+      "target": "Event handler"
+    },
+    {
+      "source": "50.4.1",
       "target": "Marker-Interface"
     },
     {
@@ -7442,12 +7561,16 @@
       "target": "Vererbung"
     },
     {
-      "source": "50.4",
-      "target": "50.4.2"
+      "source": "50.4.1",
+      "target": "Auto boxing und unboxing"
     },
     {
-      "source": "50.4.2",
-      "target": "Auto boxing und unboxing"
+      "source": "50.4.1",
+      "target": "Boxing und Unboxing"
+    },
+    {
+      "source": "50.4",
+      "target": "50.4.2"
     },
     {
       "source": "50.4.2",
@@ -7464,10 +7587,6 @@
     {
       "source": "50.4",
       "target": "50.4.3"
-    },
-    {
-      "source": "50.4.3",
-      "target": "Boxing und Unboxing"
     },
     {
       "source": "50.4.3",
@@ -7496,6 +7615,18 @@
     {
       "source": "50",
       "target": "50.5"
+    },
+    {
+      "source": "50.5",
+      "target": "Block"
+    },
+    {
+      "source": "50.5",
+      "target": "funktionale Programmiersprache"
+    },
+    {
+      "source": "50.5",
+      "target": "Lambda-Ausdruck"
     },
     {
       "source": "Kurseinheit 5",
@@ -7543,7 +7674,7 @@
     },
     {
       "source": "51.3",
-      "target": "Mehrfachvererbung"
+      "target": "qualifizierter Export"
     },
     {
       "source": "51",
@@ -7559,11 +7690,19 @@
     },
     {
       "source": "51.4",
+      "target": "Mehrfachvererbung"
+    },
+    {
+      "source": "51.4",
+      "target": "dynamisches Binden"
+    },
+    {
+      "source": "51.4",
       "target": "abstrakte Klasse als Interface"
     },
     {
       "source": "51.4",
-      "target": "qualifizierter Export"
+      "target": "offene Rekursion"
     },
     {
       "source": "51",
@@ -7575,15 +7714,7 @@
     },
     {
       "source": "51.5.1",
-      "target": "dynamisches Binden"
-    },
-    {
-      "source": "51.5.1",
       "target": "abstrakte Klasse als Interface"
-    },
-    {
-      "source": "51.5.1",
-      "target": "offene Rekursion"
     },
     {
       "source": "51.5.1",
@@ -7603,7 +7734,7 @@
     },
     {
       "source": "51.5.1",
-      "target": "Zwischenobjekt"
+      "target": "Typumwandlung"
     },
     {
       "source": "51.5",
@@ -7614,24 +7745,8 @@
       "target": "Runtime type information"
     },
     {
-      "source": "51.5.2",
-      "target": "optionales Typsystem"
-    },
-    {
       "source": "51",
       "target": "51.6"
-    },
-    {
-      "source": "51",
-      "target": "Block"
-    },
-    {
-      "source": "51",
-      "target": "funktionale Programmiersprache"
-    },
-    {
-      "source": "51",
-      "target": "Lambda-Ausdruck"
     },
     {
       "source": "Kurseinheit 5",
@@ -7686,8 +7801,20 @@
       "target": "Setter"
     },
     {
+      "source": "52.2",
+      "target": "dedizierter Export"
+    },
+    {
+      "source": "52.2",
+      "target": "qualifizierter Export"
+    },
+    {
       "source": "52",
       "target": "52.3"
+    },
+    {
+      "source": "52.3",
+      "target": "Exception handling in Eifel"
     },
     {
       "source": "52",
@@ -7695,23 +7822,11 @@
     },
     {
       "source": "52.4",
-      "target": "Exception handling in Eifel"
-    },
-    {
-      "source": "52.4",
-      "target": "dedizierter Export"
+      "target": "Redefinition"
     },
     {
       "source": "52.4",
       "target": "abstrakte Klasse in Eiffel"
-    },
-    {
-      "source": "52.4",
-      "target": "qualifizierter Export"
-    },
-    {
-      "source": "52.4",
-      "target": "Redefinition"
     },
     {
       "source": "52.4",
@@ -7762,28 +7877,32 @@
       "target": "explizite Zuweisung"
     },
     {
-      "source": "52.5",
-      "target": "52.5.3"
+      "source": "52.5.2",
+      "target": "Zuweisungskompatibilit\u00e4t"
     },
     {
-      "source": "52.5.3",
-      "target": "Fallunterscheidung per dynamischem Binden"
+      "source": "52.5",
+      "target": "52.5.3"
     },
     {
       "source": "52.5.3",
       "target": "Zuweisungsversuch"
     },
     {
+      "source": "52.5.3",
+      "target": "Fallunterscheidung per dynamischem Binden"
+    },
+    {
       "source": "52",
       "target": "52.6"
     },
     {
-      "source": "52.6",
-      "target": "Tupel"
-    },
-    {
       "source": "52",
       "target": "52.7"
+    },
+    {
+      "source": "52.7",
+      "target": "Tupel"
     },
     {
       "source": "52",
@@ -7839,7 +7958,7 @@
     },
     {
       "source": "54.3",
-      "target": "Zwischenobjekt"
+      "target": "verhaltensbasiertes Subtyping"
     },
     {
       "source": "54",
@@ -7874,6 +7993,14 @@
       "target": "Subtyping"
     },
     {
+      "source": "54",
+      "target": "dynamische Binden"
+    },
+    {
+      "source": "54",
+      "target": "Zuweisungskompatibilit\u00e4t"
+    },
+    {
       "source": "Kurseinheit 6",
       "target": "55"
     },
@@ -7891,10 +8018,6 @@
     },
     {
       "source": "55",
-      "target": "Fragile-base-class-Problem"
-    },
-    {
-      "source": "55",
       "target": "Information hiding"
     },
     {
@@ -7908,6 +8031,14 @@
     {
       "source": "55",
       "target": "Vererbungsinterface"
+    },
+    {
+      "source": "55",
+      "target": "dynamische Binden"
+    },
+    {
+      "source": "55",
+      "target": "Fragile-base-class-Problem"
     },
     {
       "source": "Kurseinheit 6",
@@ -7939,19 +8070,15 @@
     },
     {
       "source": "57",
-      "target": "Kapselung"
-    },
-    {
-      "source": "57",
-      "target": "hierarchische Modularisierung"
-    },
-    {
-      "source": "57",
       "target": "Separation of concerns"
     },
     {
       "source": "57",
       "target": "Trennung der Belange"
+    },
+    {
+      "source": "57",
+      "target": "hierarchische Modularisierung"
     },
     {
       "source": "Kurseinheit 6",
@@ -7975,7 +8102,7 @@
     },
     {
       "source": "58",
-      "target": "Klassenschnittstelle"
+      "target": "Kapselung"
     },
     {
       "source": "58",
@@ -7987,7 +8114,11 @@
     },
     {
       "source": "58",
-      "target": "Zwischenobjekt"
+      "target": "Klassenschnittstelle"
+    },
+    {
+      "source": "58",
+      "target": "Repr\u00c3\u00a4sentationsobjekt"
     },
     {
       "source": "Kurseinheit 6",
@@ -8095,11 +8226,11 @@
     },
     {
       "source": "63",
-      "target": "Coding convention"
+      "target": "Programmierstil"
     },
     {
       "source": "63",
-      "target": "Programmierstil"
+      "target": "Coding convention"
     },
     {
       "source": "Kurseinheit 7",
@@ -8110,12 +8241,12 @@
       "target": "65"
     },
     {
-      "source": "Kurseinheit 7",
-      "target": "66"
+      "source": "65",
+      "target": "Seiteneffekt"
     },
     {
-      "source": "66",
-      "target": "Seiteneffekt"
+      "source": "Kurseinheit 7",
+      "target": "66"
     },
     {
       "source": "Kurseinheit 7",
@@ -8139,10 +8270,6 @@
     },
     {
       "source": "67",
-      "target": "Law of Demeter"
-    },
-    {
-      "source": "67",
       "target": "Spezialisierung"
     },
     {
@@ -8152,6 +8279,10 @@
     {
       "source": "68",
       "target": "68.1"
+    },
+    {
+      "source": "68.1",
+      "target": "Law of Demeter"
     },
     {
       "source": "68",

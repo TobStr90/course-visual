@@ -13,6 +13,7 @@ import SuccessWindow from "./SuccessWindow";
 import "./Graph.css";
 
 import graphDataJson from "../assets/graph.json";
+import { sort } from "d3";
 
 const units = new Set([
     "Kurseinheit 1",
@@ -28,17 +29,24 @@ const units = new Set([
 function Graph() {
     const savedGraphData = localStorage.getItem("graphData");
 
-    var graphData = savedGraphData ? JSON.parse(savedGraphData) : graphDataJson;
+    // var graphData = savedGraphData ? JSON.parse(savedGraphData) : graphDataJson;
+
+    const [graphData, setGraphData] = useState(
+        savedGraphData ? JSON.parse(savedGraphData) : graphDataJson
+    );
 
     const rootId = "Objektorientierte Programmierung";
 
     const nodesById = useMemo(() => {
+        if (!graphData) return;
+
         const nodesById = Object.fromEntries(
             graphData.nodes.map((node) => [node.id, node])
         );
 
         graphData.nodes.forEach((node) => {
-            node.collapsed = node.id !== rootId;
+            if (node.collapsed === undefined)
+                node.collapsed = node.id !== rootId;
             node.childLinks = [];
             node.expandable = false;
         });
@@ -48,7 +56,8 @@ function Graph() {
         });
 
         return nodesById;
-    }, [graphData.nodes.length]);
+    }, [graphData]);
+    // }, [graphData.nodes.length]);
 
     const getNode = (node) => {
         if (nodesById[node]) return nodesById[node];
@@ -89,8 +98,13 @@ function Graph() {
                 if (
                     isActiveNode(getNode(link.source)) &&
                     isActiveNode(getNode(link.target))
-                )
+                ) {
                     visibleLinks.add(link);
+                    //     const source = getNode(link.source);
+                    //     traverseGraph(source);
+                    //     const target = getNode(link.target);
+                    //     traverseGraph(target);
+                }
             });
 
             node.childLinks.forEach((link) => {
@@ -102,15 +116,15 @@ function Graph() {
         };
 
         if (startNodes && startNodes.length > 0)
-            startNodes.forEach((node) => {
-                traverseGraph(node);
+            startNodes.forEach((startNode) => {
+                traverseGraph(startNode);
             });
         else traverseGraph();
 
-        visibleNodes.forEach((node) => {
+        visibleNodes.forEach((visibleNode) => {
             var expandable = false;
-            if (node.collapsed && node.childLinks) {
-                node.childLinks.forEach((link) => {
+            if (visibleNode.collapsed && visibleNode.childLinks) {
+                visibleNode.childLinks.forEach((link) => {
                     if (
                         !visibleLinks.has(link) &&
                         isActiveNode(getNode(link.source)) &&
@@ -120,7 +134,7 @@ function Graph() {
                     }
                 });
             }
-            node.expandable = expandable;
+            visibleNode.expandable = expandable;
         });
 
         visibleNodesCount = visibleNodes.size;
@@ -230,9 +244,9 @@ function Graph() {
                 rootNode.collapsed = false;
             }
         } else {
-            setStartNodes((startNodes) => [...startNodes, node]);
-
             node.collapsed = false;
+
+            setStartNodes((startNodes) => [...startNodes, node]);
         }
 
         setGraph(getGraph());
@@ -242,7 +256,8 @@ function Graph() {
         setGraph(getGraph());
     }, [startNodes]);
 
-    const handleNodeClick = (node) => {
+    const handleNodeClick = (item) => {
+        const node = getNode(item);
         if (node.childLinks && node.childLinks.length) {
             node.collapsed = !node.collapsed;
             setGraph(getGraph());
@@ -269,9 +284,9 @@ function Graph() {
         graphData.nodes.forEach((node) => {
             nodes.push({
                 id: node.id,
-                name: node.name,
-                unit: node.unit,
                 chapter: node.chapter,
+                unit: node.unit,
+                name: node.name,
                 group: node.group,
                 notes: node.notes,
             });
@@ -502,8 +517,8 @@ function Graph() {
 
         graphData.nodes.forEach((node) => {
             node.collapsed = true;
-            setGraph(getGraph());
         });
+        setGraph(getGraph());
     };
 
     const expandAll = () => {
@@ -511,8 +526,8 @@ function Graph() {
 
         graphData.nodes.forEach((node) => {
             node.collapsed = false;
-            setGraph(getGraph());
         });
+        setGraph(getGraph());
     };
 
     const resetGraphData = () => {
