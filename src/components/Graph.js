@@ -37,6 +37,10 @@ function Graph() {
 
     const rootId = "Objektorientierte Programmierung";
 
+    const [notCollapsedNodes, setNotCollapsedNodes] = useState(
+        new Set([rootId])
+    );
+
     const nodesById = useMemo(() => {
         if (!graphData) return;
 
@@ -45,14 +49,16 @@ function Graph() {
         );
 
         graphData.nodes.forEach((node) => {
-            if (node.collapsed === undefined)
-                node.collapsed = node.id !== rootId;
+            node.collapsed = !notCollapsedNodes.has(node.id);
             node.childLinks = [];
             node.expandable = false;
         });
         graphData.links.forEach((link) => {
-            nodesById[link.source].childLinks.push(link);
-            nodesById[link.target].childLinks.push(link);
+            const source = nodesById[link.source];
+            const target = nodesById[link.target];
+
+            source.childLinks.push(link);
+            target.childLinks.push(link);
         });
 
         return nodesById;
@@ -117,7 +123,8 @@ function Graph() {
 
         if (startNodes && startNodes.length > 0)
             startNodes.forEach((startNode) => {
-                traverseGraph(startNode);
+                const node = getNode(startNode);
+                traverseGraph(node);
             });
         else traverseGraph();
 
@@ -164,8 +171,25 @@ function Graph() {
 
     const [graph, setGraph] = useState(getGraph());
 
+    useEffect(() => {
+        setGraph(getGraph());
+    }, [notCollapsedNodes]);
+
+    useEffect(() => {
+        setGraph(getGraph());
+    }, [nodesById]);
+
+    const changeCollapsed = (node, value) => {
+        node.collapsed = value;
+        const newNotCollapsedNodes = new Set(notCollapsedNodes);
+        if (value) newNotCollapsedNodes.delete(node.id);
+        else newNotCollapsedNodes.add(node.id);
+        setNotCollapsedNodes(newNotCollapsedNodes);
+    };
+
     const showPath = (node) => {
-        node.collapsed = false;
+        // node.collapsed = false;
+        changeCollapsed(node, false);
 
         if (node.id === rootId.id) return;
 
@@ -241,10 +265,12 @@ function Graph() {
                 showPath(node);
 
                 const rootNode = getNode(rootId);
-                rootNode.collapsed = false;
+                // rootNode.collapsed = false;
+                changeCollapsed(rootNode, false);
             }
         } else {
-            node.collapsed = false;
+            // node.collapsed = false;
+            changeCollapsed(node, false);
 
             setStartNodes((startNodes) => [...startNodes, node]);
         }
@@ -259,7 +285,8 @@ function Graph() {
     const handleNodeClick = (item) => {
         const node = getNode(item);
         if (node.childLinks && node.childLinks.length) {
-            node.collapsed = !node.collapsed;
+            // node.collapsed = !node.collapsed;
+            changeCollapsed(node, !node.collapsed);
             setGraph(getGraph());
         }
     };
@@ -303,6 +330,12 @@ function Graph() {
             "graphData",
             JSON.stringify({ nodes: nodes, links: links })
         );
+
+        const localGraphData = localStorage.getItem("graphData");
+
+        setGraphData(JSON.parse(localGraphData));
+
+        setGraph(getGraph());
     };
 
     const handleNodeInfoCreate = (newNode, newLinks) => {
@@ -313,7 +346,7 @@ function Graph() {
             return;
         }
         if (!newNode.name) {
-            window.alert("Ein ist notwendig!");
+            window.alert("Ein Name ist notwendig!");
             return;
         }
         if (!newLinks) {
@@ -321,21 +354,27 @@ function Graph() {
             return;
         }
 
+        // const links = [...graphData.links];
         newLinks.forEach((key) => {
             const source = getNode(key);
             const link = {
-                source: source,
+                source: source.id,
                 target: newNode.id,
             };
             graphData.links.push(link);
+            // links.push(link);
             newNode.childLinks.push(link);
             source.childLinks.push(link);
         });
+        // const nodes = [...graphData.nodes];
+        // nodes.push(newNode);
         graphData.nodes.push(newNode);
+
+        // setGraphData({ nodes: nodes, links: links });
+        // setGraph(getGraph());
 
         saveDataLocally();
 
-        setGraph(getGraph());
         setSelectedNode(null);
         setShowNodeInfo(false);
     };
@@ -372,7 +411,7 @@ function Graph() {
 
             saveDataLocally();
 
-            setGraph(getGraph());
+            // setGraph(getGraph());
             setSelectedNode(null);
             setShowNodeInfo(false);
         }
@@ -455,7 +494,7 @@ function Graph() {
                 const target = getNode(id);
                 const link = {
                     source: node,
-                    target: target,
+                    target: target.id,
                 };
                 graphData.links.push(link);
                 target.childLinks.push(link);
@@ -466,7 +505,7 @@ function Graph() {
             newLinks.forEach((id) => {
                 const source = getNode(id);
                 const link = {
-                    source: source,
+                    source: source.id,
                     target: node,
                 };
                 graphData.links.push(link);
@@ -477,7 +516,7 @@ function Graph() {
 
         saveDataLocally();
 
-        setGraph(getGraph());
+        // setGraph(getGraph());
         setSelectedNode(null);
         setShowNodeInfo(false);
     };
@@ -516,7 +555,8 @@ function Graph() {
         setStartNodes([getNode(rootId)]);
 
         graphData.nodes.forEach((node) => {
-            node.collapsed = true;
+            // node.collapsed = true;
+            changeCollapsed(node, true);
         });
         setGraph(getGraph());
     };
@@ -525,7 +565,8 @@ function Graph() {
         setStartNodes([getNode(rootId)]);
 
         graphData.nodes.forEach((node) => {
-            node.collapsed = false;
+            // node.collapsed = false;
+            changeCollapsed(node, false);
         });
         setGraph(getGraph());
     };
@@ -537,7 +578,8 @@ function Graph() {
 
         if (confirmed) {
             localStorage.removeItem("graphData");
-            graphData = graphDataJson;
+            // graphData = graphDataJson;
+            setGraphData(graphDataJson);
             setGraph(getGraph());
             document.location.reload();
         }

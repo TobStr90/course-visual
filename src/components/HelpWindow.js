@@ -69,12 +69,12 @@ const HelpWindow = ({ onClose }) => {
                     von neuen Knoten.
                 </li>
                 <li>
-                    <b>Alle Knoten einklappen:</b> Öffnet alle Knoten im Graph
-                    (Achtung: unübersichtlich).
+                    <b>Alle Knoten einklappen:</b> Schließt alle Knoten bis auf
+                    die Wurzel.
                 </li>
                 <li>
-                    <b>Alle Knoten ausklappen:</b> Schließt alle Knoten bis auf
-                    die Wurzel.
+                    <b>Alle Knoten ausklappen:</b> Öffnet alle Knoten im Graph
+                    (Achtung: unübersichtlich).
                 </li>
                 <li>
                     <b>Lokale Daten zurücksetzen:</b> Setzt den Ursprungszustand
