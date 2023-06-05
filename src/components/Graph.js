@@ -13,7 +13,6 @@ import SuccessWindow from "./SuccessWindow";
 import "./Graph.css";
 
 import graphDataJson from "../assets/graph.json";
-import { sort } from "d3";
 
 const units = new Set([
     "Kurseinheit 1",
@@ -28,8 +27,6 @@ const units = new Set([
 
 function Graph() {
     const savedGraphData = localStorage.getItem("graphData");
-
-    // var graphData = savedGraphData ? JSON.parse(savedGraphData) : graphDataJson;
 
     const [graphData, setGraphData] = useState(
         savedGraphData ? JSON.parse(savedGraphData) : graphDataJson
@@ -63,7 +60,6 @@ function Graph() {
 
         return nodesById;
     }, [graphData]);
-    // }, [graphData.nodes.length]);
 
     const getNode = (node) => {
         if (nodesById[node]) return nodesById[node];
@@ -104,13 +100,8 @@ function Graph() {
                 if (
                     isActiveNode(getNode(link.source)) &&
                     isActiveNode(getNode(link.target))
-                ) {
+                )
                     visibleLinks.add(link);
-                    //     const source = getNode(link.source);
-                    //     traverseGraph(source);
-                    //     const target = getNode(link.target);
-                    //     traverseGraph(target);
-                }
             });
 
             node.childLinks.forEach((link) => {
@@ -181,15 +172,15 @@ function Graph() {
 
     const changeCollapsed = (node, value) => {
         node.collapsed = value;
-        const newNotCollapsedNodes = new Set(notCollapsedNodes);
+        const newNotCollapsedNodes = new Set([...notCollapsedNodes]);
         if (value) newNotCollapsedNodes.delete(node.id);
         else newNotCollapsedNodes.add(node.id);
         setNotCollapsedNodes(newNotCollapsedNodes);
     };
 
-    const showPath = (node) => {
-        // node.collapsed = false;
-        changeCollapsed(node, false);
+    const showPath = (node, newNotCollapsedNodes = new Set()) => {
+        node.collapsed = false;
+        newNotCollapsedNodes.add(node.id);
 
         if (node.id === rootId.id) return;
 
@@ -203,18 +194,22 @@ function Graph() {
                         if (
                             source.chapter &&
                             source.chapter === previousChapter
-                        ) {
-                            showPath(source);
-                        }
+                        )
+                            newNotCollapsedNodes = [
+                                ...newNotCollapsedNodes,
+                                ...showPath(source),
+                            ];
                     }
                     const target = getNode(link.target);
                     if (target && target !== node) {
                         if (
                             target.chapter &&
                             target.chapter === previousChapter
-                        ) {
-                            showPath(target);
-                        }
+                        )
+                            newNotCollapsedNodes = [
+                                ...newNotCollapsedNodes,
+                                ...showPath(target),
+                            ];
                     }
                 });
             } else {
@@ -224,18 +219,22 @@ function Graph() {
                         if (
                             source.chapter &&
                             source.chapter.includes("Kurseinheit")
-                        ) {
-                            showPath(source);
-                        }
+                        )
+                            newNotCollapsedNodes = [
+                                ...newNotCollapsedNodes,
+                                ...showPath(source),
+                            ];
                     }
                     const target = getNode(link.target);
                     if (target && target !== node) {
                         if (
                             target.chapter &&
                             target.chapter.includes("Kurseinheit")
-                        ) {
-                            showPath(target);
-                        }
+                        )
+                            newNotCollapsedNodes = [
+                                ...newNotCollapsedNodes,
+                                ...showPath(target),
+                            ];
                     }
                 });
             }
@@ -243,18 +242,24 @@ function Graph() {
             node.childLinks.forEach((link) => {
                 const source = getNode(link.source);
                 if (source && source !== node) {
-                    if (source.chapter) {
-                        showPath(source);
-                    }
+                    if (source.chapter)
+                        newNotCollapsedNodes = [
+                            ...newNotCollapsedNodes,
+                            ...showPath(source),
+                        ];
                 }
                 const target = getNode(link.target);
                 if (target && target !== node) {
-                    if (target.chapter) {
-                        showPath(target);
-                    }
+                    if (target.chapter)
+                        newNotCollapsedNodes = [
+                            ...newNotCollapsedNodes,
+                            ...showPath(target),
+                        ];
                 }
             });
         }
+
+        return newNotCollapsedNodes;
     };
 
     const handleOnSelect = (item) => {
@@ -262,20 +267,20 @@ function Graph() {
 
         if (isShowPathChecked) {
             if (node.childLinks && node.childLinks.length) {
-                showPath(node);
+                const newNotCollapsedNodes = showPath(node);
 
-                const rootNode = getNode(rootId);
-                // rootNode.collapsed = false;
-                changeCollapsed(rootNode, false);
+                const oldNotCollapsedNodes = new Set(notCollapsedNodes);
+
+                setNotCollapsedNodes([
+                    ...oldNotCollapsedNodes,
+                    ...newNotCollapsedNodes,
+                ]);
             }
         } else {
-            // node.collapsed = false;
             changeCollapsed(node, false);
 
             setStartNodes((startNodes) => [...startNodes, node]);
         }
-
-        setGraph(getGraph());
     };
 
     useEffect(() => {
@@ -284,11 +289,8 @@ function Graph() {
 
     const handleNodeClick = (item) => {
         const node = getNode(item);
-        if (node.childLinks && node.childLinks.length) {
-            // node.collapsed = !node.collapsed;
+        if (node.childLinks && node.childLinks.length)
             changeCollapsed(node, !node.collapsed);
-            setGraph(getGraph());
-        }
     };
 
     const [showNodeInfo, setShowNodeInfo] = useState(false);
@@ -334,8 +336,6 @@ function Graph() {
         const localGraphData = localStorage.getItem("graphData");
 
         setGraphData(JSON.parse(localGraphData));
-
-        setGraph(getGraph());
     };
 
     const handleNodeInfoCreate = (newNode, newLinks) => {
@@ -354,7 +354,6 @@ function Graph() {
             return;
         }
 
-        // const links = [...graphData.links];
         newLinks.forEach((key) => {
             const source = getNode(key);
             const link = {
@@ -362,16 +361,11 @@ function Graph() {
                 target: newNode.id,
             };
             graphData.links.push(link);
-            // links.push(link);
             newNode.childLinks.push(link);
             source.childLinks.push(link);
         });
-        // const nodes = [...graphData.nodes];
-        // nodes.push(newNode);
-        graphData.nodes.push(newNode);
 
-        // setGraphData({ nodes: nodes, links: links });
-        // setGraph(getGraph());
+        graphData.nodes.push(newNode);
 
         saveDataLocally();
 
@@ -411,7 +405,6 @@ function Graph() {
 
             saveDataLocally();
 
-            // setGraph(getGraph());
             setSelectedNode(null);
             setShowNodeInfo(false);
         }
@@ -516,7 +509,6 @@ function Graph() {
 
         saveDataLocally();
 
-        // setGraph(getGraph());
         setSelectedNode(null);
         setShowNodeInfo(false);
     };
@@ -554,19 +546,25 @@ function Graph() {
     const collapseAll = () => {
         setStartNodes([getNode(rootId)]);
 
+        const newNotCollapsedNodes = new Set();
+
         graphData.nodes.forEach((node) => {
-            // node.collapsed = true;
-            changeCollapsed(node, true);
+            node.collapsed = true;
+            newNotCollapsedNodes.add(node.id);
         });
+
+        setNotCollapsedNodes(newNotCollapsedNodes);
+
         setGraph(getGraph());
     };
 
     const expandAll = () => {
         setStartNodes([getNode(rootId)]);
 
+        setNotCollapsedNodes(new Set());
+
         graphData.nodes.forEach((node) => {
-            // node.collapsed = false;
-            changeCollapsed(node, false);
+            node.collapsed = false;
         });
         setGraph(getGraph());
     };
@@ -578,9 +576,7 @@ function Graph() {
 
         if (confirmed) {
             localStorage.removeItem("graphData");
-            // graphData = graphDataJson;
             setGraphData(graphDataJson);
-            setGraph(getGraph());
             document.location.reload();
         }
     };
