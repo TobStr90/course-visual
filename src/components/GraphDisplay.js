@@ -90,6 +90,8 @@ function GraphDisplay({
         }
     };
 
+    const getLinkColor = () => "rgba(0, 0, 0, 0.4)";
+
     const getDisplayLabel = (node) => {
         return node.chapter ? node.chapter : node.name;
     };
@@ -164,6 +166,7 @@ function GraphDisplay({
                             getDisplayLabel={getDisplayLabel}
                             getMouseOverLabel={getMouseOverLabel}
                             getColor={getColor}
+                            getLinkColor={getLinkColor}
                             nodeCanvasObject={nodeCanvasObject}
                             nodePointerAreaPaint={nodePointerAreaPaint}
                         />
@@ -185,6 +188,7 @@ function GraphDisplay({
                             getDisplayLabel={getDisplayLabel}
                             getMouseOverLabel={getMouseOverLabel}
                             getColor={getColor}
+                            getLinkColor={getLinkColor}
                             nodeCanvasObject={nodeCanvasObject}
                             nodePointerAreaPaint={nodePointerAreaPaint}
                         />
@@ -210,6 +214,7 @@ function GraphDisplay({
                             onNodeClick={onQuizNodeClick}
                             height={height}
                             nodePointerAreaPaint={nodePointerAreaPaint}
+                            getLinkColor={getLinkColor}
                         />
                     </div>
                 );

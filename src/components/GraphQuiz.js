@@ -1,9 +1,15 @@
-import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import { ForceGraph2D } from "react-force-graph";
+import { useState, useEffect, useRef } from "react";
 import * as d3 from "d3-force";
 import React from "react";
 
-function GraphQuiz({ graph, onNodeClick, height, nodePointerAreaPaint }) {
+function GraphQuiz({
+    graph,
+    onNodeClick,
+    height,
+    nodePointerAreaPaint,
+    getLinkColor,
+}) {
     const handleNodeClick = (node) => {
         if (!highlightedNode) setHighlightedNode(node);
         else {
@@ -67,7 +73,7 @@ function GraphQuiz({ graph, onNodeClick, height, nodePointerAreaPaint }) {
         fg.d3Force("collide", d3.forceCollide(10));
     });
 
-    const getLinkColor = () => "rgba(0, 0, 0, 0.5)";
+    // const getLinkColor = () => "rgba(0, 0, 0, 0.5)";
 
     const getGraph = () => {
         return (

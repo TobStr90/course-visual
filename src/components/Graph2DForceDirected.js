@@ -1,8 +1,6 @@
-import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-// import * as d3 from "d3-force";
+import { ForceGraph2D } from "react-force-graph";
+import { useEffect, useRef } from "react";
 import * as d3 from "d3";
-// import { forceSimulation, force, forceX } from "d3-force";
 import React from "react";
 
 function Graph2DForceDirected({
@@ -11,12 +9,11 @@ function Graph2DForceDirected({
     onNodeRightClick,
     height,
     highlightLinks,
-    highlightNodes,
     onLinkHover,
     onNodeHover,
-    getDisplayLabel,
     getMouseOverLabel,
     getColor,
+    getLinkColor,
     nodeCanvasObject,
     nodePointerAreaPaint,
 }) {
@@ -43,6 +40,7 @@ function Graph2DForceDirected({
                 height={height}
                 ref={graphRef}
                 graphData={graph}
+                linkColor={getLinkColor}
                 linkDirectionalParticles={4}
                 linkDirectionalParticleColor={(link) => getColor(link.source)}
                 linkDirectionalParticleSpeed={0.001}

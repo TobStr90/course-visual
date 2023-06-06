@@ -1,6 +1,4 @@
-import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-import * as d3 from "d3-force";
+import { ForceGraph3D } from "react-force-graph";
 import React from "react";
 import SpriteText from "three-spritetext";
 

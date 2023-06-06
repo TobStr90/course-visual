@@ -1,5 +1,5 @@
-import { ForceGraph2D, ForceGraph3D } from "react-force-graph";
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import { ForceGraph2D } from "react-force-graph";
+import { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import React from "react";
 
@@ -10,12 +10,12 @@ function Graph2DHierarchical({
     dagMode,
     height,
     highlightLinks,
-    highlightNodes,
     onLinkHover,
     onNodeHover,
     getDisplayLabel,
     getMouseOverLabel,
     getColor,
+    getLinkColor,
     nodeCanvasObject,
     nodePointerAreaPaint,
 }) {
@@ -212,6 +212,7 @@ function Graph2DHierarchical({
                 height={height}
                 ref={graphRef}
                 graphData={graph}
+                linkColor={getLinkColor}
                 linkDirectionalParticles={4}
                 linkDirectionalParticleColor={(link) => getColor(link.source)}
                 linkDirectionalParticleSpeed={0.001}
