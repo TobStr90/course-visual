@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/course-visual/static/css/main.b6589c65.css",
-    "main.js": "/course-visual/static/js/main.55776731.js",
+    "main.js": "/course-visual/static/js/main.afbe6ccd.js",
     "index.html": "/course-visual/index.html",
     "main.b6589c65.css.map": "/course-visual/static/css/main.b6589c65.css.map",
-    "main.55776731.js.map": "/course-visual/static/js/main.55776731.js.map"
+    "main.afbe6ccd.js.map": "/course-visual/static/js/main.afbe6ccd.js.map"
   },
   "entrypoints": [
     "static/css/main.b6589c65.css",
-    "static/js/main.55776731.js"
+    "static/js/main.afbe6ccd.js"
   ]
 }
