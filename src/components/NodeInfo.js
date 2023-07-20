@@ -36,6 +36,11 @@ const NodeInfo = ({
                 if (!key) {
                     key = link.source !== id ? link.source : link.target;
                 }
+
+                const node = getNode(key);
+                //return name instead of id for terms
+                if (!node.chapter && !node.unit) return node.name;
+
                 return key;
             });
 
@@ -72,7 +77,6 @@ const NodeInfo = ({
 
     const handleSave = () => {
         onSave(
-            id,
             {
                 ...node,
                 id,

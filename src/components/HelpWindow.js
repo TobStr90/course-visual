@@ -40,8 +40,8 @@ const HelpWindow = ({ onClose }) => {
                     linken Maustaste bewegt werden.
                 </li>
                 <li>
-                    Klicken mit der linken Maustaste auf den Graph erlaubt es,
-                    diesen zu bewegen.
+                    Klicken mit der linken Maustaste auf Kanten des Graph oder
+                    auf die Zeichenfläche erlaubt es, den Graphen zu bewegen.
                 </li>
                 <li>Mittels Mausrad kann gezoomt werden.</li>
                 <li>

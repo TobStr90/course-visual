@@ -429,8 +429,11 @@ function Graph() {
         }
     };
 
-    const handleNodeInfoSave = (oldId, updatedNode, newLinks, removedLinks) => {
-        if (oldId !== updatedNode.name && getNode(updatedNode.name)) {
+    const handleNodeInfoSave = (updatedNode, newLinks, removedLinks) => {
+        var node = getNode(updatedNode);
+
+        // if (oldId !== updatedNode.name && getNode(updatedNode.name)) {
+        if (node.name !== updatedNode.name && getNode(updatedNode.name)) {
             window.alert(
                 "Knoten mit gleichem Namen oder gleicher ID existiert bereits!"
             );
@@ -449,8 +452,6 @@ function Graph() {
             window.alert("Ein Kapitel ist notwendig!");
             return;
         }
-
-        var node = getNode(updatedNode);
         node.name = updatedNode.name;
         node.chapter = updatedNode.chapter;
         node.unit = updatedNode.unit;
