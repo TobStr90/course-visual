@@ -432,7 +432,6 @@ function Graph() {
     const handleNodeInfoSave = (updatedNode, newLinks, removedLinks) => {
         var node = getNode(updatedNode);
 
-        // if (oldId !== updatedNode.name && getNode(updatedNode.name)) {
         if (node.name !== updatedNode.name && getNode(updatedNode.name)) {
             window.alert(
                 "Knoten mit gleichem Namen oder gleicher ID existiert bereits!"
@@ -527,7 +526,6 @@ function Graph() {
         return graphData.nodes.filter((node) => !node.unit && !node.chapter);
     };
 
-    // const [displayOption, setDisplayOption] = useState("2D-Hierarchical");
     const [displayOption, setDisplayOption] = useState("2D-ForceDirected");
 
     const handleDisplayOptionChange = (selectedOption) => {

@@ -19,15 +19,6 @@ function Graph2DForceDirected({
 }) {
     const graphRef = useRef();
 
-    // useEffect(() => {
-    //     const fg = graphRef.current;
-    //     fg.d3Force("charge", d3.forceManyBody());
-    //     fg.d3Force("link", d3.forceLink());
-    //     fg.d3Force("center", d3.forceCenter());
-    //     fg.d3Force("collide", d3.forceCollide());
-    //     fg.d3ReheatSimulation();
-    // });
-
     useEffect(() => {
         const fg = graphRef.current;
         fg.d3Force("charge", d3.forceManyBody().strength(-200));

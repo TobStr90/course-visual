@@ -112,7 +112,6 @@ const NodeInfo = ({
     };
 
     const handleDeleteChildLink = (deletedKey) => {
-        // setChildLinks(childLinks.filter((link) => link !== childLink));
         setShownLinks(shownLinks.filter((key) => key !== deletedKey));
         newLinks.delete(deletedKey);
         removedLinks.add(deletedKey);

@@ -109,7 +109,6 @@ function GraphDisplay({
             (n) => n + fontSize * 0.2
         );
 
-        // ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
         ctx.fillStyle = node.expandable
             ? "rgba(11, 156, 49, 0.2)"
             : "rgba(239, 239, 240, 0.8)";

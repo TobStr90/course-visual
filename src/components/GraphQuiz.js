@@ -73,8 +73,6 @@ function GraphQuiz({
         fg.d3Force("collide", d3.forceCollide(10));
     });
 
-    // const getLinkColor = () => "rgba(0, 0, 0, 0.5)";
-
     const getGraph = () => {
         return (
             <ForceGraph2D
